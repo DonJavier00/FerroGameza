@@ -1,0 +1,64 @@
+{
+    "name": "adsi/ferrogameza",
+    "description": "Proyecto sistema de informacion ferrogameza",
+    "type": "project",
+    "keywords": [
+        "proyecto", "php", "ferrogameza"
+    ],
+    "homepage": "https://github.com/DonJavier00/FerroGameza.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mayerly Pirajan",
+            "email": "mpirajan3@misena.edu.co",
+            "role": "developer"
+        },
+        {
+            "name": "Brayan Curtidor",
+            "email": "bscurtidor@misena.edu.co",
+            "role": "developer"
+        },
+        {
+            "name": "Karen Estepa",
+            "email": "ktestepa@misena.edu.co",
+            "role": "developer"
+        },
+        {
+            "name": "Luisa Salamanca",
+            "email": "lfsalamanca5@misena.edu.co",
+            "role": "developer"
+        },
+        {
+            "name": "Javier Sanches",
+            "email": "elyarviss13@misena.edu.co",
+            "role": "developer"
+        },
+        {
+            "name": "Diego Estupinan",
+            "email": "damesa722@misena.edu.co",
+            "role": "developer"
+        }
+
+
+    ],
+    "support": {
+        "issues": "https://github.com/DonJavier00/FerroGameza.git/issues"
+    },
+    "config": {
+        "platform": {
+            "php": "8.0.0"
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "nesbot/carbon" : "^2.55.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    }
+    
+    }
