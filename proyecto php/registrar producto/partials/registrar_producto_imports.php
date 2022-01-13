@@ -221,7 +221,7 @@
                   <label>Documento :<label>
                       <input type="text" name="Doc_proveedor" id="Doc_proveedor">
                       <a href="" id="buscar_proveedor_registro" class="link_buscar_proveedor_registro"><i class="fas fa-search"></i></a>
-                   
+
                         <a href="#gestionar_proveedor" class="tbn_nuevo_proveedor"><i class="fas fa-plus"></i>Agregar proveedor</a>
                       
                 </div>

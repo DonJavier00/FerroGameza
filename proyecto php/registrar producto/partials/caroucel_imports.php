@@ -8,7 +8,6 @@
         <div class="contenedor-carousel">
           <div class="carousel">
          <!-- <div class="contenido_espacio">  </div>-->
-
             <div class="contenido1">
               <br>
               <h2>Gestionar Usuario</h2><br>
@@ -70,7 +69,7 @@
               <h2>Gestionar Reporte</h2><br>
               <img src="imag/reporte.png" alt="">
               <br>
-              <p>Genera los reportes necesarios diarios</p> <br>
+              <p>Genera los reportes necesarios de las ventas realizadas </p>
 
               <nav class="menu">
                 <ul>
@@ -126,7 +125,7 @@
               <br>
 
 
-              <p>Genera tu venta y administra tu ingreso </p>
+              <p>Ingresa tus productos, y administra tu ingreso </p>
               <br>
 
               <nav class="menu">
@@ -148,6 +147,35 @@
               </nav>
           
             </div>
+            <div class="contenido1">
+              <br>
+              <h2>Usuarios</h2><br>
+              <img src="imag/usuario.png" alt="">
+              <br>
+
+
+              <p>Manten el contro de tus clientes, proveedores y usuarios </p>
+
+
+              <nav class="menu">
+                <ul>
+                  <b>
+                    <li class="submenu"><a href="#"> Seleccionar<i class=" fas fa-caret-down"></i> </i></a>
+                  </b>
+
+                  <ul>
+                    <b>
+                      <li><a href="#factura" class="btn-open">Ver usuarios </a></li>
+                      <li><a href="#factura_cotizacion" class="btn-open">Ver proveedores </a></li>
+                      <li><a href="#factura_cotizacion" class="btn-open">Ver clientes </a></li>
+                    </b>
+
+                  </ul>
+
+                  </li>
+              </nav>
+            </div>
+
             <div class="contenido_espacio">  </div>
            
           </div>

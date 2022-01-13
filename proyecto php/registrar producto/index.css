@@ -16,7 +16,7 @@ body{
 }
 header{
     width: 100%;
-    height: 85px;
+    height: 110px;
     box-shadow: 5px 5px 10px #ffc532;
     position: fixed;
     top: 0;
@@ -25,46 +25,41 @@ header{
     background: #fff;
    
     }
-    .cerrar{
-        margin: 20px;
-        display: flex;
-        float: right;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        line-height: 10px;
-        border-radius: 10px;
-       
+
    
-    
-     
-   }
   .tituloFerreteria img{
-       height: 110px;
-       margin-top: -20px;
-       margin-left: -80%;
-   }
-   .cerrar i{
-   
-      margin: 12px;
-       padding: 1px 5px;
+      width: 100%;
+      height: 120px;
+     margin-top: -110px;
+  }
+.tituloFerreteria a, i{
+position: relative;
+}  
+  
+   .tituloFerreteria i{
+      margin-left: 83%;
+      margin-top: 41px;
+       padding: 1px 7px;
        align-items: center;
        text-align: center;
        line-height: 30px;
-       display: flex;
-       background: rgb(174, 174, 174);
+       background: rgb(255, 254, 254);
        border-radius: 20px;
-       color: #ffb703;
-       border:2px solid  ;
+       color: #ff0303;
+       border:5px solid  ;
+       position: relative;
+       top: 6px;
        
    
        
    }
-   .cerrar a{
-     font-size: 20px;
+   .tituloFerreteria a{
+     font-size: 24px;
      color: black;
-   
-   
+    margin-left: 85%;
+    position: relative;
+    top: -28px;
+    left:20px ;
    }
    .grande{
        width: 100%;
@@ -755,7 +750,8 @@ margin-top: -4%;
 }
 
 .datos_proveedor_formulario .tbn_nuevo_proveedor{
-    margin-left:243px;
+    margin-left:170px;
+ 
 }
 .datos_proveedor_formulario .tbn_nuevo_proveedor:hover{
 color: #ffb703;
@@ -835,15 +831,6 @@ margin-top: -20px;
         top: -20px;
     }
    
-
-
-
-
-
-
-
-
-
     .btnmodificar{
         position:absolute;
         top: 610px;
@@ -1092,14 +1079,14 @@ height: 100%;
 .btn-close_factura{
     width: 50px;
     height: 50px;
-    position: absolute;
+    position: relative;
     padding: 20px;
     background-color: rgb(0, 0, 0);
     color: blanchedalmond;
     border-radius: 50%;
     line-height: 10px;
-  margin-left: 87%;
-  margin-top: -2%;
+    margin-left: 98%;
+
 
 }
 
@@ -1131,7 +1118,7 @@ margin-top: 10px;
 }
 
 
-.datos_cliente_formulario{
+.form_nuevo_cliente_factura{
     width: 100%;
     max-width: 95%;
      max-height: 170px;
@@ -1144,7 +1131,28 @@ margin-top: 10px;
     height: 180px;
     margin-top: 10px;
     margin-left: 2%;
+
 }
+.form_label_cliente_factura{
+align-items: center;
+}
+.form_input_cliente_factura{
+   padding: 2px;
+   border-color: rgb(104, 97, 97);
+}
+
+.container_flex{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: -10%;
+}
+.center{
+    margin-left: -55%;
+    margin-top: 5%;
+}
+
+
 .factura_empresa{
     width: 100%;
     max-width: 95%;
@@ -1199,33 +1207,19 @@ color: #0fa225;
     top: -20px;
 }
 
-#Doc_cliente,#Con_cliente,#Tel_cliente,#Dir_cliente{
-    width: 220px;
-    height: 25px;
-    border-radius: 10px; 
-   display: flex;
-  margin-top: -10px;
-  margin-left: -40%;
- 
-}
-
 .titulo_datos_cliente{
     margin-top: 40px;
     margin-left: 20px;
     font-size: 22px;
 }
 
-#form_nuevo_cliente_venta label{
-margin-left: -100%;
-
-}
-
 .tbl_venta{
-    margin-top: 50px;
-    margin-left: 20px;
+    width: 100%;
+    max-width:95%;
+    margin-top: 70px;
+    margin-left: 2%;
     border-radius: 10px;
     background-color: #fff;
-    width: 95%;
     height: auto;
     border: 2px solid #020201;
     
@@ -1254,14 +1248,17 @@ height: 40px;
 #txt_precio_total{
     width: 110px;
 }
-
-.nuevo_contacto{
+.link_nuevo_contacto_factura{
     position: relative;
-    top: -100%;
-    left: 15%;
-  color: rgb(52, 147, 230);
+    left: 80%;
+    top: -86%;
 }
-.nuevo_contacto :hover{
+.link_nuevo_contacto{
+    margin-left: 30%;
+    margin-top: -40%;
+  color: rgb(57, 68, 231);
+}
+.link_nuevo_contacto:hover{
     color:#ffb703;
 }
 .link_eliminar{

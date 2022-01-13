@@ -4,9 +4,9 @@
 <div class="ventana0">
   <div class="texto3">
 
-    <a href="#" class="btn-close_factura">X</a>
+   
     <section id="contenido_general">
-
+    <a href="#" class="btn-close_factura">X</a>
       <div class="logo_factura">
         <img src="imag/logoferreteria.png" alt="">
       </div>
@@ -31,31 +31,39 @@
         <div class="titulo_datos_cliente">
           <h4>Datos del cliente</h4>
         </div>
-        <form name="form_nuevo_cliente_venta" id="form_nuevo_cliente_venta" class="datos_cliente_formulario">
-          <div class="factura_contacto_cliente">
-            <label>Contacto :<label>
-                <input type="text" name="Con_cliente" id="Con_cliente">
-          </div>
-          <div class="factura_identificacion_cliente">
-            <label>Identificacion :<label>
-                <input type="text" name="Doc_cliente" id="Doc_cliente">
-          </div>
+        <form action="" class="form_nuevo_cliente_factura">
+<div class="center">
+<div class="container_flex">
+    <label for="" class="form_label_cliente_factura">Documento:</label>
+    <input type="text" class="form_input_cliente_factura" name="documento">  
+    </div>
 
-          <div class="factura_telefono_cliente">
-            <label>Telefono :<label>
-                <input type="text" name="Tel_cliente" id="Tel_cliente">
-          </div>
-          <div class="factura_direccion_cliente">
-            <label>Direccion :<label>
-                <input type="text" name="Dir_cliente" id="Dir_cliente" disabled required>
-          </div>
+     <div class="container_flex">
+     <label for="" class="form_label_cliente_factura">Contacto:</label>
+    <input type="text" class="form_input_cliente_factura" name="contacto">  
+     </div>
 
-          <div class="nuevo_contacto">
-            <a href="#modall" class="tbn_nuevo_contacto"><i class="fas fa-plus"></i>Agregar contacto</a>
-          </div>
-        </form>
-      </div>
-      <table class="tbl_venta">
+     <div class="container_flex">
+     <label for="" class="form_label_cliente_factura">Telefono:</label>
+    <input type="text" class="form_input_cliente_factura" name="telefono">  
+     </div>
+
+     <div class="container_flex">
+     <label for="" class="form_label_cliente_factura">Direccion:</label>
+    <input type="text" class="form_input_cliente_factura" name="direccion">  
+     </div>
+        </form> 
+        <div class="link_nuevo_contacto_factura">
+        <a href="#modall" class="link_nuevo_contacto"><i class="fas fa-plus"></i>Agregar contacto</a>
+        </div>
+       
+</div>
+   
+
+      
+</div>
+
+        <table class="tbl_venta">
         <thead>
 
           <tr class="descripcion_factura">
@@ -146,32 +154,30 @@
       </table>
       <table class="total_factura">
 
-        <tr>
+<tr>
 
-          <th> sub total</th>
-          <td class="texttright">1000.00</td>
+  <th> sub total</th>
+  <td class="texttright">1000.00</td>
 
-        </tr>
-        <tr>
+</tr>
+<tr>
 
-          <th> iva 19%</th>
-          <td class="texttright">1000.00</td>
+  <th> iva 19%</th>
+  <td class="texttright">1000.00</td>
 
-        </tr>
-        <tr>
+</tr>
+<tr>
 
-          <th>total</th>
-          <td class="texttright">40000.00</td>
+  <th>total</th>
+  <td class="texttright">40000.00</td>
 
-        </tr>
+</tr>
 
-      </table>
-    
-      <input class="botons_factura" type="submit" value="Registrar">
-     
+</table>
 
-  </div>
- 
+<input class="botons_factura" type="submit" value="Registrar">
+
+      </div>
   </section>
 </div>
 </div>
@@ -180,10 +186,10 @@
 
 <div class="factura" id="factura_cotizacion">
 <div class="ventana0">
-  <a href="#" class="btn-close_factura">X</a>
+ 
   <div class="texto3">
     <section id="contenido_general">
-
+    <a href="#" class="btn-close_factura">X</a>
       <div class="logo_factura">
         <img src="imag/logo.jpg" alt="">
       </div>
@@ -207,30 +213,32 @@
         </form>
       </div>
 
-      <div class="datos_cliente">
+      <form action="" class="form_nuevo_cliente_factura">
+<div class="center">
+<div class="container_flex">
+    <label for="" class="form_label_cliente_factura">Documento:</label>
+    <input type="text" class="form_input_cliente_factura" name="documento">  
+    </div>
 
-        <div class="titulo_datos_cliente_">
-          <h4>Datos del cliente</h4>
+     <div class="container_flex">
+     <label for="" class="form_label_cliente_factura">Contacto:</label>
+    <input type="text" class="form_input_cliente_factura" name="contacto">  
+     </div>
+
+     <div class="container_flex">
+     <label for="" class="form_label_cliente_factura">Telefono:</label>
+    <input type="text" class="form_input_cliente_factura" name="telefono">  
+     </div>
+
+     <div class="container_flex">
+     <label for="" class="form_label_cliente_factura">Direccion:</label>
+    <input type="text" class="form_input_cliente_factura" name="direccion">  
+     </div>
+        </form> 
+        <div class="link_nuevo_contacto_factura">
+        <a href="#modall" class="link_nuevo_contacto"><i class="fas fa-plus"></i>Agregar contacto</a>
         </div>
-        <form name="form_nuevo_cliente_venta" id="form_nuevo_cliente_venta" class="datos_cliente_formulario">
-          <div class="factura_contacto_cliente">
-
-            <div class="factura_identificacion_cliente">
-              <label>Identificacion :<label>
-                  <input type="text" name="Doc_cliente" id="Doc_cliente">
-            </div>
-
-            <div class="factura_telefono_cliente">
-              <label>Telefono :<label>
-                  <input type="text" name="Tel_cliente" id="Tel_cliente">
-            </div>
-            <div class="factura_direccion_cliente">
-              <label>Direccion :<label>
-                  <input type="text" name="Dir_cliente" id="Dir_cliente" disabled required>
-            </div>
-
-        </form>
-      </div>
+</div>
       <table class="tbl_venta">
         <thead>
 

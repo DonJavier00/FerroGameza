@@ -11,16 +11,19 @@
 </head>
 <body>
   <header>
-    <div class="cerrar">
+  
       <div class="tituloFerreteria">
-      <img src="imag/tituloFerroGameza.png" alt="">
-      </div>
-
       <i class="fas fa-door-open"></i>
       <a href="Login Ferreteria/index.html">Cerrar sesion</a>
-
+      <img src="imag/2233.png" alt="">
+     
     </div>
-  </header>
+      </header>
+  
+     
+ 
+    
+  
 <?php include_once("partials/caroucel_imports.php");?>
 <?php include_once("partials/gestionar_factura_imports.php");?>
 <?php include_once("partials/gestionar_usuario_imports.php");?>
