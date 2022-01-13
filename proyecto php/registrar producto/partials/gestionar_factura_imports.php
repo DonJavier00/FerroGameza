@@ -430,63 +430,8 @@
 <div class="gestionar_cliente" id="modall">
     <div class="ventana_gestionar_cliente">
 
-      <section class="Formulariocliente">
         <a href="#" class="btn-close">X</a>
-        <div class="row no-gutters bg-dark">
-          <div class="col-xl-5 col-lg-12 register-bg">
-          </div>
-          <div class="col-xl-7 col-lg-12 d-flex">
-            <div class="container align-self-center p-6">
-              <h1 class="font-weight-bold mb-3">Registrar Cliente</h1>
-              <div class="form-group">
-              </div>
-              <form>
-                <div class="form-row -2">
-                  <div class="form-group col-md-6">
-                    <label class="font-weight-bold">Nombre <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control" placeholder="Tu nombre">
-                  </div>
-                  <div class="form-group col-md-6">
-                    <label class="font-weight-bold">Apellido <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control" placeholder="Tu apellido">
-                  </div>
-                </div>
-
-                <div class="form-group mb-1">
-                  <label class="font-weight-bold">Documento <span class="text-danger">*</span></label>
-                  <input type="email" class="form-control" placeholder="Ingresa tu Documento">
-                </div>
-
-                <div class="form-group mb-3">
-
-                  <label class="font-weight-bold">Correo electrónico <span class="text-danger">*</span></label>
-                  <input type="email" class="form-control" placeholder="Ingresa tu correo electrónico">
-                </div>
-
-                <div class="form-group mb-3">
-                  <label class="font-weight-bold">Telefono <span class="text-danger">*</span></label>
-                  <input type="email" class="form-control" placeholder="Ingresa tu Telefono">
-                </div>
-
-                <div class="form-group mb-3">
-                  <label class="font-weight-bold">Direccion <span class="text-danger">*</span></label>
-                  <input type="email" class="form-control" placeholder="Ingresa tu Direccion">
-                </div>
-
-
-                <div class="estadocliente">
-                  <label class="font-weight-bold">Estado: <span class="text-danger">*</span></label>
-                  <select class="select">
-                    <option disabled selected="">Seleccione su Estado</option>
-                    <option>Activo</option>
-                    <option>Inactivo</option>
-                  </select>
-                </div>
-
-                <input class="botones" type="submit" value="Registrar">
-              </form>
-      </section>
-
+      
     </div>
 
   </div>
