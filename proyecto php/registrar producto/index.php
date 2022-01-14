@@ -19,15 +19,19 @@
      
     </div>
       </header>
-  
+     
+ 
      
  
     
   
 <?php include_once("partials/caroucel_imports.php");?>
+<?php include_once("partials/ver_usuarios_imports.php");?>
 <?php include_once("partials/gestionar_factura_imports.php");?>
 <?php include_once("partials/gestionar_usuario_imports.php");?>
 <?php include_once("partials/registrar_producto_imports.php");?>
+
+
 
  
   <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>

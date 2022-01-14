@@ -79,7 +79,7 @@
 
                   <ul>
                     <b>
-                      <li><a href="#factura" class="btn-open"> Ver Reporte</a></li>
+                      <li><a href="#gestionar_reportes" class="btn-open"> Ver Reporte</a></li>
 
                     </b>
 
@@ -116,7 +116,8 @@
                   </li>
               </nav>
             </div>
-
+           
+   
             <div class="contenido1">
 
               <br>
@@ -165,9 +166,9 @@
 
                   <ul>
                     <b>
-                      <li><a href="#factura" class="btn-open">Ver usuarios </a></li>
-                      <li><a href="#factura_cotizacion" class="btn-open">Ver proveedores </a></li>
-                      <li><a href="#factura_cotizacion" class="btn-open">Ver clientes </a></li>
+                      <li><a href="#ver_usuarios" class="btn-open">Ver usuarios </a></li>
+                      <li><a href="#ver_proveedores" class="btn-open">Ver proveedores </a></li>
+                      <li><a href="#ver_clientes" class="btn-open">Ver clientes </a></li>
                     </b>
 
                   </ul>

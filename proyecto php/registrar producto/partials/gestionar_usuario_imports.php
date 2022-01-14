@@ -45,7 +45,7 @@
     </div>
   </div>
   </div>
-  <!-----------------------Formularios gestionar proveedor ------------------------->
+  <!-----------------------Formularios gestionar proveedor -------------------------->
 
   <div class="gestionar_proveedor" id="gestionar_proveedor">
     <div class="ventana_proveedor">
