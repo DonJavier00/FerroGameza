@@ -15,7 +15,7 @@
       <div class="tituloFerreteria">
       <i class="fas fa-door-open"></i>
       <a href="Login Ferreteria/index.html">Cerrar sesion</a>
-      <img src="imag/2233.png" alt="">
+      <img src="imag/FerroGamezaBaner.jpg" alt="">
      
     </div>
       </header>

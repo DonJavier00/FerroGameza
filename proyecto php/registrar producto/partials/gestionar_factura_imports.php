@@ -191,7 +191,7 @@
     <section id="contenido_general">
     <a href="#" class="btn-close_factura">X</a>
       <div class="logo_factura">
-        <img src="imag/logo.jpg" alt="">
+        <img src="imag/logoferreteria.png" alt="">
       </div>
       <div class="cotizacion">
         <h1>Cotizacion</h1>

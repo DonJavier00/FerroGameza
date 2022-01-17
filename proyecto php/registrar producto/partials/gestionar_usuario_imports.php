@@ -2,9 +2,11 @@
 
     <div class="gestionar_administrador" id="gestionar_administrador">
       <div class="ventana_administrador">
+   
         <section class="registro-administrador">
-          <a href="#" class="btn-close_gestionar_administrador">X</a>
+        
           <strong>
+          <a href="#" class="btn-close_gestionar_administrador">X</a>
             <h1>Formulario Administrador</h1><br>
           </strong>
           <form>
@@ -20,31 +22,23 @@
           <div class="contoles_datos">
             <input class="controls" type="text" name="documento" id="documento"
               placeholder="Numero Documento">
-            <input class="controls" type="text" name="correo" id="correo" placeholder="Correo Electronico">
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Correo Electronico">
             <input class="controls" type="text" name="nombres" id="nombres" placeholder="Nombres">
             <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
             <input class="controls" type="text" name="telefono" id="telefono" placeholder="Teléfono">
             <input class="controls" type="password" name="correo" id="correo" placeholder="Contraseña">
             <form>
           </div>
-          <div class="estado">
-            <h3>Estado:</h3>
-            <select>
-              <option disabled selected=""> Seleccione su estado:</option> <br>
-              <option>Activo</option>
-              <option>Inactivo</option>
-            </select>
-          </div>
+         
           <input class="botons" type="submit" value="Registrar">
-      </div>
-
+            </select>
+</div>
       </form>
-
       </section>
-
+</div>
     </div>
   </div>
-  </div>
+  
   <!-----------------------Formularios gestionar proveedor -------------------------->
 
   <div class="gestionar_proveedor" id="gestionar_proveedor">
@@ -70,7 +64,7 @@
           <input class="controls_proveedor" type="text" name="Direccion" id="Direccion" placeholder="Direccion">
           <form>
             <div class="transporte">
-              <h3>Transporte :</h3>
+              <h3>Transporte:</h3>
               <select>
                 <option disabled selected="">Seleccione Transporte</option>
                 <option>Si</option>
@@ -79,17 +73,8 @@
             </div>
 
             <form>
-              <div class="estado_proveedor">
-                <h3>Estado:</h3>
-                <select>
-                  <option disabled selected="">Seleccione su Estado</option>
-                  <option>Activo</option>
-                  <option>Inactivo</option>
-                </select>
-              </div>
-
-
-              <input class="botons" type="submit" value="Registrar">
+            
+              <input class="formulario_proveedor_botons" type="submit" value="Registrar">
       </section>
     </div>
   </div>
@@ -121,16 +106,7 @@
 
 
           <form>
-            <div class="estado_empleado">
-              <h3>Estado:</h3>
-              <select>
-                <option disabled selected="">Seleccione su Estado</option>
-                <option>Activo</option>
-                <option>Inactivo</option>
-              </select>
-            </div>
-
-
+           
             <input class="botons" type="submit" value="Registrar">
 
       </section>

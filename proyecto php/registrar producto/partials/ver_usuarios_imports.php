@@ -1,3 +1,15 @@
+<!--------ver administradores ------->
+
+<div class="ver_administradores" id="ver_administradores">
+
+      <div class="ventana_ver_administradores">
+     <a href="#" class="btn-close_ver_proveedor">X</a>
+     <h1>ver administradores</h1>
+    </div>
+  </div>
+
+
+
 <!--------ver proveedores ------->
 
 <div class="ver_proveedores" id="ver_proveedores">
@@ -7,12 +19,12 @@
      <h1>ver proveedores</h1>
     </div>
   </div>
-  <!--------ver usuario ------->
+  <!--------ver empleado 0 usuario ------->
   <div class="ver_usuarios" id="ver_usuarios">
 
       <div class="ventana_ver_usuarios">
      <a href="#" class="btn-close_ver_proveedor">X</a>
-     <h1>ver usuarios</h1>
+     <h1>ver usuarios o empleados</h1>
     </div>
   </div>
     <!--------ver clientes ------->

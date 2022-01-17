@@ -197,7 +197,7 @@
           <a href="#" class="btn-close_registro_compra">X</a>
           <section id="contenido_general_registrar">
             <div class="logo_factura">
-              <img src="imag/logo.jpg" alt="">
+              <img src="imag/logoferreteria.png" alt="">
             </div>
             <form name="datos_proveedor_registro" id="datos_proveedor_registro" class="factura_proveedor_registro">
               <div class="proveedor_factura_fecha">

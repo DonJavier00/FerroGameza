@@ -27,7 +27,8 @@
                       <li><a href="#gestionar_administrador" class="btn-open">Administrador</a></li>
                       <li><a href="#gestionar_empleado" class="btn-open">Empleado</a></li>
                       <li><a href="#gestionar_proveedor" class="btn-open">Proveedor</a></li> 
-                    
+                      
+            
                     </b>
 
                   </ul>
@@ -117,18 +118,15 @@
               </nav>
             </div>
            
+
    
             <div class="contenido1">
-
               <br>
               <h2>Registrar Producto</h2><br>
               <img src="imag/caja.png" alt="">
               <br>
-
-
               <p>Ingresa tus productos, y administra tu ingreso </p>
               <br>
-
               <nav class="menu">
                 <ul>
                   <b>
@@ -148,16 +146,14 @@
               </nav>
           
             </div>
+
+
             <div class="contenido1">
               <br>
               <h2>Usuarios</h2><br>
               <img src="imag/usuario.png" alt="">
               <br>
-
-
               <p>Manten el contro de tus clientes, proveedores y usuarios </p>
-
-
               <nav class="menu">
                 <ul>
                   <b>
@@ -166,7 +162,8 @@
 
                   <ul>
                     <b>
-                      <li><a href="#ver_usuarios" class="btn-open">Ver usuarios </a></li>
+                    <li><a href="#ver_administradores" class="btn-open">Ver administrador </a></li>
+                      <li><a href="#ver_usuarios" class="btn-open">Ver empleados </a></li>
                       <li><a href="#ver_proveedores" class="btn-open">Ver proveedores </a></li>
                       <li><a href="#ver_clientes" class="btn-open">Ver clientes </a></li>
                     </b>
