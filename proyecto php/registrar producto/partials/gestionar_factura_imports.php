@@ -383,18 +383,18 @@
               </select>
             </div>
           </form>
-          <div class="contoles_datos">
-            <input class="controls" type="text" name="documento" id="documento"
+          <div class="contoles_datos_formulario_cliente">
+            <input class="controls_formulario_cliente" type="text" name="documento" id="documento"
               placeholder="Numero Documento">
-            <input class="controls" type="text" name="correo" id="correo" placeholder="Correo Electronico">
-            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Nombres">
-            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
-            <input class="controls" type="text" name="telefono" id="telefono" placeholder="Teléfono">
-            <input class="controls" type="password" name="correo" id="correo" placeholder="Contraseña">
+            <input class="controls_formulario_cliente" type="text" name="correo" id="correo" placeholder="Correo Electronico">
+            <input class="controls_formulario_cliente" type="text" name="nombres" id="nombres" placeholder="Nombres">
+            <input class="controls_formulario_cliente" type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
+            <input class="controls_formulario_cliente" type="text" name="telefono" id="telefono" placeholder="Teléfono">
+            <input class="controls_formulario_cliente" type="password" name="correo" id="correo" placeholder="Contraseña">
             <form>
           </div>
           
-          <input class="formulario_cliente" type="submit" value="Registrar">
+          <input class="botons_formulario_cliente" type="submit" value="Registrar">
       </div>
 
       </form>
