@@ -1928,8 +1928,7 @@ margin-left: 40%;
 
 /* ver clientes*/
 
-
-.btn-close_ver_proveedor{
+.btn-close_ver_cliente{
     width: 50px;
     height: 50px;
     position: relative;
@@ -1943,7 +1942,7 @@ margin-left: 40%;
  
 
 }
-.ventana_ver_clientes {
+.ventana_ver_cliente {
     width: 70%;
     height: 90%;
     background:rgb(255, 255, 255);
@@ -1956,7 +1955,7 @@ margin-left: 40%;
     text-align: center;
   }
  
-.ver_clientes:target{
+.ver_cliente:target{
     background: rgba(0, 0, 0, 0.8);
     top: 0%;
     left: 0%;
@@ -1965,7 +1964,7 @@ margin-left: 40%;
  
 }
 
-.ver_clientes{
+.ver_cliente{
     width: 100%;
     height: 100%;
     position: fixed;
@@ -1978,7 +1977,7 @@ margin-left: 40%;
 }
 /* gestionar reporte*/
 
-.btn-close_ver_proveedor{
+.btn-close_ver_cliente{
     width: 50px;
     height: 50px;
     position: relative;

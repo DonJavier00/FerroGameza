@@ -364,9 +364,43 @@
 <!-----------------formulario registrar cliente------------------------------------->
 <div class="gestionar_cliente" id="modall">
     <div class="ventana_gestionar_cliente">
+    <div class="imagen">
+      <img src="imag/hero.jpg" alt="">
+  </div>
+    <section class="registro-cliente">
+    
+          <a href="#" class="btn-close_gestionar_cliente">X</a>
+          <strong>
+            <h1>Formulario cliente</h1><br>
+          </strong>
+          <form>
+            <div class="documento_cliente">
+              <h3>Documento:</h3>
+              <select>
+                <option disabled selected=""> Tipo de documento</option> <br>
+                <option>Cédula de ciudadania</option>
+                <option>Código NIT</option>
+              </select>
+            </div>
+          </form>
+          <div class="contoles_datos">
+            <input class="controls" type="text" name="documento" id="documento"
+              placeholder="Numero Documento">
+            <input class="controls" type="text" name="correo" id="correo" placeholder="Correo Electronico">
+            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Nombres">
+            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
+            <input class="controls" type="text" name="telefono" id="telefono" placeholder="Teléfono">
+            <input class="controls" type="password" name="correo" id="correo" placeholder="Contraseña">
+            <form>
+          </div>
+          
+          <input class="formulario_cliente" type="submit" value="Registrar">
+      </div>
 
-        <a href="#" class="btn-close">X</a>
-      
+      </form>
+
+      </section>
+
     </div>
-
+  </div>
   </div>
