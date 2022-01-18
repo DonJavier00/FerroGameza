@@ -2022,6 +2022,76 @@ margin-left: 40%;
 /* ver usuarios*/
 
 
+.link_editar_administrador {
+    color: rgb(165, 19, 19);
+}
+
+.link_editar_administrador:hover{
+    color: #ffb703;
+}
+
+.ventana_ver_administradores h1 {
+    color: black;
+    text-align: center;
+    margin-top: -3%;
+}
+
+.estado_administrador {
+    width: 90px;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+
+.estado_administrador:hover{
+    border: 1px solid rgb(122, 12, 12);
+    border-collapse: collapse;
+}
+    table, th, td {
+        border-collapse: collapse;
+        box-shadow: 3px 3px 3px #ffb703;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+
+    th {
+        text-align: center;
+        background-color: #ffb703;
+    }
+    table {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+    }
+
+/* ver empleados */
+.link_editar_empleado {
+    color: rgb(165, 19, 19);
+}
+
+.link_editar_empleado:hover{
+    color: #ffb703;
+}
+
+.ventana_ver_usuarios h1 {
+    color: black;
+    text-align: center;
+    margin-top: -3%;
+}
+
+.estado_empleado {
+    width: 90px;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+
+.estado_empleado:hover{
+    border: 1px solid rgb(122, 12, 12);
+    border-collapse: collapse;
+}
+
+/**/
+
 .ventana_ver_usuarios {
     width: 70%;
     height: 90%;
@@ -2033,6 +2103,7 @@ margin-left: 40%;
     box-shadow: 7px 13px 37px #ffb703;
     align-items: center;
     text-align: center;
+
   }
  
 .ver_usuarios:target{
