@@ -935,7 +935,7 @@
 <th class="estado_clie_tabla">Estado</th>
 <th class="editar_clie_tabla">Editar</th>
  </tr>
-</div>
+
  
  <tr class= "datos_cliente_tabla"> 
 <td class="db_numero_clie">1</td>

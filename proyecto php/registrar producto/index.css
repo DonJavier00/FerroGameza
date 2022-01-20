@@ -2145,20 +2145,16 @@ margin-left: 40%;
 .db_estado_prov,.db_transporte_prov,.db_editar_prov{
     border-collapse: collapse;
     box-shadow: 3px 3px 3px #ffb703;
+    padding: 10px;
 }
 
-.db_numero_prov,.db_documento_prov,.db_correo_prov,.db_nombre_prov,
-.db_apellido_prov,.db_telefono_prov,.db_direccion_prov,.db_estado_prov,
-.db_transporte_prov,.db_editar_prov {
-    padding: 10px;
-    
-}
 
 .id_prov_tabla,.documento_prov_tabla,.correo_prov_tabla,.nombre_prov_tabla,
 .apellido_prov_tabla,.telefono_prov_tabla,.direccion_prov_tabla,
 .estado_prov_tabla,.transporte_prov_tabla,.editar_prov_tabla {
     text-align: center;
     background-color: #ffb703;
+    
     
 }
 table {
@@ -2175,8 +2171,8 @@ table {
     color: #FFF;
     border-radius: 50%;
     line-height: 10px;
-    top: -12%;
-   left: 57%;
+    top: -60px;
+   left: 55%;
  
 
 }
@@ -2238,17 +2234,11 @@ table {
     border-collapse: collapse;
 }
 .tabla_cliente,.id_clie_tabla,.documento_clie_tabla ,.correo_clien_tabla,.nombre_clie_tabla,.apellido_clie_tabla,.telefono_clie_tabla,.direccion_clie_tabla,.estado_clie_tabla,.editar_clie_tabla,
-.db_numero_clie,.db_documento_clie,.db_correo_clie,.db_nombre_clie,.db_apellido_clie,.db_telefono_clie,.db_direccion_clie,.db_estado_clie,.db_editar_cli 
+.db_numero_clie,.db_documento_clie,.db_correo_clie,.db_nombre_clie,.db_apellido_clie,.db_telefono_clie,.db_direccion_clie,.db_estado_clie,.db_editar_clie 
 {
     border-collapse: collapse;
     box-shadow: 3px 3px 3px #ffb703;
-}
-
-.db_numero_clie,.db_documento_clie,.db_correo_clie,
-.db_nombre_clie,.db_apellido_clie,.db_telefono_clie,
-.db_direccion_clie {
     padding: 10px;
-    
 }
 
 .id_clie_tabla,.documento_clie_tabla,.correo_clien_tabla,
@@ -2261,21 +2251,7 @@ table {
 }
 .tabla_cliente {
     background-color: rgb(255, 255, 255);
-    width: 100%;
-}
-
-.btn-close_ver_clientes{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    padding: 20px;
-    background-color: rgb(0, 0, 0);
-    color: #FFF;
-    border-radius: 50%;
-    line-height: 10px;
-    top: -12%;
-   left: 57%;
- 
+    width: 100%; 
 
 }
 .ventana_ver_clientes {
@@ -2313,9 +2289,6 @@ table {
   
 }
 
-
-/* gestionar reporte*/
-
 .btn-close_ver_cliente{
     width: 50px;
     height: 50px;
@@ -2325,10 +2298,13 @@ table {
     color: #FFF;
     border-radius: 50%;
     line-height: 10px;
-    top: -12%;
-   left: 57%;
+    top: -60px;
+   left: 55%;
  
 }
+
+/* gestionar reporte*/
+
 .ventana_gestionar_reportes {
     width: 70%;
     height: 90%;
