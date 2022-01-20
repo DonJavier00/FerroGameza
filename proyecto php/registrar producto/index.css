@@ -1917,9 +1917,60 @@ margin-left: 40%;
 }
 
 
+/* ver adminitrador*/
+.link_editar_administrador {
+    color: rgb(165, 19, 19);
+}
 
-/* ver administradores*/
+.link_editar_administrador:hover{
+    color: #ffb703;
+}
 
+.ventana_ver_administradores h1 {
+    color: black;
+    text-align: center;
+    margin-top: -3%;
+}
+
+.estado_administrador {
+    width: 70px;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+
+.estado_administrador:hover{
+    border: 1px solid rgb(196, 21, 21);
+    border-collapse: collapse;
+}
+    .tabla_administrador,.id_admin_tabla, .documento_admin_tabla,.correo_admin_tabla, 
+    .nombre_admin_tabla, .apellido_admin_tabla, .telefono_admin_tabla,
+    .estado_admin_tabla,.editar_admin_tabla, .db_numero_admin,.db_documento_admin,
+     .db_correo_admin, .db_nombre_admin,  .db_apellido_admin, .db_telefono_admin, .db_estado_admin,  
+     .db_editar_admin  {
+        border-collapse: collapse;
+        box-shadow: 3px 3px 3px #ffb703;
+       
+    }
+    .db_numero_admin,.db_documento_admin, .db_correo_admin, .db_nombre_admin, 
+     .db_apellido_admin, .db_telefono_admin, .db_estado_admin,  
+    .db_editar_admin{
+        padding: 10px;
+        
+    }
+
+     .id_admin_tabla, .documento_admin_tabla, .correo_admin_tabla, 
+     .nombre_admin_tabla, .apellido_admin_tabla, .telefono_admin_tabla,
+     .estado_admin_tabla, .editar_admin_tabla {
+        padding: 10px;
+        text-align: center;
+        background-color: #ffb703;
+    }
+
+  
+    .tabla_administrador {
+        background-color: rgb(255, 255, 255); 
+      width: 100%;
+    }
 
 .btn-close_ver_proveedor{
     width: 50px;
@@ -1936,8 +1987,8 @@ margin-left: 40%;
 
 }
 .ventana_ver_administradores {
-    width: 70%;
-    height: 90%;
+    width: 90%;
+    height: auto;
     background:rgb(243, 241, 241);
     padding: 50px;
     margin: auto;
@@ -1946,6 +1997,7 @@ margin-left: 40%;
     box-shadow: 7px 13px 37px #ffb703;
     align-items: center;
     text-align: center;
+   
   }
  
 .ver_administradores:target{
@@ -1968,101 +2020,7 @@ margin-left: 40%;
     overflow: scroll;
   
 }
-/* ver proveedores*/
 
-
-.btn-close_ver_proveedor{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    padding: 20px;
-    background-color: rgb(0, 0, 0);
-    color: #FFF;
-    border-radius: 50%;
-    line-height: 10px;
-    top: -12%;
-   left: 57%;
- 
-
-}
-.ventana_ver_Proveedor {
-    width: 70%;
-    height: 90%;
-    background:rgb(243, 241, 241);
-    padding: 50px;
-    margin: auto;
-    border-radius: 4px;
-    color: #000000;
-    box-shadow: 7px 13px 37px #ffb703;
-    align-items: center;
-    text-align: center;
-  }
- 
-.ver_proveedores:target{
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
- 
-}
-
-.ver_proveedores{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    padding: 40px;
-    visibility: hidden;
-    opacity:0;
-    transition: all 1000ms;
-    overflow: scroll;
-  
-}
-
-/* ver usuarios*/
-
-
-.link_editar_administrador {
-    color: rgb(165, 19, 19);
-}
-
-.link_editar_administrador:hover{
-    color: #ffb703;
-}
-
-.ventana_ver_administradores h1 {
-    color: black;
-    text-align: center;
-    margin-top: -3%;
-}
-
-.estado_administrador {
-    width: 90px;
-    border: 1px solid rgb(0, 0, 0);
-    
-}
-
-.estado_administrador:hover{
-    border: 1px solid rgb(122, 12, 12);
-    border-collapse: collapse;
-}
-    table, th, td {
-        border-collapse: collapse;
-        box-shadow: 3px 3px 3px #ffb703;
-    }
-
-    th, td {
-        padding: 10px;
-    }
-
-    th {
-        text-align: center;
-        background-color: #ffb703;
-    }
-    table {
-        background-color: rgb(255, 255, 255);
-        width: 100%;
-    }
 
 /* ver empleados */
 .link_editar_empleado {
@@ -2080,21 +2038,40 @@ margin-left: 40%;
 }
 
 .estado_empleado {
-    width: 90px;
+    width: 70px;
     border: 1px solid rgb(0, 0, 0);
     
 }
+
 
 .estado_empleado:hover{
     border: 1px solid rgb(122, 12, 12);
     border-collapse: collapse;
 }
+.tabla_empl, .id_emp_tabla, .documento_emp_tabla, .correo_emp_tabla, .nombre_emp_tabla, .apellido_emp_tabla, .telefono_emp_tabla, .estado_emp_tabla, .editar_emp_tabla, 
+.db_numero_empl, .db_documento_empl, .db_correo_empl, .db_nombre_empl, .db_apellido_empl, .db_telefono_empl, .db_estado_empl, .db_editar_empl
+{
+    border-collapse: collapse;
+    box-shadow: 3px 3px 3px #ffb703;
+}
+.db_numero_empl,.db_documento_empl,.db_correo_empl,.db_nombre_empl,.db_apellido_empl,.db_telefono_empl,.db_estado_empl,.db_editar_empl
+{
+    padding:10px
 
-/**/
+    }
+.id_emp_tabla,.documento_emp_tabla,.correo_emp_tabla,.nombre_emp_tabla,.apellido_emp_tabla,.telefono_emp_tabla,.estado_emp_tabla,.editar_emp_tabla{
+    padding: 10px;
+    text-align: center;
+    background-color: #ffb703; 
+}
+.tabla_empleados{
+    background-color: rgb(255, 255, 255); 
+    width: 100%
+}
 
 .ventana_ver_usuarios {
-    width: 70%;
-    height: 90%;
+    width: 90%;
+    height: auto;
     background:rgb(255, 254, 254);
     padding: 50px;
     margin: auto;
@@ -2127,7 +2104,68 @@ margin-left: 40%;
   
 }
 
-/* ver clientes*/
+/* ver proveedores*/
+
+.link_editar_proveedor{
+    color: rgb(165, 19, 19);
+}
+.link_editar_proveedor:hover{
+    color: #ffb703;
+}
+
+.ventana_ver_Proveedor h1 {
+    color: black;
+    text-align: center;
+    margin-top: -1%;
+}
+.estado_proveedor {
+    width: 70px;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+.estado_proveedor:hover{
+    border: 1px solid rgb(122, 12, 12);
+    border-collapse: collapse;
+}
+
+.Transporte_proveedor {
+    width: 42px;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+.Transporte_proveedor:hover{
+    border: 1px solid rgb(122, 12, 12);
+    border-collapse: collapse;
+}
+.tabla_proveedor,.id_prov_tabla,.documento_prov_tabla.correo_prov_tabla,
+.nombre_prov_tabla,.apellido_prov_tabla,.telefono_prov_tabla,
+.direccion_prov_tabla,.estado_prov_tabla,.transporte_prov_tabla,
+.editar_prov_tabla,.db_numero_prov,.db_documento_prov,.db_correo_prov,
+.db_nombre_prov,.db_apellido_prov,.db_telefono_prov,.db_direccion_prov,
+.db_estado_prov,.db_transporte_prov,.db_editar_prov{
+    border-collapse: collapse;
+    box-shadow: 3px 3px 3px #ffb703;
+}
+
+.db_numero_prov,.db_documento_prov,.db_correo_prov,.db_nombre_prov,
+.db_apellido_prov,.db_telefono_prov,.db_direccion_prov,.db_estado_prov,
+.db_transporte_prov,.db_editar_prov {
+    padding: 10px;
+    
+}
+
+.id_prov_tabla,.documento_prov_tabla,.correo_prov_tabla,.nombre_prov_tabla,
+.apellido_prov_tabla,.telefono_prov_tabla,.direccion_prov_tabla,
+.estado_prov_tabla,.transporte_prov_tabla,.editar_prov_tabla {
+    text-align: center;
+    background-color: #ffb703;
+    
+}
+table {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
 .btn-close_ver_proveedor{
     width: 50px;
     height: 50px;
@@ -2142,10 +2180,109 @@ margin-left: 40%;
  
 
 }
+.ventana_ver_Proveedor {
+    width: 90%;
+    max-width: 90%;
+    height:auto;
+    background:rgb(253, 250, 250);
+    padding: 50px;
+    margin: auto;
+    border-radius: 4px;
+    color: #000000;
+    box-shadow: 7px 13px 37px #ffb703;
+    align-items: center;
+    text-align: center;
+  }
+ 
+.ver_proveedores:target{
+    background: rgba(0, 0, 0, 0.8);
+    top: 0%;
+    left: 0%;
+    visibility: visible;
+    opacity: 1;
+ 
+}
+
+.ver_proveedores{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    padding: 40px;
+    visibility: hidden;
+    opacity:0;
+    transition: all 1000ms;
+    overflow: scroll;
+  
+}
+
+/* ver clientes*/
+.link_editar_clientes{
+    color: rgb(165, 19, 19);
+}
+.link_editar_clientes:hover{
+    color: #ffb703;
+}
+
+.ventana_ver_clientes h1 {
+    color: black;
+    text-align: center;
+    margin-top: -1%;
+}
+.estado_clientes {
+    width: 70px;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+.estado_clientes:hover{
+    border: 1px solid rgb(122, 12, 12);
+    border-collapse: collapse;
+}
+.tabla_cliente,.id_clie_tabla,.documento_clie_tabla ,.correo_clien_tabla,.nombre_clie_tabla,.apellido_clie_tabla,.telefono_clie_tabla,.direccion_clie_tabla,.estado_clie_tabla,.editar_clie_tabla,
+.db_numero_clie,.db_documento_clie,.db_correo_clie,.db_nombre_clie,.db_apellido_clie,.db_telefono_clie,.db_direccion_clie,.db_estado_clie,.db_editar_cli 
+{
+    border-collapse: collapse;
+    box-shadow: 3px 3px 3px #ffb703;
+}
+
+.db_numero_clie,.db_documento_clie,.db_correo_clie,
+.db_nombre_clie,.db_apellido_clie,.db_telefono_clie,
+.db_direccion_clie {
+    padding: 10px;
+    
+}
+
+.id_clie_tabla,.documento_clie_tabla,.correo_clien_tabla,
+.nombre_clie_tabla,.apellido_clie_tabla,
+.telefono_clie_tabla,.direccion_clie_tabla,
+.estado_clie_tabla,.editar_clie_tabla {
+    text-align: center;
+    background-color: #ffb703;
+    
+}
+.tabla_cliente {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.btn-close_ver_clientes{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    color: #FFF;
+    border-radius: 50%;
+    line-height: 10px;
+    top: -12%;
+   left: 57%;
+ 
+
+}
 .ventana_ver_clientes {
-    width: 70%;
-    height: 90%;
-    background:rgb(255, 255, 255);
+    width: 90%;
+    max-width: auto;
+    height:auto;
+    background:rgb(253, 250, 250);
     padding: 50px;
     margin: auto;
     border-radius: 4px;
@@ -2175,6 +2312,8 @@ margin-left: 40%;
     overflow: scroll;
   
 }
+
+
 /* gestionar reporte*/
 
 .btn-close_ver_cliente{
