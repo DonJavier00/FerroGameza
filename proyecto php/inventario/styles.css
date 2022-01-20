@@ -19,7 +19,7 @@
 }
 
 body{
-	font-family: 'Love Ya Like A Sister', cursive;
+	/*--font-family: 'Love Ya Like A Sister', cursive;--*/
 	background: rgb(255, 255, 255);
 	
 }
@@ -356,6 +356,10 @@ color: var(--color-primario) ;
 	display: inline-block;
 	margin: 0 var(--dt-padding-xs);
 	align-items: baseline;
+}
+.tabla1 .menus .botones li a{
+	color: white;
+
 }
 
 .tabla1 .menus .botones li button{

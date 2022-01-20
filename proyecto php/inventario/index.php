@@ -85,7 +85,8 @@
            
             <div class="menus">
                 <div class="botones">
-                    <li><button> <i class="fas fa-plus"></i></button></li>
+                    <li><button alt="salir"><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><i class="fas fa-backspace" ></i></a></button></li>
+                    <li><button><a href="/FerroGameza/proyecto%20php/registrar%20producto/#modal"><i class="fas fa-plus"></i></a> </button></li>
                   
                 </div>
                 <div class="buscar">
@@ -251,7 +252,7 @@
           
         </div>
         <div class="tabla2">
-            <div class="contenido"><img src="jpg/mineria 2.jpg " alt=""></div>
+           
         </div>
         <div class="tabla3">
             <div class="contenido"><img src="jpg/dotaciones 2.jpg " alt=""></div>
