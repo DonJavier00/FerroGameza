@@ -54,7 +54,7 @@
 
                   <ul>
                     <b>
-                      <li><a href="#factura" class="btn-open">Ver Inventario</a></li>
+                      <li><a href="/FerroGameza/proyecto%20php/inventario/" class="btn-open">Ver Inventario</a></li>
 
 
                     </b>

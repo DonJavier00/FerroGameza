@@ -1,0 +1,475 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+    text-decoration: none;
+	
+	
+}
+.tabla1::-webkit-scrollbar{
+	background: transparent;
+	height: 10px;
+}
+.tabla1::-webkit-scrollbar-thumb{
+	background: #E5890A;
+	border-radius: 10px;
+	border: solid 2px #9D5C0D;
+	width: 100%;
+	height: 50%;
+}
+
+body{
+	font-family: 'Love Ya Like A Sister', cursive;
+	background: rgb(255, 255, 255);
+	
+}
+
+.contenido-inventario{
+    position: absolute;
+	width: 97%;
+	height: 90%;
+	margin: 2%;
+	align-items: center;
+	
+
+	border: 2px solid #ffbf00;
+
+	
+}
+.slide{
+    display: inline-block;
+	overflow: hidden;
+	width: 10%;
+	height: 100%;
+	background: #fdfd96;   
+	float: left;
+	
+	
+}
+.slide figure{
+	align-items: center;
+	text-align: center;
+}
+.slide_clases{
+    width: 90%;
+	height: 93%;
+	margin: 5%;
+	
+	
+}
+figure{
+	border-radius: 20%;
+	overflow: hidden;
+	background: none;
+transition: background 1s ease-in-out;
+
+}
+.contenido-inventario figure {
+	position: relative;
+	width: 90%;
+align-items: center;
+text-align: center;
+	margin: 7%;
+	height: 30%;
+
+    user-select: none;
+	overflow: hidden;
+	
+
+}
+figure img{
+	width: 90%;
+	align-items: center;
+	text-align: center;
+}
+
+ figure h2 {
+ position: absolute;
+  color: 	#000000 ;
+	top: 20%;
+	font-size: 250%;
+	text-align: center;
+	left: 20%;
+	transform: translateX(-170%);
+
+	
+	transition: all 1s;
+
+}
+
+figure:hover{
+	
+background: #ffbb005e;
+transition: background 1s ease-in-out;
+border-radius: 20%;
+}
+figure:hover h2 {
+
+	transform: translateX(0%);
+   display: block;
+  transition: all 1s;
+  font-weight: bold;
+	 
+
+}
+
+figure h3 {
+	position: absolute;
+	 color: 	#0a0a0a ;
+	   top: 30%;
+	   font-size: 150%;
+	   text-align: center;
+	   left: 0%;
+	   transform: translateX(-170%);
+   
+	   
+	   transition: all 1s;
+}
+
+figure:hover h3 {
+	transform: translateX(0%);
+   display: block;
+  transition: all 1s;
+  font-weight: bold;
+	 
+
+}
+
+figure h4 {
+	position: absolute;
+	 color: 	#080808 ;
+	   top: 30%;
+	   font-size: 118%;
+	   text-align: center;
+	   left: 0%;
+	   transform: translateX(-170%);
+   
+	   
+	   transition: all 1s;
+}
+figure:hover h4{
+	transform: translateX(0%);
+   display: block;
+  transition: all 1s;
+  font-weight: bold;
+	 
+
+}
+figure h5 {
+	position: absolute;
+	 color: 	#0a0a0a ;
+	   top: 17%;
+	   font-size: 100%;
+	   text-align: center;
+	   left: 15%;
+	   transform: translateX(-170%);
+   
+	   
+	   transition: all 1s;
+}
+
+figure:hover h5 {
+	transform: translateX(0%);
+   display: block;
+  transition: all 1s;
+  font-weight: bold;
+	 
+
+}
+figure h6 {
+	position: absolute;
+	 color: 	#0a0a0a ;
+	   top: 35%;
+	   font-size: 100%;
+	   text-align: center;
+	   left: 0%;
+	   transform: translateX(-170%);
+   
+	   
+	   transition: all 1s;
+}
+
+figure:hover h6 {
+	transform: translateX(0%);
+   display: block;
+  transition: all 1s;
+  font-weight: bold;
+	 
+
+}
+figure:hover img{
+	opacity: 0.1;
+	transition: opacity 1s ease-in-out;
+}
+
+.clases1{
+	align-items: center;
+	text-align: center;
+}
+.contenido-inventario figure .h2{
+	position: absolute;
+	top: 8%;
+}
+
+label img{
+	cursor: pointer;
+
+
+}
+
+
+
+
+input{
+	display: none;
+}
+
+
+
+.up, .down{
+	z-index: 100;
+    position: absolute;
+	display: inline-block;
+	float: left;
+	width: 4%;
+	height: 5%;
+	cursor: pointer;
+    align-items: center;
+	text-align: center;
+    border-radius: 80px;
+    font-size: 60px;
+    left: 3%;
+    border: 2px solid #000;
+}
+.up img, .down img{
+    position: absolute;
+width: 60%;
+align-items: center;
+left: 20%;
+top: 0;
+user-select: none;
+
+	
+}
+.down{
+	top: 95%;
+}
+
+
+
+
+.tabla1, .tabla2, .tabla3, .tabla4, .tabla5, .tabla6, .tabla7, .tabla8, .tabla9, .tabla10, .tabla11 {
+	
+	display: none;
+	float: left;
+	width: 89%;
+	height: 95%;
+	margin: 0.3%;
+	
+	overflow: hidden;
+
+	
+}
+.contenido img{
+	width: 25%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	
+	
+}
+.contenido img{
+	width: 25%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	
+	
+}
+
+.contenido-inventario .tabla{
+	display: block;
+	width: 40%;
+	height: 98%;
+	overflow: hidden;
+	
+}
+
+/*-- Inventario--*/
+
+:root{
+	--color-primario: rgb(0, 0, 0);
+	--color-secundario:#111010  ;
+	--hover-color:#3282b8;
+
+	--dt-padding: 12px;
+	--dt-padding-s:6px;
+	--dt-padding-xs:2px;
+
+	--dt--borde-radius: 3px;
+
+}
+
+.tabla1{
+	background-color: #FAFAFA;
+	border-radius: var(--dt--borde-radius) ;
+	border: 2px solid #9D5C0D;
+	color: var(--color-primario);
+	margin-top: 0.9%;
+	
+	font-size: 12px;
+
+	
+
+}
+.tabla1 .menus{
+	border-bottom: solid 1px --color-secundario;
+	padding: var(--dt-padding);
+	display: flex;
+	align-items: baseline;
+	
+}
+.tabla1 .menus .buscar{
+	width: 30%;
+
+}
+.tabla1 .menus .buscar .fas {
+width: 100%;
+background-color: #E5890A;;
+display: block;
+box-sizing:border-box;
+border-radius: var(--dt--borde-radius);
+border: solid 2px #9D5C0D;;
+color: var(--color-primario) ;
+
+}
+
+.tabla1 .menus .botones{
+	width: 70%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: start;
+	align-items: baseline;
+}
+.tabla1 .menus .botones li{
+	display: inline-block;
+	margin: 0 var(--dt-padding-xs);
+	align-items: baseline;
+}
+
+.tabla1 .menus .botones li button{
+	color: white;
+	width: 100%;
+	box-sizing: border-box;
+	border: 0;
+	border-radius: var(--dt--borde-radius);
+	background: #E5890A;
+
+	cursor: pointer;
+ 
+}
+
+.tabla1 .menus .botones li button:hover{
+	background: var(--hover-color) ;
+	color: var(--color-primario);
+}
+
+.tabla1 .menus .botones li button{
+	padding: var(--dt-padding-s) var(--dt-padding);
+}
+.datos{
+	height: auto;
+	overflow: scroll;
+}
+
+.tabla1 .datos{
+	border-collapse: collapse;
+	width: 100%;
+	
+	
+}
+.tabla1{
+	overflow: auto;
+	
+}
+.tabla1 .datos tbody{
+
+	overflow: scroll;
+}
+thead{
+	background:#FFCE45 ;
+}
+
+.tabla1 .datos,
+.tabla1 .datos th,
+.tabla1 .datos td{
+	padding: var(--dt-padding) var(--dt-padding);
+}
+.tabla1 .datos th{
+font-weight:bolder;
+text-align: left;
+border-bottom: solid 1px var(--color-secundario);
+
+}
+.tabla1 .datos td{
+	border-bottom: solid 1px #FFCE45;
+}
+.tabla1 .datos tbody tr:nth-child(even){
+	background-color: #F7D08A;
+}
+.tabla1 .datos tbody tr:hover{
+	background-color: var(--hover-color);
+}
+.tabla1 .datos td button{
+	background: #E5890A;
+	width: 50%;
+	height: 60%;
+	border-radius: var(--dt--borde-radius);
+	color: white;
+	border:solid 2px #9D5C0D;
+	cursor: pointer;
+}
+.tabla1 .datos td button:hover {
+	color:#7E370C;
+	
+}
+
+/*mostrar tabals*/
+
+#clase1:checked  ~ .contenido-inventario .tabla1{
+	display: inline-block;
+
+}
+#clase2:checked  ~ .contenido-inventario .tabla2{
+	display: inline-block;
+
+}
+#clase3:checked  ~ .contenido-inventario .tabla3{
+	display: inline-block;
+}
+#clase4:checked  ~ .contenido-inventario .tabla4{
+	display: inline-block;
+}
+#clase5:checked  ~ .contenido-inventario .tabla5{
+	display: inline-block;
+}
+#clase6:checked  ~ .contenido-inventario .tabla6{
+	display: inline-block;
+}
+#clase7:checked  ~ .contenido-inventario .tabla7{
+	display: inline-block;
+}
+#clase8:checked  ~ .contenido-inventario .tabla8{
+	display: inline-block;
+}
+#clase9:checked  ~ .contenido-inventario .tabla9{
+	display: inline-block;
+}
+#clase10:checked  ~ .contenido-inventario .tabla10{
+	display: inline-block;
+}
+#clase11:checked  ~ .contenido-inventario .tabla11{
+	display: inline-block;
+}
+
