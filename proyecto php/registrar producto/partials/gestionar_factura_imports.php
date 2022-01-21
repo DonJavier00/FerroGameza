@@ -105,70 +105,78 @@
 
         </thead>
         <tbody id="detalle_venta">
-          <tr>
-            <td>7707294382059</td>
-            <td>estornillador</td>
-            <td>estrella</td>
-            <td>caterpilla</td>
-            <td>3</td>
-            <td>2000</td>
-            <td>6000</td>
-            <td>
+          <tr class="datos_venta_factura">
+            <td class="codigo_factura">7707294382059</td>
+            <td class="nombre_prod_factura">estornillador</td>
+            <td class="descripcion_prod_factura">estrella</td>
+            <td class="marca_prod_factura">caterpilla</td>
+            <td class="cantidad_prod_factura">3</td>
+            <td class="precio_und_factura">2000</td>
+            <td class="precio_total_factura">6000</td>
+            <td class="eliminar_prod_factura">
+              <a class="link_eliminar" href=""
+                onclick="event.preventDefault() del_producto_detale(7707294382059);"><i
+                  class="far fa-trash-alt"></i></a>
+            </td>
+          </tr>
+          <tr class="datos_venta_factura">
+            <td class="codigo_factura">7707294345359</td>
+            <td class="nombre_prod_factura">martillo</td>
+            <td class="descripcion_prod_factura">000</td>
+            <td class="marca_prod_factura">ofice</td>
+            <td class="cantidad_prod_factura">1</td>
+            <td class="precio_und_factura">15000</td>
+            <td class="precio_total_factura">15000</td>
+            <td class="eliminar_prod_factura">
+              <a class="link_eliminar" href=""
+                onclick="event.preventDefault() del_producto_detale(7707294382059);"><i
+                  class="far fa-trash-alt"></i></a>
+            </td>
+          </tr>
+          <tr class="datos_venta_factura">
+            <td class="codigo_factura">74446782059</td>
+            <td class="nombre_prod_factura">pintura</td>
+            <td class="descripcion_prod_factura">color amarilla</td>
+            <td class="marca_prod_factura">pintulan</td>
+            <td class="cantidad_prod_factura">2</td>
+            <td class="precio_und_factura">20000</td>
+            <td class="precio_total_factura">60000</td>
+            <td class="eliminar_prod_factura">
+              <a class="link_eliminar" href=""
+                onclick="event.preventDefault() del_producto_detale(7707294382059);"><i
+                  class="far fa-trash-alt"></i></a>
+            </td>
+          </tr>
+          <tr class="datos_venta_factura">
+            <td class="codigo_factura">000352059</td>
+            <td class="nombre_prod_factura">estuco</td>
+            <td class="descripcion_prod_factura">20 gramos</td>
+            <td class="marca_prod_factura">cestuco</td>
+            <td class="cantidad_prod_factura">2</td>
+            <td class="precio_und_factura">4000</td>
+            <td class="precio_total_factura">8000</td>
+            <td class="eliminar_prod_factura">
               <a class="link_eliminar" href=""
                 onclick="event.preventDefault() del_producto_detale(7707294382059);"><i
                   class="far fa-trash-alt"></i></a>
             </td>
           </tr>
 
-          <tr>
-            <td>7707294382076</td>
-            <td>martillo</td>
-            <td>..</td>
-            <td>caterpilla</td>
-            <td>2</td>
-            <td>9000</td>
-            <td>18000</td>
-            <td>
-              <a class="link_eliminar" href=""
-                onclick="event.preventDefault() del_producto_detalle(7707294382076);"><i
-                  class="far fa-trash-alt"></i></a>
-            </td>
-          </tr>
-
-          <tr>
-            <td>7707294382076</td>
-            <td>martillo</td>
-            <td>..</td>
-            <td>caterpilla</td>
-            <td>2</td>
-            <td>9000</td>
-            <td>18000</td>
-            <td>
-              <a class="link_eliminar" href=""
-                onclick="event.preventDefault() del_producto_detalle(7707294382076);"><i
-                  class="far fa-trash-alt"></i></a>
-            </td>
-          </tr>
+        
         </tbody>
 
       </table>
       <table class="total_factura">
-
-<tr>
-
-  <th> sub total</th>
+<tr >
+  <th class="sub_total_factura"> sub total</th>
   <td class="texttright">1000.00</td>
-
 </tr>
-<tr>
-
-  <th> iva 19%</th>
+<tr >
+  <th class="iva_factura"> iva 19%</th>
   <td class="texttright">1000.00</td>
-
 </tr>
-<tr>
-
-  <th>total</th>
+<tr >
+  <th class="totalfactura_factura">total</th>
   <td class="texttright">40000.00</td>
 
 </tr>
@@ -281,75 +289,85 @@
 
         </thead>
         <tbody id="detalle_venta">
-          <tr>
-            <td>7707294382059</td>
-            <td>estornillador</td>
-            <td>estrella</td>
-            <td>caterpilla</td>
-            <td>3</td>
-            <td>2000</td>
-            <td>6000</td>
-            <td>
+          <tr class="datos_venta_factura">
+            <td class="codigo_factura">7707294382059</td>
+            <td class="nombre_prod_factura">estornillador</td>
+            <td class="descripcion_prod_factura">estrella</td>
+            <td class="marca_prod_factura">caterpilla</td>
+            <td class="cantidad_prod_factura">3</td>
+            <td class="precio_und_factura">2000</td>
+            <td class="precio_total_factura">6000</td>
+            <td class="eliminar_prod_factura">
               <a class="link_eliminar" href=""
-                onclick="event.preventDefault() del_producto_detalle(7707294382059);"><i
+                onclick="event.preventDefault() del_producto_detale(7707294382059);"><i
+                  class="far fa-trash-alt"></i></a>
+            </td>
+          </tr>
+          <tr class="datos_venta_factura">
+            <td class="codigo_factura">7707294345359</td>
+            <td class="nombre_prod_factura">martillo</td>
+            <td class="descripcion_prod_factura">000</td>
+            <td class="marca_prod_factura">ofice</td>
+            <td class="cantidad_prod_factura">1</td>
+            <td class="precio_und_factura">15000</td>
+            <td class="precio_total_factura">15000</td>
+            <td class="eliminar_prod_factura">
+              <a class="link_eliminar" href=""
+                onclick="event.preventDefault() del_producto_detale(7707294382059);"><i
+                  class="far fa-trash-alt"></i></a>
+            </td>
+          </tr>
+          <tr class="datos_venta_factura">
+            <td class="codigo_factura">74446782059</td>
+            <td class="nombre_prod_factura">pintura</td>
+            <td class="descripcion_prod_factura">color amarilla</td>
+            <td class="marca_prod_factura">pintulan</td>
+            <td class="cantidad_prod_factura">2</td>
+            <td class="precio_und_factura">20000</td>
+            <td class="precio_total_factura">60000</td>
+            <td class="eliminar_prod_factura">
+              <a class="link_eliminar" href=""
+                onclick="event.preventDefault() del_producto_detale(7707294382059);"><i
+                  class="far fa-trash-alt"></i></a>
+            </td>
+          </tr>
+          <tr class="datos_venta_factura">
+            <td class="codigo_factura">000352059</td>
+            <td class="nombre_prod_factura">estuco</td>
+            <td class="descripcion_prod_factura">20 gramos</td>
+            <td class="marca_prod_factura">cestuco</td>
+            <td class="cantidad_prod_factura">2</td>
+            <td class="precio_und_factura">4000</td>
+            <td class="precio_total_factura">8000</td>
+            <td class="eliminar_prod_factura">
+              <a class="link_eliminar" href=""
+                onclick="event.preventDefault() del_producto_detale(7707294382059);"><i
                   class="far fa-trash-alt"></i></a>
             </td>
           </tr>
 
-          <tr>
-            <td>7707294382076</td>
-            <td>martillo</td>
-            <td>..</td>
-            <td>caterpilla</td>
-            <td>2</td>
-            <td>9000</td>
-            <td>18000</td>
-            <td>
-              <a class="link_eliminar" href=""
-                onclick="event.preventDefault() del_producto_detalle(7707294382076);"><i
-                  class="far fa-trash-alt"></i></a>
-            </td>
-          </tr>
-
-          <tr>
-            <td>7707294382076</td>
-            <td>martillo</td>
-            <td>..</td>
-            <td>caterpilla</td>
-            <td>2</td>
-            <td>9000</td>
-            <td>18000</td>
-            <td>
-              <a class="link_eliminar" href=""
-                onclick="event.preventDefault() del_producto_detalle(7707294382076);"><i
-                  class="far fa-trash-alt"></i></a>
-            </td>
-          </tr>
+        
         </tbody>
 
       </table>
       <table class="total_factura">
+<tr >
+  <th class="sub_total_factura"> sub total</th>
+  <td class="texttright">1000.00</td>
+</tr>
+<tr >
+  <th class="iva_factura"> iva 19%</th>
+  <td class="texttright">1000.00</td>
+</tr>
+<tr >
+  <th class="totalfactura_factura">total</th>
+  <td class="texttright">40000.00</td>
 
-        <tr>
+</tr>
 
-          <th> sub total</th>
-          <td class="texttright">1000.00</td>
-
-        </tr>
-        <tr>
-
-          <th> iva 19%</th>
-          <td class="texttright">1000.00</td>
-
-        </tr>
-        <tr>
-
-          <th>total</th>
-          <td class="texttright">40000.00</td>
-
-        </tr>
-
-      </table><br>
+</table>
+        <tbody id="detalle_venta">
+         
       <input class="botons_factura" type="submit" value="Imprimir">
   </div>
 

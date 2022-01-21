@@ -690,12 +690,12 @@ opacity: 0;
 
 #contenido_general_registrar{
     background-color: #FFF;
-    width: 88%;
+    width: 90%;
     height: 700px;
     align-items: center;
     display:flexbox;
     border-radius: 20px;
-    border: 2px solid #ffb703;
+    border: 2px solid #000000;
     margin-left: 0%;
     
     
@@ -1092,13 +1092,13 @@ height: 100%;
 
 #contenido_general{
     background-color: #FFF;
-    width: 70%;
+    width: 78%;
     height: auto;
     align-items: center;
     display:flexbox;
     border-radius: 20px;
     border: 2px solid #ffb703;
-    margin-left: 200px;
+    margin-left: 10%;
     
 }
 
@@ -1169,8 +1169,8 @@ align-items: center;
 .total_factura{
     width: 25%;
     height: 10%;
-    border: 2px solid #030303;
-    margin-left: 73%;
+    border: 2px solid #ffb703;
+    margin-left: 72%;
     margin-top: 10px;
     border-radius: 10px;
 }
@@ -1194,7 +1194,11 @@ color: #0fa225;
 .empresa_factura_fecha{
     margin-left: -65%;
 }
-
+.sub_total_factura,.iva_factura,.totalfactura_factura{
+    width: 60%;
+    background-color: #ffb703;
+    padding: 8px;
+}
 .empresa_factura_numero{
     border-radius: 10px;
     position: relative;
@@ -1221,7 +1225,7 @@ color: #0fa225;
     border-radius: 10px;
     background-color: #fff;
     height: auto;
-    border: 2px solid #020201;
+    border: 2px solid #ffb703;
     
 }
 .descripcion_factura th{
@@ -1231,8 +1235,20 @@ height: 40px;
 
 }
 #txt_cod_producto{
-    width: 70px;
+    width: 100px;
+    padding: 5px;
 }
+.codigo_factura,.nombre_prod_factura,.descripcion_prod_factura,.marca_prod_factura,
+.cantidad_prod_factura,.precio_und_factura,.precio_total_factura,.eliminar_prod_factura,
+.link_eliminar{
+    padding: 10px;
+}
+.datos_venta_factura:hover{
+    background-color:#eccf1046 ;
+    cursor: pointer;
+}
+
+
 #txt_nombre_factura{
     width: 140px;
 }
@@ -1262,8 +1278,9 @@ height: 40px;
     color:#ffb703;
 }
 .link_eliminar{
-margin-left: 40%;
+margin-left: 30%;
  color: red;
+ 
 }
 .link_eliminar:hover{
     color:#ffb703;
