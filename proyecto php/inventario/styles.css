@@ -6,11 +6,11 @@
 	
 	
 }
-.tabla1::-webkit-scrollbar{
+#tabla::-webkit-scrollbar{
 	background: transparent;
 	height: 10px;
 }
-.tabla1::-webkit-scrollbar-thumb{
+#tabla::-webkit-scrollbar-thumb{
 	background: #ffb703;
 	border-radius: 10px;
 	border: solid 2px #E5890A;
@@ -329,25 +329,7 @@ user-select: none;
 	align-items: baseline;
 	
 }
-/*.tabla1 .menus .buscar{
-	
-	padding: 5px;
-	position: absolute;
 
-
-}
-.tabla1 .menus .buscar input{
-	width: 0;
-	height: 40px;
-	padding: 0.20px;
-	font-size: 18px;
-	color: black;
-	border: 1px solid silver;
-	border-radius: 30px;
-	transition: all 0.8s ease;
-
-
-}*/
 .buscar{
 	display: flex;
 	justify-self: center;
@@ -389,17 +371,6 @@ user-select: none;
 }
 
 
-/*--
-.tabla1 .menus .buscar .fas {
-width: 100%;
-background-color: #E5890A;;
-display: block;
-box-sizing:border-box;
-border-radius: var(--dt--borde-radius);
-border: solid 2px #9D5C0D;;
-color: var(--color-primario) ;
-
-}*/
 
 .tabla1 .menus .botones{
 	width: 95%;
@@ -472,7 +443,12 @@ color: var(--color-primario) ;
 .tabla1 .menus .botones li button{
 	padding: var(--dt-padding-s) var(--dt-padding);
 }
+
+
 /*---DATOS--*/
+
+
+
 .datos{
 	height: auto;
 	overflow: scroll;
@@ -531,6 +507,246 @@ border-bottom: solid 1px var(--color-secundario);
 	background: #df0000;
 	
 }
+
+
+
+
+
+/*--Inventario t2..--*/
+
+
+
+
+
+/*---t3--*/
+
+
+
+
+
+
+
+#tabla{
+	background-color: #FAFAFA;
+	border-radius: var(--dt--borde-radius) ;
+	border: 2px solid #9D5C0D;
+	color: var(--color-primario);
+	margin-top: 0.9%;
+	
+	font-size: 12px;
+
+	
+
+}
+#tabla .menus{
+	border-bottom: solid 1px --color-secundario;
+	padding: var(--dt-padding);
+	display: flex;
+	align-items: baseline;
+	
+}
+
+.buscar{
+	display: flex;
+	justify-self: center;
+	align-items: center;
+	background:#ffb703 ;
+	padding: 4px;
+	border-radius: 20px;
+}
+.buscar input{
+	border: none;
+	background: none;
+	outline: none;
+	color: white;
+	font-size: 17px;
+	float: left;
+	transition: .9s;
+	width: 0;
+}
+::placeholder{
+	color: white;
+
+}
+.boton{
+	width: 20px;
+	height:20px;
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+	align-items: center;
+	text-align: center;
+
+}
+.buscar:hover input{
+	width: 190px;
+
+}
+.buscar:hover {
+	background: #df0000;
+}
+
+
+
+
+#tabla .menus .botones{
+	width: 95%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: start;
+	align-items: baseline;
+}
+#tabla .menus .botones .salir  {
+
+	margin-left: 0;
+	display: flex;
+	margin-right:  var(--dt-padding-s);
+    background: #ffb703;
+	justify-content: start;
+	align-items: baseline;
+	border-radius: var(--dt--borde-radius);
+	padding: 0;
+	
+}
+#tabla .menus .botones .salir h3{
+	font-size: 15px;
+	transition: display 1s;
+	width: 30px;
+	display: none;
+	
+	
+}
+
+
+#tabla .menus .botones li{
+	display: inline-block;
+	margin: 0 var(--dt-padding-xs);
+	margin-left: 0;
+	align-items: baseline;
+}
+#tabla .menus .botones li a{
+	color: white;
+
+}
+
+#tabla .menus .botones li button{
+	color: white;
+	width: 100%;
+	box-sizing: border-box;
+	border: 0;
+	border-radius: var(--dt--borde-radius);
+	background: #ffb703;
+
+	cursor: pointer;
+ 
+}
+
+#tabla .menus .botones li button:hover{
+	background: #df0000;
+	color: var(--color-primario);
+}
+#tabla .menus .botones .salir:hover h3{
+	display: block;
+	transition: display 1s;
+}
+#tabla .menus .botones .salir:hover {
+	background: #df0000; ;
+}
+#tabla .menus .botones .salir:hover li button {
+	background: #df0000; ;
+}
+
+#tabla .menus .botones li button{
+	padding: var(--dt-padding-s) var(--dt-padding);
+}
+
+
+/*---DATOS--*/
+
+
+.datos{
+	height: auto;
+	overflow: scroll;
+}
+
+#tabla .datos{
+	border-collapse: collapse;
+	width: 100%;
+	
+	
+}
+#tabla{
+	overflow: auto;
+	font-size: 17px;
+	
+}
+#tabla .datos tbody{
+
+	overflow: scroll;
+}
+thead{
+	background:#FFCE45 ;
+}
+
+#tabla .datos,
+#tabla .datos th,
+#tabla .datos td{
+	padding: var(--dt-padding) var(--dt-padding);
+}
+#tabla .datos th{
+font-weight:bolder;
+text-align: left;
+border-bottom: solid 1px var(--color-secundario);
+
+}
+#tabla .datos td{
+	border-bottom: solid 1px #FFCE45;
+}
+#tabla .datos tbody tr:nth-child(even){
+	background-color: #F7D08A;
+}
+#tabla .datos tbody tr:hover{
+	background-color: var(--hover-color);
+}
+#tabla .datos td button{
+	background: #E5890A;
+	width: 50%;
+	height: 60%;
+	border-radius: var(--dt--borde-radius);
+	color: white;
+	border:solid 2px #9D5C0D;
+	cursor: pointer;
+}
+#tabla .datos td button:hover {
+
+	background: #df0000;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*mostrar tabals*/
 

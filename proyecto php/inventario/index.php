@@ -265,35 +265,1212 @@
 
           
         </div>
-        <div class="tabla2">
-           
+        <div class="tabla2" id="tabla">
+            <div class="menus">
+               
+               <div class="botones" >
+                   
+                   <div class="salir">
+                
+                   <li><button alt="salir"><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><i class="fas fa-sign-in-alt"></i></a></button></li>
+                   <li><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><h3>Salir</h3></li></a>
+                   </div>
+                  
+
+                   <li><button><a href="/FerroGameza/proyecto%20php/registrar%20producto/#modal"><i class="fas fa-plus"></i></a> </button></li>
+                 
+               </div>
+
+
+               <div class="buscar">
+                     <input type="text" class="fas fa-search icon" placeholder="Buscar">
+                     <a href="" class="boton"> <i class="fas fa-search icon"></i></a>
+                </div>    
+            </div>
+
+           <table class="datos">
+               <thead>
+                   <tr>
+                      <th>Nombre</th>
+                      <th>Stock</th>
+                      <th>Marca</th>
+                      <th>Medida</th>
+                      <th>Material</th>
+                      <th>Precio</th>
+                      <th></th>
+     
+                   </tr>
+               </thead>
+  
+               <tbody>
+                   <tr>
+                      <td>Pica 5 Libras </td>
+                      <td>8</td>
+                      <td>Truper</td>
+                      <td> 110 mm</td>
+                      <td>acero  </td>
+                      <td>32900</td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td>Pica 5 Libras </td>
+                      <td>8</td>
+                      <td>Truper</td>
+                      <td> 110 mm</td>
+                      <td>acero  </td>
+                      <td>32900</td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td>Pica 5 Libras </td>
+                      <td>8</td>
+                      <td>Truper</td>
+                      <td> 110 mm</td>
+                      <td>acero  </td>
+                      <td>32900</td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td>Pica 5 Libras </td>
+                      <td>8</td>
+                      <td>Truper</td>
+                      <td> 110 mm</td>
+                      <td>acero  </td>
+                      <td>32900</td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td>Pica 5 Libras </td>
+                      <td>8</td>
+                      <td>Truper</td>
+                      <td> 110 mm</td>
+                      <td>acero  </td>
+                      <td>32900</td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td>Pica 5 Libras </td>
+                      <td>8</td>
+                      <td>Truper</td>
+                      <td> 110 mm</td>
+                      <td>acero  </td>
+                      <td>32900</td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td>Pica 5 Libras </td>
+                      <td>8</td>
+                      <td>Truper</td>
+                      <td> 110 mm</td>
+                      <td>acero  </td>
+                      <td>32900</td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td>Pica 5 Libras </td>
+                      <td>8</td>
+                      <td>Truper</td>
+                      <td> 110 mm</td>
+                      <td>acero  </td>
+                      <td>32900</td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td>Pica 5 Libras </td>
+                      <td>8</td>
+                      <td>Truper</td>
+                      <td> 110 mm</td>
+                      <td>acero  </td>
+                      <td>32900</td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                  
+              
+  
+               </tbody>
+  
+           </table>
         </div>
-        <div class="tabla3">
-            <div class="contenido"><img src="jpg/dotaciones 2.jpg " alt=""></div>
+        <div class="tabla3" id="tabla">
+        <div class="menus">
+               
+               <div class="botones" >
+                   
+                   <div class="salir">
+                
+                   <li><button alt="salir"><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><i class="fas fa-sign-in-alt"></i></a></button></li>
+                   <li><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><h3>Salir</h3></li></a>
+                   </div>
+                  
+
+                   <li><button><a href="/FerroGameza/proyecto%20php/registrar%20producto/#modal"><i class="fas fa-plus"></i></a> </button></li>
+                 
+               </div>
+
+
+               <div class="buscar">
+                     <input type="text" class="fas fa-search icon" placeholder="Buscar">
+                     <a href="" class="boton"> <i class="fas fa-search icon"></i></a>
+                </div>    
+            </div>
+
+           <table class="datos">
+               <thead>
+                   <tr>
+                      <th>Nombre</th>
+                      <th>Stock</th>
+                      <th>Marca</th>
+                      <th>Medida</th>
+                      <th>Material</th>
+                      <th>Precio</th>
+                      <th></th>
+     
+                   </tr>
+               </thead>
+  
+               <tbody>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                
+                  
+              
+  
+               </tbody>
+  
+           </table>
         </div>
-        <div class="tabla4">
-            <div class="contenido"><img src="jpg/materiales eletricos 2.jpg " alt=""></div>
+        <div class="tabla4" id="tabla">
+        <div class="menus">
+               
+               <div class="botones" >
+                   
+                   <div class="salir">
+                
+                   <li><button alt="salir"><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><i class="fas fa-sign-in-alt"></i></a></button></li>
+                   <li><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><h3>Salir</h3></li></a>
+                   </div>
+                  
+
+                   <li><button><a href="/FerroGameza/proyecto%20php/registrar%20producto/#modal"><i class="fas fa-plus"></i></a> </button></li>
+                 
+               </div>
+
+
+               <div class="buscar">
+                     <input type="text" class="fas fa-search icon" placeholder="Buscar">
+                     <a href="" class="boton"> <i class="fas fa-search icon"></i></a>
+                </div>    
+            </div>
+
+           <table class="datos">
+               <thead>
+                   <tr>
+                      <th>Nombre</th>
+                      <th>Stock</th>
+                      <th>Marca</th>
+                      <th>Medida</th>
+                      <th>Material</th>
+                      <th>Precio</th>
+                      <th></th>
+     
+                   </tr>
+               </thead>
+  
+               <tbody>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                
+                  
+              
+  
+               </tbody>
+  
+           </table>
         </div>
-        <div class="tabla5">
-            <div class="contenido"><img src="jpg/tornilleria 2.jpg " alt=""></div>
+        <div class="tabla5" id="tabla">
+        <div class="menus">
+               
+               <div class="botones" >
+                   
+                   <div class="salir">
+                
+                   <li><button alt="salir"><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><i class="fas fa-sign-in-alt"></i></a></button></li>
+                   <li><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><h3>Salir</h3></li></a>
+                   </div>
+                  
+
+                   <li><button><a href="/FerroGameza/proyecto%20php/registrar%20producto/#modal"><i class="fas fa-plus"></i></a> </button></li>
+                 
+               </div>
+
+
+               <div class="buscar">
+                     <input type="text" class="fas fa-search icon" placeholder="Buscar">
+                     <a href="" class="boton"> <i class="fas fa-search icon"></i></a>
+                </div>    
+            </div>
+
+           <table class="datos">
+               <thead>
+                   <tr>
+                      <th>Nombre</th>
+                      <th>Stock</th>
+                      <th>Marca</th>
+                      <th>Medida</th>
+                      <th>Material</th>
+                      <th>Precio</th>
+                      <th></th>
+     
+                   </tr>
+               </thead>
+  
+               <tbody>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                
+                  
+              
+  
+               </tbody>
+  
+           </table>
         </div>
-        <div class="tabla6">
-            <div class="contenido"><img src="jpg/lubricantes 2.jpg" alt=""></div>
+        <div class="tabla6" id="tabla">
+        <div class="menus">
+               
+               <div class="botones" >
+                   
+                   <div class="salir">
+                
+                   <li><button alt="salir"><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><i class="fas fa-sign-in-alt"></i></a></button></li>
+                   <li><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><h3>Salir</h3></li></a>
+                   </div>
+                  
+
+                   <li><button><a href="/FerroGameza/proyecto%20php/registrar%20producto/#modal"><i class="fas fa-plus"></i></a> </button></li>
+                 
+               </div>
+
+
+               <div class="buscar">
+                     <input type="text" class="fas fa-search icon" placeholder="Buscar">
+                     <a href="" class="boton"> <i class="fas fa-search icon"></i></a>
+                </div>    
+            </div>
+
+           <table class="datos">
+               <thead>
+                   <tr>
+                      <th>Nombre</th>
+                      <th>Stock</th>
+                      <th>Marca</th>
+                      <th>Medida</th>
+                      <th>Material</th>
+                      <th>Precio</th>
+                      <th></th>
+     
+                   </tr>
+               </thead>
+  
+               <tbody>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                
+                  
+              
+  
+               </tbody>
+  
+           </table>
         </div>
-        <div class="tabla7">
-            <div class="contenido"><img src="jpg/tuberias 2.jpg 2.jpg " alt=""></div>
+        <div class="tabla7" id="tabla">
+        <div class="menus">
+               
+               <div class="botones" >
+                   
+                   <div class="salir">
+                
+                   <li><button alt="salir"><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><i class="fas fa-sign-in-alt"></i></a></button></li>
+                   <li><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><h3>Salir</h3></li></a>
+                   </div>
+                  
+
+                   <li><button><a href="/FerroGameza/proyecto%20php/registrar%20producto/#modal"><i class="fas fa-plus"></i></a> </button></li>
+                 
+               </div>
+
+
+               <div class="buscar">
+                     <input type="text" class="fas fa-search icon" placeholder="Buscar">
+                     <a href="" class="boton"> <i class="fas fa-search icon"></i></a>
+                </div>    
+            </div>
+
+           <table class="datos">
+               <thead>
+                   <tr>
+                      <th>Nombre</th>
+                      <th>Stock</th>
+                      <th>Marca</th>
+                      <th>Medida</th>
+                      <th>Material</th>
+                      <th>Precio</th>
+                      <th></th>
+     
+                   </tr>
+               </thead>
+  
+               <tbody>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                
+                  
+              
+  
+               </tbody>
+  
+           </table>
         </div>
-        <div class="tabla8">
-            <div class="contenido"><img src="jpg/construccion 2.jpg " alt=""></div>
+        <div class="tabla8" id="tabla">
+        <div class="menus">
+               
+               <div class="botones" >
+                   
+                   <div class="salir">
+                
+                   <li><button alt="salir"><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><i class="fas fa-sign-in-alt"></i></a></button></li>
+                   <li><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><h3>Salir</h3></li></a>
+                   </div>
+                  
+
+                   <li><button><a href="/FerroGameza/proyecto%20php/registrar%20producto/#modal"><i class="fas fa-plus"></i></a> </button></li>
+                 
+               </div>
+
+
+               <div class="buscar">
+                     <input type="text" class="fas fa-search icon" placeholder="Buscar">
+                     <a href="" class="boton"> <i class="fas fa-search icon"></i></a>
+                </div>    
+            </div>
+
+           <table class="datos">
+               <thead>
+                   <tr>
+                      <th>Nombre</th>
+                      <th>Stock</th>
+                      <th>Marca</th>
+                      <th>Medida</th>
+                      <th>Material</th>
+                      <th>Precio</th>
+                      <th></th>
+     
+                   </tr>
+               </thead>
+  
+               <tbody>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                
+                  
+              
+  
+               </tbody>
+  
+           </table>
         </div>
-        <div class="tabla9">
-            <div class="contenido"><img src="jpg/sanitario.jpg" alt=""></div>
+        <div class="tabla9" id="tabla">
+        <div class="menus">
+               
+               <div class="botones" >
+                   
+                   <div class="salir">
+                
+                   <li><button alt="salir"><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><i class="fas fa-sign-in-alt"></i></a></button></li>
+                   <li><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><h3>Salir</h3></li></a>
+                   </div>
+                  
+
+                   <li><button><a href="/FerroGameza/proyecto%20php/registrar%20producto/#modal"><i class="fas fa-plus"></i></a> </button></li>
+                 
+               </div>
+
+
+               <div class="buscar">
+                     <input type="text" class="fas fa-search icon" placeholder="Buscar">
+                     <a href="" class="boton"> <i class="fas fa-search icon"></i></a>
+                </div>    
+            </div>
+
+           <table class="datos">
+               <thead>
+                   <tr>
+                      <th>Nombre</th>
+                      <th>Stock</th>
+                      <th>Marca</th>
+                      <th>Medida</th>
+                      <th>Material</th>
+                      <th>Precio</th>
+                      <th></th>
+     
+                   </tr>
+               </thead>
+  
+               <tbody>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                
+                  
+              
+  
+               </tbody>
+  
+           </table>
         </div>
-        <div class="tabla10">
-            <div class="contenido"><img src="jpg/agricultura 2.jpg " alt=""></div>
+        <div class="tabla10" id="tabla">
+        <div class="menus">
+               
+               <div class="botones" >
+                   
+                   <div class="salir">
+                
+                   <li><button alt="salir"><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><i class="fas fa-sign-in-alt"></i></a></button></li>
+                   <li><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><h3>Salir</h3></li></a>
+                   </div>
+                  
+
+                   <li><button><a href="/FerroGameza/proyecto%20php/registrar%20producto/#modal"><i class="fas fa-plus"></i></a> </button></li>
+                 
+               </div>
+
+
+               <div class="buscar">
+                     <input type="text" class="fas fa-search icon" placeholder="Buscar">
+                     <a href="" class="boton"> <i class="fas fa-search icon"></i></a>
+                </div>    
+            </div>
+
+           <table class="datos">
+               <thead>
+                   <tr>
+                      <th>Nombre</th>
+                      <th>Stock</th>
+                      <th>Marca</th>
+                      <th>Medida</th>
+                      <th>Material</th>
+                      <th>Precio</th>
+                      <th></th>
+     
+                   </tr>
+               </thead>
+  
+               <tbody>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                
+                  
+              
+  
+               </tbody>
+  
+           </table>
         </div>
-        <div class="tabla11">
-            <div class="contenido"><img src="jpg/general 2.jpg " alt=""></div>
+        <div class="tabla11" id="tabla">
+        <div class="menus">
+               
+               <div class="botones" >
+                   
+                   <div class="salir">
+                
+                   <li><button alt="salir"><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><i class="fas fa-sign-in-alt"></i></a></button></li>
+                   <li><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><h3>Salir</h3></li></a>
+                   </div>
+                  
+
+                   <li><button><a href="/FerroGameza/proyecto%20php/registrar%20producto/#modal"><i class="fas fa-plus"></i></a> </button></li>
+                 
+               </div>
+
+
+               <div class="buscar">
+                     <input type="text" class="fas fa-search icon" placeholder="Buscar">
+                     <a href="" class="boton"> <i class="fas fa-search icon"></i></a>
+                </div>    
+            </div>
+
+           <table class="datos">
+               <thead>
+                   <tr>
+                      <th>Nombre</th>
+                      <th>Stock</th>
+                      <th>Marca</th>
+                      <th>Medida</th>
+                      <th>Material</th>
+                      <th>Precio</th>
+                      <th></th>
+     
+                   </tr>
+               </thead>
+  
+               <tbody>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr><tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                   <tr>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td> </td>
+                      <td>  </td>
+                      <td></td>
+                      <td><button><i class="fas fa-pen"></i></button></td>
+                   </tr>
+                
+                  
+              
+  
+               </tbody>
+  
+           </table>
         </div>
 
 
