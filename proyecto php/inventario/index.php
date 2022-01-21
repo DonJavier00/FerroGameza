@@ -84,15 +84,29 @@
         <div class="tabla1">
            
             <div class="menus">
-                <div class="botones">
-                    <li><button alt="salir"><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><i class="fas fa-backspace" ></i></a></button></li>
+               
+                <div class="botones" >
+                    
+                    <div class="salir">
+                 
+                    <li><button alt="salir"><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><i class="fas fa-sign-in-alt"></i></a></button></li>
+                    <li><a href="/FerroGameza/proyecto%20php/registrar%20producto/#"><h3>Salir</h3></li></a>
+                    </div>
+                   
+
                     <li><button><a href="/FerroGameza/proyecto%20php/registrar%20producto/#modal"><i class="fas fa-plus"></i></a> </button></li>
                   
                 </div>
-                <div class="buscar">
-                    <input type="text" name="" id=""  class="fas fa-window-minimize">
 
-                </div>
+
+                <div class="buscar">
+                      <input type="text" class="fas fa-search icon" placeholder="Buscar">
+                      <a href="" class="boton"> <i class="fas fa-search icon"></i></a>
+                   
+                    
+                   
+                </div>    
+                
 
             </div>
 
