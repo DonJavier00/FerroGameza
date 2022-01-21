@@ -11,9 +11,9 @@
 	height: 10px;
 }
 .tabla1::-webkit-scrollbar-thumb{
-	background: #E5890A;
+	background: #ffb703;
 	border-radius: 10px;
-	border: solid 2px #9D5C0D;
+	border: solid 2px #E5890A;
 	width: 100%;
 	height: 50%;
 }
@@ -300,7 +300,7 @@ user-select: none;
 :root{
 	--color-primario: rgb(0, 0, 0);
 	--color-secundario:#111010  ;
-	--hover-color:#3282b8;
+	--hover-color:#F0C929;
 
 	--dt-padding: 12px;
 	--dt-padding-s:6px;
@@ -329,10 +329,67 @@ user-select: none;
 	align-items: baseline;
 	
 }
-.tabla1 .menus .buscar{
-	width: 30%;
+/*.tabla1 .menus .buscar{
+	
+	padding: 5px;
+	position: absolute;
+
 
 }
+.tabla1 .menus .buscar input{
+	width: 0;
+	height: 40px;
+	padding: 0.20px;
+	font-size: 18px;
+	color: black;
+	border: 1px solid silver;
+	border-radius: 30px;
+	transition: all 0.8s ease;
+
+
+}*/
+.buscar{
+	display: flex;
+	justify-self: center;
+	align-items: center;
+	background:#ffb703 ;
+	padding: 4px;
+	border-radius: 20px;
+}
+.buscar input{
+	border: none;
+	background: none;
+	outline: none;
+	color: white;
+	font-size: 17px;
+	float: left;
+	transition: .9s;
+	width: 0;
+}
+::placeholder{
+	color: white;
+
+}
+.boton{
+	width: 20px;
+	height:20px;
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+	align-items: center;
+	text-align: center;
+
+}
+.buscar:hover input{
+	width: 190px;
+
+}
+.buscar:hover {
+	background: #df0000;
+}
+
+
+/*--
 .tabla1 .menus .buscar .fas {
 width: 100%;
 background-color: #E5890A;;
@@ -342,19 +399,42 @@ border-radius: var(--dt--borde-radius);
 border: solid 2px #9D5C0D;;
 color: var(--color-primario) ;
 
-}
+}*/
 
 .tabla1 .menus .botones{
-	width: 70%;
+	width: 95%;
 	margin: 0;
 	padding: 0;
 	display: flex;
 	justify-content: start;
 	align-items: baseline;
 }
+.tabla1 .menus .botones .salir  {
+
+	margin-left: 0;
+	display: flex;
+	margin-right:  var(--dt-padding-s);
+    background: #ffb703;
+	justify-content: start;
+	align-items: baseline;
+	border-radius: var(--dt--borde-radius);
+	padding: 0;
+	
+}
+.tabla1 .menus .botones .salir h3{
+	font-size: 15px;
+	transition: display 1s;
+	width: 30px;
+	display: none;
+	
+	
+}
+
+
 .tabla1 .menus .botones li{
 	display: inline-block;
 	margin: 0 var(--dt-padding-xs);
+	margin-left: 0;
 	align-items: baseline;
 }
 .tabla1 .menus .botones li a{
@@ -368,20 +448,31 @@ color: var(--color-primario) ;
 	box-sizing: border-box;
 	border: 0;
 	border-radius: var(--dt--borde-radius);
-	background: #E5890A;
+	background: #ffb703;
 
 	cursor: pointer;
  
 }
 
 .tabla1 .menus .botones li button:hover{
-	background: var(--hover-color) ;
+	background: #df0000;
 	color: var(--color-primario);
+}
+.tabla1 .menus .botones .salir:hover h3{
+	display: block;
+	transition: display 1s;
+}
+.tabla1 .menus .botones .salir:hover {
+	background: #df0000; ;
+}
+.tabla1 .menus .botones .salir:hover li button {
+	background: #df0000; ;
 }
 
 .tabla1 .menus .botones li button{
 	padding: var(--dt-padding-s) var(--dt-padding);
 }
+/*---DATOS--*/
 .datos{
 	height: auto;
 	overflow: scroll;
@@ -395,6 +486,7 @@ color: var(--color-primario) ;
 }
 .tabla1{
 	overflow: auto;
+	font-size: 17px;
 	
 }
 .tabla1 .datos tbody{
@@ -435,7 +527,8 @@ border-bottom: solid 1px var(--color-secundario);
 	cursor: pointer;
 }
 .tabla1 .datos td button:hover {
-	color:#7E370C;
+
+	background: #df0000;
 	
 }
 
