@@ -396,7 +396,10 @@
 <div class="ver_proveedores" id="ver_proveedores">
       <div class="ventana_ver_Proveedor">
      <a href="#" class="btn-close_ver_proveedor">X</a>
-    
+     <div class="btn_agregar_usuario">
+       <a href="#gestionar_proveedor"><i class="fas fa-plus"></i></a> 
+        </div>
+
      <h1>Tabla proveedores</h1> <br>
      <table class ="tabla proveedor">  
   <tr> 
@@ -473,7 +476,7 @@
   <i class="fas fa-edit"></i>Editar</a></td>
   </tr>
 
-<tr>
+<tr class="datos_proveedor_tabla">  
 <td class="db_numero_prov">3</td>
 <td class="db_documento_prov">118737375</td>
 <td class="db_correo_prov">manuel@gmail.com</td>
@@ -503,7 +506,7 @@
   <i class="fas fa-edit"></i>Editar</a></td>
   </tr>
 
-  <tr>
+  <tr class="datos_proveedor_tabla">
 <td class="db_numero_prov">4</td>
 <td class="db_documento_prov">1193877653</td>
 <td class="db_correo_prov">Tatiana@gmail.com</td>
@@ -533,7 +536,7 @@
   <i class="fas fa-edit"></i>Editar</a></td>
   </tr>
 
-  <tr>
+  <tr class="datos_proveedor_tabla">
 <td class="db_numero_prov">4</td>
 <td class="db_documento_prov">1193877653</td>
 <td class="db_correo_prov">Tatiana@gmail.com</td>
@@ -563,7 +566,7 @@
   <i class="fas fa-edit"></i>Editar</a></td>
   </tr>
 
-  <tr>
+  <tr class="datos_proveedor_tabla">
 <td class="db_numero_prov">4</td>
 <td class="db_documento_prov">1193877653</td>
 <td class="db_correo_prov">Tatiana@gmail.com</td>
@@ -593,7 +596,7 @@
   <i class="fas fa-edit"></i>Editar</a></td>
   </tr>
 
-  <tr>
+  <tr class="datos_proveedor_tabla">
 <td class="db_numero_prov">4</td>
 <td class="db_documento_prov">1193877653</td>
 <td class="db_correo_prov">Tatiana@gmail.com</td>
@@ -622,7 +625,7 @@
   class="link_editar_proveedor">
   <i class="fas fa-edit"></i>Editar</a></td>
   </tr>
-  <tr>
+  <tr class="datos_proveedor_tabla">
 <td class="db_numero_prov">4</td>
 <td class="db_documento_prov">1193877653</td>
 <td class="db_correo_prov">Tatiana@gmail.com</td>
@@ -651,7 +654,7 @@
   class="link_editar_proveedor">
   <i class="fas fa-edit"></i>Editar</a></td>
   </tr>
-  <tr>
+  <tr class="datos_proveedor_tabla">
 <td class="db_numero_prov">4</td>
 <td class="db_documento_prov">1193877653</td>
 <td class="db_correo_prov">Tatiana@gmail.com</td>
@@ -680,7 +683,7 @@
   class="link_editar_proveedor">
   <i class="fas fa-edit"></i>Editar</a></td>
   </tr>
-  <tr>
+  <tr class="datos_proveedor_tabla">
 <td class="db_numero_prov">4</td>
 <td class="db_documento_prov">1193877653</td>
 <td class="db_correo_prov">Tatiana@gmail.com</td>
@@ -709,7 +712,7 @@
   class="link_editar_proveedor">
   <i class="fas fa-edit"></i>Editar</a></td>
   </tr>
-  <tr>
+  <tr class="datos_proveedor_tabla">
 <td class="db_numero_prov">4</td>
 <td class="db_documento_prov">1193877653</td>
 <td class="db_correo_prov">Tatiana@gmail.com</td>
@@ -738,7 +741,7 @@
   class="link_editar_proveedor">
   <i class="fas fa-edit"></i>Editar</a></td>
   </tr>
-  <tr>
+  <tr class="datos_proveedor_tabla">
 <td class="db_numero_prov">4</td>
 <td class="db_documento_prov">1193877653</td>
 <td class="db_correo_prov">Tatiana@gmail.com</td>
@@ -930,6 +933,9 @@
 
 <div class="ventana_ver_clientes">
 <a href="#" class="btn-close_ver_cliente">X</a>
+<div class="btn_agregar_usuario">
+       <a href="#modall"><i class="fas fa-plus"></i></a> 
+        </div>
 <h1>Tabla clientes</h1> <br>
 <table class=" tabla_cliente">
 

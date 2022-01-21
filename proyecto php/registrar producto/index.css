@@ -2180,7 +2180,10 @@ margin-left: 40%;
     box-shadow: 3px 3px 3px #ffb703;
     padding: 10px;
 }
-
+.datos_proveedor_tabla:hover{
+    background-color: #eccf1068;
+    cursor: pointer;
+}
 
 .id_prov_tabla,.documento_prov_tabla,.correo_prov_tabla,.nombre_prov_tabla,
 .apellido_prov_tabla,.telefono_prov_tabla,.direccion_prov_tabla,
@@ -2273,6 +2276,10 @@ table {
     box-shadow: 3px 3px 3px #ffb703;
     padding: 10px;
 }
+    .datos_cliente_tabla:hover{
+        background-color: #eccf1068;
+        cursor: pointer;
+    }
 
 .id_clie_tabla,.documento_clie_tabla,.correo_clien_tabla,
 .nombre_clie_tabla,.apellido_clie_tabla,
