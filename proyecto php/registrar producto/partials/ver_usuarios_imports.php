@@ -3,6 +3,11 @@
 
       <div class="ventana_ver_administradores">
      <a href="#" class="btn-close_ver_proveedor">X</a>
+     
+        <div class="btn_agregar_usuario">
+       <a href="#gestionar_administrador"><i class="fas fa-plus"></i></a> 
+        </div>
+      
      <h1>Tabla Administradores</h1><br>
      <table class="tabla_administrador">
        <div class="th_administrador">
@@ -391,6 +396,7 @@
 <div class="ver_proveedores" id="ver_proveedores">
       <div class="ventana_ver_Proveedor">
      <a href="#" class="btn-close_ver_proveedor">X</a>
+    
      <h1>Tabla proveedores</h1> <br>
      <table class ="tabla proveedor">  
   <tr> 
@@ -769,11 +775,15 @@
   <div class="ver_usuarios" id="ver_usuarios">
       <div class="ventana_ver_usuarios">
      <a href="#" class="btn-close_ver_proveedor">X</a>
+     <div class="btn_agregar_usuario">
+       <a href="#gestionar_empleado"><i class="fas fa-plus"></i></a> 
+        </div>
      <h1>Tabla Empleados</h1><br>
 
      <table class="tabla_empleados">
-         <div class="th_empleados">
-        <tr>
+     
+       
+        <tr class="datos_empleado_tabla">
             <th class="id_emp_tabla">N° </th>
             <th class="documento_emp_tabla">N°Documento/NIT </th>
             <th class="correo_emp_tabla">Correo </th>

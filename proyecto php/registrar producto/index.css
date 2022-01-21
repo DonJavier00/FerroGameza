@@ -1494,7 +1494,7 @@ margin-left: 40%;
     color: #FFF;
     border-radius: 50%;
     line-height: 10px;
-  margin-left: 17%;
+  margin-left: 19%;
   margin-top: -6%;
 
 }
@@ -1918,6 +1918,29 @@ margin-left: 40%;
 
 
 /* ver adminitrador*/
+
+
+.btn_agregar_usuario a{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ffb703;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    cursor: pointer;
+    border-radius: 20px;
+    right: 85%;
+    top: 13%;
+}
+.btn_agregar_usuario a:hover{
+    background-color: #ff0303;
+}
+
 .link_editar_administrador {
     color: rgb(165, 19, 19);
 }
@@ -1957,6 +1980,11 @@ margin-left: 40%;
         padding: 10px;
         
     }
+   .datos_administrador_tabla:hover{
+       background-color: #eccf1068;
+       cursor: pointer;
+   }
+
 
      .id_admin_tabla, .documento_admin_tabla, .correo_admin_tabla, 
      .nombre_admin_tabla, .apellido_admin_tabla, .telefono_admin_tabla,
@@ -2022,7 +2050,7 @@ margin-left: 40%;
 }
 
 
-/* ver empleados */
+/* -----------------ver empleados---------------------------- */
 .link_editar_empleado {
     color: rgb(165, 19, 19);
 }
@@ -2053,6 +2081,11 @@ margin-left: 40%;
 {
     border-collapse: collapse;
     box-shadow: 3px 3px 3px #ffb703;
+}
+.datos_empleado_tabla:hover{
+    background-color: #eccf1068;
+    cursor: pointer;
+
 }
 .db_numero_empl,.db_documento_empl,.db_correo_empl,.db_nombre_empl,.db_apellido_empl,.db_telefono_empl,.db_estado_empl,.db_editar_empl
 {
