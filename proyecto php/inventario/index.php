@@ -81,7 +81,7 @@
         </div>
 
 <!-- tablas -->
-        <div class="tabla1">
+        <div class="tabla1" id="tabla">
            
             <div class="menus">
                
