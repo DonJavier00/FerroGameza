@@ -43,7 +43,7 @@
                 <p>Ya tienes una cuenta? </p>
 
                 <div class="iniciar-sesion">
-                  <a href="index.html"><u>Iniciar Sesion</u></a>
+                  <a href="index.php"><u>Iniciar Sesion</u></a>
                 </div>
                 
               </div>

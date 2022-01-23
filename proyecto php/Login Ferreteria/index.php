@@ -64,7 +64,7 @@
               <p>Olvido su contraseña? </p>
 
               <div class="recuperar-contraseña">
-                <a href="recuperar.html"><u>Recuperar contraseña</u></a>
+                <a href="recuperar.php"><u>Recuperar contraseña</u></a>
               </div>
               
           </form>
