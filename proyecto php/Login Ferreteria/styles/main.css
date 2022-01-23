@@ -88,7 +88,6 @@ body {
 /*formulario */
 .login-form{
   height: auto;
- 
   border: 1px solid #ffb703;
   box-shadow: 5px 5px 10px  #ffc83d;
   
@@ -128,30 +127,13 @@ body {
   background-color: rgb(246, 246, 255);
 	box-shadow: 2px 5px 20px 4px #ffc532;
 }
-.btn-login a {
-  border-radius: 3rem;
-  width: 45%;
-  border: 1px solid #ffb703;
-  line-height: 1.6rem;
-  font-size: 1.3rem;
-  background-color: #848f9a;
-  color: #ffffff;
-  padding: 0.5rem 0;
-  transition: 0.3s ease-in-out all;
-  font-weight: 500;
-}
 
-.btn-login:hover {
-  cursor: pointer;
-  background-color: #ffffff;
-  color: #ffb703;
 
-}
+
 .btn-login a {
   line-height: 1.6rem;
   color: #ffffff;
  padding: 9px;
-
   margin-left: -4px;
 }
 
@@ -218,7 +200,6 @@ margin-top: -12px;
   line-height: 1.6rem;
   color: #ffffff;
  padding: 7px;
-
   margin-left: -2px;
 }
 
@@ -232,6 +213,43 @@ margin-top: -12px;
   }
   
   .ya_tienes_una_cuenta a{
+    align-items: center;
+    text-align: center;
+    margin-left: 39%;
+    margin-top: -7%;
+  
+  }
+/* nuevas contrasenas*/
+.btn-login_guardar_contrasena{
+  margin-left: 36%;
+  width: 28%;
+  font-size: 1.3rem;
+  background-color: #ffb703;
+  border-radius: 3rem;
+  text-align: center;
+  font-weight: 500;
+}
+.btn-login_guardar_contrasena a {
+  line-height: 1.6rem;
+  color: #ffffff;
+ padding: 7px;
+  margin-left: -2px;
+}
+.btn-login_guardar_contrasena:hover{
+  background-color: rgb(246, 246, 255);
+	box-shadow: 2px 5px 20px 4px #ffc532;
+ 
+}
+.iniciar_sesion_existe_cuenta{
+  margin-top: -10px;
+  }
+  .iniciar_sesion_existe_cuenta .recuperar_iniciar_sesion {
+  margin-left: 33px;
+  margin-top: -12px;
+  
+  }
+  
+  .iniciar_sesion_existe_cuenta a{
     align-items: center;
     text-align: center;
     margin-left: 39%;
