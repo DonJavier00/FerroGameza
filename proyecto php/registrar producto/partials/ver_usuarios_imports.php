@@ -1028,40 +1028,110 @@
  <!--------gestionar reporte------->
  <div class="gestionar_reportes" id="gestionar_reportes">
 
-      <div class="ventana_gestionar_reportes">
-     <a href="#" class="btn-close_ver_proveedor">X</a>
-     <h1>gestionar reportes</h1>
-     <table class=" tabla_cliente">
+    <div class="ventana_gestionar_reportes">
+        <a href="#" class="btn-close_ver_proveedor">X</a>
 
-<tr>
-   
-<th class="id_clie_tabla"> N° </th>
-<th class="documento_clie_tabla">N°Documento/NIT </th>
-<th class="correo_clien_tabla">Correo</th>
-<th class="nombre_clie_tabla"> Nombre</th>
-<th class="apellido_clie_tabla">Apellido</th>
-<th class="telefono_clie_tabla">Telefono</th>
-<th class="direccion_clie_tabla"> Direccion</th>
-<th class="estado_clie_tabla">Estado</th>
-<th class="editar_clie_tabla">Editar</th>
- </tr>
+        <div class="btn_nueva_venta">
+       <a href="#factura"><i class="fas fa-plus"></i></a> 
+        </div>
+      
+        <h1>Gestionar reporte</h1>
+         <br>
+      
+    <form name="search" id="search" class="buscador">
+        
+        <div class="buscador_fecha">
+        <p>Buscar por fecha:</p>
+        <label>Fecha:<label>
+              <input type="date" name="fecha" id="fecha">
+              <label>A <label>
+              <input type="date" name="fecha" id="fecha">
+        </div>
 
- 
- <tr class= "datos_cliente_tabla"> 
-<td class="db_numero_clie">1</td>
-<td class="db_documento_clie">11006790977</td>
-<td class="db_correo_clie">laura07@gmail.com</td>
-<td class="db_nombre_clie">Laura Sofia</td>
-<td class="db_apellido_clie">Aguirre Mendivelso</td>
-<td class="db_telefono_clie">3148975432</td>
-<td class="db_direccion_clie">Carrera 18 # 15 - 16</td>
-                
-<td class="db_estado_clie">
-<select class= "estado_clientes">
-<option disabled>Seleccione un estado</option>
-<option>Activo</option>
-<option>Inactivo</option>
-</select>
-</td>
+    </form>
+    <br>
+    <br>
+    <br>
+    
+    <table class="tabla_reporte">
+       <div class="th_reporte">
+       <tr>
+            <th class="id_reporte_tabla"> N° Factura </th>
+            <th class= "fecha_reporte_tabla"> Fecha </th>
+            <th class= "cliente_reporte_tabla">Cliente </th>
+            <th class= "total_factura_reporte_tabla">Total Factura</th>
+
+            </th>
+
+            <th class= "estado_reporte_tabla">
+                Estado
+            </th>
+            <th class= "editar_reporte_tabla"> 
+              Editar
+      
+            </th>
+        </tr>
+        </div>
+
+        <tr class="datos_reporte_tabla">
+            <td class="db_numero_factura_reporte">1</td>
+            <td class="db_fecha_reporte">14/01/2022</td>
+            <td class="db_cliente_reporte">Andrea Gil</td>
+            <td class="db_total_factura_reporte">$150.000</td>
+            
+            
+            <td class="db_estado_reporte">
+                <select class="estado_reporte">
+                    <option disabled>Seleccione un estado</option>
+                    <option>Activo</option>
+                    <option>Inactivo</option>
+                </select>
+            </td>
+            <td class="db_editar_reporte"> <a href="" id="editar_reporte" 
+                class="link_editar_reporte"><i
+                  class="fas fa-edit"></i>Editar</a></td>
+        </tr>
+
+        <tr class="datos_reporte_tabla">
+            <td class="db_numero_factura_reporte">2</td>
+            <td class="db_fecha_reporte">5/01/2022</td>
+            <td class="db_cliente_reporte">Camilo Bohorquez</td>
+            <td class="db_total_factura_reporte">$70.000</td>
+            
+            
+            <td class="db_estado_reporte">
+                <select class="estado_reporte">
+                    <option disabled>Seleccione un estado</option>
+                    <option>Activo</option>
+                    <option>Inactivo</option>
+                </select>
+            </td>
+            <td class="db_editar_reporte"> <a href="" id="editar_reporte" 
+                class="link_editar_reporte"><i
+                  class="fas fa-edit"></i>Editar</a></td>
+        </tr>
+
+        <tr class="datos_reporte_tabla">
+            <td class="db_numero_factura_reporte">3</td>
+            <td class="db_fecha_reporte">3/01/2022</td>
+            <td class="db_cliente_reporte">Sara Ruiz</td>
+            <td class="db_total_factura_reporte">$50.000</td>
+            
+            
+            <td class="db_estado_reporte">
+                <select class="estado_reporte">
+                    <option disabled>Seleccione un estado</option>
+                    <option>Activo</option>
+                    <option>Inactivo</option>
+                </select>
+            </td>
+            <td class="db_editar_reporte"> <a href="" id="editar_reporte" 
+                class="link_editar_reporte"><i
+                  class="fas fa-edit"></i>Editar</a></td>
+        </tr>
+        </table>
+
+        
     </div>
+
   </div>

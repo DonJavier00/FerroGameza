@@ -2395,6 +2395,104 @@ table {
     overflow: scroll;
   
 }
+/* buscadores */
+.buscador{
+    width: 100%;
+    max-width: 95%;
+    background-color: #fff;
+    border: 2px solid #ffb703;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 2%;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.buscador_fecha{
+    margin-left: -55%;
+}
+.buscador_fecha p{
+    margin-left: -47%;
+    font-size: 80%;
+    margin-top: 1%;
+}
+/* tabla gestionar reporte */
+
+.btn_nueva_venta a{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ffb703;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    cursor: pointer;
+    border-radius: 20px;
+    right: 85%;
+    top: 11%;
+}
+.btn_nueva_venta a:hover{
+    background-color: #ff0303;
+}
+
+.link_editar_reporte {
+    color: rgb(165, 19, 19);
+}
+
+.link_editar_reporte:hover{
+    color: #ffb703;
+}
+
+.ventana_ver_administradores h1 {
+    color: black;
+    text-align: center;
+    margin-top: -3%;
+}
+
+.estado_reporte {
+    width: 70px;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+
+.estado_reporte:hover{
+    border: 1px solid rgb(196, 21, 21);
+    border-collapse: collapse;
+}
+    .tabla_reporte,.id_reporte_tabla, .fecha_reporte_tabla, .cliente_reporte_tabla, 
+    .total_factura_reporte_tabla,.estado_reporte_tabla,.editar_reporte_tabla, .db_numero_factura_reporte,
+    .db_fecha_reporte,.db_cliente_reporte, .db_total_factura_reporte, .db_estado_reporte, .db_editar_reporte  {
+        border-collapse: collapse;
+        box-shadow: 3px 3px 3px #ffb703;
+       
+    }
+    .db_numero_factura_reporte, .db_fecha_reporte,.db_cliente_reporte, .db_total_factura_reporte, 
+    .db_estado_reporte, .db_editar_reporte  {
+        padding: 10px;
+        
+    }
+   .datos_reporte_tabla:hover{
+       background-color: #eccf1068;
+       cursor: pointer;
+   }
+
+
+   .id_reporte_tabla, .fecha_reporte_tabla, .cliente_reporte_tabla, 
+   .total_factura_reporte_tabla,.estado_reporte_tabla,.editar_reporte_tabla {
+        padding: 10px;
+        text-align: center;
+        background-color: #ffb703;
+    }
+
+  
+    .tabla_reporte {
+        background-color: rgb(255, 255, 255); 
+      width: 100%;
+    }
 
 
 

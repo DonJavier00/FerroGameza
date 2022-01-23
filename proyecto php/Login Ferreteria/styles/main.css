@@ -90,6 +90,7 @@ body {
 }
 
 .login-form{
+  height: auto;
   padding: 80px;
   border: 1px solid #ffb703;
   box-shadow: 5px 5px 10px  #ffc83d;
@@ -118,7 +119,7 @@ body {
   border: 1px solid #ffb703;
   line-height: 1.6rem;
   font-size: 1.3rem;
-  background-color: #ffb703;
+  background-color: #848f9a;
   color: #ffffff;
   padding: 0.5rem 0;
   transition: 0.3s ease-in-out all;
