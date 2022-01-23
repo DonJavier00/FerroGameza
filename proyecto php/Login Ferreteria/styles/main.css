@@ -25,12 +25,12 @@ body {
 }
 
 .login-data {
+  width: 70%;
   text-align: center;
-  width: 60%;
 }
 
 .login-data h1 {
-  font-weight: 200;
+  font-weight: 350;
 }
 
 .input-group {
@@ -56,11 +56,7 @@ body {
   outline: none;
   border-color: #ffb703;
 }
-
-.input-fill input:hover {
-  background-color: #e9ecef;
-}
-
+/* se utilizan para cuando pongamos el cursor en correo y contrasena se marque amarillo*/
 .input-fill input:focus + .input-label {
   top: 0;
   margin-bottom: 2rem;
@@ -70,6 +66,7 @@ body {
 .input-fill input:focus ~ i {
   color: #ffb703;
 }
+/*hasta aca */
 
 .input-fill .input-label {
   position: absolute;
@@ -88,19 +85,28 @@ body {
   color: #848f9a;
   font-size: 1.5rem;
 }
-
+/*formulario */
 .login-form{
+<<<<<<< HEAD
   height: auto;
   padding: 80px;
+=======
+ width: 95%;
+ height: auto;
+>>>>>>> 2348bb71d1ecf57b49bdb96853eb33a10287a18b
   border: 1px solid #ffb703;
   box-shadow: 5px 5px 10px  #ffc83d;
-  background-color: aqua;
+  
+}
+
+.login-form .imagen_login{
+  margin-top: 10px;
 }
 
 .login-form a {
   display: block;
   width: 85%;
-  text-align: right;
+  text-align: center;
   text-decoration: none;
   color: #848f9a;
   margin-bottom: 1.3rem;
@@ -112,7 +118,23 @@ body {
 .login-form a:hover {
   color: #ffb703;
 }
+.btn-login{
+  
+ margin-left: 33%;
+ width: 35%;
+ font-size: 1.3rem;
+ background-color: #ffb703;
+ border-radius: 3rem;
+ text-align: center;
+ font-weight: 500;
 
+}
+.btn-login:hover{
+  background-color: rgb(246, 246, 255);
+	box-shadow: 2px 5px 20px 4px #ffc532;
+ 
+
+<<<<<<< HEAD
 .btn-login a {
   border-radius: 3rem;
   width: 45%;
@@ -130,83 +152,43 @@ body {
   cursor: pointer;
   background-color: #ffffff;
   color: #ffb703;
+=======
+>>>>>>> 2348bb71d1ecf57b49bdb96853eb33a10287a18b
 }
-
-.boton{
-  border-radius: 3rem;
-  width: 75%;
-  border: 1px solid #ffb703;
+.btn-login a {
   line-height: 1.6rem;
-  font-size: 1.3rem;
-  background-color: #ffb703;
   color: #ffffff;
-  padding: 0.8rem 0;
-  transition: 0.3s ease-in-out all;
-  font-weight: 500;
- 
+ padding: 9px;
 
-}
-
-.boton:hover{
-  cursor: pointer;
-  background-color: #ffffff;
-  color: #ffb703;
-}
-
-.links a{
-display: block;
-text-align: center;
-}
-.links{
-padding: 2px;
-display: none;
-
+  margin-left: -4px;
 }
 
 
-.desplegable:hover .links{
-  display: block;
-}
-
-.seleccionar{
+.seleccionar_rol_login{
   
-  width: 55%;
+  width: 60%;
+  height: 44px;
   border: 1px solid #ffb703;
   line-height: 1.6rem;
   font-size: 1.3rem;
-  background-color: #ffffff;
+  background-color: #fff7f7;
   color: #ffb703;
   padding: 0.5rem 0;
   transition: .03s ease-in-out all;
   font-weight: 500;
   text-align: center;
-}
-
-.seleccionar:hover{
-  cursor: pointer;
-  background-color: #ffffff;
-  color: #ffb703;
-  
-}
-
-.op:hover{
-  cursor: pointer;
-  background-color: #ffffff;
-  color: #ffb703;
-  
-}
-
-.iniciar-sesion a{
-  align-items: center;
-  text-align: center;
-  margin-left: 33%;
-  margin-top: -7%;
+  margin-top: -10px;
 
 }
 
-.correr{
-  margin-top: 10%;
-  margin-left: -20%;
+
+.olvido_contrasena{
+margin-top: -10px;
+}
+.olvido_contrasena .recuperar_contrasena_btn {
+margin-left: 33px;
+margin-top: -12px;
+
 }
 
 .recuperar-contraseña a{
@@ -216,3 +198,51 @@ display: none;
   margin-top: -7%;
 
 }
+/*RECUPERAR CONTRESENA FORMATO*/
+.recuperar_contrasena_txt h1{
+  margin-top: -10px;
+}
+
+
+
+.btn-login_enviar{
+  
+ margin-left: 36%;
+ width: 28%;
+ font-size: 1.3rem;
+ background-color: #ffb703;
+ border-radius: 3rem;
+ text-align: center;
+ font-weight: 500;
+
+}
+.btn-login_enviar:hover{
+  background-color: rgb(246, 246, 255);
+	box-shadow: 2px 5px 20px 4px #ffc532;
+ 
+
+}
+.btn-login_enviar a {
+  line-height: 1.6rem;
+  color: #ffffff;
+ padding: 7px;
+
+  margin-left: -2px;
+}
+
+.ya_tienes_una_cuenta{
+  margin-top: -10px;
+  }
+  .ya_tienes_una_cuenta .ya_tienes_una_cuenta_btn {
+  margin-left: 33px;
+  margin-top: -12px;
+  
+  }
+  
+  .ya_tienes_una_cuenta a{
+    align-items: center;
+    text-align: center;
+    margin-left: 39%;
+    margin-top: -7%;
+  
+  }

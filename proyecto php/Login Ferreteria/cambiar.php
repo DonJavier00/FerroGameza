@@ -52,7 +52,7 @@
             <div class="correr">
               <p>Ya tienes una cuenta?  </p>
               <div class="iniciar-sesion">
-                <a href="index.php"><u>Iniciar Sesión</u></a>
+                <a href="index_login.php"><u>Iniciar Sesión</u></a>
               </div>
               
           </form>
