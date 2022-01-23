@@ -87,13 +87,8 @@ body {
 }
 /*formulario */
 .login-form{
-<<<<<<< HEAD
   height: auto;
-  padding: 80px;
-=======
- width: 95%;
- height: auto;
->>>>>>> 2348bb71d1ecf57b49bdb96853eb33a10287a18b
+ 
   border: 1px solid #ffb703;
   box-shadow: 5px 5px 10px  #ffc83d;
   
@@ -132,9 +127,7 @@ body {
 .btn-login:hover{
   background-color: rgb(246, 246, 255);
 	box-shadow: 2px 5px 20px 4px #ffc532;
- 
-
-<<<<<<< HEAD
+}
 .btn-login a {
   border-radius: 3rem;
   width: 45%;
@@ -152,8 +145,7 @@ body {
   cursor: pointer;
   background-color: #ffffff;
   color: #ffb703;
-=======
->>>>>>> 2348bb71d1ecf57b49bdb96853eb33a10287a18b
+
 }
 .btn-login a {
   line-height: 1.6rem;

@@ -1133,35 +1133,7 @@
         </table>
 
         
-=======
-      <div class="ventana_gestionar_reportes">
-     <a href="#" class="btn-close_ver_proveedor">X</a>
-    
-     <table class="tabla_administrador">
-       <div class="th_administrador">
-       <tr>
-            <th class="id_admin_tabla"> N° </th>
-            <th class= "documento_admin_tabla"> N°Documento/NIT </th>
-            <th class= "correo_admin_tabla">Correo </th>
-            <th class= "nombre_admin_tabla">Nombre</th>
-            <th class= "apellido_admin_tabla">Apellido</th>
-            <th class= "telefono_admin_tabla">Telefono
-            <th class= "telefono_admin_tabla">Telefono
-            </th>
 
-            <th class= "estado_admin_tabla">
-                Estado
-            </th>
-            <th class= "editar_admin_tabla"> 
-              Editar
-      
-            </th>
-        </tr>
-        </div>
-
-
-     
->>>>>>> 2348bb71d1ecf57b49bdb96853eb33a10287a18b
     </div>
 
   </div>
