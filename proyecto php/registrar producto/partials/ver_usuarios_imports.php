@@ -1031,6 +1031,37 @@
       <div class="ventana_gestionar_reportes">
      <a href="#" class="btn-close_ver_proveedor">X</a>
      <h1>gestionar reportes</h1>
-        
+     <table class=" tabla_cliente">
+
+<tr>
+   
+<th class="id_clie_tabla"> N° </th>
+<th class="documento_clie_tabla">N°Documento/NIT </th>
+<th class="correo_clien_tabla">Correo</th>
+<th class="nombre_clie_tabla"> Nombre</th>
+<th class="apellido_clie_tabla">Apellido</th>
+<th class="telefono_clie_tabla">Telefono</th>
+<th class="direccion_clie_tabla"> Direccion</th>
+<th class="estado_clie_tabla">Estado</th>
+<th class="editar_clie_tabla">Editar</th>
+ </tr>
+
+ 
+ <tr class= "datos_cliente_tabla"> 
+<td class="db_numero_clie">1</td>
+<td class="db_documento_clie">11006790977</td>
+<td class="db_correo_clie">laura07@gmail.com</td>
+<td class="db_nombre_clie">Laura Sofia</td>
+<td class="db_apellido_clie">Aguirre Mendivelso</td>
+<td class="db_telefono_clie">3148975432</td>
+<td class="db_direccion_clie">Carrera 18 # 15 - 16</td>
+                
+<td class="db_estado_clie">
+<select class= "estado_clientes">
+<option disabled>Seleccione un estado</option>
+<option>Activo</option>
+<option>Inactivo</option>
+</select>
+</td>
     </div>
   </div>

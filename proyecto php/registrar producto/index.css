@@ -2363,8 +2363,8 @@ table {
 /* gestionar reporte*/
 
 .ventana_gestionar_reportes {
-    width: 70%;
-    height: 90%;
+    width: 90%;
+    height: auto;
     background:rgb(233, 218, 218);
     padding: 50px;
     margin: auto;
