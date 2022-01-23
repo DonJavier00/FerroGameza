@@ -29,7 +29,10 @@
            
               <form action="#" class="login-form">
                 <img src="assets/contrasena.png" alt="" />
+                <div class="recuperar_contrasena_txt">
                 <h1>Recuperar contraseña</h1>
+                </div>
+
               <div class="input-group">
                 <label class="input-fill">
                   <input type="email" name="email" id="email" required />
@@ -37,14 +40,15 @@
                   <i class="fas fa-envelope"></i>
                 </label>
               </div>
-              
-              <input type="submit" value="Enviar" class="btn-login" />
-              <div class="correr">
-                <p>Ya tienes una cuenta? </p>
-
-                <div class="iniciar-sesion">
-                  <a href="index.php"><u>Iniciar Sesion</u></a>
-                </div>
+              <div class="btn-login_enviar">
+              <a href="cambiar.php">Enviar</a>
+            </div>
+            
+            <div class="ya_tienes_una_cuenta">
+              <p>Ya tienes una cuenta? </p>
+              <a class="ya_tienes_una_cuenta_btn" href="index_login.php"><u>Iniciar Sesion</u></a>
+             </div>
+                
                 
               </div>
              

@@ -27,12 +27,12 @@
         <div class="login-data">
          
             <form action="#" class="login-form">
-              <img src="assets/trabajador.png" alt="" />
+              <img class="imagen_login"src="assets/trabajador.png" alt="" />
               <h1>Inicio de Sesión</h1>
             
-            <select class="seleccionar" id="">
+            <select class="seleccionar_rol_login" id="">
               <div class="op">
-              <option disabled selected>Seleccione su rol </option>
+              <option class="seleccionar_rol_login_selec" disabled selected>Seleccione rol </option>
               <option value="">Administrador</option>
               <option value="">Empleado</option>
             </div>
@@ -57,15 +57,17 @@
         
  
             <div class="btn-login">
-              <a href="/index.html">iniciar Sesion</a>
+              <a href="../registrar producto/index.php">iniciar Sesion</a>
             </div>
           
-            <div class="correr">
+            <div class="olvido_contrasena">
               <p>Olvido su contraseña? </p>
+              <a class="recuperar_contrasena_btn" href="recuperar.php"><u>Recuperar contraseña</u></a>
+             </div>
 
-              <div class="recuperar-contraseña">
-                <a href="recuperar.php"><u>Recuperar contraseña</u></a>
-              </div>
+             
+               
+             
               
           </form>
         </div>
