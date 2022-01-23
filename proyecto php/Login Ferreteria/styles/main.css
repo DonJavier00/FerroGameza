@@ -93,6 +93,7 @@ body {
   padding: 80px;
   border: 1px solid #ffb703;
   box-shadow: 5px 5px 10px  #ffc83d;
+  background-color: aqua;
 }
 
 .login-form a {
