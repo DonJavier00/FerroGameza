@@ -47,13 +47,14 @@
             
             </div>
  
+            <div class="btn-login_guardar_contrasena">
+              <a href="../registrar producto/index.php">Guardar</a>
+            </div>
+            <div class="iniciar_sesion_existe_cuenta">
+              <p>ya tienes una cuenta? </p>
+              <a class="recuperar_iniciar_sesion" href="index_login.php"><u>Iniciar Sesion</u></a>
+             </div>
             
-            <input type="submit" value="Iniciar Sesión" class="btn-login" />
-            <div class="correr">
-              <p>Ya tienes una cuenta?  </p>
-              <div class="iniciar-sesion">
-                <a href="index_login.php"><u>Iniciar Sesión</u></a>
-              </div>
               
           </form>
         </div>

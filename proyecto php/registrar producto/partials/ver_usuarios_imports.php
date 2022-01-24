@@ -1050,7 +1050,7 @@
               <input type="date" name="fecha" id="fecha">
         </div>
         <a href="" id="buscar_venta" class="link_buscar_venta"><i
-        class="fas fa-search"></i>Buscar</a>
+        class="fas fa-search"></i></a>
 
     </form>
     <br>
