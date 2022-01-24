@@ -2397,6 +2397,7 @@ table {
 }
 /* buscadores */
 .buscador{
+    position: relative;
     width: 100%;
     max-width: 95%;
     background-color: #fff;
@@ -2409,19 +2410,47 @@ table {
     font-weight: bolder;
 }
 .buscador_fecha{
-    margin-left: -60%;
+    position: relative;
+    margin-left: -70%;
+    left: 2%;
+    
     
 }
 .buscador p{
     margin-left: -84%;
     font-size: 90%;
     margin-top: -1%;
+    left: 10%;
 }
 
 .link_buscar_venta {
+    position:absolute;
     color: rgb(165, 19, 19);
-    margin-left: -8%;
-    margin-top: -3%;
+    margin-top: 2%;
+    left:32%;
+}
+
+.buscador_numero{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background: #ffb703;
+    padding: 4px;
+    border-radius: 20px;
+    margin-left: 95%;
+    margin-top: -5%;
+}
+
+.buscador_numero input {
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    float: left;
+    transition: .9s;
+    width: 0;
+    
 }
 
 /* tabla gestionar reporte */

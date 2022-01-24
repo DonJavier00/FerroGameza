@@ -1049,8 +1049,14 @@
               <label>Hasta<label>
               <input type="date" name="fecha" id="fecha">
         </div>
+        <br>
         <a href="" id="buscar_venta" class="link_buscar_venta"><i
         class="fas fa-search"></i></a>
+        <br>
+        <div class="buscador_numero">
+            <input type="text" class="fas fa-search icon" placeholder="Buscar">
+            <a href="" class="boton"> <i class="fas fa-search icon"></i></a>
+        </div>
 
     </form>
     <br>
