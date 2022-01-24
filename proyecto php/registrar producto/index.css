@@ -2409,13 +2409,21 @@ table {
     font-weight: bolder;
 }
 .buscador_fecha{
-    margin-left: -55%;
+    margin-left: -60%;
+    
 }
-.buscador_fecha p{
-    margin-left: -47%;
-    font-size: 80%;
-    margin-top: 1%;
+.buscador p{
+    margin-left: -84%;
+    font-size: 90%;
+    margin-top: -1%;
 }
+
+.link_buscar_venta {
+    color: rgb(165, 19, 19);
+    margin-left: -8%;
+    margin-top: -3%;
+}
+
 /* tabla gestionar reporte */
 
 .btn_nueva_venta a{
@@ -2439,11 +2447,11 @@ table {
     background-color: #ff0303;
 }
 
-.link_editar_reporte {
+.link_ver_reporte {
     color: rgb(165, 19, 19);
 }
 
-.link_editar_reporte:hover{
+.link_ver_reporte:hover{
     color: #ffb703;
 }
 
@@ -2464,14 +2472,14 @@ table {
     border-collapse: collapse;
 }
     .tabla_reporte,.id_reporte_tabla, .fecha_reporte_tabla, .cliente_reporte_tabla, 
-    .total_factura_reporte_tabla,.estado_reporte_tabla,.editar_reporte_tabla, .db_numero_factura_reporte,
-    .db_fecha_reporte,.db_cliente_reporte, .db_total_factura_reporte, .db_estado_reporte, .db_editar_reporte  {
+    .total_factura_reporte_tabla,.estado_reporte_tabla,.ver_reporte_tabla, .db_numero_factura_reporte,
+    .db_fecha_reporte,.db_cliente_reporte, .db_total_factura_reporte, .db_estado_reporte, .db_ver_reporte  {
         border-collapse: collapse;
         box-shadow: 3px 3px 3px #ffb703;
        
     }
     .db_numero_factura_reporte, .db_fecha_reporte,.db_cliente_reporte, .db_total_factura_reporte, 
-    .db_estado_reporte, .db_editar_reporte  {
+    .db_estado_reporte, .db_ver_reporte  {
         padding: 10px;
         
     }
@@ -2482,7 +2490,7 @@ table {
 
 
    .id_reporte_tabla, .fecha_reporte_tabla, .cliente_reporte_tabla, 
-   .total_factura_reporte_tabla,.estado_reporte_tabla,.editar_reporte_tabla {
+   .total_factura_reporte_tabla,.estado_reporte_tabla,.ver_reporte_tabla {
         padding: 10px;
         text-align: center;
         background-color: #ffb703;

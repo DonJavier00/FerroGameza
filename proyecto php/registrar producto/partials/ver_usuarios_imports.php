@@ -1027,7 +1027,7 @@
   </div>
  <!--------gestionar reporte------->
  <div class="gestionar_reportes" id="gestionar_reportes">
-<<<<<<< HEAD
+
 
     <div class="ventana_gestionar_reportes">
         <a href="#" class="btn-close_ver_proveedor">X</a>
@@ -1040,14 +1040,17 @@
          <br>
       
     <form name="search" id="search" class="buscador">
-        
+    <p>Buscar por fecha:</p>
+    <br>
         <div class="buscador_fecha">
-        <p>Buscar por fecha:</p>
+        
         <label>Fecha:<label>
               <input type="date" name="fecha" id="fecha">
-              <label>A <label>
+              <label>Hasta<label>
               <input type="date" name="fecha" id="fecha">
         </div>
+        <a href="" id="buscar_venta" class="link_buscar_venta"><i
+        class="fas fa-search"></i>Buscar</a>
 
     </form>
     <br>
@@ -1067,8 +1070,8 @@
             <th class= "estado_reporte_tabla">
                 Estado
             </th>
-            <th class= "editar_reporte_tabla"> 
-              Editar
+            <th class= "ver_reporte_tabla"> 
+             Ver
       
             </th>
         </tr>
@@ -1088,15 +1091,15 @@
                     <option>Inactivo</option>
                 </select>
             </td>
-            <td class="db_editar_reporte"> <a href="" id="editar_reporte" 
-                class="link_editar_reporte"><i
-                  class="fas fa-edit"></i>Editar</a></td>
+            <td class="db_ver_reporte"> <a href="" id="ver_reporte" 
+                class="link_ver_reporte"><i
+                  class="fa fa-eye"></i>Ver</a></td>
         </tr>
 
         <tr class="datos_reporte_tabla">
             <td class="db_numero_factura_reporte">2</td>
             <td class="db_fecha_reporte">5/01/2022</td>
-            <td class="db_cliente_reporte">Camilo Bohorquez</td>
+            <td class="db_cliente_reporte">Jorge Salamanca</td>
             <td class="db_total_factura_reporte">$70.000</td>
             
             
@@ -1107,9 +1110,9 @@
                     <option>Inactivo</option>
                 </select>
             </td>
-            <td class="db_editar_reporte"> <a href="" id="editar_reporte" 
-                class="link_editar_reporte"><i
-                  class="fas fa-edit"></i>Editar</a></td>
+            <td class="db_ver_reporte"> <a href="" id="ver_reporte" 
+                class="link_ver_reporte"><i
+                  class="fa fa-eye"></i>Ver</a></td>
         </tr>
 
         <tr class="datos_reporte_tabla">
@@ -1126,9 +1129,9 @@
                     <option>Inactivo</option>
                 </select>
             </td>
-            <td class="db_editar_reporte"> <a href="" id="editar_reporte" 
-                class="link_editar_reporte"><i
-                  class="fas fa-edit"></i>Editar</a></td>
+            <td class="db_ver_reporte"> <a href="" id="ver_reporte" 
+                class="link_ver_reporte"><i
+                  class="fa fa-eye"></i>Ver</a></td>
         </tr>
         </table>
 
