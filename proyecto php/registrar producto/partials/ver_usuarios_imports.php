@@ -1054,15 +1054,17 @@
     <p>Buscar por fecha:</p>
     <br>
         <div class="buscador_fecha">
-        
+       
         <label>Fecha:<label>
               <input type="date" name="fecha" id="fecha">
               <label>Hasta<label>
               <input type="date" name="fecha" id="fecha">
+              <a href="" id="buscar_venta" class="link_buscar_venta"><i class="fas fa-search"></i></a>
         </div>
+        
         <br>
-        <a href="" id="buscar_venta" class="link_buscar_venta"><i
-        class="fas fa-search"></i></a>
+        
+
         <br>
         <div class="buscador_numero">
             <input type="text" class="fas fa-search icon" placeholder="Buscar">
