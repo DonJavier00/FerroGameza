@@ -40,25 +40,23 @@ header{
   }
 
 .tituloFerreteria .salir {
-   
+   position: absolute;
     display: flex;
-
     align-items: center;
    text-align: center;
-   
     padding: 0;
     margin: 0;
     border-radius: 5px;
     justify-content: start;
-   float: right;
-   top: 0;
-   margin-top: 6.5%;
-   margin-right: 3%;
+  
+   top: 70%;
+  left: 87%;
+
     transition: all 1s ease;
  
 }
 .tituloFerreteria .salir button{
-    position: relative;
+    
     box-sizing: border-box;
     border: 0;
     border: 2px solid #ff0303;
@@ -2539,6 +2537,9 @@ background-color: #ff0303;
     margin-top: -4%;
     margin-left:-1%;
 }
+#buscar_venta{
+    margin-left: 2px;
+}
 
 .buscador_numero{
     display: flex;
@@ -2652,13 +2653,4 @@ background-color: #ff0303;
     width: 20%;
 }
 
-@media screen and (max-width: 800px){
 
-    .tituloFerreteria .salir {
-   
-      
-      
-       margin-top: 10%;
-      
-       } 
-}

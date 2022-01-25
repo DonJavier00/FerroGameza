@@ -176,6 +176,7 @@ figure:hover h5 {
 	 
 
 }
+menus
 figure h6 {
 	position: absolute;
 	 color: 	#0a0a0a ;
@@ -242,6 +243,7 @@ input{
     border: 2px solid #000;
 }
 .up img, .down img{
+
     position: absolute;
 width: 60%;
 align-items: center;
@@ -319,7 +321,7 @@ user-select: none;
 	
 	font-size: 12px;
 
-	
+	position: relative;
 
 }
 .tabla1 .menus{

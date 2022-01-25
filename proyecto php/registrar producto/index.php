@@ -17,9 +17,9 @@
       <div class="tituloFerreteria">
       <img src="imag/este.png" alt="">
      <div class="salir">
-    <a href="../Login Ferreteria/index_login.php"><h2>Cerrar Sesion</h2></a>
+    
       <button><a href="../Login Ferreteria/index_login.php"><i class="fas fa-door-open"></i></a></button>
-     
+      <a href="../Login Ferreteria/index_login.php"><h2>Cerrar Sesion</h2></a>
     </div>
      
      
