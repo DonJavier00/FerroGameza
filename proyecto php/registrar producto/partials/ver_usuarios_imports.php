@@ -397,6 +397,7 @@
       <div class="ventana_ver_Proveedor">
      <a href="#" class="btn-close_ver_proveedor">X</a>
      <h1>Tabla proveedores</h1> <br>
+     
      <div class="btn_agregar_usuario">
        <a href="#gestionar_proveedor"><i class="fas fa-plus"></i></a> 
         </div>

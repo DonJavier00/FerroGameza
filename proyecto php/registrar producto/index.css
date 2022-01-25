@@ -40,7 +40,6 @@ header{
   }
 
 .tituloFerreteria .salir {
-   
     display: flex;
 
     align-items: center;
@@ -51,14 +50,12 @@ header{
     border-radius: 5px;
     justify-content: start;
    float: right;
-   top: 0;
    margin-top: 6.5%;
    margin-right: 3%;
     transition: all 1s ease;
  
 }
 .tituloFerreteria .salir button{
-    position: relative;
     box-sizing: border-box;
     border: 0;
     border: 2px solid #ff0303;
@@ -308,7 +305,7 @@ form{
 .docum{
    position: relative;
    top: -8%;
-    width: 200px;
+    width: 190px;
     height: 32px;
    margin-left: 30%;
   
@@ -2499,18 +2496,17 @@ background-color: #ff0303;
     width: 100%;
     height: 100%;
     position: fixed;
-    padding: 60px;
+    padding: 40px;
     visibility: hidden;
     opacity:0;
     transition: all 1000ms;
     overflow: scroll;
   
 }
-/* buscadores gestionar reporte*/
+/* buscadores */
 .buscador{
     position: relative;
     width: 100%;
-    height: auto;
     max-width: 95%;
     background-color: #fff;
     border: 2px solid #ffb703;
@@ -2522,8 +2518,8 @@ background-color: #ff0303;
     font-weight: bolder;
 }
 .buscador_fecha{
-    display: flex;
-    margin-left: -65%;
+    position: relative;
+    margin-left: -70%;
     left: 2%;
     
     
@@ -2536,10 +2532,10 @@ background-color: #ff0303;
 }
 
 .link_buscar_venta {
-   
+    position:absolute;
     color: rgb(165, 19, 19);
-    margin-top: -4%;
-    margin-left:-1%;
+    margin-top: 2%;
+    left:32%;
 }
 
 .buscador_numero{
@@ -2625,7 +2621,7 @@ background-color: #ff0303;
         
     }
    .datos_reporte_tabla:hover{
-       background-color: #ffb8037e;
+       background-color: #eccf1068;
        cursor: pointer;
    }
 
@@ -2654,7 +2650,6 @@ background-color: #ff0303;
     width: 20%;
 }
 
-<<<<<<< HEAD
 /*ver proveedor usuario boton buscar*/
 .buscar_proveedor_boton{
     position: absolute;
@@ -2694,15 +2689,3 @@ transition: all 0.6s ease;
 
 
 
-=======
-@media screen and (max-width: 800px){
-
-    .tituloFerreteria .salir {
-   
-      
-      
-       margin-top: 10%;
-      
-       } 
-}
->>>>>>> 950ab85b5bb4eb695957baf01fee01fe64ecdad7
