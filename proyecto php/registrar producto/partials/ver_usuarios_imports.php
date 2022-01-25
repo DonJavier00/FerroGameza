@@ -930,12 +930,23 @@
   </div>
     <!--------ver clientes ------->
     <div class="ver_clientes" id="ver_clientes">
-
+   
 <div class="ventana_ver_clientes">
+<input class="guardarcliente" type="submit" value="Guardar">
+  </section>
+
 <a href="#" class="btn-close_ver_cliente">X</a>
 <div class="btn_agregar_usuario">
        <a href="#modall"><i class="fas fa-plus"></i></a> 
+        <div class="buscarcliente">
+            <input type ="text" placeholder="Buscar" required>
+            <div class="btnbuscarcliente">
+            <i class="fas fa-search icon"></i>
+            
+            </div>
+            </div>
         </div>
+
 <h1>Tabla clientes</h1> <br>
 <table class=" tabla_cliente">
 

@@ -2276,7 +2276,7 @@ table {
 .ventana_ver_clientes h1 {
     color: black;
     text-align: center;
-    margin-top: -1%;
+    margin-top: -6%;
 }
 .estado_clientes {
     width: 70px;
@@ -2360,6 +2360,73 @@ table {
    left: 55%;
  
 }
+.buscarcliente{
+    position: relative;
+    padding: 5px;
+    
+    
+}
+.buscarcliente input{
+    margin: 11px 0;
+    width: 0px;
+    text-align: center;
+    height: 37px;
+    padding: 0 20px;
+    font-size: 20px;
+    color: #000;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius:30px ;
+    transition: all 0.4s ease;
+    margin-left: 80%;
+   
+
+}
+.btnbuscarcliente{
+    margin: 11px 0;
+    position:absolute;
+    top:0;
+    right: 0;
+    background: #ffb703;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: aliceblue;
+    font-size: 19px;
+    border-radius: 70%;
+    cursor: pointer;;
+   
+    
+}
+.buscarcliente:hover input{
+    width: 180px;
+    border: 1px solid rgb(251, 7, 7);
+}
+.btnbuscarcliente:hover{
+background-color: #ff0303;
+}
+.buscarcliente input:focus{
+    width: 180px;
+
+}
+.guardarcliente{
+    border-radius: 10px;
+    width: 10%;
+    background:#ffb703;
+    color: #ffffff;
+    border: none;
+    padding: 6px;
+    border:2px solid #ffb703;
+    font-size: 16px;
+    margin: 8px;
+    left:  100px;
+  }
+  .guardarcliente:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #ffb703;
+  }
+
 
 /* gestionar reporte*/
 
