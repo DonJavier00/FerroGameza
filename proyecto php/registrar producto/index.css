@@ -40,6 +40,7 @@ header{
   }
 
 .tituloFerreteria .salir {
+   
     display: flex;
 
     align-items: center;
@@ -50,12 +51,14 @@ header{
     border-radius: 5px;
     justify-content: start;
    float: right;
+   top: 0;
    margin-top: 6.5%;
    margin-right: 3%;
     transition: all 1s ease;
  
 }
 .tituloFerreteria .salir button{
+    position: relative;
     box-sizing: border-box;
     border: 0;
     border: 2px solid #ff0303;
@@ -305,7 +308,7 @@ form{
 .docum{
    position: relative;
    top: -8%;
-    width: 190px;
+    width: 200px;
     height: 32px;
    margin-left: 30%;
   
@@ -2501,7 +2504,7 @@ background-color: #ff0303;
     overflow: scroll;
   
 }
-/* buscadores */
+/* buscadores gestionar reporte*/
 .buscador{
     position: relative;
     width: 100%;
@@ -2648,3 +2651,13 @@ background-color: #ff0303;
     width: 20%;
 }
 
+@media screen and (max-width: 800px){
+
+    .tituloFerreteria .salir {
+   
+      
+      
+       margin-top: 10%;
+      
+       } 
+}
