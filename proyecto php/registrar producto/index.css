@@ -20,52 +20,90 @@ header{
     box-shadow: 5px 5px 10px #ffc532;
     position: fixed;
     top: 0;
-    overflow: hidden;
     left: 0;
-    background: #fff;
+    justify-content: start;
+	align-items: baseline;
    
     }
 
-   
-  .tituloFerreteria img{
-      background: transparent;
+    .tituloFerreteria{
+        
+        height: 160px;
+        width: 100%;
+    }
+  body .tituloFerreteria img{
+      position: absolute;
       width: 100%;
-      height: 160px;
-     margin-top: -112px;
+      height: 110%;
+      z-index: -1;
+
   }
-.tituloFerreteria a, i{
-position: relative;
-}  
-  
-   .tituloFerreteria i{
-      margin-left: 82%;
-      margin-top: 41px;
-       padding: 1px 7px;
-       align-items: center;
-       text-align: center;
-       line-height: 30px;
-       background: rgb(255, 254, 254);
-       border-radius: 20px;
-       color: #ff0303;
-       border:5px solid  ;
-       position: relative;
-       top: 35px;
-       
+
+.tituloFerreteria .salir {
+    display: flex;
+
+    align-items: center;
+   text-align: center;
    
-       
-   }
-   .tituloFerreteria a{
-     font-size: 24px;
-     color: black;
-    margin-left: 85%;
-    position: relative;
-    top: 2px;
-    left:12px ;
-   }
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    justify-content: start;
+   float: right;
+   margin-top: 6.5%;
+   margin-right: 3%;
+    transition: all 1s ease;
+ 
+}
+.tituloFerreteria .salir button{
+    box-sizing: border-box;
+    border: 0;
+    border: 2px solid #ff0303;
+    background: #ffffff;
+    border-radius: 5px;
+    width: 38px;
+    height: 38px;
+    
+}
+
+.tituloFerreteria{
+    align-items: baseline;
+}
+ 
+
+.tituloFerreteria .salir button i{
+    color: red;
+
+
+}
+.tituloFerreteria .salir h2{
+    font-size: 0;
+	transition: display 1s;
+	width: 0;
+    color: transparent;
+	
+    
+}
+.tituloFerreteria .salir:hover button{
+    border: none;
+
+}
+.tituloFerreteria .salir:hover h2{
+    width: 120px;
+    transition: all 0.8s ease;
+   font-size: 18px;
+    color: #000000; 
+}
+.tituloFerreteria .salir:hover {
+   background: white;
+   border: 2px solid red;
+}
+
+
    .grande{
        width: 100%;
    }
-   
+
 
 
 .redondo{

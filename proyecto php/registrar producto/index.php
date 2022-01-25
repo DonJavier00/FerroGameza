@@ -8,17 +8,23 @@
   <title>Crear</title>
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
   <header>
   
       <div class="tituloFerreteria">
-      <i class="fas fa-door-open"></i>
-      <a href="../Login Ferreteria/index_login.php">Cerrar sesion</a>
       <img src="imag/este.png" alt="">
+    <div class="salir">
+    <a href="../Login Ferreteria/index_login.php"><h2>Cerrar Sesion</h2></a>
+      <button><a href="../Login Ferreteria/index_login.php"><i class="fas fa-door-open"></i></a></button>
      
     </div>
-      </header>
+     
+     
+    </div>
+   </header>
      
  
      
