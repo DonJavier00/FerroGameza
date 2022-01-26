@@ -1532,6 +1532,25 @@ margin-left: 30%;
 .menu{
     margin-top: 15%;
 }
+.guardar_aministrador_tabla{
+    border-radius: 10px;
+    width: 6%;
+    background:#ffb703;
+    color: #ffffff;
+    border: none;
+    padding: 8px;
+    border:2px solid #ffb703;
+    font-size: 16px;
+    margin: 8px;
+    margin-left: 92%;
+    margin-top: -3%;
+}
+
+  .guardar_aministrador_tabla:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #ffb703;
+  }
 
 
 /*---------------------------gestionar proveedor------------------------------------*/
@@ -2116,6 +2135,44 @@ margin-left: 30%;
   
 }
 
+.buscaradministrador{
+    position: absolute;
+    padding: 5px;
+    margin-left: 2.4%;
+    margin-top: -60px;
+}
+.buscaradministrador input{
+width: 0px;
+height: 37px;
+padding: 0 20px;
+font-size: 18px;
+color:black;
+outline: none;
+border:1px solid rgb(243, 241, 241);
+background-color: rgb(243, 241, 241);
+border-radius: 30px;
+transition: all 0.6s ease;
+}
+.btnbuscaradministrador{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ffb703;
+    width: 42px;
+    height: 42px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+ 
+}
+.buscaradministrador:hover input{
+    width: 220px;
+    border:1px solid silver;
+}
+
 
 /* -----------------ver empleados---------------------------- */
 .link_editar_empleado {
@@ -2203,6 +2260,45 @@ margin-left: 30%;
     overflow: scroll;
   
 }
+
+
+.buscarempleado{
+    position: absolute;
+    padding: 5px;
+    margin-left: 3.5%;
+    margin-top: -60px;
+}
+.buscarempleado input{
+width: 0px;
+height: 37px;
+padding: 0 20px;
+font-size: 18px;
+color:black;
+outline: none;
+border:1px solid silver;
+border-radius: 30px;
+transition: all 0.6s ease;
+}
+.btnbuscarempleado{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ffb703;
+    width: 43px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+ 
+}
+.buscarempleado:hover input{
+    width: 240px;
+}
+
+
 
 /* ver proveedores*/
 
@@ -2325,7 +2421,7 @@ table {
 .ventana_ver_clientes h1 {
     color: black;
     text-align: center;
-    margin-top: -6%;
+    margin-top: -2%;
 }
 .estado_clientes {
     width: 70px;
@@ -2410,71 +2506,40 @@ table {
  
 }
 .buscarcliente{
-    position: relative;
+    position: absolute;
     padding: 5px;
-    
-    
+    margin-left: 3.5%;
+    margin-top: -60px;
 }
 .buscarcliente input{
-    margin: 11px 0;
-    width: 0px;
-    text-align: center;
-    height: 37px;
-    padding: 0 20px;
-    font-size: 20px;
-    color: #000;
-    outline: none;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius:30px ;
-    transition: all 0.4s ease;
-    margin-left: 80%;
-   
-
+width: 0px;
+height: 37px;
+padding: 0 20px;
+font-size: 18px;
+color:black;
+outline: none;
+border:1px solid silver;
+border-radius: 30px;
+transition: all 0.6s ease;
 }
 .btnbuscarcliente{
-    margin: 11px 0;
-    position:absolute;
-    top:0;
+    position: absolute;
+    top: 0;
     right: 0;
-    background: #ffb703;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    color: aliceblue;
-    font-size: 19px;
-    border-radius: 70%;
-    cursor: pointer;;
-   
-    
+    background-color: #ffb703;
+    width: 43px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+ 
 }
 .buscarcliente:hover input{
-    width: 180px;
-    border: 1px solid rgb(251, 7, 7);
+    width: 240px;
 }
-.btnbuscarcliente:hover{
-background-color: #ff0303;
-}
-.buscarcliente input:focus{
-    width: 180px;
-
-}
-.guardarcliente{
-    border-radius: 10px;
-    width: 10%;
-    background:#ffb703;
-    color: #ffffff;
-    border: none;
-    padding: 6px;
-    border:2px solid #ffb703;
-    font-size: 16px;
-    margin: 8px;
-    left:  100px;
-  }
-  .guardarcliente:hover{
-    cursor: pointer;
-    background-color: #ffffff;
-    color: #ffb703;
-  }
 
 
 /* gestionar reporte*/
