@@ -40,7 +40,7 @@
               </font>
             </div>
             <h1>Nombre </h1>
-            <form action="">
+            <form action="" class="nombre_categoria_producto">
               <input type="text" class="Nomb">
             </form>
             <div class="btnregresar">
@@ -172,7 +172,7 @@
             <div class="unidadmedida">
               </form>
               <h2>Unidad medida</h2>
-              <form action="">
+              <form action="" class="und_medida_datosmedidas">
                 <input type="text" class="medida">
               </form>
             </div>

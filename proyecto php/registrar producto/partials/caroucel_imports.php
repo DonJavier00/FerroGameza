@@ -110,6 +110,7 @@
                     <b>
                       <li><a href="#factura" class="btn-open">Factura </a></li>
                       <li><a href="#factura_cotizacion" class="btn-open">Cotizacion </a></li>
+                      <li><a href="#factura_credito" class="btn-open">Credito</a></li>
                     </b>
 
                   </ul>

@@ -44,7 +44,6 @@ header{
 
     align-items: center;
    text-align: center;
-   
     padding: 0;
     margin: 0;
     border-radius: 5px;
@@ -218,8 +217,11 @@ header{
             font-size: 20px;
         }
         .btnregresar:hover{
-            background: rgba(236, 228, 228, 0.8);  
-           
+            background: #ff0303; 
+          
+        }
+        .btnregresar a:hover{
+            color: #FFF;
         }
       
     
@@ -357,6 +359,11 @@ opacity: 0;
     opacity:0;
     transition: all 1000ms;
 
+}
+.nombre_categoria_producto input{
+padding: 5px;
+width: 180px;
+margin-left: 30%;
 }
 .ventan1{
 
@@ -582,6 +589,9 @@ opacity: 0;
     opacity:0;
     transition: all 1000ms;
 
+}
+.und_medida_datosmedidas input{
+    margin-left: 30%;
 }
 .ventana5{
 
@@ -1118,7 +1128,6 @@ height: 100%;
 .btn-close_factura{
     width: 50px;
     height: 50px;
-    position: relative;
     padding: 20px;
     background-color: rgb(0, 0, 0);
     color: blanchedalmond;
@@ -1174,6 +1183,7 @@ margin-top: 10px;
 }
 .form_label_cliente_factura{
 align-items: center;
+margin-left: 8%;
 }
 .form_input_cliente_factura{
    padding: 2px;
@@ -1240,14 +1250,14 @@ color: #0fa225;
 }
 .empresa_factura_numero{
     border-radius: 10px;
-    position: relative;
-    left: 26%;
+    
+    margin-left: 53%;
 
 }
 .empresa_factura_nit{
-    position: relative;
-    left: 30%;
-    top: -20px;
+   
+    margin-left: 61%;
+    margin-top: -25px;
 }
 
 .titulo_datos_cliente{
@@ -1363,9 +1373,8 @@ margin-left: 30%;
 .btn-close_gestionar_administrador{
   width: 50px;
   height: 50px;
-  position: absolute;
   padding: 20px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(2, 2, 2);
   color: #FFF;
   border-radius: 50%;
   line-height: 30px;
@@ -1422,7 +1431,7 @@ margin-left: 30%;
         
       }
   .documento_administrador h3{
-        position: relative;
+        
         margin-top: 10%;
       }
     
@@ -1544,14 +1553,15 @@ margin-left: 30%;
 .btn-close_gestionar_administrador{
     width: 50px;
     height: 50px;
-    position: absolute;
+    position: relative;
     padding: 20px;
     background-color: rgb(0, 0, 0);
     color: #FFF;
     border-radius: 50%;
     line-height: 10px;
-  margin-left: 19%;
-  margin-top: -6%;
+  margin-left: 110%;
+    top: -48px;
+ 
 
 }
 .Formulario-Proveedor {
@@ -1591,16 +1601,15 @@ margin-left: 30%;
   
   }
   .transporte h3{
-    position: relative;
-    top: 12px;
-    left: 20px;
+   
+    margin-top: 12px;
+    margin-left: 12%;
   }
   
     .documento_proveedor{
       display: flex;
       margin-top: 10%;
   
-     
       }
       .documento_proveedor h3{
        margin-left: 10%;
@@ -1702,8 +1711,7 @@ margin-left: 30%;
       display: flex;
       }
       .documento_empleado h3{
-        position: relative;
-        top: 10px;
+        margin-top: 10px;
       }
   
   .controls {
@@ -1770,18 +1778,18 @@ margin-left: 30%;
     margin-left: -80%;
 }
 .empresa_factura_cotizacion_fecha #fecha{
-    margin-left: 8%;
+    margin-left: -1%;
     margin-top: -30%;
 }
 .empresa_factura_cotizacion_nit{
-    margin-left: 60%;
+    margin-left: 68%;
     margin-top: -5%;
 }
 .empresa_factura_cotizacion_numero{
-    margin-left: 70%;
+    margin-left: 68%;
 }
 .empresa_factura_cotizacion_fecha label{
-    margin-left: 5%;
+    margin-left: 3%;
 }
 .factura_cotizacion_empresa {
     width: 100%;
@@ -2688,4 +2696,69 @@ transition: all 0.6s ease;
 }
 
 
+/* datos factura credito*/
+.factura_credito:target{
+    background: rgba(0, 0, 0, 0.8);
+    top: 0%;
+    left: 0%;
+    visibility: visible;
+    opacity: 1;
+ 
+}
 
+.factura_credito{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    padding: 40px;
+    visibility: hidden;
+    opacity:0;
+    transition: all 1000ms;
+    overflow: scroll;
+}
+.ventana_credito{
+
+    width: 90%;
+    height: 100%;
+    position:relative;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ 
+}
+/*ver cliente credito */
+.ventana_ver_clientes_credito {
+    width: 90%;
+    max-width: auto;
+    height:auto;
+    background:rgb(253, 250, 250);
+    padding: 50px;
+    margin: auto;
+    border-radius: 4px;
+    color: #000000;
+    box-shadow: 7px 13px 37px #ffb703;
+    align-items: center;
+    text-align: center;
+  }
+ 
+.ver_clientes_credito:target{
+    background: rgba(0, 0, 0, 0.8);
+    top: 0%;
+    left: 0%;
+    visibility: visible;
+    opacity: 1;
+ 
+}
+
+.ver_clientes_credito{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    padding: 40px;
+    visibility: hidden;
+    opacity:0;
+    transition: all 1000ms;
+    overflow: scroll;
+  
+}
