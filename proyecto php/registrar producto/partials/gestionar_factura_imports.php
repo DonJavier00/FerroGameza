@@ -114,9 +114,8 @@
             <td class="precio_und_factura">2000</td>
             <td class="precio_total_factura">6000</td>
             <td class="eliminar_prod_factura">
-              <a class="link_eliminar" href=""
-                onclick="event.preventDefault() del_producto_detale(7707294382059);"><i
-                  class="far fa-trash-alt"></i></a>
+              <a class="link_eliminar" href=""><i class="far fa-trash-alt"></i></a>
+                  
             </td>
           </tr>
           <tr class="datos_venta_factura">
@@ -128,9 +127,7 @@
             <td class="precio_und_factura">15000</td>
             <td class="precio_total_factura">15000</td>
             <td class="eliminar_prod_factura">
-              <a class="link_eliminar" href=""
-                onclick="event.preventDefault() del_producto_detale(7707294382059);"><i
-                  class="far fa-trash-alt"></i></a>
+            <a class="link_eliminar" href=""><i class="far fa-trash-alt"></i></a>
             </td>
           </tr>
           <tr class="datos_venta_factura">
@@ -142,9 +139,7 @@
             <td class="precio_und_factura">20000</td>
             <td class="precio_total_factura">60000</td>
             <td class="eliminar_prod_factura">
-              <a class="link_eliminar" href=""
-                onclick="event.preventDefault() del_producto_detale(7707294382059);"><i
-                  class="far fa-trash-alt"></i></a>
+            <a class="link_eliminar" href=""><i class="far fa-trash-alt"></i></a></a>
             </td>
           </tr>
           <tr class="datos_venta_factura">
@@ -156,9 +151,7 @@
             <td class="precio_und_factura">4000</td>
             <td class="precio_total_factura">8000</td>
             <td class="eliminar_prod_factura">
-              <a class="link_eliminar" href=""
-                onclick="event.preventDefault() del_producto_detale(7707294382059);"><i
-                  class="far fa-trash-alt"></i></a>
+            <a class="link_eliminar" href=""><i class="far fa-trash-alt"></i></a>
             </td>
           </tr>
 
@@ -298,9 +291,7 @@
             <td class="precio_und_factura">2000</td>
             <td class="precio_total_factura">6000</td>
             <td class="eliminar_prod_factura">
-              <a class="link_eliminar" href=""
-                onclick="event.preventDefault() del_producto_detale(7707294382059);"><i
-                  class="far fa-trash-alt"></i></a>
+            <a class="link_eliminar" href=""><i class="far fa-trash-alt"></i></a>
             </td>
           </tr>
           <tr class="datos_venta_factura">
@@ -312,9 +303,7 @@
             <td class="precio_und_factura">15000</td>
             <td class="precio_total_factura">15000</td>
             <td class="eliminar_prod_factura">
-              <a class="link_eliminar" href=""
-                onclick="event.preventDefault() del_producto_detale(7707294382059);"><i
-                  class="far fa-trash-alt"></i></a>
+            <a class="link_eliminar" href=""><i class="far fa-trash-alt"></i></a>
             </td>
           </tr>
           <tr class="datos_venta_factura">
@@ -326,9 +315,7 @@
             <td class="precio_und_factura">20000</td>
             <td class="precio_total_factura">60000</td>
             <td class="eliminar_prod_factura">
-              <a class="link_eliminar" href=""
-                onclick="event.preventDefault() del_producto_detale(7707294382059);"><i
-                  class="far fa-trash-alt"></i></a>
+            <a class="link_eliminar" href=""><i class="far fa-trash-alt"></i></a>
             </td>
           </tr>
           <tr class="datos_venta_factura">
@@ -340,9 +327,7 @@
             <td class="precio_und_factura">4000</td>
             <td class="precio_total_factura">8000</td>
             <td class="eliminar_prod_factura">
-              <a class="link_eliminar" href=""
-                onclick="event.preventDefault() del_producto_detale(7707294382059);"><i
-                  class="far fa-trash-alt"></i></a>
+            <a class="link_eliminar" href=""><i class="far fa-trash-alt"></i></a>
             </td>
           </tr>
 
@@ -377,4 +362,46 @@
 </div>
 </div>
 </div>
+<!-----------------formulario registrar cliente------------------------------------->
+<div class="gestionar_cliente" id="modall">
+    <div class="ventana_gestionar_cliente">
+    <div class="imagen">
+      <img src="imag/hero.jpg" alt="">
+  </div>
+    <section class="registro-cliente">
+    
+          <a href="#" class="btn-close_gestionar_cliente">X</a>
+          <strong>
+            <h1>Formulario cliente</h1><br>
+          </strong>
+          <form>
+            <div class="documento_cliente">
+              <h3>Documento:</h3>
+              <select>
+                <option disabled selected=""> Tipo de documento</option> <br>
+                <option>Cédula de ciudadania</option>
+                <option>Código NIT</option>
+              </select>
+            </div>
+          </form>
+          <div class="contoles_datos_formulario_cliente">
+            <input class="controls_formulario_cliente" type="text" name="documento" id="documento"
+              placeholder="Numero Documento">
+            <input class="controls_formulario_cliente" type="text" name="correo" id="correo" placeholder="Correo Electronico">
+            <input class="controls_formulario_cliente" type="text" name="nombres" id="nombres" placeholder="Nombres">
+            <input class="controls_formulario_cliente" type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
+            <input class="controls_formulario_cliente" type="text" name="telefono" id="telefono" placeholder="Teléfono">
+            <input class="controls_formulario_cliente" type="password" name="correo" id="correo" placeholder="Contraseña">
+            <form>
+          </div>
+          
+          <input class="botons_formulario_cliente" type="submit" value="Registrar">
+      </div>
 
+      </form>
+
+      </section>
+
+    </div>
+  </div>
+  </div>
