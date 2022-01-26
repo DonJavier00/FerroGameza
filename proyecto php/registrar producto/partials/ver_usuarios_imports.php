@@ -391,16 +391,27 @@
 
 
 
-<!--------ver proveedores ------->
+<!------------------ver proveedores ------------------------------->
 
 <div class="ver_proveedores" id="ver_proveedores">
       <div class="ventana_ver_Proveedor">
      <a href="#" class="btn-close_ver_proveedor">X</a>
+     <h1>Tabla proveedores</h1> <br>
+     
      <div class="btn_agregar_usuario">
        <a href="#gestionar_proveedor"><i class="fas fa-plus"></i></a> 
         </div>
-
-     <h1>Tabla proveedores</h1> <br>
+        
+  
+        <div class="buscar_proveedor_boton">
+            <input class="" type="text" placeholder="Buscar" required>
+            <div class="btn_buscar_proveedor">
+          <i class="fas fa-search"></i>
+            </div> 
+           
+        </div>
+       
+    
      <table class ="tabla proveedor">  
   <tr> 
     <th class= "id_prov_tabla"> N°</th> 
