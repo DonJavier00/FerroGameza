@@ -40,35 +40,22 @@ header{
   }
 
 .tituloFerreteria .salir {
-<<<<<<< HEAD
    position: absolute;
-=======
->>>>>>> 63f8863c6dda8837539d750bed4ca70e42fe99df
     display: flex;
     align-items: center;
    text-align: center;
     padding: 0;
     margin: 0;
     border-radius: 5px;
-    justify-content: start;
-<<<<<<< HEAD
+
   
    top: 70%;
-  left: 87%;
-
-=======
-   float: right;
-   margin-top: 6.5%;
-   margin-right: 3%;
->>>>>>> 63f8863c6dda8837539d750bed4ca70e42fe99df
+   left: 87%;
     transition: all 1s ease;
  
 }
 .tituloFerreteria .salir button{
-<<<<<<< HEAD
     
-=======
->>>>>>> 63f8863c6dda8837539d750bed4ca70e42fe99df
     box-sizing: border-box;
     border: 0;
     border: 2px solid #ff0303;

@@ -73,5 +73,6 @@
         </div>
       </div>
     </main>
+    <script src="bloqueo.js"></script>
   </body>
 </html>
