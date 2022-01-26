@@ -1171,14 +1171,3 @@
 
   </div>
 
-
-   <!--------ver clientes con credito y deudas ------->
-   <div class="ver_clientes_credito" id="ver_clientes_credito">
-   
-   <div class="ventana_ver_clientes_credito">
-   
-   
-   <a href="#" class="btn-close_ver_cliente">X</a>
-  
-       </div>
-     </div>
