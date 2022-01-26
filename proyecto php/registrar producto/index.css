@@ -40,21 +40,22 @@ header{
   }
 
 .tituloFerreteria .salir {
+   position: absolute;
     display: flex;
-
     align-items: center;
    text-align: center;
     padding: 0;
     margin: 0;
     border-radius: 5px;
-    justify-content: start;
-   float: right;
-   margin-top: 6.5%;
-   margin-right: 3%;
+
+  
+   top: 70%;
+   left: 87%;
     transition: all 1s ease;
  
 }
 .tituloFerreteria .salir button{
+    
     box-sizing: border-box;
     border: 0;
     border: 2px solid #ff0303;
@@ -2545,6 +2546,9 @@ background-color: #ff0303;
     margin-top: 2%;
     left:32%;
 }
+#buscar_venta{
+    margin-left: 2px;
+}
 
 .buscador_numero{
     display: flex;
@@ -2696,6 +2700,7 @@ transition: all 0.6s ease;
 }
 
 
+
 /* datos factura credito*/
 .factura_credito:target{
     background: rgba(0, 0, 0, 0.8);
@@ -2705,6 +2710,7 @@ transition: all 0.6s ease;
     opacity: 1;
  
 }
+
 
 .factura_credito{
     width: 100%;
