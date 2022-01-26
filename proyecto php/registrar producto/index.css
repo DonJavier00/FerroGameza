@@ -185,17 +185,17 @@ header{
     width: 130px;
     height: 43px;
     border-radius: 70px;
-
+    
        }
        .btnsiguiente:hover{
-        background: rgba(236, 228, 228, 0.8);  
+        background: #ff0303;  
       
        }
        .btnsiguiente a{
            position: absolute;
            top: 8px;
            left:20px;
-           color: black;
+           color: rgb(255, 255, 255);
            font-size: 20px;
            
      
