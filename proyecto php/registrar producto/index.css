@@ -1197,10 +1197,13 @@ margin-left: 8%;
     margin-bottom: 10px;
     margin-left: -10%;
 }
-.center{
-    margin-left: -55%;
-    margin-top: 5%;
+.form_nuevo_cliente_factura .center{
+   float: left;
+  margin-left: -45%;
+    margin-top: 1%;
+position: absolute;
 }
+
 
 
 .factura_empresa{
@@ -1291,7 +1294,7 @@ height: 40px;
 .codigo_factura,.nombre_prod_factura,.descripcion_prod_factura,.marca_prod_factura,
 .cantidad_prod_factura,.precio_und_factura,.precio_total_factura,.eliminar_prod_factura,
 .link_eliminar{
-    padding: 10px;
+    padding: 9px;
 }
 .datos_venta_factura:hover{
     background-color:#eccf1046 ;
@@ -1314,15 +1317,15 @@ height: 40px;
 #txt_precio_total{
     width: 110px;
 }
-.link_nuevo_contacto_factura{
-    position: relative;
-    left: 80%;
-    top: -86%;
+.link_nuevo_contacto_factura .link_nuevo_contacto{
+   margin-left: 35%;
+   margin-top:-120px;
+  
 }
 .link_nuevo_contacto{
-    margin-left: 30%;
-    margin-top: -40%;
-  color: rgb(57, 68, 231);
+    
+  color:#ff0303;
+  
 }
 .link_nuevo_contacto:hover{
     color:#ffb703;
@@ -2575,7 +2578,7 @@ transition: all 0.6s ease;
 }
 .guardar_cliente_tabla{
     border-radius: 10px;
-    width: 6%;
+    width: 8%;
     background:#ffb703;
     color: #ffffff;
     border: none;
