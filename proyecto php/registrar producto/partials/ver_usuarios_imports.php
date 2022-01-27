@@ -127,7 +127,9 @@
             </div>
 
         </div>
-
+        <div class="guardar_proveedor_tabla">
+            <a class="guardaraproveedor" type="submit" value="">Guardar</a>
+        </div>
 
         <table class="tabla proveedor">
             <tr>
@@ -200,7 +202,9 @@
             </div>
 
         </div>
-
+        <div class="guardar_empleado_tabla">
+            <a class="guardarempleado" type="submit" value="">Guardar</a>
+        </div>
 
         <table class="tabla_empleados">
 
@@ -321,6 +325,10 @@
                 <i class="fas fa-search icon"></i>
 
             </div>
+        </div>
+
+        <div class="guardar_cliente_tabla">
+            <a class="guardarcliente" type="submit" value="">Guardar</a>
         </div>
 
         <table class=" tabla_cliente">

@@ -1533,25 +1533,7 @@ margin-left: 30%;
 .menu{
     margin-top: 15%;
 }
-.guardar_aministrador_tabla{
-    border-radius: 10px;
-    width: 6%;
-    background:#ffb703;
-    color: #ffffff;
-    border: none;
-    padding: 8px;
-    border:2px solid #ffb703;
-    font-size: 16px;
-    margin: 8px;
-    margin-left: 92%;
-    margin-top: -3%;
-}
 
-  .guardar_aministrador_tabla:hover{
-    cursor: pointer;
-    background-color: #ffffff;
-    color: #ffb703;
-  }
 
 
 /*---------------------------gestionar proveedor------------------------------------*/
@@ -2166,7 +2148,25 @@ transition: all 0.6s ease;
     width: 220px;
     border:1px solid silver;
 }
+.guardar_aministrador_tabla{
+    border-radius: 10px;
+    width: 6%;
+    background:#ffb703;
+    color: #ffffff;
+    border: none;
+    padding: 8px;
+    border:2px solid #ffb703;
+    font-size: 16px;
+    margin: 8px;
+    margin-left: 92%;
+    margin-top: -3%;
+}
 
+  .guardar_aministrador_tabla:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #ffb703;
+  }
 
 /* -----------------ver empleados---------------------------- */
 .link_editar_empleado {
@@ -2292,6 +2292,25 @@ transition: all 0.6s ease;
     width: 240px;
 }
 
+.guardar_empleado_tabla{
+    border-radius: 10px;
+    width: 6%;
+    background:#ffb703;
+    color: #ffffff;
+    border: none;
+    padding: 8px;
+    border:2px solid #ffb703;
+    font-size: 16px;
+    margin: 8px;
+    margin-left: 92%;
+    margin-top: -3%;
+}
+
+  .guardar_empleado_tabla:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #ffb703;
+  }
 
 
 /* ver proveedores*/
@@ -2403,6 +2422,26 @@ table {
     overflow: scroll;
   
 }
+.guardar_proveedor_tabla{
+    border-radius: 10px;
+    width: 6%;
+    background:#ffb703;
+    color: #ffffff;
+    border: none;
+    padding: 8px;
+    border:2px solid #ffb703;
+    font-size: 16px;
+    margin: 8px;
+    margin-left: 92%;
+    margin-top: -3%;
+}
+
+  .guardar_proveedor_tabla:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #ffb703;
+  }
+
 
 /* ver clientes*/
 .link_editar_clientes{
@@ -2534,7 +2573,25 @@ transition: all 0.6s ease;
 .buscarcliente:hover input{
     width: 240px;
 }
+.guardar_cliente_tabla{
+    border-radius: 10px;
+    width: 6%;
+    background:#ffb703;
+    color: #ffffff;
+    border: none;
+    padding: 8px;
+    border:2px solid #ffb703;
+    font-size: 16px;
+    margin: 8px;
+    margin-left: 92%;
+    margin-top: -3%;
+}
 
+  .guardar_cliente_tabla:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #ffb703;
+  }
 
 /* gestionar reporte*/
 
