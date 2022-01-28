@@ -56,11 +56,11 @@
              </div>
 
            </form>
-
-         </div>
-         <div class="link_nuevo_contacto_factura">
+           <div class="link_nuevo_contacto_factura">
            <a href="#modall" class="link_nuevo_contacto"><i class="fas fa-plus"></i>Agregar contacto</a>
          </div>
+         </div>
+        
 
 
          <table class="tbl_venta">
