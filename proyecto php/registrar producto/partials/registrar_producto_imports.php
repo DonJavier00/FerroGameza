@@ -40,6 +40,8 @@
               </font>
             </div>
             <h1>Nombre </h1>
+            <a href="#" id="agregar_producto_clasificacion" class="link_Agregar_producto_clasificacion"><i class="fas fa-plus"></i></a></td>
+            <a href="#edit_producto_clasificacion" id="editar_producto_clasificacion" class="link_editar_producto_clasificacion"><i class="fas fa-edit"></i></a></td>
             <select class="select_clasificacion" name="" id="">
             <option disabled>--seleccione Clasificacion--</option>
                 <option value="Metrica">General</option>
@@ -64,6 +66,50 @@
             </div>
           </div>
           <a href="" class="btn-close">X</a>
+        </div>
+
+      </div>
+
+      <!-----------------------editar producto clasificacion------------------------>
+
+      <div class="edit_producto_clasificacion" id="edit_producto_clasificacion">
+        <div class="ventana_edit_clasificacion">
+        <a href="" class="btn-close_edit_clasificacion">X</a>
+       
+        <font size=5>
+          <div class="icon_edit">
+          <h4>Editar clasificacion</h4>
+          <img src="imag/editar-archivo.png" alt="">   
+          </div>
+              
+              </font>
+        <select class="select_clasificacion_editar" name="" id="">
+            <option disabled>--seleccione Clasificacion--</option>
+                <option value="Metrica">General</option>
+                <option value="Masa">Sanitario</option>
+                <option value="Volumen">Tornilleria</option>
+                <option value="Longitud">Mineria</option>
+                <option value="Masa">Agricultura</option>
+                <option value="Volumen">Construccion</option>
+                <option value="Longitud">Materiales Electricos</option>
+                <option value="Volumen">Equipos y Herramientas</option>
+                <option value="Longitud">Tuberia y PVC</option>
+                <option value="Volumen">lubricantes</option>
+                <option value="Longitud">Dotaciones</option>
+            </select>
+            <div class="h4_text_clasificacion">
+            <h3>Nueva clasificacion</h3>
+            </div>
+            <div class="nueva_edit_clasificacion">
+            <form action="">
+              <input type="text" class="clasificacion">
+            </form>
+            </div>
+            
+           
+            <div class="btneditar_clasificacion">
+              <b><a href="#datos" class="Siguiente"> Editar </a></b>
+            </div>
         </div>
 
       </div>
