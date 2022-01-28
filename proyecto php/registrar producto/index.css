@@ -2369,7 +2369,7 @@ transition: all 0.6s ease;
 .direccion_prov_tabla,.estado_prov_tabla,.transporte_prov_tabla,
 .editar_prov_tabla,.db_numero_prov,.db_documento_prov,.db_correo_prov,
 .db_nombre_prov,.db_apellido_prov,.db_telefono_prov,.db_direccion_prov,
-.db_estado_prov,.db_transporte_prov,.db_editar_prov{
+.db_estado_prov,.db_editar_prov{
     border-collapse: collapse;
     box-shadow: 3px 3px 3px #ffb703;
     padding: 10px;
@@ -2381,7 +2381,7 @@ transition: all 0.6s ease;
 
 .id_prov_tabla,.documento_prov_tabla,.correo_prov_tabla,.nombre_prov_tabla,
 .apellido_prov_tabla,.telefono_prov_tabla,.direccion_prov_tabla,
-.estado_prov_tabla,.transporte_prov_tabla,.editar_prov_tabla {
+.estado_prov_tabla,.editar_prov_tabla {
     text-align: center;
     background-color: #ffb703;
     

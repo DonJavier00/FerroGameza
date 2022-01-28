@@ -141,7 +141,7 @@
                 <th class="telefono_prov_tabla">Telefono</th>
                 <th class="direccion_prov_tabla">Direccion</th>
                 <th class="estado_prov_tabla">Estado</th>
-                <th class="transporte_prov_tabla">Transporte</th>
+                
                 <th class="editar_prov_tabla">Editar </ht>
             </tr>
 
@@ -163,14 +163,7 @@
                     </select>
                 </td>
 
-                <td class="db_transporte_prov">
-                    <select class="Transporte_proveedor">
-                        <option disabled>Seleccione una opcion</option>
-                        <option>Sí</option>
-                        <option>No</option>
-                    </select>
-                </td>
-
+                
                 <td class="db_editar_prov"> <a href="" id="editar_proveedor" class="link_editar_proveedor">
                         <i class="fas fa-edit"></i>Editar</a></td>
             </tr>
