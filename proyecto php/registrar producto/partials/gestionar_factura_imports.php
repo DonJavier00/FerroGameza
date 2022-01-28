@@ -289,4 +289,46 @@
 
  </div>
 
+ <!-----------------formulario registrar cliente------------------------------------->
+<div class="gestionar_cliente" id="modall">
+    <div class="ventana_gestionar_cliente">
+    <section class="registro-cliente">
+    
+          <a href="#" class="btn-close_gestionar_cliente">X</a>
+          <strong>
+            <h1>Formulario cliente</h1><br>
+          </strong>
+          <form>
+            <div class="documento_cliente">
+              <h3>Documento:</h3>
+              <select>
+                <option disabled selected=""> Tipo de documento</option> <br>
+                <option>Cédula de ciudadania</option>
+                <option>Código NIT</option>
+              </select>
+            </div>
+          </form>
+          <div class="contoles_datos_formulario_cliente">
+            <input class="controls_formulario_cliente" type="text" name="documento" id="documento"
+              placeholder="Numero Documento">
+              <input class="controls_formulario_cliente" type="text" name="nombres" id="nombres" placeholder="Nombres">
+            <input class="controls_formulario_cliente" type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
+            <input class="controls_formulario_cliente" type="text" name="telefono" id="telefono" placeholder="Teléfono">
+            <input class="controls_formulario_cliente" type="text" name="correo" id="correo" placeholder="Correo Electronico">
+            <input class="controls_formulario_cliente" type="text" name="direccion" id="direccion" placeholder="Dirección">
+            <form>
+          </div>
+          
+          <input class="botons_formulario_cliente" type="submit" value="Registrar">
+      </div>
+
+      </form>
+
+      </section>
+
+    </div>
+  </div>
+  </div>
+
+
  
