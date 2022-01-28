@@ -113,7 +113,10 @@
             <table class="datos">
                 <thead>
                     <tr>
+
+                    <th>proveedor/Doc</th>
                        <th>Nombre</th>
+                       <th>Producto/Cod</th>
                        <th>Clasificacion</th>
                        <th>Stock</th>
                        <th>Marca</th>
@@ -127,7 +130,9 @@
    
                 <tbody>
                     <tr>
+                       <td></td>
                        <td>Lavamanos Milano </td>
+                       <td></td>
                        <td>Sanitario</td>
                        <td>15</td>
                        <td>Milano</td>
@@ -136,127 +141,7 @@
                        <td>80000</td>
                        <td><button><i class="fas fa-pen"></i></button></td>
                     </tr>
-                    <tr>
-                       <td>Lavamanos Milano </td>
-                       <td>Sanitario</td>
-                       <td>15</td>
-                       <td>Milano</td>
-                       <td></td>
-                       <td>Porcelana </td>
-                       <td>80000</td>
-                       <td><button><i class="fas fa-pen"></i></button></td>
-                    </tr>
-                    <tr>
-                        <td>Lavamanos Milano </td>
-                        <td>Sanitario</td>
-                        <td>15</td>
-                        <td>Milano</td>
-                        <td></td>
-                        <td>Porcelana </td>
-                        <td>80000</td>
-                        <td><button><i class="fas fa-pen"></i></button></td>
-                     </tr>
-                     <tr>
-                        <td>Lavamanos Milano </td>
-                        <td>Sanitario</td>
-                        <td>15</td>
-                        <td>Milano</td>
-                        <td></td>
-                        <td>Porcelana </td>
-                        <td>80000</td>
-                        <td><button><i class="fas fa-pen"></i></button></td>
-                     </tr>
-                     <tr>
-                        <td>Lavamanos Milano </td>
-                        <td>Sanitario</td>
-                        <td>15</td>
-                        <td>Milano</td>
-                        <td></td>
-                        <td>Porcelana </td>
-                        <td>80000</td>
-                        <td><button><i class="fas fa-pen"></i></button></td>
-                     </tr>
-                     <tr>
-                        <td>Lavamanos Milano </td>
-                        <td>Sanitario</td>
-                        <td>15</td>
-                        <td>Milano</td>
-                        <td></td>
-                        <td>Porcelana </td>
-                        <td>80000</td>
-                        <td><button><i class="fas fa-pen"></i></button></td>
-                     </tr>
-                     <tr>
-                        <td>Lavamanos Milano </td>
-                        <td>Sanitario</td>
-                        <td>15</td>
-                        <td>Milano</td>
-                        <td></td>
-                        <td>Porcelana </td>
-                        <td>80000</td>
-                        <td><button><i class="fas fa-pen"></i></button></td>
-                     </tr>
-                     <tr>
-                        <td>Lavamanos Milano </td>
-                        <td>Sanitario</td>
-                        <td>15</td>
-                        <td>Milano</td>
-                        <td></td>
-                        <td>Porcelana </td>
-                        <td>80000</td>
-                        <td><button><i class="fas fa-pen"></i></button></td>
-                     </tr>
-                     <tr>
-                        <td>Lavamanos Milano </td>
-                        <td>Sanitario</td>
-                        <td>15</td>
-                        <td>Milano</td>
-                        <td></td>
-                        <td>Porcelana </td>
-                        <td>80000</td>
-                        <td><button><i class="fas fa-pen"></i></button></td>
-                     </tr>
-                     <tr>
-                        <td>Lavamanos Milano </td>
-                        <td>Sanitario</td>
-                        <td>15</td>
-                        <td>Milano</td>
-                        <td></td>
-                        <td>Porcelana </td>
-                        <td>80000</td>
-                        <td><button><i class="fas fa-pen"></i></button></td>
-                     </tr>
-                     <tr>
-                        <td>Lavamanos Milano </td>
-                        <td>Sanitario</td>
-                        <td>15</td>
-                        <td>Milano</td>
-                        <td></td>
-                        <td>Porcelana </td>
-                        <td>80000</td>
-                        <td><button><i class="fas fa-pen"></i></button></td>
-                     </tr>
-                     <tr>
-                        <td>Lavamanos Milano </td>
-                        <td>Sanitario</td>
-                        <td>15</td>
-                        <td>Milano</td>
-                        <td></td>
-                        <td>Porcelana </td>
-                        <td>80000</td>
-                        <td><button><i class="fas fa-pen"></i></button></td>
-                     </tr>
-                     <tr>
-                        <td>Lavamanos Milano </td>
-                        <td>Sanitario</td>
-                        <td>15</td>
-                        <td>Milano</td>
-                        <td></td>
-                        <td>Porcelana </td>
-                        <td>80000</td>
-                        <td><button><i class="fas fa-pen"></i></button></td>
-                     </tr>
-               
+                  
    
                 </tbody>
    
@@ -291,7 +176,9 @@
            <table class="datos">
                <thead>
                    <tr>
+                   <th>proveedor/Doc</th>
                       <th>Nombre</th>
+                      <th>Producto/Cod</th>
                       <th>Stock</th>
                       <th>Marca</th>
                       <th>Medida</th>
@@ -304,7 +191,10 @@
   
                <tbody>
                    <tr>
+                      
+                      <td></td>
                       <td>Pica 5 Libras </td>
+                      <td></td>
                       <td>8</td>
                       <td>Truper</td>
                       <td> 110 mm</td>
@@ -312,78 +202,7 @@
                       <td>32900</td>
                       <td><button><i class="fas fa-pen"></i></button></td>
                    </tr>
-                   <tr>
-                      <td>Pica 5 Libras </td>
-                      <td>8</td>
-                      <td>Truper</td>
-                      <td> 110 mm</td>
-                      <td>acero  </td>
-                      <td>32900</td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td>Pica 5 Libras </td>
-                      <td>8</td>
-                      <td>Truper</td>
-                      <td> 110 mm</td>
-                      <td>acero  </td>
-                      <td>32900</td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td>Pica 5 Libras </td>
-                      <td>8</td>
-                      <td>Truper</td>
-                      <td> 110 mm</td>
-                      <td>acero  </td>
-                      <td>32900</td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td>Pica 5 Libras </td>
-                      <td>8</td>
-                      <td>Truper</td>
-                      <td> 110 mm</td>
-                      <td>acero  </td>
-                      <td>32900</td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td>Pica 5 Libras </td>
-                      <td>8</td>
-                      <td>Truper</td>
-                      <td> 110 mm</td>
-                      <td>acero  </td>
-                      <td>32900</td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td>Pica 5 Libras </td>
-                      <td>8</td>
-                      <td>Truper</td>
-                      <td> 110 mm</td>
-                      <td>acero  </td>
-                      <td>32900</td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td>Pica 5 Libras </td>
-                      <td>8</td>
-                      <td>Truper</td>
-                      <td> 110 mm</td>
-                      <td>acero  </td>
-                      <td>32900</td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td>Pica 5 Libras </td>
-                      <td>8</td>
-                      <td>Truper</td>
-                      <td> 110 mm</td>
-                      <td>acero  </td>
-                      <td>32900</td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
+             
                   
               
   
@@ -417,7 +236,9 @@
            <table class="datos">
                <thead>
                    <tr>
+                   <th>proveedor/Doc</th>
                       <th>Nombre</th>
+                      <th>Producto/Cod</th>
                       <th>Stock</th>
                       <th>Marca</th>
                       <th>Medida</th>
@@ -430,6 +251,8 @@
   
                <tbody>
                    <tr>
+                   <td></td>
+                   <td></td>
                       <td> </td>
                       <td></td>
                       <td></td>
@@ -438,68 +261,7 @@
                       <td></td>
                       <td><button><i class="fas fa-pen"></i></button></td>
                    </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                
-                  
+            
               
   
                </tbody>
@@ -532,7 +294,9 @@
            <table class="datos">
                <thead>
                    <tr>
+                   <th>proveedor/Doc</th>
                       <th>Nombre</th>
+                      <th>Producto/Cod</th>
                       <th>Stock</th>
                       <th>Marca</th>
                       <th>Medida</th>
@@ -545,6 +309,8 @@
   
                <tbody>
                    <tr>
+                   <td></td>
+                   <td></td>
                       <td> </td>
                       <td></td>
                       <td></td>
@@ -553,67 +319,7 @@
                       <td></td>
                       <td><button><i class="fas fa-pen"></i></button></td>
                    </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                
+               
                   
               
   
@@ -647,7 +353,9 @@
            <table class="datos">
                <thead>
                    <tr>
+                   <th>proveedor/Doc</th>
                       <th>Nombre</th>
+                      <th>Producto/Cod</th>
                       <th>Stock</th>
                       <th>Marca</th>
                       <th>Medida</th>
@@ -660,6 +368,8 @@
   
                <tbody>
                    <tr>
+                   <td></td>
+                   <td></td>
                       <td> </td>
                       <td></td>
                       <td></td>
@@ -668,66 +378,7 @@
                       <td></td>
                       <td><button><i class="fas fa-pen"></i></button></td>
                    </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
+                  
                 
                   
               
@@ -762,7 +413,9 @@
            <table class="datos">
                <thead>
                    <tr>
+                   <th>proveedor/Doc</th>
                       <th>Nombre</th>
+                      <th>Producto/Cod</th>
                       <th>Stock</th>
                       <th>Marca</th>
                       <th>Medida</th>
@@ -775,6 +428,8 @@
   
                <tbody>
                    <tr>
+                   <td></td>
+                   <td></td>
                       <td> </td>
                       <td></td>
                       <td></td>
@@ -783,66 +438,7 @@
                       <td></td>
                       <td><button><i class="fas fa-pen"></i></button></td>
                    </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
+                 
                 
                   
               
@@ -877,7 +473,9 @@
            <table class="datos">
                <thead>
                    <tr>
+                   <th>proveedor/Doc</th>
                       <th>Nombre</th>
+                      <th>Producto/Cod</th>
                       <th>Stock</th>
                       <th>Marca</th>
                       <th>Medida</th>
@@ -890,6 +488,8 @@
   
                <tbody>
                    <tr>
+                   <td></td>
+                   <td></td>
                       <td> </td>
                       <td></td>
                       <td></td>
@@ -898,66 +498,7 @@
                       <td></td>
                       <td><button><i class="fas fa-pen"></i></button></td>
                    </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
+                
                 
                   
               
@@ -992,7 +533,9 @@
            <table class="datos">
                <thead>
                    <tr>
+                   <th>proveedor/Doc</th>
                       <th>Nombre</th>
+                      <th>Producto/Cod</th>
                       <th>Stock</th>
                       <th>Marca</th>
                       <th>Medida</th>
@@ -1005,6 +548,8 @@
   
                <tbody>
                    <tr>
+                   <td></td>
+                   <td></td>
                       <td> </td>
                       <td></td>
                       <td></td>
@@ -1013,66 +558,7 @@
                       <td></td>
                       <td><button><i class="fas fa-pen"></i></button></td>
                    </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
+                 
                 
                   
               
@@ -1107,7 +593,9 @@
            <table class="datos">
                <thead>
                    <tr>
+                   <th>proveedor/Doc</th>
                       <th>Nombre</th>
+                      <th>Producto/Cod</th>
                       <th>Stock</th>
                       <th>Marca</th>
                       <th>Medida</th>
@@ -1120,6 +608,8 @@
   
                <tbody>
                    <tr>
+                   <td></td>
+                   <td></td>
                       <td> </td>
                       <td></td>
                       <td></td>
@@ -1128,67 +618,7 @@
                       <td></td>
                       <td><button><i class="fas fa-pen"></i></button></td>
                    </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                
+                  
                   
               
   
@@ -1222,7 +652,9 @@
            <table class="datos">
                <thead>
                    <tr>
+                   <th>proveedor/Doc</th>
                       <th>Nombre</th>
+                      <th>Producto/Cod</th>
                       <th>Stock</th>
                       <th>Marca</th>
                       <th>Medida</th>
@@ -1235,6 +667,8 @@
   
                <tbody>
                    <tr>
+                   <td></td>
+                   <td></td>
                       <td> </td>
                       <td></td>
                       <td></td>
@@ -1243,67 +677,7 @@
                       <td></td>
                       <td><button><i class="fas fa-pen"></i></button></td>
                    </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                
+           
                   
               
   
@@ -1337,7 +711,9 @@
            <table class="datos">
                <thead>
                    <tr>
+                   <th>proveedor/Doc</th>
                       <th>Nombre</th>
+                      <th>Producto/Cod</th>
                       <th>Stock</th>
                       <th>Marca</th>
                       <th>Medida</th>
@@ -1350,6 +726,8 @@
   
                <tbody>
                    <tr>
+                   <td></td>
+                   <td></td>
                       <td> </td>
                       <td></td>
                       <td></td>
@@ -1358,112 +736,7 @@
                       <td></td>
                       <td><button><i class="fas fa-pen"></i></button></td>
                    </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr><tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
-                   <tr>
-                      <td> </td>
-                      <td></td>
-                      <td></td>
-                      <td> </td>
-                      <td>  </td>
-                      <td></td>
-                      <td><button><i class="fas fa-pen"></i></button></td>
-                   </tr>
+                  
                 
                   
               
