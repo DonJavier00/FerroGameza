@@ -182,13 +182,13 @@ header{
     top: 320px;
     left: 340px;
     background:#ffb703;
-    width: 130px;
-    height: 43px;
-    border-radius: 70px;
+    width: 120px;
+    height: 38px;
+    border-radius: 10px;
     
        }
        .btnsiguiente:hover{
-        background: #ff0303;  
+        background: #e70606;  
       
        }
        .btnsiguiente a{
@@ -196,7 +196,7 @@ header{
            top: 8px;
            left:20px;
            color: rgb(255, 255, 255);
-           font-size: 20px;
+           font-size: 17px;
            
      
        }
@@ -205,20 +205,20 @@ header{
        top: 320px;
        left:190px;     
         background:#ffb703;
-        width: 130px;
-        height: 43px;
-        border-radius: 70px;
+        width: 120px;
+        height: 38px;
+        border-radius: 10px;
     
            }
            .btnregresar a{
             position: absolute;
             top: 8px;
             left:25px;
-            color: rgb(0, 0, 0);
-            font-size: 20px;
+            color: rgb(241, 241, 241);
+            font-size: 17px;
         }
         .btnregresar:hover{
-            background: #ff0303; 
+            background: #e70606; 
           
         }
         .btnregresar a:hover{
@@ -398,6 +398,15 @@ margin-left: 30%;
     margin: 48px 100px;
 }
 
+.select_clasificacion{
+    padding: 3px;
+    margin-left: 35%;
+    border-radius: 10px;
+    border-color: #ffb703;
+    cursor: pointer;
+    position: relative;
+    top: -30px;
+}
 
     /*datos producto*/
     .dproductos:target{
@@ -669,20 +678,20 @@ margin-left: 30%;
     top: 440px;
     left:190px;     
      background:#ffb703;
-     width: 130px;
-     height: 43px;
-     border-radius: 70px;
+     width: 120px;
+     height: 38px;
+     border-radius: 10px;
  
         }
         .btnregresar1 a{
          position: absolute;
          top: 8px;
          left:25px;
-         color: rgb(0, 0, 0);
-         font-size: 20px;
+         color: rgb(247, 247, 247);
+         font-size: 17px;
      }
      .btnregresar1:hover{
-         background: rgba(236, 228, 228, 0.8);  
+         background: #e70606;  
         
      }
 .btnregistrar{
@@ -690,20 +699,23 @@ margin-left: 30%;
     top: 440px;
     left: 340px; 
      background:#ffb703;
-     width: 130px;
-     height: 43px;
-     border-radius: 70px;
+     width: 120px;
+     height: 38px;
+     border-radius: 10px;
+     text-align: center;
  
         }
         .btnregistrar a{
          position: absolute;
          top: 8px;
          left:25px;
-         color: rgb(0, 0, 0);
-         font-size: 20px;
+         color: rgb(255, 255, 255);
+         font-size: 17px;
+         margin-left: 12px;
+       
      }
      .btnregistrar:hover{
-         background: rgba(236, 228, 228, 0.8);  
+         background: #e70606;  
         
      }
      .unidadmedida .medida{
@@ -884,21 +896,21 @@ margin-top: -20px;
     .btnmodificar{
         position:absolute;
         top: 610px;
-        left:285px; 
-        border-radius: 15px;
-        width: 18%;
+        left:20px; 
+        border-radius: 12px;
+        width: 13%;
         background:#ffb703;
         color: #ffffff;
         border: none;
         padding: 8px;
         border:2px solid #ffb703;
-        font-size: 16px;
+        font-size: 17px;
         margin: 8px;
       }
       .btnmodificar:hover{
         cursor: pointer;
-        background-color: #ffffff;
-        color: #ffb703;
+        background-color: #e40808;
+        color: #fff;
       }
     
          .link_Agregar_producto_compra {
@@ -1114,7 +1126,7 @@ height: 100%;
     border-radius: 10px;
     width: 18%;
     background:#ffb703;
-    color: #ffffff;
+    color: #fdfdfd;
     border: none;
     padding: 8px;
     border:2px solid #ffb703;
@@ -1123,8 +1135,8 @@ height: 100%;
   }
   .botons_factura:hover{
     cursor: pointer;
-    background-color: #ffffff;
-    color: #ffb703;
+    background-color: #d60808;
+    color: #ffffff;
   }
 .btn-close_factura{
     width: 50px;
@@ -1319,12 +1331,13 @@ height: 40px;
 }
 .link_nuevo_contacto_factura .link_nuevo_contacto{
    margin-left: 35%;
-   margin-top:-120px;
+   margin-top:-50%;
   
 }
 .link_nuevo_contacto{
-    
+    position: relative;
   color:#ff0303;
+  top: -105px;
   
 }
 .link_nuevo_contacto:hover{

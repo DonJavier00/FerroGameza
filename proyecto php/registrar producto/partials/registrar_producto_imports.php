@@ -36,13 +36,25 @@
             <div class="img1">
               <img src="imag/categorias.png" alt="">
               <font size=5>
-                <h3>categoria</h3>
+                <h3>clasificacion</h3>
               </font>
             </div>
             <h1>Nombre </h1>
-            <form action="" class="nombre_categoria_producto">
-              <input type="text" class="Nomb">
-            </form>
+            <select class="select_clasificacion" name="" id="">
+            <option disabled>--seleccione Clasificacion--</option>
+                <option value="Metrica">General</option>
+                <option value="Masa">Sanitario</option>
+                <option value="Volumen">Tornilleria</option>
+                <option value="Longitud">Mineria</option>
+                <option value="Masa">Agricultura</option>
+                <option value="Volumen">Construccion</option>
+                <option value="Longitud">Materiales Electricos</option>
+                <option value="Volumen">Equipos y Herramientas</option>
+                <option value="Longitud">Tuberia y PVC</option>
+                <option value="Volumen">lubricantes</option>
+                <option value="Longitud">Dotaciones</option>
+            </select>
+           
             <div class="btnregresar">
               <b><a href="#modal" class="Regresar"> Regresar</a></b>
             </div>
