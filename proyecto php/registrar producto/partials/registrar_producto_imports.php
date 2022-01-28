@@ -36,14 +36,14 @@
             <div class="img1">
               <img src="imag/categorias.png" alt="">
               <font size=5>
-                <h3>clasificacion</h3>
+                <h3>Clasificacion</h3>
               </font>
             </div>
             <h1>Nombre </h1>
             <a href="#" id="agregar_producto_clasificacion" class="link_Agregar_producto_clasificacion"><i class="fas fa-plus"></i></a></td>
             <a href="#edit_producto_clasificacion" id="editar_producto_clasificacion" class="link_editar_producto_clasificacion"><i class="fas fa-edit"></i></a></td>
             <select class="select_clasificacion" name="" id="">
-            <option disabled>--seleccione Clasificacion--</option>
+            <option disabled>--Seleccione Clasificacion--</option>
                 <option value="Metrica">General</option>
                 <option value="Masa">Sanitario</option>
                 <option value="Volumen">Tornilleria</option>
@@ -53,7 +53,7 @@
                 <option value="Longitud">Materiales Electricos</option>
                 <option value="Volumen">Equipos y Herramientas</option>
                 <option value="Longitud">Tuberia y PVC</option>
-                <option value="Volumen">lubricantes</option>
+                <option value="Volumen">Lubricantes</option>
                 <option value="Longitud">Dotaciones</option>
             </select>
            

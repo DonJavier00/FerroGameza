@@ -116,11 +116,12 @@ figure:hover h2 {
 figure h3 {
 	position: absolute;
 	 color: 	#0a0a0a ;
-	   top: 30%;
-	   font-size: 150%;
+	   top: 40%;
+	   font-size: 200%;
 	   text-align: center;
 	   left: 0%;
 	   transform: translateX(-170%);
+	 
    
 	   
 	   transition: all 1s;
@@ -139,7 +140,7 @@ figure h4 {
 	position: absolute;
 	 color: 	#080808 ;
 	   top: 30%;
-	   font-size: 118%;
+	   font-size: 180%;
 	   text-align: center;
 	   left: 0%;
 	   transform: translateX(-170%);
@@ -159,7 +160,7 @@ figure h5 {
 	position: absolute;
 	 color: 	#0a0a0a ;
 	   top: 17%;
-	   font-size: 100%;
+	   font-size: 160%;
 	   text-align: center;
 	   left: 15%;
 	   transform: translateX(-170%);
@@ -176,12 +177,12 @@ figure:hover h5 {
 	 
 
 }
-menus
+
 figure h6 {
 	position: absolute;
 	 color: 	#0a0a0a ;
-	   top: 35%;
-	   font-size: 100%;
+	   top: 40%;
+	   font-size: 150%;
 	   text-align: center;
 	   left: 0%;
 	   transform: translateX(-170%);
@@ -312,212 +313,6 @@ user-select: none;
 
 }
 
-.tabla1{
-	background-color: #FAFAFA;
-	border-radius: var(--dt--borde-radius) ;
-	border: 2px solid #9D5C0D;
-	color: var(--color-primario);
-	margin-top: 0.9%;
-	
-	font-size: 12px;
-
-	position: relative;
-
-}
-.tabla1 .menus{
-	border-bottom: solid 1px --color-secundario;
-	padding: var(--dt-padding);
-	display: flex;
-	align-items: baseline;
-	
-}
-
-.buscar{
-	display: flex;
-	justify-self: center;
-	align-items: center;
-	background:#ffb703 ;
-	padding: 4px;
-	border-radius: 20px;
-}
-.buscar input{
-	border: none;
-	background: none;
-	outline: none;
-	color: white;
-	font-size: 17px;
-	float: left;
-	transition: .9s;
-	width: 0;
-}
-::placeholder{
-	color: white;
-
-}
-.boton{
-	width: 20px;
-	height:20px;
-	text-decoration: none;
-	color: white;
-	font-size: 17px;
-	align-items: center;
-	text-align: center;
-
-}
-.buscar:hover input{
-	width: 190px;
-
-}
-.buscar:hover {
-	background: #df0000;
-}
-
-
-
-.tabla1 .menus .botones{
-	width: 95%;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: start;
-	align-items: baseline;
-}
-.tabla1 .menus .botones .salir  {
-
-	margin-left: 0;
-	display: flex;
-	margin-right:  var(--dt-padding-s);
-    background: #ffb703;
-	justify-content: start;
-	align-items: baseline;
-	border-radius: var(--dt--borde-radius);
-	padding: 0;
-	
-}
-.tabla1 .menus .botones .salir h3{
-	font-size: 15px;
-	transition: display 1s;
-	width: 30px;
-	display: none;
-	
-	
-}
-
-
-.tabla1 .menus .botones li{
-	display: inline-block;
-	margin: 0 var(--dt-padding-xs);
-	margin-left: 0;
-	align-items: baseline;
-}
-.tabla1 .menus .botones li a{
-	color: white;
-
-}
-
-.tabla1 .menus .botones li button{
-	color: white;
-	width: 100%;
-	box-sizing: border-box;
-	border: 0;
-	border-radius: var(--dt--borde-radius);
-	background: #ffb703;
-
-	cursor: pointer;
- 
-}
-
-.tabla1 .menus .botones li button:hover{
-	background: #df0000;
-	color: var(--color-primario);
-}
-.tabla1 .menus .botones .salir:hover h3{
-	display: block;
-	transition: display 1s;
-}
-.tabla1 .menus .botones .salir:hover {
-	background: #df0000; ;
-}
-.tabla1 .menus .botones .salir:hover li button {
-	background: #df0000; ;
-}
-
-.tabla1 .menus .botones li button{
-	padding: var(--dt-padding-s) var(--dt-padding);
-}
-
-
-/*---DATOS--*/
-
-
-
-.datos{
-	height: auto;
-	overflow: scroll;
-}
-
-.tabla1 .datos{
-	border-collapse: collapse;
-	width: 100%;
-	
-	
-}
-.tabla1{
-	overflow: auto;
-	font-size: 17px;
-	
-}
-.tabla1 .datos tbody{
-
-	overflow: scroll;
-}
-thead{
-	background:#FFCE45 ;
-}
-
-.tabla1 .datos,
-.tabla1 .datos th,
-.tabla1 .datos td{
-	padding: var(--dt-padding) var(--dt-padding);
-}
-.tabla1 .datos th{
-font-weight:bolder;
-text-align: left;
-border-bottom: solid 1px var(--color-secundario);
-
-}
-.tabla1 .datos td{
-	border-bottom: solid 1px #FFCE45;
-}
-.tabla1 .datos tbody tr:nth-child(even){
-	background-color: #F7D08A;
-}
-.tabla1 .datos tbody tr:hover{
-	background-color: var(--hover-color);
-}
-.tabla1 .datos td button{
-	background: #E5890A;
-	width: 50%;
-	height: 60%;
-	border-radius: var(--dt--borde-radius);
-	color: white;
-	border:solid 2px #9D5C0D;
-	cursor: pointer;
-}
-.tabla1 .datos td button:hover {
-
-	background: #ff0303;
-	
-}
-
-
-
-
-
-/*--Inventario t2..--*/
-
-
-
 
 
 /*---t3--*/
@@ -614,6 +409,14 @@ border-bottom: solid 1px var(--color-secundario);
 }
 #tabla .menus .botones .salir h3{
 	font-size: 15px;
+	transition: display 1s;
+	width: 30px;
+	display: none;
+	
+	
+}
+#tabla .menus .botones .salir h4{
+	font-size: 20px;
 	transition: display 1s;
 	width: 30px;
 	display: none;

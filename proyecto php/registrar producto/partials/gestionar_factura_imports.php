@@ -126,15 +126,15 @@
          </table>
          <table class="total_factura">
            <tr>
-             <th class="sub_total_factura"> sub total</th>
+             <th class="sub_total_factura"> Sub total</th>
              <td class="texttright">1000.00</td>
            </tr>
            <tr>
-             <th class="iva_factura"> iva 19%</th>
+             <th class="iva_factura"> IVA 19%</th>
              <td class="texttright">1000.00</td>
            </tr>
            <tr>
-             <th class="totalfactura_factura">total</th>
+             <th class="totalfactura_factura">Total</th>
              <td class="texttright">40000.00</td>
 
            </tr>
@@ -266,15 +266,15 @@
          </table>
          <table class="total_factura">
            <tr>
-             <th class="sub_total_factura"> sub total</th>
+             <th class="sub_total_factura"> Sub total</th>
              <td class="texttright">1000.00</td>
            </tr>
            <tr>
-             <th class="iva_factura"> iva 19%</th>
+             <th class="iva_factura"> IVA 19%</th>
              <td class="texttright">1000.00</td>
            </tr>
            <tr>
-             <th class="totalfactura_factura">total</th>
+             <th class="totalfactura_factura">Total</th>
              <td class="texttright">40000.00</td>
 
            </tr>
