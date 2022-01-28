@@ -2145,11 +2145,21 @@ transition: all 0.6s ease;
     font-size: 20px;
     border-radius: 50%;
     cursor: pointer;
+    ;
+
  
+}
+.btnbuscaradministrador:hover{
+    background-color: #ff0303
+    
+}
+.buscaradministrador:hover .btnbuscaradministrador {
+    background-color: #ff0303
 }
 .buscaradministrador:hover input{
     width: 220px;
-    border:1px solid silver;
+    border:1px solid rgb(252, 0, 0);
+    
 }
 .guardar_aministrador_tabla{
     border-radius: 10px;
@@ -2158,7 +2168,7 @@ transition: all 0.6s ease;
     color: #ffffff;
     border: none;
     padding: 8px;
-    border:2px solid #ffb703;
+    border:2px solid #f8f8f8;
     font-size: 16px;
     margin: 8px;
     margin-left: 92%;
@@ -2167,8 +2177,8 @@ transition: all 0.6s ease;
 
   .guardar_aministrador_tabla:hover{
     cursor: pointer;
-    background-color: #ffffff;
-    color: #ffb703;
+    background-color: #fd0404;
+    color: #fcfcfc;
   }
 
 /* -----------------ver empleados---------------------------- */
@@ -2226,7 +2236,7 @@ transition: all 0.6s ease;
 .ventana_ver_usuarios {
     width: 90%;
     height: auto;
-    background:rgb(255, 254, 254);
+    background:rgb(243, 241, 241);
     padding: 50px;
     margin: auto;
     border-radius: 4px;
@@ -2262,7 +2272,7 @@ transition: all 0.6s ease;
 .buscarempleado{
     position: absolute;
     padding: 5px;
-    margin-left: 3.5%;
+    margin-left:  2.4%;
     margin-top: -60px;
 }
 .buscarempleado input{
@@ -2272,7 +2282,8 @@ padding: 0 20px;
 font-size: 18px;
 color:black;
 outline: none;
-border:1px solid silver;
+border:1px solid rgb(243, 241, 241);
+background-color: rgb(243, 241, 241);
 border-radius: 30px;
 transition: all 0.6s ease;
 }
@@ -2281,8 +2292,8 @@ transition: all 0.6s ease;
     top: 0;
     right: 0;
     background-color: #ffb703;
-    width: 43px;
-    height: 43px;
+    width: 42px;
+    height: 42px;
     line-height: 43px;
     text-align: center;
     color: #FFF;
@@ -2291,18 +2302,24 @@ transition: all 0.6s ease;
     cursor: pointer;
  
 }
-.buscarempleado:hover input{
-    width: 240px;
+.btnbuscarempleado:hover {
+    background-color: #ff0303;
 }
-
+.buscarempleado:hover .btnbuscarempleado{
+    background-color: #ff0303;
+}
+.buscarempleado:hover input{
+    width: 220px;
+    border: 1px solid rgb(252, 0, 0);
+}
 .guardar_empleado_tabla{
     border-radius: 10px;
     width: 6%;
     background:#ffb703;
     color: #ffffff;
     border: none;
-    padding: 8px;
-    border:2px solid #ffb703;
+    padding: 6px;
+    border:2px solid #f8f8f8;
     font-size: 16px;
     margin: 8px;
     margin-left: 92%;
@@ -2311,8 +2328,8 @@ transition: all 0.6s ease;
 
   .guardar_empleado_tabla:hover{
     cursor: pointer;
-    background-color: #ffffff;
-    color: #ffb703;
+    background-color: #fd0404;
+    color: #fcfcfc;
   }
 
 
@@ -2395,7 +2412,7 @@ table {
     width: 99%;
     max-width: 90%;
     height:auto;
-    background:rgb(236, 233, 233);
+    background:rgb(243, 241, 241);
     padding: 50px;
     margin: auto;
     border-radius: 4px;
@@ -2432,7 +2449,7 @@ table {
     color: #ffffff;
     border: none;
     padding: 8px;
-    border:2px solid #ffb703;
+    border:2px solid #f8f8f8;
     font-size: 16px;
     margin: 8px;
     margin-left: 92%;
@@ -2441,9 +2458,54 @@ table {
 
   .guardar_proveedor_tabla:hover{
     cursor: pointer;
-    background-color: #ffffff;
-    color: #ffb703;
+    background-color: #fd0404;
+    color: #fcfcfc;
   }
+
+  /*ver proveedor usuario boton buscar*/
+.buscar_proveedor_boton{
+    position: absolute;
+    padding: 5px;
+    margin-left:  2.4%;
+    margin-top: -60px;
+}
+.buscar_proveedor_boton input{
+width: 0px;
+height: 37px;
+padding: 0 20px;
+font-size: 18px;
+color:black;
+outline: none;
+border: 1px solid rgb(243, 241, 241);
+background-color: rgb(243, 241, 241);
+border-radius: 30px;
+transition: all 0.6s ease;
+}
+.btn_buscar_proveedor{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ffb703;
+    width: 43px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+ 
+}
+.btn_buscar_proveedor:hover{
+    background-color: #ff0303;
+}
+.buscar_proveedor_boton:hover .btn_buscar_proveedor{
+    background-color: #ff0303;
+}
+.buscar_proveedor_boton:hover input{
+    width: 220px;
+    border: 1px solid rgb(252, 0, 0);
+}
 
 
 /* ver clientes*/
@@ -2497,7 +2559,7 @@ table {
     width: 90%;
     max-width: auto;
     height:auto;
-    background:rgb(253, 250, 250);
+    background:rgb(243, 241, 241);;
     padding: 50px;
     margin: auto;
     border-radius: 4px;
@@ -2544,7 +2606,7 @@ table {
 .buscarcliente{
     position: absolute;
     padding: 5px;
-    margin-left: 3.5%;
+    margin-left:  2.4%;
     margin-top: -60px;
 }
 .buscarcliente input{
@@ -2554,7 +2616,8 @@ padding: 0 20px;
 font-size: 18px;
 color:black;
 outline: none;
-border:1px solid silver;
+border: 1px solid rgb(243, 241, 241);
+background-color: rgb(243, 241, 241);
 border-radius: 30px;
 transition: all 0.6s ease;
 }
@@ -2573,8 +2636,15 @@ transition: all 0.6s ease;
     cursor: pointer;
  
 }
+.btnbuscarcliente:hover{
+    background-color: #ff0303;
+}
+.buscarcliente:hover .btnbuscarcliente{
+    background-color: #ff0303;
+}
 .buscarcliente:hover input{
-    width: 240px;
+    width: 220px;
+    border: 1px solid rgb(253, 2, 2);
 }
 .guardar_cliente_tabla{
     border-radius: 10px;
@@ -2582,8 +2652,8 @@ transition: all 0.6s ease;
     background:#ffb703;
     color: #ffffff;
     border: none;
-    padding: 8px;
-    border:2px solid #ffb703;
+    padding: 6px;
+    border:2px solid #f8f8f8;
     font-size: 16px;
     margin: 8px;
     margin-left: 92%;
@@ -2592,8 +2662,8 @@ transition: all 0.6s ease;
 
   .guardar_cliente_tabla:hover{
     cursor: pointer;
-    background-color: #ffffff;
-    color: #ffb703;
+    background-color: #fd0404;
+    color: #fcfcfc;
   }
 
 /* gestionar reporte*/
@@ -2781,42 +2851,6 @@ transition: all 0.6s ease;
     width: 20%;
 }
 
-/*ver proveedor usuario boton buscar*/
-.buscar_proveedor_boton{
-    position: absolute;
-    padding: 5px;
-    margin-left: 3.5%;
-    margin-top: -60px;
-}
-.buscar_proveedor_boton input{
-width: 0px;
-height: 37px;
-padding: 0 20px;
-font-size: 18px;
-color:black;
-outline: none;
-border:1px solid silver;
-border-radius: 30px;
-transition: all 0.6s ease;
-}
-.btn_buscar_proveedor{
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #ffb703;
-    width: 43px;
-    height: 43px;
-    line-height: 43px;
-    text-align: center;
-    color: #FFF;
-    font-size: 20px;
-    border-radius: 50%;
-    cursor: pointer;
- 
-}
-.buscar_proveedor_boton:hover input{
-    width: 240px;
-}
 
 
 

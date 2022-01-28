@@ -195,9 +195,9 @@
 
         <div class="buscarempleado">
 
-            <input type="text" placeholder="Buscar" required>
+            <input class="" type="text" placeholder="Buscar" required>
             <div class="btnbuscarempleado">
-                <i class="fas fa-search icon"></i>
+                <i class="fas fa-search "></i>
 
             </div>
 
@@ -215,8 +215,8 @@
                 <th class="correo_emp_tabla">Correo </th>
                 <th class="nombre_emp_tabla">Nombre</th>
                 <th class="apellido_emp_tabla">Apellido</th>
-                <th class="telefono_emp_tabla">TelefonoEmpleado</th>
-                <th class="estado_emp_tabla">EstadoEmpleado</th>
+                <th class="telefono_emp_tabla">Telefono</th>
+                <th class="estado_emp_tabla">Estado</th>
                 <th class="editar_emp_tabla">Editar</th>
             </tr>
 
@@ -312,6 +312,7 @@
 <!---------------------------------------------ver clientes ------------------------------------------------->
 
 <div class="ver_clientes" id="ver_clientes">
+    
     <div class="ventana_ver_clientes">
         <a href="#" class="btn-close_ver_cliente">X</a>
         <h1>Tabla clientes</h1> <br>
@@ -320,9 +321,9 @@
         </div>
 
         <div class="buscarcliente">
-            <input type="text" placeholder="Buscar" required>
+            <input class type="text" placeholder="Buscar" required>
             <div class="btnbuscarcliente">
-                <i class="fas fa-search icon"></i>
+                <i class="fas fa-search "></i>
 
             </div>
         </div>
