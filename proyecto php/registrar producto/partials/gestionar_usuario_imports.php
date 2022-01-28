@@ -49,7 +49,7 @@
         <div class="documento_proveedor">
           <h3>Documento:</h3>
           <select>
-            <option disabled selected="">tipo de documento</option>
+            <option disabled selected="">Tipo de documento</option>
             <option>Cedula de ciudadania</option>
             <option>Código NIT</option>
           </select>
