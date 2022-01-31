@@ -2758,28 +2758,54 @@ transition: all 0.6s ease;
     margin-left: 2px;
 }
 
-.buscador_numero{
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    background: #ffb703;
-    padding: 4px;
-    border-radius: 20px;
-    margin-left: 95%;
-    margin-top: -5%;
+.buscar_numero{
+    position: absolute;
+    padding: 5px;
+    margin-left: 80%;
+    margin-top: -60px;
 }
+.buscar_numero input{
+width: 0px;
+height: 37px;
+padding: 0 20px;
+font-size: 18px;
+color:black;
+outline: none;
+border:1px solid #FFF;
+background-color:#FFF;
+border-radius: 30px;
+transition: all 0.6s ease;
+}
+.btnbuscar_numero{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ffb703;
+    width: 42px;
+    height: 42px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    ;
 
-.buscador_numero input {
-    border: none;
-    background: none;
-    outline: none;
-    color: white;
-    font-size: 17px;
-    float: left;
-    transition: .9s;
-    width: 0;
+ 
+}
+.btnbuscar_numero:hover{
+    background-color: #ff0303
     
 }
+.buscar_numero:hover .btnbuscar_numero {
+    background-color: #ff0303
+}
+.buscar_numero:hover input{
+    width: 220px;
+    border:1px solid rgb(252, 0, 0);
+    
+}
+
 
 /* tabla gestionar reporte */
 
@@ -3049,5 +3075,5 @@ height: 110px;
                font-size: 16px;
                
          
-           }
-}
+       }
+

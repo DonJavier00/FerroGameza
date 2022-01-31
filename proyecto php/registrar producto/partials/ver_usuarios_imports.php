@@ -445,10 +445,15 @@
 
 
             <br>
-            <div class="buscador_numero">
-                <input type="text" class="fas fa-search icon" placeholder="Buscar">
-                <a href="" class="boton"> <i class="fas fa-search icon"></i></a>
+            
+            <div class="buscar_numero">
+            <input class="" type="text" placeholder="Buscar" required>
+            <div class="btnbuscar_numero">
+                <i class="fas fa-search"></i>
             </div>
+
+        </div>
+
 
         </form>
         <br>
