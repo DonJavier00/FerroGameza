@@ -39,10 +39,8 @@
                 </font>
             </div>
             <h1>Nombre </h1>
-            <a href="#" id="agregar_producto_clasificacion" class="link_Agregar_producto_clasificacion"><i
-                    class="fas fa-plus"></i></a></td>
-            <a href="#edit_producto_clasificacion" id="editar_producto_clasificacion"
-                class="link_editar_producto_clasificacion"><i class="fas fa-edit"></i></a></td>
+            <a href="#nuevo_producto_clasificacion" id="agregar_producto_clasificacio" class="link_Agregar_producto_clasificacion"><i class="fas fa-plus"></i></a></td>
+            <a href="#edit_producto_clasificacion" id="editar_producto_clasificacion" class="link_editar_producto_clasificacion"><i class="fas fa-edit"></i></a></td>
             <select class="select_clasificacion" name="" id="">
                 <option disabled>--Seleccione Clasificacion--</option>
                 <option value="Metrica">General</option>
@@ -111,6 +109,32 @@
     </div>
 
 </div>
+<!--------nueva clasificacion de producto ----------------------->
+<div class="nuevo_producto_clasificacion" id="nuevo_producto_clasificacion">
+    <div class="ventana_nueva_clasificacion">
+
+        <a href="" class="btn-close_edit_clasificacion">X</a>
+
+        <font size=5>
+            <div class="icon_edit">
+                <h4>Nueva clasificacion</h4>
+                <img src="imag/editar-archivo.png" alt="">
+            </div> </font>
+       
+            <h3>Nombre</h3>
+     
+            <form action="" >
+                <input type="text" class="clasificasion">
+            </form>
+       
+        <div class="btneditar_clasificasion">
+            <b><a href="#datos" class="Siguiente"> Editar </a></b>
+        </div>
+
+    </div>
+
+</div>
+
 
 <!------------------datos producto-------------------------->
 <div class="dproductos" id="datos">
