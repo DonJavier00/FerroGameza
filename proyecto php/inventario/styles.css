@@ -265,9 +265,9 @@ user-select: none;
 	
 	display: none;
 	float: left;
-	width: 89%;
-	height: 95%;
-	margin: 0.3%;
+	width: 89.6%;
+	height: 99.5%;
+	float: right;
 	
 	overflow: hidden;
 
@@ -328,7 +328,7 @@ user-select: none;
 	border-radius: var(--dt--borde-radius) ;
 	border: 2px solid #9D5C0D;
 	color: var(--color-primario);
-	margin-top: 0.9%;
+	
 	
 	font-size: 12px;
 
