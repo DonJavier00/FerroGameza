@@ -39,7 +39,7 @@
                 </font>
             </div>
             <h1>Nombre </h1>
-            <a href="#nuevo_producto_clasificacion" id="agregar_producto_clasificacio"
+            <a href="#nuevo_producto_clasificacion" id="nuevo_producto_clasificacio"
                 class="link_Agregar_producto_clasificacion"><i class="fas fa-plus"></i></a></td>
             <a href="#edit_producto_clasificacion" id="editar_producto_clasificacion"
                 class="link_editar_producto_clasificacion"><i class="fas fa-edit"></i></a></td>
@@ -76,12 +76,12 @@
 <div class="edit_producto_clasificacion" id="edit_producto_clasificacion">
     <div class="ventana_edit_clasificacion">
 
-        <a href="" class="btn-close_edit_clasificacion">X</a>
+
         <div class="icon_edit">
             <h4>Editar clasificacion</h4>
             <img src="imag/editar-archivo.png" alt="">
-        </div>
-        <div class="general_editar">
+
+
             <select class="select_clasificacion_editar" name="" id="">
                 <option disabled>--seleccione Clasificacion--</option>
                 <option value="Metrica">General</option>
@@ -96,7 +96,6 @@
                 <option value="Volumen">lubricantes</option>
                 <option value="Longitud">Dotaciones</option>
 
-
             </select>
 
             <h3>Nueva clasificacion</h3>
@@ -105,36 +104,52 @@
                 <input type="text" class="clasificacion">
             </form>
 
+            <div class="btnregresar_clasificacion">
+                <a href="#clasificacion" class="Siguiente"> Regresar </a>
+            </div>
+
+            <div class="btneditar_clasificacion">
+                <a href="#clasificacion" class="Siguiente"> Editar </a>
+            </div>
+
+
         </div>
 
-        <div class="btneditar_clasificacion">
-            <b><a href="#datos" class="Siguiente"> Editar </a></b>
-        </div>
 
     </div>
 
 </div>
 <!--------nueva clasificacion de producto ----------------------->
+
 <div class="nuevo_producto_clasificacion" id="nuevo_producto_clasificacion">
     <div class="ventana_nueva_clasificacion">
 
-        <a href="" class="btn-close_edit_clasificacion">X</a>
-       
-            <font size=5>
-                <div class="icon_edit">
-                    <h4>Nueva clasificacion</h4>
-                    <img src="imag/registro.png" alt="">
-                </div>
-            </font>
-            <div class="general_nueva">
+
+        <div class="icon_nuevo">
+            <h4>Nueva clasificacion</h4>
+            <img src="imag/registro.png" alt="">
+
+
+            <select class="select_clasificacion_nueva" name="" id="">
+                <option disabled>--seleccione Clasificacion--</option>
+                
+            </select>
+
             <h3>Nombre</h3>
-            <form class="nueva_clasificacion_text"action="">
+
+            <form action="">
                 <input type="text" class="clasificacion">
             </form>
 
-            <div class="btn_nueva_clasificacion">
-                <b><a href="#datos" class="Siguiente"> Editar </a></b>
+            <div class="btnregresar_clasificacion">
+                <a href="#clasificacion" class="Siguiente"> Regresar </a>
             </div>
+
+            <div class="btneditar_clasificacion">
+                <a href="#clasificacion" class="Siguiente"> Guardar</a>
+            </div>
+
+
         </div>
 
 
