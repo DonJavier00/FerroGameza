@@ -1,948 +1,899 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: none;
-}
-body{
-   background-image: url(1.jpg) ;
-
-    min-height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-header{
-    width: 100%;
-    height: 150px;
-    box-shadow: 5px 5px 10px #ffc532;
-    position: fixed;
-    top: 0;
-    left: 0;
-    justify-content: start;
-	align-items: baseline;
-   
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
     }
-
-    .tituloFerreteria{
-        
+    
+    body {
+        background-image: url(1.jpg);
+        min-height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    header {
+        width: 100%;
+        height: 150px;
+        box-shadow: 5px 5px 10px #ffc532;
+        position: fixed;
+        top: 0;
+        left: 0;
+        justify-content: start;
+        align-items: baseline;
+    }
+    
+    .tituloFerreteria {
         height: 160px;
         width: 100%;
     }
-  body .tituloFerreteria img{
-      position: absolute;
-      width: 100%;
-      height: 110%;
-      z-index: -1;
-
-  }
-
-.tituloFerreteria .salir {
-   position: absolute;
-    display: flex;
-    align-items: center;
-   text-align: center;
-    padding: 0;
-    margin: 0;
-    border-radius: 5px;
-
-  
-   top: 70%;
-   left: 87%;
-    transition: all 1s ease;
- 
-}
-.tituloFerreteria .salir button{
     
-    box-sizing: border-box;
-    border: 0;
-    border: 2px solid #ff0303;
-    background: #ffffff;
-    border-radius: 5px;
-    width: 38px;
-    height: 38px;
+    body .tituloFerreteria img {
+        position: absolute;
+        width: 100%;
+        height: 110%;
+        z-index: -1;
+    }
     
-}
-
-.tituloFerreteria{
-    align-items: baseline;
-}
- 
-
-.tituloFerreteria .salir button i{
-    color: red;
-
-
-}
-.tituloFerreteria .salir h2{
-    font-size: 0;
-	transition: display 1s;
-	width: 0;
-    color: transparent;
-	
+    .tituloFerreteria .salir {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        border-radius: 5px;
+        top: 70%;
+        left: 87%;
+        transition: all 1s ease;
+    }
     
-}
-.tituloFerreteria .salir:hover button{
-    border: none;
-
-}
-.tituloFerreteria .salir:hover h2{
-    width: 120px;
-    transition: all 0.8s ease;
-   font-size: 18px;
-    color: #000000; 
-}
-.tituloFerreteria .salir:hover {
-   background: white;
-   border: 2px solid red;
-}
-
-
-   .grande{
-       width: 100%;
-   }
-
-
-
-.redondo{
-   
-    width: 50%;
-    height: 40%;
-    background-color: #ffb703;
-    border-radius: 100%;
-    display:block;
-    position: relative;
-    left: 20px;
-    margin: -18px 80px;
+    .tituloFerreteria .salir button {
+        box-sizing: border-box;
+        border: 0;
+        border: 2px solid #ff0303;
+        background: #ffffff;
+        border-radius: 5px;
+        width: 38px;
+        height: 38px;
+    }
     
-}
-
-
-
-.contenido1 .menu ul{
-  
-  
-   background-color: #ffb703;
-    list-style:none;
-    width: 90%;
-    height: 40px;
-    text-align: center;
-	padding: 3px 5px ;
-    border-radius: 30px;
-    margin-left: 5%;
-    margin-top: 5px;
-    	
-}
-.contenido1 .menu ul ul{
- display: none;
- margin:  0px 0px;
- background-color: #fffcf6;
- border-radius: 0px;
- height:auto;
- margin-top: -2%;
- width: 100%;
-}
-.contenido1 .menu a{
-    display: block;
-    padding: 4.5px 0px;
-    color: rgb(8, 8, 8);
-    text-decoration: none;
-    margin: 3px 48px;
-   
-  
-}
-
-.contenido1 .menu li:hover{
-    /* CUANDO PASE EL CURSOR SE SELECCIONE*/
-    background-color: #ffb703;
+    .tituloFerreteria {
+        align-items: baseline;
+    }
     
-  
+    .tituloFerreteria .salir button i {
+        color: red;
+    }
     
-	
-}
-.contenido1 .menu li{
-    border-right: 0px solid rgb(250, 243, 243);
-}
-.contenido1 .menu i {
-/* espacion imagen de la flecha de cada menu*/
-    margin-left: 15px;
-
-}
-
-.contenido1 .menu ul li:hover ul {
-  
-    display: block;
-    position: relative;
-}
-
-.btnsiguiente{
-    position: absolute;
-    top: 320px;
-    left: 340px;
-    background:#ffb703;
-    width: 120px;
-    height: 34px;
-    border-radius: 10px;
+    .tituloFerreteria .salir h2 {
+        font-size: 0;
+        transition: display 1s;
+        width: 0;
+        color: transparent;
+    }
     
-       }
-       .btnsiguiente:hover{
-        background: #e70606;  
-      
-       }
-       .btnsiguiente a{
-           position: absolute;
-           top: 8px;
-           left:20px;
-           color: rgb(255, 255, 255);
-           font-size: 16px;
-           
-     
-       }
-       .btnregresar{
-       position:absolute;
-       top: 320px;
-       left:190px;     
-        background:#ffb703;
+    .tituloFerreteria .salir:hover button {
+        border: none;
+    }
+    
+    .tituloFerreteria .salir:hover h2 {
+        width: 120px;
+        transition: all 0.8s ease;
+        font-size: 18px;
+        color: #000000;
+    }
+    
+    .tituloFerreteria .salir:hover {
+        background: white;
+        border: 2px solid red;
+    }
+    
+    .grande {
+        width: 100%;
+    }
+    
+    .redondo {
+        width: 50%;
+        height: 40%;
+        background-color: #ffb703;
+        border-radius: 100%;
+        display: block;
+        position: relative;
+        left: 20px;
+        margin: -18px 80px;
+    }
+    
+    .contenido1 .menu ul {
+        background-color: #ffb703;
+        list-style: none;
+        width: 90%;
+        height: 40px;
+        text-align: center;
+        padding: 3px 5px;
+        border-radius: 30px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+    
+    .contenido1 .menu ul ul {
+        display: none;
+        margin: 0px 0px;
+        background-color: #fffcf6;
+        border-radius: 0px;
+        height: auto;
+        margin-top: -2%;
+        width: 100%;
+    }
+    
+    .contenido1 .menu a {
+        display: block;
+        padding: 4.5px 0px;
+        color: rgb(8, 8, 8);
+        text-decoration: none;
+        margin: 3px 48px;
+    }
+    
+    .contenido1 .menu li:hover {
+        /* CUANDO PASE EL CURSOR SE SELECCIONE*/
+        background-color: #ffb703;
+    }
+    
+    .contenido1 .menu li {
+        border-right: 0px solid rgb(250, 243, 243);
+    }
+    
+    .contenido1 .menu i {
+        /* espacion imagen de la flecha de cada menu*/
+        margin-left: 15px;
+    }
+    
+    .contenido1 .menu ul li:hover ul {
+        display: block;
+        position: relative;
+    }
+    
+    .btnsiguiente {
+        position: absolute;
+        top: 320px;
+        left: 340px;
+        background: #ffb703;
         width: 120px;
         height: 34px;
         border-radius: 10px;
-    
-           }
-           .btnregresar a{
-            position: absolute;
-            top: 8px;
-            left:25px;
-            color: rgb(241, 241, 241);
-            font-size: 16px;
-        }
-        .btnregresar:hover{
-            background: #e70606; 
-          
-        }
-        .btnregresar a:hover{
-            color: #FFF;
-        }
-      
-    
-/*proveedor*/
-
-.contenido{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    padding: 40px;
-    visibility: hidden;
-    opacity:0;
-    transition: all 1000ms;
-
-}
-.ventana{
-    width: 100%;
-    max-width: 500px;
-    height: 400px;
-    position: absolute;
-    display: flex;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background-color: seashell;
-   
-}
-
-.img img{
-    width: 25%;
-    height: 25%;
-    margin: 25px 190px;
-
-}
-.img h3{
-    text-align: center;
-    margin: -19px 0px;
-  
-}
-
-.texto h1{
-    font-size: 23px;
-    text-align: center;
-    margin: 48px 100px;
-}
-.btn-close{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    left: 95%;
-    top: -20px;
-    padding: 20px;
-    background-color: black;
-    color: blanchedalmond;
-    border-radius: 50%;
-    line-height: 10px;
-
-}
-    
- 
-
-.contenido:target{
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
-
-}
-form{
-    width: 100%;
-    max-width: 600px;
-    height: -100px;
-    display:flex;
-    margin: -40px auto;
-    margin-left: -15%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-
-}
-.docum{
-   position: relative;
-   top: -8%;
-    width: 190px;
-    height: 32px;
-   margin-left: 30%;
-  
-}
-
-
-
-
-
-
-@media screen and (max-width:600px){
-    .ventana{
-        flex-direction: column;
-        height: 100%;
-        max-height: 500px;
-    }
-    .img{
-        width: 100%;
-        height: 1000%;
-    }
-    .contenido{
-        width: 100%;
-        height: 60%;
-        padding: 80px;
-    }
-}
-
-
-.siguiente:target{
-visibility:visible;
-opacity: 0;
-}
-/*clasificacion*/
-.cproducto:target{
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
-
-}
-
-.cproducto{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    padding: 40px;
-    visibility: hidden;
-    opacity:0;
-    transition: all 1000ms;
-
-}
-.nombre_categoria_producto input{
-padding: 5px;
-width: 180px;
-margin-left: 30%;
-}
-.ventan1{
-
-    width: 100%;
-    max-width: 500px;
-    height: 400px;
-    position:relative;
-    display: flex;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background-color: seashell;
-   
-}
-
-.img1 img{
-    width: 25%;
-    height: 25%;
-    margin: 25px 190px;
-
-}
-.img1 h3{
-    text-align: center;
-    margin: -19px 0px;
-  
-}
-
-.texto1 h1{
-    font-size: 23px;
-    text-align: center;
-    margin: 48px 80px;
-    margin-top: 30px;
-}
-
-.select_clasificacion{
-    padding: 3px;
-    margin-left: 30%;
-    border-radius: 10px;
-    border-color: #ffb703;
-    cursor: pointer;
-    position: relative;
-    top: -68px;
-}
-.link_Agregar_producto_clasificacion{
-    color: #ff0303;
-     margin-left: 66%;
-     position: relative;
-     top: -28PX;
-      }
-      .link_Agregar_producto_clasificacion:hover{
-          color: #ffb703;
-      }
-
-      .link_editar_producto_clasificacion{
-        color: #ff0303;
-        margin-left: 70%;
-        position: relative;
-        top: -46PX;
-      }
-      .link_editar_producto_clasificacion:hover{
-        color: #ffb703;
-    }
-
-    /*datos producto*/
-    .dproductos:target{
-        background: rgba(0, 0, 0, 0.8);
-       top: 0%;
-       left: 0%;
-        visibility: visible;
-        opacity: 1;
-    
     }
     
-    .dproductos{
+    .btnsiguiente:hover {
+        background: #e70606;
+    }
+    
+    .btnsiguiente a {
+        position: absolute;
+        top: 8px;
+        left: 20px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+    }
+    
+    .btnregresar {
+        position: absolute;
+        top: 320px;
+        left: 190px;
+        background: #ffb703;
+        width: 120px;
+        height: 34px;
+        border-radius: 10px;
+    }
+    
+    .btnregresar a {
+        position: absolute;
+        top: 8px;
+        left: 25px;
+        color: rgb(241, 241, 241);
+        font-size: 16px;
+    }
+    
+    .btnregresar:hover {
+        background: #e70606;
+    }
+    
+    .btnregresar a:hover {
+        color: #FFF;
+    }
+    /*proveedor*/
+    
+    .contenido {
         width: 100%;
         height: 100%;
         position: fixed;
         padding: 40px;
         visibility: hidden;
-        opacity:0;
+        opacity: 0;
         transition: all 1000ms;
-    
     }
-    .ventana2{
     
+    .ventana {
         width: 100%;
         max-width: 500px;
         height: 400px;
-        position:relative;
+        position: absolute;
         display: flex;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
         background-color: seashell;
-       
     }
     
-    .img2 img{
-        width: 20%;
-        height: 20%;
-        margin: 10px 190px;
-    
+    .img img {
+        width: 25%;
+        height: 25%;
+        margin: 25px 190px;
     }
-    .img2 h3{
+    
+    .img h3 {
         text-align: center;
         margin: -19px 0px;
-      
     }
     
-    .texto2 h1{
+    .texto h1 {
         font-size: 23px;
         text-align: center;
         margin: 48px 100px;
     }
     
-        .dmaterial:target{
-            
-            visibility: visible;
-            opacity: 1;
-        
-        }
-   
-        .botones2{
-            margin: 70px 120px;
-        } 
-/*Datos material*/
-
-.dmaterial:target{
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
-
-}
-
-.dmaterial{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    padding: 40px;
-    visibility: hidden;
-    opacity:0;
-    transition: all 1000ms;
-
-}
-.ventana3{
-
-    width: 100%;
-    max-width: 500px;
-    height: 400px;
-    position:relative;
-    display: flex;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background-color: seashell;
-   
-}
-
-.img3 img{
-    width: 25%;
-    height: 25%;
-    margin: 25px 190px;
-
-}
-.img3 h3{
-    text-align: center;
-    margin: -19px 0px;
-  
-}
-
-.texto3 h1{
-    font-size: 23px;
-    text-align: center;
-    margin: 48px 100px;
-}
-
-
-.Siguiente:target{
-    visibility:visible;
-    opacity: 0;
+    .btn-close {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 95%;
+        top: -20px;
+        padding: 20px;
+        background-color: black;
+        color: blanchedalmond;
+        border-radius: 50%;
+        line-height: 10px;
     }
-/* datos marca*/
-.dmarca:target{
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
-
-}
-
-.dmarca{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    padding: 40px;
-    visibility: hidden;
-    opacity:0;
-    transition: all 1000ms;
-
-}
-.ventana4{
-
-    width: 100%;
-    max-width: 500px;
-    height: 400px;
-    position:relative;
-    display: flex;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background-color: seashell;
-   
-}
-
-.img4 img{
-    width: 25%;
-    height: 25%;
-    margin: 25px 190px;
-
-}
-.img4 h3{
-    text-align: center;
-    margin: -19px 0px;
-  
-}
-
-.texto4 h1{
-    font-size: 23px;
-    text-align: center;
-    margin: 48px 100px;
-}
-
-    /* datos medida*/
-.dmedida:target{
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
-
-}
-
-.dmedida{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    padding: 40px;
-    visibility: hidden;
-    opacity:0;
-    transition: all 1000ms;
-
-}
-.und_medida_datosmedidas input{
-    margin-left: 30%;
-}
-.ventana5{
-
-    width: 100%;
-    max-width: 500px;
-    height: 500px;
-    position:relative;
-    display: flex;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background-color: seashell;
-   
-}
-
-.img5 img{
-    width: 25%;
-    height: 25%;
-    margin: 25px 190px;
-
-}
-.img5 h3{
-    text-align: center;
-    margin: -29px 0px;
-  
-}
-
-.texto5 h1{
-    font-size: 23px;
-    text-align: center;
-    margin: 40px 100px;
-}
-.botones{
-    border-radius: 3rem;
-    width: 80%;
-    border: 1px solid #ffb703;
-    line-height: 1.6rem;
-    font-size: 1.3rem;
-    background-color: #ffb703;
-    color: #ffffff;
-    padding: 0.5rem 0;
-    transition: 0.3s ease-in-out all;
-    font-weight: 500;
- 
-  }
-  
-  .boton:hover{
-    cursor: pointer;
-    background-color: #ffffff;
-    color: #ffb703;
-  }
-  .tipomedida{
-      position: absolute;
-      top: 310px;
-      left: 150px;
     
-  }
-  .tipomedida select{
-    width: 190px;
-    height: 32px;
-      font-size: 20px;
-      position: relative;
-      top: -35px;
-     left: 5px;
-  }
-  .tipomedida h2{
-      position: relative;
-      top: -50px;
-      text-align: center;
-
-  }
-  .btnregresar1{
-    position:absolute;
-    top: 440px;
-    left:190px;     
-     background:#ffb703;
-     width: 120px;
-     height: 38px;
-     border-radius: 10px;
- 
-        }
-        .btnregresar1 a{
-         position: absolute;
-         top: 8px;
-         left:25px;
-         color: rgb(247, 247, 247);
-         font-size: 17px;
-     }
-     .btnregresar1:hover{
-         background: #e70606;  
-        
-     }
-.btnregistrar{
-    position:absolute;
-    top: 440px;
-    left: 340px; 
-     background:#ffb703;
-     width: 120px;
-     height: 38px;
-     border-radius: 10px;
-     text-align: center;
- 
-        }
-        .btnregistrar a{
-         position: absolute;
-         top: 8px;
-         left:25px;
-         color: rgb(255, 255, 255);
-         font-size: 17px;
-         margin-left: 12px;
-       
-     }
-     .btnregistrar:hover{
-         background: #e70606;  
-        
-     }
-     .unidadmedida .medida{
-       position: relative;
-       top: 185px;
+    .contenido:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    form {
+        width: 100%;
+        max-width: 600px;
+        height: -100px;
+        display: flex;
+        margin: -40px auto;
+        margin-left: -15%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .docum {
+        position: relative;
+        top: -8%;
         width: 190px;
         height: 32px;
-
-     }
-     .unidadmedida h2{
-         text-align: center;
-         position: relative;
-         top: 135px;
-     }
-     
-/* registro de producto si existe*/ 
-
-
-
-
-.btn-close_registro_compra{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    padding: 20px;
-    background-color: rgb(0, 0, 0);
-    color: blanchedalmond;
-    border-radius: 50%;
-    line-height: 10px;
-  margin-left: 87%;
-  margin-top: -2%;
-
-}
-
-#contenido_general_registrar{
-    background-color: #FFF;
-    width: 90%;
-    height: 700px;
-    align-items: center;
-    display:flexbox;
-    border-radius: 20px;
-    border: 2px solid #000000;
-    margin-left: 0%;
-    
-    
-}
-.factura_proveedor_registro{
-    width: 100%;
-    max-width: 95%;
-    background-color: #fff; 
-    border: 2px solid #ffb703;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 10px;
-   margin-left: 2.5%; 
-    font-size: 18px;
-    font-weight: bolder; 
-
-}
-.datos_proveedor_formulario{
-    width: 100%;
-    max-width: 95%;
-     max-height: 120px;
-    background-color: #fff; 
-    border: 2px solid #ffb703;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 17px;
-    font-weight: bolder; 
-    height: 180px;
-    margin-top: 10px;
-    margin-left: 2.5%; 
-}
-
-
-.registrar_compra:target{
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
-}
-.total_factura_proveedor{
-    width: 25%;
-    height: 6%;
-    border: 2px solid #ffb703;
-    margin-left: 72%;
-    margin-top: 10px;
-    border-radius: 10px;
-}
-.factura_proveedor_registro .proveedor_factura_numero{
-margin-left: 50%;
-margin-top: -4%;
-}
-
-.datos_proveedor_formulario .tbn_nuevo_proveedor{
-    margin-left:170px;
- 
-}
-.datos_proveedor_formulario .tbn_nuevo_proveedor:hover{
-color: #ffb703;
-}
-.link_buscar_proveedor_registro:hover{
-    color: #ffb703;
-}
-.datos_proveedor_formulario .registro_nombre_proveedor{
-    margin-left: -60%;
-    margin-top: 8px;
-
-}
-.datos_proveedor_formulario .registro_apellido_proveedor{
-    margin-left: 55%;
-    margin-top: -20px;
-
-}
-.datos_proveedor_formulario .registro_telefono_proveedor{
-margin-left: -60%;
-margin-top: 10px;
-}
-.datos_proveedor_formulario .registro_correo_proveedor{
-margin-left: 57%;
-margin-top: -20px;
-}
-#txt_cant_producto_registro {
-    width: 40px;
-    margin-left: 20px;
-}
-#txt_disponibilidad_factura_registro{
-    width: 40px;
-}
-.descripcion_factura_registro_proveedor th{
-    background-color: #ffb703;
-    width: 700px;
-    height: 40px;
-    
+        margin-left: 30%;
     }
-.registrar_compra{
+    
+    @media screen and (max-width:600px) {
+        .ventana {
+            flex-direction: column;
+            height: 100%;
+            max-height: 500px;
+        }
+        .img {
+            width: 100%;
+            height: 1000%;
+        }
+        .contenido {
+            width: 100%;
+            height: 60%;
+            padding: 80px;
+        }
+    }
+    
+    .siguiente:target {
+        visibility: visible;
+        opacity: 0;
+    }
+    /*clasificacion*/
+    
+    .cproducto:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .cproducto {
         width: 100%;
         height: 100%;
         position: fixed;
         padding: 40px;
         visibility: hidden;
-        opacity:0;
+        opacity: 0;
         transition: all 1000ms;
-        overflow: scroll;
-    
     }
-    .ventana_registrar_compra{
     
+    .nombre_categoria_producto input {
+        padding: 5px;
+        width: 180px;
+        margin-left: 30%;
+    }
+    
+    .ventan1 {
         width: 100%;
-        max-width: 70%;
-        height:auto;
-        position:relative;
+        max-width: 500px;
+        height: 400px;
+        position: relative;
         display: flex;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%);
-        margin-top: 10%;
-        
-       
+        transform: translate(-50%, -50%);
+        background-color: seashell;
     }
-    .proveedor_factura_fecha{
+    
+    .img1 img {
+        width: 25%;
+        height: 25%;
+        margin: 25px 190px;
+    }
+    
+    .img1 h3 {
+        text-align: center;
+        margin: -19px 0px;
+    }
+    
+    .texto1 h1 {
+        font-size: 23px;
+        text-align: center;
+        margin: 48px 80px;
+        margin-top: 30px;
+    }
+    
+    .select_clasificacion {
+        padding: 3px;
+        margin-left: 30%;
+        border-radius: 10px;
+        border-color: #ffb703;
+        cursor: pointer;
+        position: relative;
+        top: -68px;
+    }
+    
+    .link_Agregar_producto_clasificacion {
+        color: #ff0303;
+        margin-left: 66%;
+        position: relative;
+        top: -28PX;
+    }
+    
+    .link_Agregar_producto_clasificacion:hover {
+        color: #ffb703;
+    }
+    
+    .link_editar_producto_clasificacion {
+        color: #ff0303;
+        margin-left: 70%;
+        position: relative;
+        top: -46PX;
+    }
+    
+    .link_editar_producto_clasificacion:hover {
+        color: #ffb703;
+    }
+    /*datos producto*/
+    
+    .dproductos:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .dproductos {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding: 40px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 1000ms;
+    }
+    
+    .ventana2 {
+        width: 100%;
+        max-width: 500px;
+        height: 400px;
+        position: relative;
+        display: flex;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: seashell;
+    }
+    
+    .img2 img {
+        width: 20%;
+        height: 20%;
+        margin: 10px 190px;
+    }
+    
+    .img2 h3 {
+        text-align: center;
+        margin: -19px 0px;
+    }
+    
+    .texto2 h1 {
+        font-size: 23px;
+        text-align: center;
+        margin: 48px 100px;
+    }
+    
+    .dmaterial:target {
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .botones2 {
+        margin: 70px 120px;
+    }
+    /*Datos material*/
+    
+    .dmaterial:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .dmaterial {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding: 40px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 1000ms;
+    }
+    
+    .ventana3 {
+        width: 100%;
+        max-width: 500px;
+        height: 400px;
+        position: relative;
+        display: flex;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: seashell;
+    }
+    
+    .img3 img {
+        width: 25%;
+        height: 25%;
+        margin: 25px 190px;
+    }
+    
+    .img3 h3 {
+        text-align: center;
+        margin: -19px 0px;
+    }
+    
+    .texto3 h1 {
+        font-size: 23px;
+        text-align: center;
+        margin: 48px 100px;
+    }
+    
+    .Siguiente:target {
+        visibility: visible;
+        opacity: 0;
+    }
+    /* datos marca*/
+    
+    .dmarca:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .dmarca {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding: 40px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 1000ms;
+    }
+    
+    .ventana4 {
+        width: 100%;
+        max-width: 500px;
+        height: 400px;
+        position: relative;
+        display: flex;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: seashell;
+    }
+    
+    .img4 img {
+        width: 25%;
+        height: 25%;
+        margin: 25px 190px;
+    }
+    
+    .img4 h3 {
+        text-align: center;
+        margin: -19px 0px;
+    }
+    
+    .texto4 h1 {
+        font-size: 23px;
+        text-align: center;
+        margin: 48px 100px;
+    }
+    /* datos medida*/
+    
+    .dmedida:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .dmedida {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding: 40px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 1000ms;
+    }
+    
+    .und_medida_datosmedidas input {
+        margin-left: 30%;
+    }
+    
+    .ventana5 {
+        width: 100%;
+        max-width: 500px;
+        height: 500px;
+        position: relative;
+        display: flex;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: seashell;
+    }
+    
+    .img5 img {
+        width: 25%;
+        height: 25%;
+        margin: 25px 190px;
+    }
+    
+    .img5 h3 {
+        text-align: center;
+        margin: -29px 0px;
+    }
+    
+    .texto5 h1 {
+        font-size: 23px;
+        text-align: center;
+        margin: 40px 100px;
+    }
+    
+    .botones {
+        border-radius: 3rem;
+        width: 80%;
+        border: 1px solid #ffb703;
+        line-height: 1.6rem;
+        font-size: 1.3rem;
+        background-color: #ffb703;
+        color: #ffffff;
+        padding: 0.5rem 0;
+        transition: 0.3s ease-in-out all;
+        font-weight: 500;
+    }
+    
+    .boton:hover {
+        cursor: pointer;
+        background-color: #ffffff;
+        color: #ffb703;
+    }
+    
+    .tipomedida {
+        position: absolute;
+        top: 310px;
+        left: 150px;
+    }
+    
+    .tipomedida select {
+        width: 190px;
+        height: 32px;
+        font-size: 20px;
+        position: relative;
+        top: -35px;
+        left: 5px;
+    }
+    
+    .tipomedida h2 {
+        position: relative;
+        top: -50px;
+        text-align: center;
+    }
+    
+    .btnregresar1 {
+        position: absolute;
+        top: 440px;
+        left: 190px;
+        background: #ffb703;
+        width: 120px;
+        height: 38px;
+        border-radius: 10px;
+    }
+    
+    .btnregresar1 a {
+        position: absolute;
+        top: 8px;
+        left: 25px;
+        color: rgb(247, 247, 247);
+        font-size: 17px;
+    }
+    
+    .btnregresar1:hover {
+        background: #e70606;
+    }
+    
+    .btnregistrar {
+        position: absolute;
+        top: 440px;
+        left: 340px;
+        background: #ffb703;
+        width: 120px;
+        height: 38px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    .btnregistrar a {
+        position: absolute;
+        top: 8px;
+        left: 25px;
+        color: rgb(255, 255, 255);
+        font-size: 17px;
+        margin-left: 12px;
+    }
+    
+    .btnregistrar:hover {
+        background: #e70606;
+    }
+    
+    .unidadmedida .medida {
+        position: relative;
+        top: 185px;
+        width: 190px;
+        height: 32px;
+    }
+    
+    .unidadmedida h2 {
+        text-align: center;
+        position: relative;
+        top: 135px;
+    }
+    /* registro de producto si existe*/
+    
+    .btn-close_registro_compra {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        padding: 20px;
+        background-color: rgb(0, 0, 0);
+        color: blanchedalmond;
+        border-radius: 50%;
+        line-height: 10px;
+        margin-left: 87%;
+        margin-top: -2%;
+    }
+    
+    #contenido_general_registrar {
+        background-color: #FFF;
+        width: 90%;
+        height: 700px;
+        align-items: center;
+        display: flexbox;
+        border-radius: 20px;
+        border: 2px solid #000000;
+        margin-left: 0%;
+    }
+    
+    .factura_proveedor_registro {
+        width: 100%;
+        max-width: 95%;
+        background-color: #fff;
+        border: 2px solid #ffb703;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 2.5%;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    
+    .datos_proveedor_formulario {
+        width: 100%;
+        max-width: 95%;
+        max-height: 120px;
+        background-color: #fff;
+        border: 2px solid #ffb703;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 17px;
+        font-weight: bolder;
+        height: 180px;
+        margin-top: 10px;
+        margin-left: 2.5%;
+    }
+    
+    .registrar_compra:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .total_factura_proveedor {
+        width: 25%;
+        height: 6%;
+        border: 2px solid #ffb703;
+        margin-left: 72%;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    
+    .factura_proveedor_registro .proveedor_factura_numero {
+        margin-left: 50%;
+        margin-top: -4%;
+    }
+    
+    .datos_proveedor_formulario .tbn_nuevo_proveedor {
+        margin-left: 170px;
+    }
+    
+    .datos_proveedor_formulario .tbn_nuevo_proveedor:hover {
+        color: #ffb703;
+    }
+    
+    .link_buscar_proveedor_registro:hover {
+        color: #ffb703;
+    }
+    
+    .datos_proveedor_formulario .registro_nombre_proveedor {
+        margin-left: -60%;
+        margin-top: 8px;
+    }
+    
+    .datos_proveedor_formulario .registro_apellido_proveedor {
+        margin-left: 55%;
+        margin-top: -20px;
+    }
+    
+    .datos_proveedor_formulario .registro_telefono_proveedor {
+        margin-left: -60%;
+        margin-top: 10px;
+    }
+    
+    .datos_proveedor_formulario .registro_correo_proveedor {
+        margin-left: 57%;
+        margin-top: -20px;
+    }
+    
+    #txt_cant_producto_registro {
+        width: 40px;
+        margin-left: 20px;
+    }
+    
+    #txt_disponibilidad_factura_registro {
+        width: 40px;
+    }
+    
+    .descripcion_factura_registro_proveedor th {
+        background-color: #ffb703;
+        width: 700px;
+        height: 40px;
+    }
+    
+    .registrar_compra {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding: 40px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 1000ms;
+        overflow: scroll;
+    }
+    
+    .ventana_registrar_compra {
+        width: 100%;
+        max-width: 70%;
+        height: auto;
+        position: relative;
+        display: flex;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 10%;
+    }
+    
+    .proveedor_factura_fecha {
         margin-left: -65%;
     }
     
-    .proveedro_factura_numero{
+    .proveedro_factura_numero {
         border-radius: 10px;
         position: relative;
         left: 26%;
-    
     }
-    .proveedor_factura_nit{
+    
+    .proveedor_factura_nit {
         position: relative;
         left: 30%;
         top: -20px;
     }
-   
-    .btnmodificar{
-        position:absolute;
+    
+    .btnmodificar {
+        position: absolute;
         top: 610px;
-        left:20px; 
+        left: 20px;
         border-radius: 12px;
         width: 13%;
-        background:#ffb703;
+        background: #ffb703;
         color: #ffffff;
         border: none;
         padding: 8px;
-        border:2px solid #ffb703;
+        border: 2px solid #ffb703;
         font-size: 17px;
         margin: 8px;
-      }
-      .btnmodificar:hover{
+    }
+    
+    .btnmodificar:hover {
         cursor: pointer;
         background-color: #e40808;
         color: #fff;
-      }
+    }
     
-         .link_Agregar_producto_compra {
-            color: #0fa225;
-            }
-            .link_Agregar_producto_compra:hover {
-                color: #ffb703;
-                }
-            
-         
+    .link_Agregar_producto_compra {
+        color: #0fa225;
+    }
+    
+    .link_Agregar_producto_compra:hover {
+        color: #ffb703;
+    }
+    
     .buscar {
-        background:#ffb703 ;
+        background: #ffb703;
         border-radius: 100%;
         width: 45px;
         height: 45px;
@@ -950,2181 +901,2287 @@ margin-top: -20px;
         top: 70px;
         left: 350px;
     }
-    .buscar img{
+    
+    .buscar img {
         width: 25px;
         height: 30px;
         position: relative;
         top: 70px;
         left: 10px;
     }
-    .buscar:hover{
+    
+    .buscar:hover {
         background: rgba(148, 102, 14, 0.5);
     }
-  
-/* ---- ----- ----- Contenedor Principal y Flechas ----- ----- ----- */
-.contenedorGrande {
-margin-bottom: 70px;
-position: relative;
-top: 230px;
-height: 100%;
-
-
-
-}
-
-.contenedorGrande .contenedor-principal {
-	display: flex;
-	align-items: center;
-	position: relative;
-}
-
-.contenedorGrande .contenedor-principal .flecha-izquierda,
-.contenedorGrande .contenedor-principal .flecha-derecha {
-	position: absolute;
-	border: none;
-	background: transparent;
-	font-size: 60px;
-	height: 8%;
-	top: calc(50% - 25%);
-	line-height: 0px;
-	width: 40px;
-	color: #ffb703;
-	cursor: pointer;
-
-   border-radius: 60px;
-   margin-top: 100px;
-	transition: .2s ease all;
-}
-.contenedorGrande .contenedor-principal .flecha-izquierda i,
-.contenedorGrande .contenedor-principal .flecha-derecha i{
-	align-items: center;
-	text-align: center;
-
-	padding: 5px;
-	border-radius: 50px;
-
-}
-.contenedorGrande .contenedor-principal .flecha-izquierda i:hover,
-.contenedorGrande .contenedor-principal .flecha-derecha i:hover {
-	background: #ffffff7c;
-	border: 3px solid #ffb703;
-	padding: 5px;
-}
-
-.contenedorGrande .contenedor-principal .flecha-izquierda {
-	left: 0;
-}
-
-.contenedorGrande .contenedor-principal .flecha-derecha {
-	right: 0;
-}
-
-
-
-
-/* ---- ----- ----- Carousel ----- ----- ----- */
-
-.contenedorGrande .contenedor-carousel {
-	width: 100%;
-    height: 100%;
-	padding: 20px;
-	overflow: hidden;
-	scroll-behavior: smooth;
- 
-
-}
-
-.contenedorGrande .contenedor-carousel .carousel {
-	display: flex;
-    gap: 70px;
-    height: 100%;
-	align-items: center;
-	text-align: center;
-	
-}
-
-.contenedorGrande .contenedor-carousel .carousel .contenido1 {
-    background: #fffefdd8;
-    align-items: center;
-	text-align: center;
-	margin: 40px;
-	min-width: 20%;
-	transition: .3s ease all;
-	box-shadow: 5px 5px 20px 4px #ffc532;
-    border-radius: 4%;
-	width: 200px;
-	height: 400px;
-}
-.contenedorGrande .contenedor-carousel .carousel .contenido_espacio {
-	min-width: 2px;
-	height: 4px;
-}
-
-.contenedorGrande .contenedor-carousel .carousel .contenido1 h2,h3 {
-    align-items: center;
-    text-align: center;
-
-}
-.contenedorGrande .contenedor-carousel .carousel .contenido1 form {
-  align-items: center;
-  text-align: center;
-  margin-top: 20px;
-   width: 50%;
-   height: 8%;
-   background: #ffb703;
-   padding: 5px 5px ;
-   border-radius: 20px;
-
-}
-
-.contenedorGrande .contenedor-carousel .carousel .contenido1 select {
-	background: transparent;
-	border: none;
-    text-align: center;
-    font-size: 19px;
+    /* ---- ----- ----- Contenedor Principal y Flechas ----- ----- ----- */
     
-}
-
-
-.contenedorGrande .contenedor-carousel .carousel .contenido1 button {
-    align-items: center;
-    text-align: center;
-	margin: 20px;
-	background: #ffb703;
-	padding: 5px 5px ;
-	width: 155px;
-	border-radius: 20px;
-	border: none;
-
-}
-
-.contenedorGrande .contenedor-carousel .carousel .contenido1 img {
-
-
-	width: 120px;
-   float:initial;
-    align-items: center;
-    margin: 10px;
- 
-}
-
-
-
-/* ---- ----- ----- Media Queries ----- ----- ----- */
-@media screen and (max-width: 400px) {
-	header .logotipo {
-		margin-bottom: 10px;
-		font-size: 30px;
-	}
-
-	.contenedorGrande .contenedor-carousel .carousel {
-       gap: 50px ;
-		min-width: 100%;
-	}
-
-	.contenedorGrande .indicadores,
-	.contenedorGrande .flecha-izquierda,
-	.contenedorGrande .flecha-derecha {
-		display: flex;
-	}
-
-    .contenido1 .menu ul{
+    .contenedorGrande {
+        margin-bottom: 70px;
+        position: relative;
+        top: 230px;
+        height: 100%;
+    }
+    
+    .contenedorGrande .contenedor-principal {
+        display: flex;
         align-items: center;
-        display: center;
+        position: relative;
+    }
+    
+    .contenedorGrande .contenedor-principal .flecha-izquierda,
+    .contenedorGrande .contenedor-principal .flecha-derecha {
+        position: absolute;
+        border: none;
+        background: transparent;
+        font-size: 60px;
+        height: 8%;
+        top: calc(50% - 25%);
+        line-height: 0px;
+        width: 40px;
+        color: #ffb703;
+        cursor: pointer;
+        border-radius: 60px;
+        margin-top: 100px;
+        transition: .2s ease all;
+    }
+    
+    .contenedorGrande .contenedor-principal .flecha-izquierda i,
+    .contenedorGrande .contenedor-principal .flecha-derecha i {
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+        border-radius: 50px;
+    }
+    
+    .contenedorGrande .contenedor-principal .flecha-izquierda i:hover,
+    .contenedorGrande .contenedor-principal .flecha-derecha i:hover {
+        background: #ffffff7c;
+        border: 3px solid #ffb703;
+        padding: 5px;
+    }
+    
+    .contenedorGrande .contenedor-principal .flecha-izquierda {
+        left: 0;
+    }
+    
+    .contenedorGrande .contenedor-principal .flecha-derecha {
+        right: 0;
+    }
+    /* ---- ----- ----- Carousel ----- ----- ----- */
+    
+    .contenedorGrande .contenedor-carousel {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        overflow: hidden;
+        scroll-behavior: smooth;
+    }
+    
+    .contenedorGrande .contenedor-carousel .carousel {
+        display: flex;
+        gap: 70px;
+        height: 100%;
+        align-items: center;
         text-align: center;
     }
     
-
-	
-	
-	
-	
-}
-/*--------------------------------- FACTURA CSS-------------------------------------------------------------------------------*/
-
-.botons_factura{
-  
-    border-radius: 10px;
-    width: 18%;
-    background:#ffb703;
-    color: #fdfdfd;
-    border: none;
-    padding: 8px;
-    border:2px solid #ffb703;
-    font-size: 16px;
-    margin: 8px;
-  }
-  .botons_factura:hover{
-    cursor: pointer;
-    background-color: #d60808;
-    color: #ffffff;
-  }
-.btn-close_factura{
-    width: 50px;
-    height: 50px;
-    padding: 20px;
-    background-color: rgb(0, 0, 0);
-    color: blanchedalmond;
-    border-radius: 50%;
-    line-height: 10px;
-    margin-left: 98%;
-
-
-}
-
-#contenido_general{
-    background-color: #FFF;
-    width: 78%;
-    height: auto;
-    align-items: center;
-    display:flexbox;
-    border-radius: 20px;
-    border: 2px solid #ffb703;
-    margin-left: 10%;
-    
-}
-
-#contenido_general::-webkit-scrollbar{
-    width: 10px;
-}
-#contenido_general::-webkit-scrollbar-thumb{
-    background-color: #ffb703;
-}
-
-.logo_factura img{
-width: 100%;
-height: 130px;
-max-width: 95%;
-margin-left: 20px;
-margin-top: 10px;
-}
-
-
-.form_nuevo_cliente_factura{
-    width: 100%;
-    max-width: 95%;
-     max-height: 170px;
-    background-color: #fff; 
-    border: 2px solid #ffb703;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 17px;
-    font-weight: bolder; 
-    height: 180px;
-    margin-top: 10px;
-    margin-left: 2%;
-
-}
-.form_label_cliente_factura{
-align-items: center;
-margin-left: 8%;
-}
-.form_input_cliente_factura{
-   padding: 2px;
-   border-color: rgb(104, 97, 97);
-}
-
-.container_flex{
-    display:flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    margin-left: -10%;
-}
-.form_nuevo_cliente_factura .center{
-   float: left;
-  margin-left: -45%;
-    margin-top: 1%;
-position: absolute;
-}
-
-
-
-.factura_empresa{
-    width: 100%;
-    max-width: 95%;
-    background-color: #fff; 
-    border: 2px solid #ffb703;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-left: 2%;
-    font-size: 18px;
-    font-weight: bolder; 
-
-}
-.total_factura{
-    width: 25%;
-    height: 10%;
-    border: 2px solid #ffb703;
-    margin-left: 72%;
-    margin-top: 10px;
-    border-radius: 10px;
-}
-#fecha{
- 
-  border-radius: 0px;
-}
-.link_Agregar_producto_venta {
-color: #0fa225;
-}
-.link_Agregar_producto_venta:hover {
-    color: #ffb703;
-    }
-    .link_buscar_producto_factura{
-        margin-left: 10px;
-    }
- .link_buscar_producto_factura:hover{
-     color: #ffb703;
-  
- }
-.empresa_factura_fecha{
-    margin-left: -65%;
-}
-.sub_total_factura,.iva_factura,.totalfactura_factura{
-    width: 60%;
-    background-color: #ffb703;
-    padding: 8px;
-}
-.empresa_factura_numero{
-    border-radius: 10px;
-    
-    margin-left: 53%;
-
-}
-.empresa_factura_nit{
-   
-    margin-left: 61%;
-    margin-top: -25px;
-}
-
-.titulo_datos_cliente{
-    margin-top: 40px;
-    margin-left: 20px;
-    font-size: 22px;
-}
-
-.tbl_venta{
-    width: 100%;
-    max-width:95%;
-    margin-top: 70px;
-    margin-left: 2%;
-    border-radius: 10px;
-    background-color: #fff;
-    height: auto;
-    border: 2px solid #ffb703;
-    
-}
-.descripcion_factura th{
-background-color: #ffb703;
-width: 700px;
-height: 40px;
-
-}
-#txt_cod_producto{
-    width: 100px;
-    padding: 5px;
-}
-.codigo_factura,.nombre_prod_factura,.descripcion_prod_factura,.marca_prod_factura,
-.cantidad_prod_factura,.precio_und_factura,.precio_total_factura,.eliminar_prod_factura,
-.link_eliminar{
-    padding: 9px;
-}
-.datos_venta_factura:hover{
-    background-color:#eccf1046 ;
-    cursor: pointer;
-}
-
-
-#txt_nombre_factura{
-    width: 140px;
-}
-#txt_descripcion_factura{
-    width: 190px;
-}
-#txt_marca_factura{
-    width: 120px;
-}
-#txt_cant_producto{
-    width: 40px;
-}
-#txt_precio_total{
-    width: 110px;
-}
-.link_nuevo_contacto_factura .link_nuevo_contacto{
-   margin-left: 35%;
-   margin-top:-50%;
-  
-}
-.link_nuevo_contacto{
-    position: relative;
-  color:#ff0303;
-  top: -105px;
-  
-}
-.link_nuevo_contacto:hover{
-    color:#ffb703;
-}
-.link_eliminar{
-margin-left: 30%;
- color: red;
- 
-}
-.link_eliminar:hover{
-    color:#ffb703;
-   }
-   
-
-
-/* datos factura*/
-.factura:target{
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
- 
-}
-
-.factura{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    padding: 40px;
-    visibility: hidden;
-    opacity:0;
-    transition: all 1000ms;
-    overflow: scroll;
-}
-.ventana0{
-
-    width: 90%;
-    height: 100%;
-    position:relative;
-    display: flex;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-     
-   
-}
-/*----------------------gestionar administrador-------------------*/
-
-.btn-close_gestionar_administrador{
-  width: 50px;
-  height: 50px;
-  padding: 20px;
-  background-color: rgb(2, 2, 2);
-  color: #FFF;
-  border-radius: 50%;
-  line-height: 30px;
-
-
-}
-
-.gestionar_administrador .registro-administrador {
-    width: 35%;
-    height: 620px;
-    background: #ffffff;
-    padding: 50px;
-    margin: auto;
-    border-radius: 4px;
-    color: #000000;
-    box-shadow: 7px 13px 37px #ffb703;
-    align-items: center;
-    text-align: center;
-}
-  .registro-administrador h1{
-      margin-top: -10px;
-      color: #ffb703;
-
-  }
-  .registro-administrador h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
-  
-  }
-  
-  .registro-administrador select{
-  
-    border-radius: 10px;
-    display:relative;
-    height: 10%;
-    width: 60%;
-    font-size: 18px;
-    margin: 10px;
-    color:#000000;
-    background-color: #ffffff;
-    border: 3px solid #ffb703;
-  }
-  
-
-  
-  .documento_administrador{
-      display: flex;
-      
-      margin-left: 30%;
-      }
-      .documento_administrador select{
-        margin-top: 30px;
-        
-      }
-  .documento_administrador h3{
-        
-        margin-top: 10%;
-      }
-    
-    
-  
-  .controls {
-    width: 100%;
-    height: 40px;
-    background: #f8f8f6 ;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 3px solid #ffb703;
-    font-family: 'calibri';
-    font-size: 18px;
-    color: rgb(2, 2, 2);
-  
-  }
-
-  .contoles_datos{
-      margin-top: 60px;
- 
-  }
-  .registro-administrador p {
-    height: 40px;
-    margin-left: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-  }
-  
-  .registro-administrador a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .botons a:hover {
-    color: white;
-    text-decoration: underline;
-  }
- .botons {
-    border-radius: 10px;
-    width: 40%;
-    background:#ffb703;
-    color: #ffffff;
-    border: none;
-    padding: 8px;
-    border:1px solid #ffb703;
-    margin: 13px 0;
-    font-size: 16px;
-    
-  }
-  .botons:hover{
-    cursor: pointer;
-    background-color: #ffffff;
-    color: #ffb703;
-  }
-  
-
-
-.gestionar_administrador:target{
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
- 
-}
-
-.gestionar_administrador{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    padding: 40px;
-    visibility: hidden;
-    opacity:0;
-    transition: all 1000ms;
-    overflow: scroll;
-  
-}
-.ventana_administrador{
-
-    width: 90%;
-    height: 100%;
-    position:relative;
-    display: flex;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-     
-   
-}
-.contenido1 p{
-    font-size: 1.5rem;
-    font-weight: 50%;
-}
-.menu{
-    margin-top: 15%;
-}
-
-
-
-/*---------------------------gestionar proveedor------------------------------------*/
-.controls {
-    width: 100%;
-   
-    background: #ffffff;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    margin-top: 2px;
-    border: 3px solid #ffb703;
-    font-family: 'calibri';
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-  
-  }
-
-
-.btn-close_gestionar_administrador{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    padding: 20px;
-    background-color: rgb(0, 0, 0);
-    color: #FFF;
-    border-radius: 50%;
-    line-height: 10px;
-  margin-left: 110%;
-    top: -48px;
- 
-
-}
-.Formulario-Proveedor {
-    width: 40%;
-    height: 190%;
-    background:#fff;
-    padding: 50px;
-    margin: auto;
-    border-radius: 4px;
-    color: #000000;
-    box-shadow: 7px 13px 37px #ffb703;
-    align-items: center;
-    text-align: center;
-  }
- 
-  
-  .Formulario-Proveedor select{
-    border-radius: 10px;
-    display:relative;
-    height: 10%;
-    width: 50%;
-    font-size: 18px;
-    margin: 10px;
-    color:#000000;
-    background-color: #ffffff;
-    border: 3px solid #ffb703;
-  
-  }
-  .Formulario-Proveedor h1{
-      color: #ffb703;
-      position: relative;
-      top: -10px;
-      
-  }
-  .transporte{
-  display: flex;
-  
-  }
-  .transporte h3{
-   
-    margin-top: 12px;
-    margin-left: 12%;
-  }
-  
-    .documento_proveedor{
-      display: flex;
-      margin-top: 8%;
-      margin-left: 30%;
-  
-      }
-      .documento_proveedor h3{
-       margin-left: 10%;
-       margin-top: 5%;
-      
-      }
-   
-  
-  .Formulario-Proveedor a {
-    color: white;
-    text-decoration: none;
-  }
-.formulario_proveedor_botons{
-    border-radius: 10px;
-    width: 40%;
-    background:#ffb703;
-    color: #ffffff;
-    border: none;
-    padding: 8px;
-    border:1px solid #ffb703;
-    margin: 19px 0;
-    font-size: 16px;
-    align-items: center;
-    
-}
-.formulario_proveedor_botons:hover{
-    cursor: pointer;
-    background-color: #ffffff;
-    color: #ffb703;
-  }
-
-
-.gestionar_proveedor:target{
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
- 
-}
-
-.gestionar_proveedor{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    padding: 40px;
-    visibility: hidden;
-    opacity:0;
-    transition: all 1000ms;
-    overflow: scroll;
-  
-}
-
-/*--------------------gestionar empleado-----------------------------------*/
-.btn-close_gestionar_empleado{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    padding: 20px;
-    background-color: rgb(0, 0, 0);
-    color: #FFF;
-    border-radius: 50%;
-    line-height: 10px;
-  margin-left: 110%;
-    top: -48px;
- 
-
-
-}
-.Formulario-Empleado {
-    width: 38%;
-    height: 100%;
-    background:#ffffff;
-    padding: 50px;
-    margin: auto;
-    border-radius: 4px;
-    color: #000000;
-    box-shadow: 7px 13px 37px #ffb703;
-    align-items: center;
-    text-align: center;
-  }
- 
-  .Formulario-Empleado h1{
-      margin-top: -15px;
-    color: #ffb703;
-}
-  
-  .Formulario-Empleado select{
-    border-radius: 10px;
-    display:relative;
-    height: 30px;
-    width: 200px;
-    font-size: 18px;
-    margin: 10px;
-    color:#000000;
-    background-color: #ffffff;
-    border: 3px solid #ffb703;;
-  }
-  
-    .documento_empleado{
-      display: flex;
-      margin-top: 8%;
-      margin-left: 30%;
-      }
-      .documento_empleado h3{
-        margin-top: 10px;
-      }
-  
-
-  
-  .Formulario-Empleado p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-  }
-  
-  .Formulario-Empleado .botons {
-    border-radius: 10px;
-    width: 40%;
-    background:#ffb703;
-    color: #ffffff;
-    border: none;
-    padding: 8px;
-    border:1px solid #ffb703;
-    margin: 19px 0;
-    font-size: 16px;
-  }
-  .Formulario-Empleado .botons:hover{
-    cursor: pointer;
-    background-color: #ffffff;
-    color: #ffb703;
-  }
-
-.gestionar_empleado:target{
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
- 
-}
-
-.gestionar_empleado{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    padding: 40px;
-    visibility: hidden;
-    opacity:0;
-    transition: all 1000ms;
-    overflow: scroll;
-  
-}
-/*--------------------cotizacion factura---------------------------------*/
-.factura .cotizacion{
-    margin-top: -6%;
-    margin-left: -80%;
-}
-.empresa_factura_cotizacion_fecha #fecha{
-    margin-left: -1%;
-    margin-top: -30%;
-}
-.empresa_factura_cotizacion_nit{
-    margin-left: 68%;
-    margin-top: -5%;
-}
-.empresa_factura_cotizacion_numero{
-    margin-left: 68%;
-}
-.empresa_factura_cotizacion_fecha label{
-    margin-left: 3%;
-}
-.factura_cotizacion_empresa {
-    width: 100%;
-    max-width: 95%;
-    background-color: #fff; 
-    border: 2px solid #ffb703;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: -5%;
-    margin-left: 20px;
-    font-size: 18px;
-    font-weight: bolder; 
-
-}
-
-/* --------------------------registrar  cliente-------------------------*/
-.btn-close_gestionar_cliente{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    padding: 20px;
-    background-color: rgb(0, 0, 0);
-    color: blanchedalmond;
-    border-radius: 50%;
-    line-height: 10px;
-    margin-left: 0%;
-    margin-top: -3%;
-  
-}
-
-.registro-cliente {
-    width: 400px;
-    /* height: 113%; */
-    max-height: 130%;
-    background: #ffffff;
-    padding: 30px;
-    margin: auto;
-    border-radius: 4px;
-    color: #000000;
-    box-shadow: 7px 13px 37px #ffb703;
-    align-items: right;
-    text-align: right;
-    margin-top: 100px;
-}
-  
-  .registro-cliente h1{
-      margin-top: 10    px;
-      color: #ffb703;
-      position: relative;
-      left: -35px;
-      font-size: 30px;
-
-  }
-  .registro-cliente h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
-  
-  }
-  
-  .registro-cliente select{
-    border-radius: 10px;        
-    left: 90px;
-    top: -34px;
-    position: relative;
-    height: 10%;
-    width: 90%;
-    font-size: 18px;
-    margin: 10px;
-    color:#000000;
-    background-color: #f8f8f8;
-    border: 3px solid #ffb703;
-  }
-  .documento_cliente h3{
-      margin-left: -124px;
-      margin-top: 50px;
-  }
-
-  .controls_formulario_cliente {
-    width: 100%;
-    height: 40px;
-    background: #f8f8f6 ;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 20px;
-    border: 3px solid #ffb703;
-    font-family: 'calibri';
-    font-size: 18px;
-    color: rgb(2, 2, 2);
-  
-  }
-
-  .contoles_datos_formulario_cliente{
-      margin-top: 50px;
- 
-  }
-  .registro-cliente p {
-    height: 40px;
-    margin-left: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-  }
-  
-  .registro-cliente a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .formulario_cliente a:hover {
-    color: white;
-    text-decoration: underline;
-  }
- .botons_formulario_cliente {
-    border-radius: 10px;
-    width: 27%;
-    background: #ffb703;
-    color: #ffffff;
-    border: none;
-    padding: 8px;
-    border: 1px solid #ffb703;
-    margin: 13px 0;
-    font-size: 16px;
-    margin-top: 28%;
-    position: relative;
-    left: -35%;
-  }
-  .botons_formulario_cliente:hover{
-    cursor: pointer;
-    background-color: #ffffff;
-    color: #ffb703;
-
-  }
-  
-
-.gestionar_cliente:target{
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
- 
-}
-
-.gestionar_cliente{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    padding: 40px;
-    visibility: hidden;
-    opacity:0;
-    transition: all 1000ms;
-    overflow: scroll;
-  
-}
-.ventana_cliente{
-
-    width: 90%;
-    height: 100%;
-    position:relative;
-    display: flex;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-     
-   
-}
-.contenido1 p{
-    font-size: 1.5rem;
-    font-weight: 50%;
-}
-.menu{
-    margin-top: 15%;
-}
-
-
-
-
-/* ver adminitrador*/
-
-.btn_agregar_usuario{
-    display: flex;
-    background-color: #181715;
-}
-.btn_agregar_usuario a{
-
-    background-color: #ffb703;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    font-size: 23px;
-    cursor: pointer;
-    border-radius: 20px;
-    margin-top: -57px;
-   
-
-}
-.btn_agregar_usuario a:hover{
-    background-color: #ff0303;
-}
-
-.link_editar_administrador {
-    color: rgb(165, 19, 19);
-}
-
-.link_editar_administrador:hover{
-    color: #ffb703;
-}
-
-.ventana_ver_administradores h1 {
-    color: black;
-    text-align: center;
-    margin-top: -3%;
-}
-
-.estado_administrador {
-    width: 70px;
-    border: 1px solid rgb(0, 0, 0);
-    
-}
-
-.estado_administrador:hover{
-    border: 1px solid rgb(196, 21, 21);
-    border-collapse: collapse;
-}
-    .tabla_administrador,.id_admin_tabla, .documento_admin_tabla,.correo_admin_tabla, 
-    .nombre_admin_tabla, .apellido_admin_tabla, .telefono_admin_tabla,
-    .estado_admin_tabla,.editar_admin_tabla, .db_numero_admin,.db_documento_admin,
-     .db_correo_admin, .db_nombre_admin,  .db_apellido_admin, .db_telefono_admin, .db_estado_admin,  
-     .db_editar_admin  {
-        border-collapse: collapse;
-        box-shadow: 3px 3px 3px #ffb703;
-       
-    }
-    .db_numero_admin,.db_documento_admin, .db_correo_admin, .db_nombre_admin, 
-     .db_apellido_admin, .db_telefono_admin, .db_estado_admin,  
-    .db_editar_admin{
-        padding: 10px;
-        
-    }
-   .datos_administrador_tabla:hover{
-       background-color: #eccf1068;
-       cursor: pointer;
-   }
-
-
-     .id_admin_tabla, .documento_admin_tabla, .correo_admin_tabla, 
-     .nombre_admin_tabla, .apellido_admin_tabla, .telefono_admin_tabla,
-     .estado_admin_tabla, .editar_admin_tabla {
-        padding: 10px;
+    .contenedorGrande .contenedor-carousel .carousel .contenido1 {
+        background: #fffefdd8;
+        align-items: center;
         text-align: center;
+        margin: 40px;
+        min-width: 20%;
+        transition: .3s ease all;
+        box-shadow: 5px 5px 20px 4px #ffc532;
+        border-radius: 4%;
+        width: 200px;
+        height: 400px;
+    }
+    
+    .contenedorGrande .contenedor-carousel .carousel .contenido_espacio {
+        min-width: 2px;
+        height: 4px;
+    }
+    
+    .contenedorGrande .contenedor-carousel .carousel .contenido1 h2,
+    h3 {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .contenedorGrande .contenedor-carousel .carousel .contenido1 form {
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        width: 50%;
+        height: 8%;
+        background: #ffb703;
+        padding: 5px 5px;
+        border-radius: 20px;
+    }
+    
+    .contenedorGrande .contenedor-carousel .carousel .contenido1 select {
+        background: transparent;
+        border: none;
+        text-align: center;
+        font-size: 19px;
+    }
+    
+    .contenedorGrande .contenedor-carousel .carousel .contenido1 button {
+        align-items: center;
+        text-align: center;
+        margin: 20px;
+        background: #ffb703;
+        padding: 5px 5px;
+        width: 155px;
+        border-radius: 20px;
+        border: none;
+    }
+    
+    .contenedorGrande .contenedor-carousel .carousel .contenido1 img {
+        width: 120px;
+        float: initial;
+        align-items: center;
+        margin: 10px;
+    }
+    /* ---- ----- ----- Media Queries ----- ----- ----- */
+    
+    @media screen and (max-width: 400px) {
+        header .logotipo {
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+        .contenedorGrande .contenedor-carousel .carousel {
+            gap: 50px;
+            min-width: 100%;
+        }
+        .contenedorGrande .indicadores,
+        .contenedorGrande .flecha-izquierda,
+        .contenedorGrande .flecha-derecha {
+            display: flex;
+        }
+        .contenido1 .menu ul {
+            align-items: center;
+            display: center;
+            text-align: center;
+        }
+    }
+    /*--------------------------------- FACTURA CSS-------------------------------------------------------------------------------*/
+    
+    .botons_factura {
+        border-radius: 10px;
+        width: 18%;
+        background: #ffb703;
+        color: #fdfdfd;
+        border: none;
+        padding: 8px;
+        border: 2px solid #ffb703;
+        font-size: 16px;
+        margin: 8px;
+    }
+    
+    .botons_factura:hover {
+        cursor: pointer;
+        background-color: #d60808;
+        color: #ffffff;
+    }
+    
+    .btn-close_factura {
+        width: 50px;
+        height: 50px;
+        padding: 20px;
+        background-color: rgb(0, 0, 0);
+        color: blanchedalmond;
+        border-radius: 50%;
+        line-height: 10px;
+        margin-left: 98%;
+    }
+    
+    #contenido_general {
+        background-color: #FFF;
+        width: 78%;
+        height: auto;
+        align-items: center;
+        display: flexbox;
+        border-radius: 20px;
+        border: 2px solid #ffb703;
+        margin-left: 10%;
+    }
+    
+    #contenido_general::-webkit-scrollbar {
+        width: 10px;
+    }
+    
+    #contenido_general::-webkit-scrollbar-thumb {
         background-color: #ffb703;
     }
-
-  
-    .tabla_administrador {
-        background-color: rgb(255, 255, 255); 
-      width: 100%;
+    
+    .logo_factura img {
+        width: 100%;
+        height: 130px;
+        max-width: 95%;
+        margin-left: 20px;
+        margin-top: 10px;
     }
-
-.btn-close_ver_proveedor{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    padding: 20px;
-    background-color: rgb(0, 0, 0);
-    color: #FFF;
-    border-radius: 50%;
-    line-height: 10px;
-    top: -12%;
-   left: 57%;
- 
-
-}
-.ventana_ver_administradores {
-    width: 90%;
-    height: auto;
-    background:rgb(243, 241, 241);
-    padding: 50px;
-    margin: auto;
-    border-radius: 4px;
-    color: #000000;
-    box-shadow: 7px 13px 37px #ffb703;
-    align-items: center;
-    text-align: center;
-   
-  }
- 
-.ver_administradores:target{
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
- 
-}
-
-.ver_administradores{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    padding: 40px;
-    visibility: hidden;
-    opacity:0;
-    transition: all 1000ms;
-    overflow: scroll;
-  
-}
-
-.buscaradministrador{
-    position: absolute;
-    padding: 5px;
-    margin-left: 2.4%;
-    margin-top: -60px;
-}
-.buscaradministrador input{
-width: 0px;
-height: 37px;
-padding: 0 20px;
-font-size: 18px;
-color:black;
-outline: none;
-border:1px solid rgb(243, 241, 241);
-background-color: rgb(243, 241, 241);
-border-radius: 30px;
-transition: all 0.6s ease;
-}
-.btnbuscaradministrador{
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #ffb703;
-    width: 42px;
-    height: 42px;
-    line-height: 43px;
-    text-align: center;
-    color: #FFF;
-    font-size: 20px;
-    border-radius: 50%;
-    cursor: pointer;
-    ;
-
- 
-}
-.btnbuscaradministrador:hover{
-    background-color: #ff0303
     
-}
-.buscaradministrador:hover .btnbuscaradministrador {
-    background-color: #ff0303
-}
-.buscaradministrador:hover input{
-    width: 220px;
-    border:1px solid rgb(252, 0, 0);
-    
-}
-.guardar_aministrador_tabla{
-    border-radius: 10px;
-    width: 6%;
-    background:#ffb703;
-    color: #ffffff;
-    border: none;
-    padding: 8px;
-    border:2px solid #f8f8f8;
-    font-size: 16px;
-    margin: 8px;
-    margin-left: 92%;
-    margin-top: -3%;
-}
-
-  .guardar_aministrador_tabla:hover{
-    cursor: pointer;
-    background-color: #fd0404;
-    color: #fcfcfc;
-  }
-
-/* -----------------ver empleados---------------------------- */
-.link_editar_empleado {
-    color: rgb(165, 19, 19);
-}
-
-.link_editar_empleado:hover{
-    color: #ffb703;
-}
-
-.ventana_ver_usuarios h1 {
-    color: black;
-    text-align: center;
-    margin-top: -3%;
-}
-
-.estado_empleado {
-    width: 70px;
-    border: 1px solid rgb(0, 0, 0);
-    
-}
-
-
-.estado_empleado:hover{
-    border: 1px solid rgb(122, 12, 12);
-    border-collapse: collapse;
-}
-.tabla_empl, .id_emp_tabla, .documento_emp_tabla, .correo_emp_tabla, .nombre_emp_tabla, .apellido_emp_tabla, .telefono_emp_tabla, .estado_emp_tabla, .editar_emp_tabla, 
-.db_numero_empl, .db_documento_empl, .db_correo_empl, .db_nombre_empl, .db_apellido_empl, .db_telefono_empl, .db_estado_empl, .db_editar_empl
-{
-    border-collapse: collapse;
-    box-shadow: 3px 3px 3px #ffb703;
-}
-.datos_empleado_tabla:hover{
-    background-color: #eccf1068;
-    cursor: pointer;
-
-}
-.db_numero_empl,.db_documento_empl,.db_correo_empl,.db_nombre_empl,.db_apellido_empl,.db_telefono_empl,.db_estado_empl,.db_editar_empl
-{
-    padding:10px
-
+    .form_nuevo_cliente_factura {
+        width: 100%;
+        max-width: 95%;
+        max-height: 170px;
+        background-color: #fff;
+        border: 2px solid #ffb703;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 17px;
+        font-weight: bolder;
+        height: 180px;
+        margin-top: 10px;
+        margin-left: 2%;
     }
-.id_emp_tabla,.documento_emp_tabla,.correo_emp_tabla,.nombre_emp_tabla,.apellido_emp_tabla,.telefono_emp_tabla,.estado_emp_tabla,.editar_emp_tabla{
-    padding: 10px;
-    text-align: center;
-    background-color: #ffb703; 
-}
-.tabla_empleados{
-    background-color: rgb(255, 255, 255); 
-    width: 100%
-}
-
-.ventana_ver_usuarios {
-    width: 90%;
-    height: auto;
-    background:rgb(243, 241, 241);
-    padding: 50px;
-    margin: auto;
-    border-radius: 4px;
-    color: #000000;
-    box-shadow: 7px 13px 37px #ffb703;
-    align-items: center;
-    text-align: center;
-
-  }
- 
-.ver_usuarios:target{
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
- 
-}
-
-.ver_usuarios{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    padding: 40px;
-    visibility: hidden;
-    opacity:0;
-    transition: all 1000ms;
-    overflow: scroll;
-  
-}
-
-
-.buscarempleado{
-    position: absolute;
-    padding: 5px;
-    margin-left:  2.4%;
-    margin-top: -60px;
-}
-.buscarempleado input{
-width: 0px;
-height: 37px;
-padding: 0 20px;
-font-size: 18px;
-color:black;
-outline: none;
-border:1px solid rgb(243, 241, 241);
-background-color: rgb(243, 241, 241);
-border-radius: 30px;
-transition: all 0.6s ease;
-}
-.btnbuscarempleado{
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #ffb703;
-    width: 42px;
-    height: 42px;
-    line-height: 43px;
-    text-align: center;
-    color: #FFF;
-    font-size: 20px;
-    border-radius: 50%;
-    cursor: pointer;
- 
-}
-.btnbuscarempleado:hover {
-    background-color: #ff0303;
-}
-.buscarempleado:hover .btnbuscarempleado{
-    background-color: #ff0303;
-}
-.buscarempleado:hover input{
-    width: 220px;
-    border: 1px solid rgb(252, 0, 0);
-}
-.guardar_empleado_tabla{
-    border-radius: 10px;
-    width: 6%;
-    background:#ffb703;
-    color: #ffffff;
-    border: none;
-    padding: 6px;
-    border:2px solid #f8f8f8;
-    font-size: 16px;
-    margin: 8px;
-    margin-left: 92%;
-    margin-top: -3%;
-}
-
-  .guardar_empleado_tabla:hover{
-    cursor: pointer;
-    background-color: #fd0404;
-    color: #fcfcfc;
-  }
-
-
-/* ver proveedores*/
-
-.link_editar_proveedor{
-    color: rgb(165, 19, 19);
-}
-.link_editar_proveedor:hover{
-    color: #ffb703;
-}
-
-.ventana_ver_Proveedor h1 {
-    color: black;
-    text-align: center;
-    margin-top: -1%;
-}
-.estado_proveedor {
-    width: 70px;
-    border: 1px solid rgb(0, 0, 0);
     
-}
-.estado_proveedor:hover{
-    border: 1px solid rgb(122, 12, 12);
-    border-collapse: collapse;
-}
-
-.Transporte_proveedor {
-    width: 42px;
-    border: 1px solid rgb(0, 0, 0);
+    .form_label_cliente_factura {
+        align-items: center;
+        margin-left: 8%;
+    }
     
-}
-.Transporte_proveedor:hover{
-    border: 1px solid rgb(122, 12, 12);
-    border-collapse: collapse;
-}
-.tabla_proveedor,.id_prov_tabla,.documento_prov_tabla.correo_prov_tabla,
-.nombre_prov_tabla,.apellido_prov_tabla,.telefono_prov_tabla,
-.direccion_prov_tabla,.estado_prov_tabla,.transporte_prov_tabla,
-.editar_prov_tabla,.db_numero_prov,.db_documento_prov,.db_correo_prov,
-.db_nombre_prov,.db_apellido_prov,.db_telefono_prov,.db_direccion_prov,
-.db_estado_prov,.db_editar_prov{
-    border-collapse: collapse;
-    box-shadow: 3px 3px 3px #ffb703;
-    padding: 10px;
-}
-.datos_proveedor_tabla:hover{
-    background-color: #eccf1068;
-    cursor: pointer;
-}
-
-.id_prov_tabla,.documento_prov_tabla,.correo_prov_tabla,.nombre_prov_tabla,
-.apellido_prov_tabla,.telefono_prov_tabla,.direccion_prov_tabla,
-.estado_prov_tabla,.editar_prov_tabla {
-    text-align: center;
-    background-color: #ffb703;
+    .form_input_cliente_factura {
+        padding: 2px;
+        border-color: rgb(104, 97, 97);
+    }
     
+    .container_flex {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        margin-left: -10%;
+    }
     
-}
-table {
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-}
-
-.btn-close_ver_proveedor{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    padding: 20px;
-    background-color: rgb(0, 0, 0);
-    color: #FFF;
-    border-radius: 50%;
-    line-height: 10px;
-    top: -60px;
-   left: 55%;
- 
-
-}
-.ventana_ver_Proveedor {
-    width: 99%;
-    max-width: 90%;
-    height:auto;
-    background:rgb(243, 241, 241);
-    padding: 50px;
-    margin: auto;
-    border-radius: 4px;
-    color: #000000;
-    box-shadow: 7px 13px 37px #ffb703;
-    align-items: center;
-    text-align: center;
-  }
- 
-.ver_proveedores:target{
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
- 
-}
-
-.ver_proveedores{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    padding: 40px;
-    visibility: hidden;
-    opacity:0;
-    transition: all 1000ms;
-    overflow: scroll;
-  
-}
-.guardar_proveedor_tabla{
-    border-radius: 10px;
-    width: 6%;
-    background:#ffb703;
-    color: #ffffff;
-    border: none;
-    padding: 8px;
-    border:2px solid #f8f8f8;
-    font-size: 16px;
-    margin: 8px;
-    margin-left: 92%;
-    margin-top: -3%;
-}
-
-  .guardar_proveedor_tabla:hover{
-    cursor: pointer;
-    background-color: #fd0404;
-    color: #fcfcfc;
-  }
-
-  /*ver proveedor usuario boton buscar*/
-.buscar_proveedor_boton{
-    position: absolute;
-    padding: 5px;
-    margin-left:  2.4%;
-    margin-top: -60px;
-}
-.buscar_proveedor_boton input{
-width: 0px;
-height: 37px;
-padding: 0 20px;
-font-size: 18px;
-color:black;
-outline: none;
-border: 1px solid rgb(243, 241, 241);
-background-color: rgb(243, 241, 241);
-border-radius: 30px;
-transition: all 0.6s ease;
-}
-.btn_buscar_proveedor{
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #ffb703;
-    width: 43px;
-    height: 43px;
-    line-height: 43px;
-    text-align: center;
-    color: #FFF;
-    font-size: 20px;
-    border-radius: 50%;
-    cursor: pointer;
- 
-}
-.btn_buscar_proveedor:hover{
-    background-color: #ff0303;
-}
-.buscar_proveedor_boton:hover .btn_buscar_proveedor{
-    background-color: #ff0303;
-}
-.buscar_proveedor_boton:hover input{
-    width: 220px;
-    border: 1px solid rgb(252, 0, 0);
-}
-
-
-/* ver clientes*/
-.link_editar_clientes{
-    color: rgb(165, 19, 19);
-}
-.link_editar_clientes:hover{
-    color: #ffb703;
-}
-
-.ventana_ver_clientes h1 {
-    color: black;
-    text-align: center;
-    margin-top: -2%;
-}
-.estado_clientes {
-    width: 70px;
-    border: 1px solid rgb(0, 0, 0);
+    .form_nuevo_cliente_factura .center {
+        float: left;
+        margin-left: -45%;
+        margin-top: 1%;
+        position: absolute;
+    }
     
-}
-.estado_clientes:hover{
-    border: 1px solid rgb(122, 12, 12);
-    border-collapse: collapse;
-}
-.tabla_cliente,.id_clie_tabla,.documento_clie_tabla ,.correo_clien_tabla,.nombre_clie_tabla,.apellido_clie_tabla,.telefono_clie_tabla,.direccion_clie_tabla,.estado_clie_tabla,.editar_clie_tabla,
-.db_numero_clie,.db_documento_clie,.db_correo_clie,.db_nombre_clie,.db_apellido_clie,.db_telefono_clie,.db_direccion_clie,.db_estado_clie,.db_editar_clie 
-{
-    border-collapse: collapse;
-    box-shadow: 3px 3px 3px #ffb703;
-    padding: 10px;
-}
-    .datos_cliente_tabla:hover{
+    .factura_empresa {
+        width: 100%;
+        max-width: 95%;
+        background-color: #fff;
+        border: 2px solid #ffb703;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 2%;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    
+    .total_factura {
+        width: 25%;
+        height: 10%;
+        border: 2px solid #ffb703;
+        margin-left: 72%;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    
+    #fecha {
+        border-radius: 0px;
+    }
+    
+    .link_Agregar_producto_venta {
+        color: #0fa225;
+    }
+    
+    .link_Agregar_producto_venta:hover {
+        color: #ffb703;
+    }
+    
+    .link_buscar_producto_factura {
+        margin-left: 10px;
+    }
+    
+    .link_buscar_producto_factura:hover {
+        color: #ffb703;
+    }
+    
+    .empresa_factura_fecha {
+        margin-left: -65%;
+    }
+    
+    .sub_total_factura,
+    .iva_factura,
+    .totalfactura_factura {
+        width: 60%;
+        background-color: #ffb703;
+        padding: 8px;
+    }
+    
+    .empresa_factura_numero {
+        border-radius: 10px;
+        margin-left: 53%;
+    }
+    
+    .empresa_factura_nit {
+        margin-left: 61%;
+        margin-top: -25px;
+    }
+    
+    .titulo_datos_cliente {
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 22px;
+    }
+    
+    .tbl_venta {
+        width: 100%;
+        max-width: 95%;
+        margin-top: 70px;
+        margin-left: 2%;
+        border-radius: 10px;
+        background-color: #fff;
+        height: auto;
+        border: 2px solid #ffb703;
+    }
+    
+    .descripcion_factura th {
+        background-color: #ffb703;
+        width: 700px;
+        height: 40px;
+    }
+    
+    #txt_cod_producto {
+        width: 100px;
+        padding: 5px;
+    }
+    
+    .codigo_factura,
+    .nombre_prod_factura,
+    .descripcion_prod_factura,
+    .marca_prod_factura,
+    .cantidad_prod_factura,
+    .precio_und_factura,
+    .precio_total_factura,
+    .eliminar_prod_factura,
+    .link_eliminar {
+        padding: 9px;
+    }
+    
+    .datos_venta_factura:hover {
+        background-color: #eccf1046;
+        cursor: pointer;
+    }
+    
+    #txt_nombre_factura {
+        width: 140px;
+    }
+    
+    #txt_descripcion_factura {
+        width: 190px;
+    }
+    
+    #txt_marca_factura {
+        width: 120px;
+    }
+    
+    #txt_cant_producto {
+        width: 40px;
+    }
+    
+    #txt_precio_total {
+        width: 110px;
+    }
+    
+    .link_nuevo_contacto_factura .link_nuevo_contacto {
+        margin-left: 35%;
+        margin-top: -50%;
+    }
+    
+    .link_nuevo_contacto {
+        position: relative;
+        color: #ff0303;
+        top: -105px;
+    }
+    
+    .link_nuevo_contacto:hover {
+        color: #ffb703;
+    }
+    
+    .link_eliminar {
+        margin-left: 30%;
+        color: red;
+    }
+    
+    .link_eliminar:hover {
+        color: #ffb703;
+    }
+    /* datos factura*/
+    
+    .factura:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .factura {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding: 40px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 1000ms;
+        overflow: scroll;
+    }
+    
+    .ventana0 {
+        width: 90%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /*----------------------gestionar administrador-------------------*/
+    
+    .btn-close_gestionar_administrador {
+        width: 50px;
+        height: 50px;
+        padding: 20px;
+        background-color: rgb(2, 2, 2);
+        color: #FFF;
+        border-radius: 50%;
+        line-height: 30px;
+    }
+    
+    .gestionar_administrador .registro-administrador {
+        width: 35%;
+        height: 620px;
+        background: #ffffff;
+        padding: 50px;
+        margin: auto;
+        border-radius: 4px;
+        color: #000000;
+        box-shadow: 7px 13px 37px #ffb703;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .registro-administrador h1 {
+        margin-top: -10px;
+        color: #ffb703;
+    }
+    
+    .registro-administrador h4 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    
+    .registro-administrador select {
+        border-radius: 10px;
+        display: relative;
+        height: 10%;
+        width: 60%;
+        font-size: 18px;
+        margin: 10px;
+        color: #000000;
+        background-color: #ffffff;
+        border: 3px solid #ffb703;
+    }
+    
+    .documento_administrador {
+        display: flex;
+        margin-left: 30%;
+    }
+    
+    .documento_administrador select {
+        margin-top: 30px;
+    }
+    
+    .documento_administrador h3 {
+        margin-top: 10%;
+    }
+    
+    .controls {
+        width: 100%;
+        height: 40px;
+        background: #f8f8f6;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 3px solid #ffb703;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: rgb(2, 2, 2);
+    }
+    
+    .contoles_datos {
+        margin-top: 60px;
+    }
+    
+    .registro-administrador p {
+        height: 40px;
+        margin-left: 40px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+    }
+    
+    .registro-administrador a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .botons a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+    
+    .botons {
+        border-radius: 10px;
+        width: 40%;
+        background: #ffb703;
+        color: #ffffff;
+        border: none;
+        padding: 8px;
+        border: 1px solid #ffb703;
+        margin: 13px 0;
+        font-size: 16px;
+    }
+    
+    .botons:hover {
+        cursor: pointer;
+        background-color: #ffffff;
+        color: #ffb703;
+    }
+    
+    .gestionar_administrador:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .gestionar_administrador {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding: 40px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 1000ms;
+        overflow: scroll;
+    }
+    
+    .ventana_administrador {
+        width: 90%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .contenido1 p {
+        font-size: 1.5rem;
+        font-weight: 50%;
+    }
+    
+    .menu {
+        margin-top: 15%;
+    }
+    /*---------------------------gestionar proveedor------------------------------------*/
+    
+    .controls {
+        width: 100%;
+        background: #ffffff;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        margin-top: 2px;
+        border: 3px solid #ffb703;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+    }
+    
+    .btn-close_gestionar_administrador {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        padding: 20px;
+        background-color: rgb(0, 0, 0);
+        color: #FFF;
+        border-radius: 50%;
+        line-height: 10px;
+        margin-left: 110%;
+        top: -48px;
+    }
+    
+    .Formulario-Proveedor {
+        width: 40%;
+        height: 190%;
+        background: #fff;
+        padding: 50px;
+        margin: auto;
+        border-radius: 4px;
+        color: #000000;
+        box-shadow: 7px 13px 37px #ffb703;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .Formulario-Proveedor select {
+        border-radius: 10px;
+        display: relative;
+        height: 10%;
+        width: 50%;
+        font-size: 18px;
+        margin: 10px;
+        color: #000000;
+        background-color: #ffffff;
+        border: 3px solid #ffb703;
+    }
+    
+    .Formulario-Proveedor h1 {
+        color: #ffb703;
+        position: relative;
+        top: -10px;
+    }
+    
+    .transporte {
+        display: flex;
+    }
+    
+    .transporte h3 {
+        margin-top: 12px;
+        margin-left: 12%;
+    }
+    
+    .documento_proveedor {
+        display: flex;
+        margin-top: 8%;
+        margin-left: 30%;
+    }
+    
+    .documento_proveedor h3 {
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    
+    .Formulario-Proveedor a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .formulario_proveedor_botons {
+        border-radius: 10px;
+        width: 40%;
+        background: #ffb703;
+        color: #ffffff;
+        border: none;
+        padding: 8px;
+        border: 1px solid #ffb703;
+        margin: 19px 0;
+        font-size: 16px;
+        align-items: center;
+    }
+    
+    .formulario_proveedor_botons:hover {
+        cursor: pointer;
+        background-color: #ffffff;
+        color: #ffb703;
+    }
+    
+    .gestionar_proveedor:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .gestionar_proveedor {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding: 40px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 1000ms;
+        overflow: scroll;
+    }
+    /*--------------------gestionar empleado-----------------------------------*/
+    
+    .btn-close_gestionar_empleado {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        padding: 20px;
+        background-color: rgb(0, 0, 0);
+        color: #FFF;
+        border-radius: 50%;
+        line-height: 10px;
+        margin-left: 110%;
+        top: -48px;
+    }
+    
+    .Formulario-Empleado {
+        width: 38%;
+        height: 100%;
+        background: #ffffff;
+        padding: 50px;
+        margin: auto;
+        border-radius: 4px;
+        color: #000000;
+        box-shadow: 7px 13px 37px #ffb703;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .Formulario-Empleado h1 {
+        margin-top: -15px;
+        color: #ffb703;
+    }
+    
+    .Formulario-Empleado select {
+        border-radius: 10px;
+        display: relative;
+        height: 30px;
+        width: 200px;
+        font-size: 18px;
+        margin: 10px;
+        color: #000000;
+        background-color: #ffffff;
+        border: 3px solid #ffb703;
+        ;
+    }
+    
+    .documento_empleado {
+        display: flex;
+        margin-top: 8%;
+        margin-left: 30%;
+    }
+    
+    .documento_empleado h3 {
+        margin-top: 10px;
+    }
+    
+    .Formulario-Empleado p {
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+    }
+    
+    .Formulario-Empleado .botons {
+        border-radius: 10px;
+        width: 40%;
+        background: #ffb703;
+        color: #ffffff;
+        border: none;
+        padding: 8px;
+        border: 1px solid #ffb703;
+        margin: 19px 0;
+        font-size: 16px;
+    }
+    
+    .Formulario-Empleado .botons:hover {
+        cursor: pointer;
+        background-color: #ffffff;
+        color: #ffb703;
+    }
+    
+    .gestionar_empleado:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .gestionar_empleado {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding: 40px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 1000ms;
+        overflow: scroll;
+    }
+    /*--------------------cotizacion factura---------------------------------*/
+    
+    .factura .cotizacion {
+        margin-top: -6%;
+        margin-left: -80%;
+    }
+    
+    .empresa_factura_cotizacion_fecha #fecha {
+        margin-left: -1%;
+        margin-top: -30%;
+    }
+    
+    .empresa_factura_cotizacion_nit {
+        margin-left: 68%;
+        margin-top: -5%;
+    }
+    
+    .empresa_factura_cotizacion_numero {
+        margin-left: 68%;
+    }
+    
+    .empresa_factura_cotizacion_fecha label {
+        margin-left: 3%;
+    }
+    
+    .factura_cotizacion_empresa {
+        width: 100%;
+        max-width: 95%;
+        background-color: #fff;
+        border: 2px solid #ffb703;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: -5%;
+        margin-left: 20px;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    /* --------------------------registrar  cliente-------------------------*/
+    
+    .btn-close_gestionar_cliente {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        padding: 20px;
+        background-color: rgb(0, 0, 0);
+        color: blanchedalmond;
+        border-radius: 50%;
+        line-height: 10px;
+        margin-left: 0%;
+        margin-top: -3%;
+    }
+    
+    .registro-cliente {
+        width: 400px;
+        /* height: 113%; */
+        max-height: 130%;
+        background: #ffffff;
+        padding: 30px;
+        margin: auto;
+        border-radius: 4px;
+        color: #000000;
+        box-shadow: 7px 13px 37px #ffb703;
+        align-items: right;
+        text-align: right;
+        margin-top: 100px;
+    }
+    
+    .registro-cliente h1 {
+        margin-top: 10 px;
+        color: #ffb703;
+        position: relative;
+        left: -35px;
+        font-size: 30px;
+    }
+    
+    .registro-cliente h4 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    
+    .registro-cliente select {
+        border-radius: 10px;
+        left: 90px;
+        top: -34px;
+        position: relative;
+        height: 10%;
+        width: 90%;
+        font-size: 18px;
+        margin: 10px;
+        color: #000000;
+        background-color: #f8f8f8;
+        border: 3px solid #ffb703;
+    }
+    
+    .documento_cliente h3 {
+        margin-left: -124px;
+        margin-top: 50px;
+    }
+    
+    .controls_formulario_cliente {
+        width: 100%;
+        height: 40px;
+        background: #f8f8f6;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        border: 3px solid #ffb703;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: rgb(2, 2, 2);
+    }
+    
+    .contoles_datos_formulario_cliente {
+        margin-top: 50px;
+    }
+    
+    .registro-cliente p {
+        height: 40px;
+        margin-left: 40px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+    }
+    
+    .registro-cliente a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .formulario_cliente a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+    
+    .botons_formulario_cliente {
+        border-radius: 10px;
+        width: 27%;
+        background: #ffb703;
+        color: #ffffff;
+        border: none;
+        padding: 8px;
+        border: 1px solid #ffb703;
+        margin: 13px 0;
+        font-size: 16px;
+        margin-top: 28%;
+        position: relative;
+        left: -35%;
+    }
+    
+    .botons_formulario_cliente:hover {
+        cursor: pointer;
+        background-color: #ffffff;
+        color: #ffb703;
+    }
+    
+    .gestionar_cliente:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .gestionar_cliente {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding: 40px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 1000ms;
+        overflow: scroll;
+    }
+    
+    .ventana_cliente {
+        width: 90%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .contenido1 p {
+        font-size: 1.5rem;
+        font-weight: 50%;
+    }
+    
+    .menu {
+        margin-top: 15%;
+    }
+    /* ver adminitrador*/
+    
+    .btn_agregar_usuario {
+        display: flex;
+        background-color: #181715;
+    }
+    
+    .btn_agregar_usuario a {
+        background-color: #ffb703;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        font-size: 23px;
+        cursor: pointer;
+        border-radius: 20px;
+        margin-top: -57px;
+    }
+    
+    .btn_agregar_usuario a:hover {
+        background-color: #ff0303;
+    }
+    
+    .link_editar_administrador {
+        color: rgb(165, 19, 19);
+    }
+    
+    .link_editar_administrador:hover {
+        color: #ffb703;
+    }
+    
+    .ventana_ver_administradores h1 {
+        color: black;
+        text-align: center;
+        margin-top: -3%;
+    }
+    
+    .estado_administrador {
+        width: 70px;
+        border: 1px solid rgb(0, 0, 0);
+    }
+    
+    .estado_administrador:hover {
+        border: 1px solid rgb(196, 21, 21);
+        border-collapse: collapse;
+    }
+    
+    .tabla_administrador,
+    .id_admin_tabla,
+    .documento_admin_tabla,
+    .correo_admin_tabla,
+    .nombre_admin_tabla,
+    .apellido_admin_tabla,
+    .telefono_admin_tabla,
+    .estado_admin_tabla,
+    .editar_admin_tabla,
+    .db_numero_admin,
+    .db_documento_admin,
+    .db_correo_admin,
+    .db_nombre_admin,
+    .db_apellido_admin,
+    .db_telefono_admin,
+    .db_estado_admin,
+    .db_editar_admin {
+        border-collapse: collapse;
+        box-shadow: 3px 3px 3px #ffb703;
+    }
+    
+    .db_numero_admin,
+    .db_documento_admin,
+    .db_correo_admin,
+    .db_nombre_admin,
+    .db_apellido_admin,
+    .db_telefono_admin,
+    .db_estado_admin,
+    .db_editar_admin {
+        padding: 10px;
+    }
+    
+    .datos_administrador_tabla:hover {
         background-color: #eccf1068;
         cursor: pointer;
     }
-
-.id_clie_tabla,.documento_clie_tabla,.correo_clien_tabla,
-.nombre_clie_tabla,.apellido_clie_tabla,
-.telefono_clie_tabla,.direccion_clie_tabla,
-.estado_clie_tabla,.editar_clie_tabla {
-    text-align: center;
-    background-color: #ffb703;
     
-}
-.tabla_cliente {
-    background-color: rgb(255, 255, 255);
-    width: 100%; 
-
-}
-.ventana_ver_clientes {
-    width: 90%;
-    max-width: auto;
-    height:auto;
-    background:rgb(243, 241, 241);;
-    padding: 50px;
-    margin: auto;
-    border-radius: 4px;
-    color: #000000;
-    box-shadow: 7px 13px 37px #ffb703;
-    align-items: center;
-    text-align: center;
-  }
- 
-.ver_clientes:target{
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
- 
-}
-
-.ver_clientes{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    padding: 40px;
-    visibility: hidden;
-    opacity:0;
-    transition: all 1000ms;
-    overflow: scroll;
-  
-}
-
-.btn-close_ver_cliente{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    padding: 20px;
-    background-color: rgb(0, 0, 0);
-    color: #FFF;
-    border-radius: 50%;
-    line-height: 10px;
-    top: -60px;
-   left: 55%;
- 
-}
-.buscarcliente{
-    position: absolute;
-    padding: 5px;
-    margin-left:  2.4%;
-    margin-top: -60px;
-}
-.buscarcliente input{
-width: 0px;
-height: 37px;
-padding: 0 20px;
-font-size: 18px;
-color:black;
-outline: none;
-border: 1px solid rgb(243, 241, 241);
-background-color: rgb(243, 241, 241);
-border-radius: 30px;
-transition: all 0.6s ease;
-}
-.btnbuscarcliente{
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #ffb703;
-    width: 43px;
-    height: 43px;
-    line-height: 43px;
-    text-align: center;
-    color: #FFF;
-    font-size: 20px;
-    border-radius: 50%;
-    cursor: pointer;
- 
-}
-.btnbuscarcliente:hover{
-    background-color: #ff0303;
-}
-.buscarcliente:hover .btnbuscarcliente{
-    background-color: #ff0303;
-}
-.buscarcliente:hover input{
-    width: 220px;
-    border: 1px solid rgb(253, 2, 2);
-}
-.guardar_cliente_tabla{
-    border-radius: 10px;
-    width: 8%;
-    background:#ffb703;
-    color: #ffffff;
-    border: none;
-    padding: 6px;
-    border:2px solid #f8f8f8;
-    font-size: 16px;
-    margin: 8px;
-    margin-left: 92%;
-    margin-top: -3%;
-}
-
-  .guardar_cliente_tabla:hover{
-    cursor: pointer;
-    background-color: #fd0404;
-    color: #fcfcfc;
-  }
-
-/* gestionar reporte*/
-
-.ventana_gestionar_reportes {
-    width: 90%;
-    height: auto;
-    background:rgb(233, 218, 218);
-    padding: 50px;
-    margin: auto;
-    border-radius: 4px;
-    color: #000000;
-    box-shadow: 7px 13px 37px #ffb703;
-    align-items: center;
-    text-align: center;
-  }
- 
-.gestionar_reportes:target{
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
- 
-}
-
-.gestionar_reportes{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    padding: 40px;
-    visibility: hidden;
-    opacity:0;
-    transition: all 1000ms;
-    overflow: scroll;
-  
-}
-/* buscadores */
-.buscador{
-    position: relative;
-    width: 100%;
-    max-width: 95%;
-    background-color: #fff;
-    border: 2px solid #ffb703;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-left: 2%;
-    font-size: 18px;
-    font-weight: bolder;
-}
-.buscador_fecha{
-    position: relative;
-    margin-left: -70%;
-    left: 2%;
-    
-    
-}
-.buscador p{
-    margin-left: -84%;
-    font-size: 90%;
-    margin-top: -1%;
-    left: 10%;
-}
-
-.link_buscar_venta {
-    position:absolute;
-    color: rgb(165, 19, 19);
-    margin-top: 2%;
-    left:32%;
-}
-#buscar_venta{
-    margin-left: 2px;
-}
-
-.buscar_numero{
-    position: absolute;
-    padding: 5px;
-    margin-left: 80%;
-    margin-top: -60px;
-}
-.buscar_numero input{
-width: 0px;
-height: 37px;
-padding: 0 20px;
-font-size: 18px;
-color:black;
-outline: none;
-border:1px solid #FFF;
-background-color:#FFF;
-border-radius: 30px;
-transition: all 0.6s ease;
-}
-.btnbuscar_numero{
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #ffb703;
-    width: 42px;
-    height: 42px;
-    line-height: 43px;
-    text-align: center;
-    color: #FFF;
-    font-size: 20px;
-    border-radius: 50%;
-    cursor: pointer;
-    ;
-
- 
-}
-.btnbuscar_numero:hover{
-    background-color: #ff0303
-    
-}
-.buscar_numero:hover .btnbuscar_numero {
-    background-color: #ff0303
-}
-.buscar_numero:hover input{
-    width: 220px;
-    border:1px solid rgb(252, 0, 0);
-    
-}
-
-
-/* tabla gestionar reporte */
-
-.btn_nueva_venta a{
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #ffb703;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    font-size: 23px;
-    cursor: pointer;
-    border-radius: 20px;
-    right: 85%;
-    top: 11%;
-}
-.btn_nueva_venta a:hover{
-    background-color: #ff0303;
-}
-
-.link_ver_reporte {
-    color: rgb(165, 19, 19);
-}
-
-.link_ver_reporte:hover{
-    color: #ffb703;
-}
-
-.ventana_ver_administradores h1 {
-    color: black;
-    text-align: center;
-    margin-top: -3%;
-}
-
-.estado_reporte {
-    width: 70px;
-    border: 1px solid rgb(0, 0, 0);
-    
-}
-
-.estado_reporte:hover{
-    border: 1px solid rgb(196, 21, 21);
-    border-collapse: collapse;
-}
-    .tabla_reporte,.id_reporte_tabla, .fecha_reporte_tabla, .cliente_reporte_tabla, 
-    .total_factura_reporte_tabla,.estado_reporte_tabla,.ver_reporte_tabla, .db_numero_factura_reporte,
-    .db_fecha_reporte,.db_cliente_reporte, .db_total_factura_reporte, .db_estado_reporte, .db_ver_reporte  {
-        border-collapse: collapse;
-        box-shadow: 3px 3px 3px #ffb703;
-       
-    }
-    .db_numero_factura_reporte, .db_fecha_reporte,.db_cliente_reporte, .db_total_factura_reporte, 
-    .db_estado_reporte, .db_ver_reporte  {
-        padding: 10px;
-        
-    }
-   .datos_reporte_tabla:hover{
-       background-color: #eccf1068;
-       cursor: pointer;
-   }
-
-
-   .id_reporte_tabla, .fecha_reporte_tabla, .cliente_reporte_tabla, 
-   .total_factura_reporte_tabla,.estado_reporte_tabla,.ver_reporte_tabla {
+    .id_admin_tabla,
+    .documento_admin_tabla,
+    .correo_admin_tabla,
+    .nombre_admin_tabla,
+    .apellido_admin_tabla,
+    .telefono_admin_tabla,
+    .estado_admin_tabla,
+    .editar_admin_tabla {
         padding: 10px;
         text-align: center;
         background-color: #ffb703;
     }
-
-  
-    .tabla_reporte {
-        background-color: rgb(255, 255, 255); 
-      width: 100%;
+    
+    .tabla_administrador {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
     }
-
-
-
-
-/* arreglo importante carousel*/
-.estorbo img{
-    margin-top: 7%;
-}
-.espacio {
-    width: 20%;
-}
-
-
-
-
-/* datos factura credito*/
-.factura_credito:target{
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
- 
-}
-
-
-.factura_credito{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    padding: 40px;
-    visibility: hidden;
-    opacity:0;
-    transition: all 1000ms;
-    overflow: scroll;
-}
-.ventana_credito{
-
-    width: 90%;
-    height: 100%;
-    position:relative;
-    display: flex;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
- 
-}
-/*ver cliente credito */
-.ventana_ver_clientes_credito {
-    width: 90%;
-    max-width: auto;
-    height:auto;
-    background:rgb(253, 250, 250);
-    padding: 50px;
-    margin: auto;
-    border-radius: 4px;
-    color: #000000;
-    box-shadow: 7px 13px 37px #ffb703;
-    align-items: center;
-    text-align: center;
-  }
- 
-.ver_clientes_credito:target{
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
- 
-}
-
-.ver_clientes_credito{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    padding: 40px;
-    visibility: hidden;
-    opacity:0;
-    transition: all 1000ms;
-    overflow: scroll;
-  
-}
-/*aeditar producto clacificacion */
-
-.ventana_edit_clasificacion{
-    width: 35%;
-    height:35%;
-    background:rgb(245, 239, 239);
-    padding: 50px;
-    margin: auto;
-    border-radius: 4px;
-    color: #000000;
-    box-shadow: 7px 13px 37px #ffb703;
-    align-items: center;
-    text-align: center;
-    margin-top: 150px;
-  }
- 
-.edit_producto_clasificacion:target{ 
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
- 
-}
-
-.edit_producto_clasificacion{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    padding: 40px;
-    visibility: hidden;
-    opacity:0;
-    transition: all 1000ms;
-    overflow: scroll;
-  
-}
-.btn-close_edit_clasificacion{
-    width: 30px;
-    height: 30px;
-    position: relative;
-    padding: 15px;
-    background-color: rgb(0, 0, 0);
-    color: #FFF;
-    border-radius: 50%;
-    line-height: 10px;
-    top: -60px;
-   left: 62%;
- 
-}
-.icon_edit{
-width: 30%;
-height: auto;
-margin-top: -45px;
-}
-.icon_edit img{
- margin-top: 10px;
-width: 140px;
-height: 140px;
-
-}
-.ventana_edit_clasificacion h3{
-    margin-top: -22%;
-    margin-left: 22%;
-    color: #ffb703;
-    font-size: 23px;
-}
-
-.select_clasificacion_editar{
+    
+    .btn-close_ver_proveedor {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        padding: 20px;
+        background-color: rgb(0, 0, 0);
+        color: #FFF;
+        border-radius: 50%;
+        line-height: 10px;
+        top: -12%;
+        left: 57%;
+    }
+    
+    .ventana_ver_administradores {
+        width: 90%;
+        height: auto;
+        background: rgb(243, 241, 241);
+        padding: 50px;
+        margin: auto;
+        border-radius: 4px;
+        color: #000000;
+        box-shadow: 7px 13px 37px #ffb703;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .ver_administradores:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .ver_administradores {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding: 40px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 1000ms;
+        overflow: scroll;
+    }
+    
+    .buscaradministrador {
+        position: absolute;
+        padding: 5px;
+        margin-left: 2.4%;
+        margin-top: -60px;
+    }
+    
+    .buscaradministrador input {
+        width: 0px;
+        height: 37px;
+        padding: 0 20px;
+        font-size: 18px;
+        color: black;
+        outline: none;
+        border: 1px solid rgb(243, 241, 241);
+        background-color: rgb(243, 241, 241);
+        border-radius: 30px;
+        transition: all 0.6s ease;
+    }
+    
+    .btnbuscaradministrador {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #ffb703;
+        width: 42px;
+        height: 42px;
+        line-height: 43px;
+        text-align: center;
+        color: #FFF;
+        font-size: 20px;
+        border-radius: 50%;
+        cursor: pointer;
+        ;
+    }
+    
+    .btnbuscaradministrador:hover {
+        background-color: #ff0303
+    }
+    
+    .buscaradministrador:hover .btnbuscaradministrador {
+        background-color: #ff0303
+    }
+    
+    .buscaradministrador:hover input {
+        width: 220px;
+        border: 1px solid rgb(252, 0, 0);
+    }
+    
+    .guardar_aministrador_tabla {
+        border-radius: 10px;
+        width: 7%;
+        background: #ffb703;
+        color: #ffffff;
+        border: none;
+        padding: 8px;
+        border: 2px solid #f8f8f8;
+        font-size: 16px;
+        margin: 8px;
+        margin-left: 92%;
+        margin-top: -7%;
+    }
+    
+    .guardar_aministrador_tabla:hover {
+        cursor: pointer;
+        background-color: #fd0404;
+        color: #fcfcfc;
+    }
+    /* -----------------ver empleados---------------------------- */
+    
+    .link_editar_empleado {
+        color: rgb(165, 19, 19);
+    }
+    
+    .link_editar_empleado:hover {
+        color: #ffb703;
+    }
+    
+    .ventana_ver_usuarios h1 {
+        color: black;
+        text-align: center;
+        margin-top: -3%;
+    }
+    
+    .estado_empleado {
+        width: 70px;
+        border: 1px solid rgb(0, 0, 0);
+    }
+    
+    .estado_empleado:hover {
+        border: 1px solid rgb(122, 12, 12);
+        border-collapse: collapse;
+    }
+    
+    .tabla_empl,
+    .id_emp_tabla,
+    .documento_emp_tabla,
+    .correo_emp_tabla,
+    .nombre_emp_tabla,
+    .apellido_emp_tabla,
+    .telefono_emp_tabla,
+    .estado_emp_tabla,
+    .editar_emp_tabla,
+    .db_numero_empl,
+    .db_documento_empl,
+    .db_correo_empl,
+    .db_nombre_empl,
+    .db_apellido_empl,
+    .db_telefono_empl,
+    .db_estado_empl,
+    .db_editar_empl {
+        border-collapse: collapse;
+        box-shadow: 3px 3px 3px #ffb703;
+    }
+    
+    .datos_empleado_tabla:hover {
+        background-color: #eccf1068;
+        cursor: pointer;
+    }
+    
+    .db_numero_empl,
+    .db_documento_empl,
+    .db_correo_empl,
+    .db_nombre_empl,
+    .db_apellido_empl,
+    .db_telefono_empl,
+    .db_estado_empl,
+    .db_editar_empl {
+        padding: 10px
+    }
+    
+    .id_emp_tabla,
+    .documento_emp_tabla,
+    .correo_emp_tabla,
+    .nombre_emp_tabla,
+    .apellido_emp_tabla,
+    .telefono_emp_tabla,
+    .estado_emp_tabla,
+    .editar_emp_tabla {
+        padding: 10px;
+        text-align: center;
+        background-color: #ffb703;
+    }
+    
+    .tabla_empleados {
+        background-color: rgb(255, 255, 255);
+        width: 100%
+    }
+    
+    .ventana_ver_usuarios {
+        width: 90%;
+        height: auto;
+        background: rgb(243, 241, 241);
+        padding: 50px;
+        margin: auto;
+        border-radius: 4px;
+        color: #000000;
+        box-shadow: 7px 13px 37px #ffb703;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .ver_usuarios:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .ver_usuarios {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding: 40px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 1000ms;
+        overflow: scroll;
+    }
+    
+    .buscarempleado {
+        position: absolute;
+        padding: 5px;
+        margin-left: 2.4%;
+        margin-top: -60px;
+    }
+    
+    .buscarempleado input {
+        width: 0px;
+        height: 37px;
+        padding: 0 20px;
+        font-size: 18px;
+        color: black;
+        outline: none;
+        border: 1px solid rgb(243, 241, 241);
+        background-color: rgb(243, 241, 241);
+        border-radius: 30px;
+        transition: all 0.6s ease;
+    }
+    
+    .btnbuscarempleado {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #ffb703;
+        width: 42px;
+        height: 42px;
+        line-height: 43px;
+        text-align: center;
+        color: #FFF;
+        font-size: 20px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .btnbuscarempleado:hover {
+        background-color: #ff0303;
+    }
+    
+    .buscarempleado:hover .btnbuscarempleado {
+        background-color: #ff0303;
+    }
+    
+    .buscarempleado:hover input {
+        width: 220px;
+        border: 1px solid rgb(252, 0, 0);
+    }
+    
+    .guardar_empleado_tabla {
+        border-radius: 10px;
+        width: 6%;
+        background: #ffb703;
+        color: #ffffff;
+        border: none;
+        padding: 6px;
+        border: 2px solid #f8f8f8;
+        font-size: 16px;
+        margin: 8px;
+        margin-left: 92%;
+        margin-top: -3%;
+    }
+    
+    .guardar_empleado_tabla:hover {
+        cursor: pointer;
+        background-color: #fd0404;
+        color: #fcfcfc;
+    }
+    /* ver proveedores*/
+    
+    .link_editar_proveedor {
+        color: rgb(165, 19, 19);
+    }
+    
+    .link_editar_proveedor:hover {
+        color: #ffb703;
+    }
+    
+    .ventana_ver_Proveedor h1 {
+        color: black;
+        text-align: center;
+        margin-top: -1%;
+    }
+    
+    .estado_proveedor {
+        width: 70px;
+        border: 1px solid rgb(0, 0, 0);
+    }
+    
+    .estado_proveedor:hover {
+        border: 1px solid rgb(122, 12, 12);
+        border-collapse: collapse;
+    }
+    
+    .Transporte_proveedor {
+        width: 42px;
+        border: 1px solid rgb(0, 0, 0);
+    }
+    
+    .Transporte_proveedor:hover {
+        border: 1px solid rgb(122, 12, 12);
+        border-collapse: collapse;
+    }
+    
+    .tabla_proveedor,
+    .id_prov_tabla,
+    .documento_prov_tabla.correo_prov_tabla,
+    .nombre_prov_tabla,
+    .apellido_prov_tabla,
+    .telefono_prov_tabla,
+    .direccion_prov_tabla,
+    .estado_prov_tabla,
+    .transporte_prov_tabla,
+    .editar_prov_tabla,
+    .db_numero_prov,
+    .db_documento_prov,
+    .db_correo_prov,
+    .db_nombre_prov,
+    .db_apellido_prov,
+    .db_telefono_prov,
+    .db_direccion_prov,
+    .db_estado_prov,
+    .db_editar_prov {
+        border-collapse: collapse;
+        box-shadow: 3px 3px 3px #ffb703;
+        padding: 10px;
+    }
+    
+    .datos_proveedor_tabla:hover {
+        background-color: #eccf1068;
+        cursor: pointer;
+    }
+    
+    .id_prov_tabla,
+    .documento_prov_tabla,
+    .correo_prov_tabla,
+    .nombre_prov_tabla,
+    .apellido_prov_tabla,
+    .telefono_prov_tabla,
+    .direccion_prov_tabla,
+    .estado_prov_tabla,
+    .editar_prov_tabla {
+        text-align: center;
+        background-color: #ffb703;
+    }
+    
+    table {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+    }
+    
+    .btn-close_ver_proveedor {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        padding: 20px;
+        background-color: rgb(0, 0, 0);
+        color: #FFF;
+        border-radius: 50%;
+        line-height: 10px;
+        top: -60px;
+        left: 55%;
+    }
+    
+    .ventana_ver_Proveedor {
+        width: 99%;
+        max-width: 90%;
+        height: auto;
+        background: rgb(243, 241, 241);
+        padding: 50px;
+        margin: auto;
+        border-radius: 4px;
+        color: #000000;
+        box-shadow: 7px 13px 37px #ffb703;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .ver_proveedores:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .ver_proveedores {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding: 40px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 1000ms;
+        overflow: scroll;
+    }
+    
+    .guardar_proveedor_tabla {
+        border-radius: 10px;
+        width: 6%;
+        background: #ffb703;
+        color: #ffffff;
+        border: none;
+        padding: 8px;
+        border: 2px solid #f8f8f8;
+        font-size: 16px;
+        margin: 8px;
+        margin-left: 92%;
+        margin-top: -3%;
+    }
+    
+    .guardar_proveedor_tabla:hover {
+        cursor: pointer;
+        background-color: #fd0404;
+        color: #fcfcfc;
+    }
+    /*ver proveedor usuario boton buscar*/
+    
+    .buscar_proveedor_boton {
+        position: absolute;
+        padding: 5px;
+        margin-left: 2.4%;
+        margin-top: -60px;
+    }
+    
+    .buscar_proveedor_boton input {
+        width: 0px;
+        height: 37px;
+        padding: 0 20px;
+        font-size: 18px;
+        color: black;
+        outline: none;
+        border: 1px solid rgb(243, 241, 241);
+        background-color: rgb(243, 241, 241);
+        border-radius: 30px;
+        transition: all 0.6s ease;
+    }
+    
+    .btn_buscar_proveedor {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #ffb703;
+        width: 43px;
+        height: 43px;
+        line-height: 43px;
+        text-align: center;
+        color: #FFF;
+        font-size: 20px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .btn_buscar_proveedor:hover {
+        background-color: #ff0303;
+    }
+    
+    .buscar_proveedor_boton:hover .btn_buscar_proveedor {
+        background-color: #ff0303;
+    }
+    
+    .buscar_proveedor_boton:hover input {
+        width: 220px;
+        border: 1px solid rgb(252, 0, 0);
+    }
+    /* ver clientes*/
+    
+    .link_editar_clientes {
+        color: rgb(165, 19, 19);
+    }
+    
+    .link_editar_clientes:hover {
+        color: #ffb703;
+    }
+    
+    .ventana_ver_clientes h1 {
+        color: black;
+        text-align: center;
+        margin-top: -2%;
+    }
+    
+    .estado_clientes {
+        width: 70px;
+        border: 1px solid rgb(0, 0, 0);
+    }
+    
+    .estado_clientes:hover {
+        border: 1px solid rgb(122, 12, 12);
+        border-collapse: collapse;
+    }
+    
+    .tabla_cliente,
+    .id_clie_tabla,
+    .documento_clie_tabla,
+    .correo_clien_tabla,
+    .nombre_clie_tabla,
+    .apellido_clie_tabla,
+    .telefono_clie_tabla,
+    .direccion_clie_tabla,
+    .estado_clie_tabla,
+    .editar_clie_tabla,
+    .db_numero_clie,
+    .db_documento_clie,
+    .db_correo_clie,
+    .db_nombre_clie,
+    .db_apellido_clie,
+    .db_telefono_clie,
+    .db_direccion_clie,
+    .db_estado_clie,
+    .db_editar_clie {
+        border-collapse: collapse;
+        box-shadow: 3px 3px 3px #ffb703;
+        padding: 10px;
+    }
+    
+    .datos_cliente_tabla:hover {
+        background-color: #eccf1068;
+        cursor: pointer;
+    }
+    
+    .id_clie_tabla,
+    .documento_clie_tabla,
+    .correo_clien_tabla,
+    .nombre_clie_tabla,
+    .apellido_clie_tabla,
+    .telefono_clie_tabla,
+    .direccion_clie_tabla,
+    .estado_clie_tabla,
+    .editar_clie_tabla {
+        text-align: center;
+        background-color: #ffb703;
+    }
+    
+    .tabla_cliente {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+    }
+    
+    .ventana_ver_clientes {
+        width: 90%;
+        max-width: auto;
+        height: auto;
+        background: rgb(243, 241, 241);
+        ;
+        padding: 50px;
+        margin: auto;
+        border-radius: 4px;
+        color: #000000;
+        box-shadow: 7px 13px 37px #ffb703;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .ver_clientes:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .ver_clientes {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding: 40px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 1000ms;
+        overflow: scroll;
+    }
+    
+    .btn-close_ver_cliente {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        padding: 20px;
+        background-color: rgb(0, 0, 0);
+        color: #FFF;
+        border-radius: 50%;
+        line-height: 10px;
+        top: -60px;
+        left: 55%;
+    }
+    
+    .buscarcliente {
+        position: absolute;
+        padding: 5px;
+        margin-left: 2.4%;
+        margin-top: -60px;
+    }
+    
+    .buscarcliente input {
+        width: 0px;
+        height: 37px;
+        padding: 0 20px;
+        font-size: 18px;
+        color: black;
+        outline: none;
+        border: 1px solid rgb(243, 241, 241);
+        background-color: rgb(243, 241, 241);
+        border-radius: 30px;
+        transition: all 0.6s ease;
+    }
+    
+    .btnbuscarcliente {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #ffb703;
+        width: 43px;
+        height: 43px;
+        line-height: 43px;
+        text-align: center;
+        color: #FFF;
+        font-size: 20px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .btnbuscarcliente:hover {
+        background-color: #ff0303;
+    }
+    
+    .buscarcliente:hover .btnbuscarcliente {
+        background-color: #ff0303;
+    }
+    
+    .buscarcliente:hover input {
+        width: 220px;
+        border: 1px solid rgb(253, 2, 2);
+    }
+    
+    .guardar_cliente_tabla {
+        border-radius: 10px;
+        width: 8%;
+        background: #ffb703;
+        color: #ffffff;
+        border: none;
+        padding: 6px;
+        border: 2px solid #f8f8f8;
+        font-size: 16px;
+        margin: 8px;
+        margin-left: 92%;
+        margin-top: -3%;
+    }
+    
+    .guardar_cliente_tabla:hover {
+        cursor: pointer;
+        background-color: #fd0404;
+        color: #fcfcfc;
+    }
+    /* gestionar reporte*/
+    
+    .ventana_gestionar_reportes {
+        width: 90%;
+        height: auto;
+        background: rgb(233, 218, 218);
+        padding: 50px;
+        margin: auto;
+        border-radius: 4px;
+        color: #000000;
+        box-shadow: 7px 13px 37px #ffb703;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .gestionar_reportes:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .gestionar_reportes {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding: 40px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 1000ms;
+        overflow: scroll;
+    }
+    /* buscadores */
+    
+    .buscador {
+        position: relative;
+        width: 100%;
+        max-width: 95%;
+        background-color: #fff;
+        border: 2px solid #ffb703;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 2%;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    
+    .buscador_fecha {
+        position: relative;
+        margin-left: -70%;
+        left: 2%;
+    }
+    
+    .buscador p {
+        margin-left: -84%;
+        font-size: 90%;
+        margin-top: -1%;
+        left: 10%;
+    }
+    
+    .link_buscar_venta {
+        position: absolute;
+        color: rgb(165, 19, 19);
+        margin-top: 2%;
+        left: 32%;
+    }
+    
+    #buscar_venta {
+        margin-left: 2px;
+    }
+    
+    .buscar_numero {
+        position: absolute;
+        padding: 5px;
+        margin-left: 80%;
+        margin-top: -60px;
+    }
+    
+    .buscar_numero input {
+        width: 0px;
+        height: 37px;
+        padding: 0 20px;
+        font-size: 18px;
+        color: black;
+        outline: none;
+        border: 1px solid #FFF;
+        background-color: #FFF;
+        border-radius: 30px;
+        transition: all 0.6s ease;
+    }
+    
+    .btnbuscar_numero {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #ffb703;
+        width: 42px;
+        height: 42px;
+        line-height: 43px;
+        text-align: center;
+        color: #FFF;
+        font-size: 20px;
+        border-radius: 50%;
+        cursor: pointer;
+        ;
+    }
+    
+    .btnbuscar_numero:hover {
+        background-color: #ff0303
+    }
+    
+    .buscar_numero:hover .btnbuscar_numero {
+        background-color: #ff0303
+    }
+    
+    .buscar_numero:hover input {
+        width: 220px;
+        border: 1px solid rgb(252, 0, 0);
+    }
+    /* tabla gestionar reporte */
+    
+    .btn_nueva_venta a {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #ffb703;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        font-size: 23px;
+        cursor: pointer;
+        border-radius: 20px;
+        right: 85%;
+        top: 11%;
+    }
+    
+    .btn_nueva_venta a:hover {
+        background-color: #ff0303;
+    }
+    
+    .link_ver_reporte {
+        color: rgb(165, 19, 19);
+    }
+    
+    .link_ver_reporte:hover {
+        color: #ffb703;
+    }
+    
+    .ventana_ver_administradores h1 {
+        color: black;
+        text-align: center;
+        margin-top: -3%;
+    }
+    
+    .estado_reporte {
+        width: 70px;
+        border: 1px solid rgb(0, 0, 0);
+    }
+    
+    .estado_reporte:hover {
+        border: 1px solid rgb(196, 21, 21);
+        border-collapse: collapse;
+    }
+    
+    .tabla_reporte,
+    .id_reporte_tabla,
+    .fecha_reporte_tabla,
+    .cliente_reporte_tabla,
+    .total_factura_reporte_tabla,
+    .estado_reporte_tabla,
+    .ver_reporte_tabla,
+    .db_numero_factura_reporte,
+    .db_fecha_reporte,
+    .db_cliente_reporte,
+    .db_total_factura_reporte,
+    .db_estado_reporte,
+    .db_ver_reporte {
+        border-collapse: collapse;
+        box-shadow: 3px 3px 3px #ffb703;
+    }
+    
+    .db_numero_factura_reporte,
+    .db_fecha_reporte,
+    .db_cliente_reporte,
+    .db_total_factura_reporte,
+    .db_estado_reporte,
+    .db_ver_reporte {
+        padding: 10px;
+    }
+    
+    .datos_reporte_tabla:hover {
+        background-color: #eccf1068;
+        cursor: pointer;
+    }
+    
+    .id_reporte_tabla,
+    .fecha_reporte_tabla,
+    .cliente_reporte_tabla,
+    .total_factura_reporte_tabla,
+    .estado_reporte_tabla,
+    .ver_reporte_tabla {
+        padding: 10px;
+        text-align: center;
+        background-color: #ffb703;
+    }
+    
+    .tabla_reporte {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+    }
+    /* arreglo importante carousel*/
+    
+    .estorbo img {
+        margin-top: 7%;
+    }
+    
+    .espacio {
+        width: 20%;
+    }
+    /* datos factura credito*/
+    
+    .factura_credito:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .factura_credito {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding: 40px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 1000ms;
+        overflow: scroll;
+    }
+    
+    .ventana_credito {
+        width: 90%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /*ver cliente credito */
+    
+    .ventana_ver_clientes_credito {
+        width: 90%;
+        max-width: auto;
+        height: auto;
+        background: rgb(253, 250, 250);
+        padding: 50px;
+        margin: auto;
+        border-radius: 4px;
+        color: #000000;
+        box-shadow: 7px 13px 37px #ffb703;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .ver_clientes_credito:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .ver_clientes_credito {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding: 40px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 1000ms;
+        overflow: scroll;
+    }
+    /*editar producto clacificacion */
+    
+    .ventana_edit_clasificacion {
+        width: 50%;
+        height: 50%;
+        max-width: 45%;
+        background: rgb(245, 239, 239);
+        padding: 50px;
+        margin: auto;
+        border-radius: 4px;
+        color: #000000;
+        box-shadow: 7px 13px 37px #ffb703;
+        align-items: center;
+        text-align: center;
+        margin-top: 150px;
+    }
+    
+    .edit_producto_clasificacion:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .edit_producto_clasificacion {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding: 40px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 1000ms;
+        overflow: scroll;
+    }
+    
+    .btn-close_edit_clasificacion {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        padding: 15px;
+        background-color: rgb(0, 0, 0);
+        color: #FFF;
+        border-radius: 50%;
+        line-height: 10px;
+        top: -60px;
+        left: 62%;
+    }
+    
+    .icon_edit {
+        width: 30%;
+        height: auto;
+        margin-top: -45px;
+        font-size: 24px;
+        color: #fd0404;
+    }
+    
+    .icon_edit img {
+        margin-top: 10px;
+        width: 140px;
+        height: 140px;
+    }
+    
+    .ventana_edit_clasificacion h3 {
+        margin-top: -30%;
+        margin-left: 27%;
+        color: #ffb703;
+        font-size: 22px;
+    }
+    
+    .select_clasificacion_editar {
         padding: 3px;
         border-radius: 10px;
         border-color: #ffb703;
         cursor: pointer;
+        height: 5%;
         position: absolute;
-        margin-top: -9%;
-        margin-left: -2%;
-        width: 10.7%;
-        height: 3%;
-       
-     
-}
-
-.ventana_edit_clasificacion input{
-  padding: 4px;
-  border-color: #ffb703;
-  width:38%;
-  border-radius: 10px;
-  margin-top: 10%;
-  margin-left: 55%;
-}
-.btneditar_clasificacion{
-   
+        left: 47.5%;
+        margin-top: -3%;
+    }
+    
+    .ventana_edit_clasificacion input {
+        padding: 4px;
+        border-color: #ffb703;
+        width: 40%;
+        border-radius: 10px;
+        margin-top: 12%;
+        margin-left: 55%;
+    }
+    
+    .btneditar_clasificacion {
         position: absolute;
-        top: 45%;
-        left: 59%;
-        background:#ffb703;
+        top: 63%;
+        left: 60%;
+        background: #ffb703;
         width: 100px;
         height: 34px;
         border-radius: 10px;
-        
-           }
-
-           .btneditar_clasificacion:hover{
-            background: #e70606;  
-          
-           }
-           .btneditar_clasificacion a{
-               position: absolute;
-               top: 8px;
-               left:26px;
-               color: rgb(255, 255, 255);
-               font-size: 16px;      
-         
-       }
-   /*nuevo clacificacion prroducto*/
-
-   .ventana_nueva_clasificacion{
-    width: 35%;
-    height:35%;
-    background:rgb(245, 239, 239);
-    padding: 50px;
-    margin: auto;
-    border-radius: 4px;
-    color: #000000;
-    box-shadow: 7px 13px 37px #ffb703;
-    align-items: center;
-    text-align: center;
-    margin-top: 150px;
-  }
- 
-.nuevo_producto_clasificacion:target{ 
-    background: rgba(0, 0, 0, 0.8);
-    top: 0%;
-    left: 0%;
-    visibility: visible;
-    opacity: 1;
- 
-}
-
-.nuevo_producto_clasificacion{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    padding: 40px;
-    visibility: hidden;
-    opacity:0;
-    transition: all 1000ms;
-    overflow: scroll;
-  
-}
-.btn-close_edit_clas ificacion{
-    width: 30px;
-    height: 30px;
-    position: relative;
-    padding: 15px;
-    background-color: rgb(0, 0, 0);
-    color: #FFF;
-    border-radius: 50%;
-    line-height: 10px;
-    top: -60px;
-   left: 62%;
- 
-}
+    }
+    
+    .general_editar {
+        margin-top: 2%;
+        align-items: center;
+    }
+    
+    .btneditar_clasificacion:hover {
+        background: #e70606;
+    }
+    
+    .btneditar_clasificacion a {
+        position: absolute;
+        top: 8px;
+        left: 26px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+    }
+    /*nuevo clacificacion prroducto*/
+    
+    .ventana_nueva_clasificacion {
+        width: 50%;
+        height: 44%;
+        background: rgb(245, 239, 239);
+        padding: 50px;
+        margin: auto;
+        border-radius: 4px;
+        color: #000000;
+        box-shadow: 7px 13px 37px #ffb703;
+        align-items: center;
+        text-align: center;
+        margin-top: 150px;
+    }
+    
+    .nuevo_producto_clasificacion:target {
+        background: rgba(0, 0, 0, 0.8);
+        top: 0%;
+        left: 0%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .nuevo_producto_clasificacion {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding: 40px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 1000ms;
+        overflow: scroll;
+    }
+    
+    .btn-close_edit_clacificacion {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        padding: 15px;
+        background-color: rgb(0, 0, 0);
+        color: #FFF;
+        border-radius: 50%;
+        line-height: 10px;
+        top: -60px;
+        left: 62%;
+    }
+    
+    .general_nueva h3 {
+        font-size: 24px;
+        color: #ffb703;
+        margin-top: -30%;
+    }
+    
+    .nueva_clasificacion_text input {
+        width: 38%;
+        padding: 4px;
+        border-color: #ffb703;
+        border-radius: 10px;
+        margin-top: 10%;
+        margin-left: 40%;
+    }
+    
+    .btn_nueva_clasificacion {
+        position: absolute;
+        top: 60%;
+        left: 60%;
+        background: #ffb703;
+        width: 100px;
+        height: 34px;
+        border-radius: 10px;
+    }
+    
+    .btn_nueva_clasificacion:hover {
+        background: #e70606;
+    }
+    
+    .btn_nueva_clasificacion a {
+        position: absolute;
+        top: 8px;
+        left: 26px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+    }
+    
+    .pdf a {
+        color: #ff0303;
+        margin-left: 78%;
+    }
+    
+    .pdf a:hover {
+        color: #ffb703;
+    }

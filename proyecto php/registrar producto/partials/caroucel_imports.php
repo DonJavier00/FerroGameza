@@ -14,7 +14,7 @@
               <img src="imag/locksmith.svg" alt="">
               <br>
 
-              <p>Agrega tus administradores, empleados y proveedores a tu base de datos </p>
+              <p>Agrega administradores, empleados y proveedores a tu base de datos </p>
 
               <nav class="menu">
                 <ul>
@@ -45,7 +45,7 @@
               <img src="imag/inventario.png" alt="">
               <br>
 
-              <p>Lista tus productos con todas sus características</p>
+              <p>Ten el control de tus productos con todas sus características</p>
               <nav class="menu">
                 <ul>
                   <b>
@@ -127,7 +127,7 @@
               <img src="imag/caja.png" alt="">
               <br>
               <p>Registra tus productos, compras y administra tu ingreso </p>
-              <br>
+              
               <nav class="menu">
                 <ul>
                   <b>
@@ -154,7 +154,7 @@
               <h2>Usuarios</h2><br>
               <img src="imag/usuario.png" alt="">
               <br>
-              <p>Manten el control de tus administradores, empleados, clientes, y provedores. </p>
+              <p>Tener un mejor control de todos tus usuarios registrados  </p>
               <nav class="menu">
                 <ul>
                   <b>

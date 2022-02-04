@@ -3,21 +3,25 @@
 
     <div class="ventana_ver_administradores">
         <a href="#" class="btn-close_ver_proveedor">X</a>
-        <h1>Tabla Administradores</h1><br>
+        <div class="pdf">
+         <a href="pdf"><i class="fas fa-file-pdf fa-2x fa-lg"></i></a>
+        </div>
+        <h1>Tabla Administradores</h1></br>
         <div class="btn_agregar_usuario">
             <a href="#gestionar_administrador"><i class="fas fa-plus"></i></a>
         </div>
-
+        
         <div class="buscaradministrador">
             <input class="" type="text" placeholder="Buscar" required>
             <div class="btnbuscaradministrador">
                 <i class="fas fa-search"></i>
             </div>
-        </div>
+        </div></br>
+      
         <div class="guardar_aministrador_tabla">
             <a class="guardaradmnistrador" type="submit" value="">Guardar</a>
         </div>
-
+       
 
         <table class="tabla_administrador">
 
@@ -47,7 +51,8 @@
                         <option>Inactivo</option>
                     </select>
                 </td>
-                <td class="db_editar_admin"> <a href="" id="editar_administrador" class="link_editar_administrador"><i class="fas fa-edit"></i>Editar</a></td>
+                <td class="db_editar_admin"> <a href="" id="editar_administrador" class="link_editar_administrador"><i
+                            class="fas fa-edit"></i>Editar</a></td>
             </tr>
 
             <tr class="datos_administrador_tabla">
@@ -65,7 +70,8 @@
                         <option>Inactivo</option>
                     </select>
                 </td>
-                <td class="db_editar_admin"> <a href="" id="editar_administrador" class="link_editar_administrador"><i class="fas fa-edit"></i>Editar</a></td>
+                <td class="db_editar_admin"> <a href="" id="editar_administrador" class="link_editar_administrador"><i
+                            class="fas fa-edit"></i>Editar</a></td>
             </tr>
 
             <tr class="datos_administrador_tabla">
@@ -83,7 +89,8 @@
                         <option>Inactivo</option>
                     </select>
                 </td>
-                <td class="db_editar_admin"> <a href="" id="editar_administrador" class="link_editar_administrador"><i class="fas fa-edit"></i>Editar</a></td>
+                <td class="db_editar_admin"> <a href="" id="editar_administrador" class="link_editar_administrador"><i
+                            class="fas fa-edit"></i>Editar</a></td>
             </tr>
 
             <tr class="datos_administrador_tabla">
@@ -101,7 +108,8 @@
                         <option>Inactivo</option>
                     </select>
                 </td>
-                <td class="db_editar_admin"> <a href="" id="editar_administrador" class="link_editar_administrador"><i class="fas fa-edit"></i>Editar</a></td>
+                <td class="db_editar_admin"> <a href="" id="editar_administrador" class="link_editar_administrador"><i
+                            class="fas fa-edit"></i>Editar</a></td>
             </tr>
 
         </table>
@@ -141,7 +149,7 @@
                 <th class="telefono_prov_tabla">Telefono</th>
                 <th class="direccion_prov_tabla">Direccion</th>
                 <th class="estado_prov_tabla">Estado</th>
-                
+
                 <th class="editar_prov_tabla">Editar </ht>
             </tr>
 
@@ -163,7 +171,7 @@
                     </select>
                 </td>
 
-                
+
                 <td class="db_editar_prov"> <a href="" id="editar_proveedor" class="link_editar_proveedor">
                         <i class="fas fa-edit"></i>Editar</a></td>
             </tr>
@@ -305,7 +313,7 @@
 <!---------------------------------------------ver clientes ------------------------------------------------->
 
 <div class="ver_clientes" id="ver_clientes">
-    
+
     <div class="ventana_ver_clientes">
         <a href="#" class="btn-close_ver_cliente">X</a>
         <h1>Tabla clientes</h1> <br>
@@ -445,14 +453,14 @@
 
 
             <br>
-            
-            <div class="buscar_numero">
-            <input class="" type="text" placeholder="Buscar" required>
-            <div class="btnbuscar_numero">
-                <i class="fas fa-search"></i>
-            </div>
 
-        </div>
+            <div class="buscar_numero">
+                <input class="" type="text" placeholder="Buscar" required>
+                <div class="btnbuscar_numero">
+                    <i class="fas fa-search"></i>
+                </div>
+
+            </div>
 
 
         </form>
@@ -494,7 +502,8 @@
                         <option>Inactivo</option>
                     </select>
                 </td>
-                <td class="db_ver_reporte"> <a href="" id="ver_reporte" class="link_ver_reporte"><i class="fa fa-eye"></i>Ver</a></td>
+                <td class="db_ver_reporte"> <a href="" id="ver_reporte" class="link_ver_reporte"><i
+                            class="fa fa-eye"></i>Ver</a></td>
             </tr>
 
             <tr class="datos_reporte_tabla">
@@ -511,7 +520,8 @@
                         <option>Inactivo</option>
                     </select>
                 </td>
-                <td class="db_ver_reporte"> <a href="" id="ver_reporte" class="link_ver_reporte"><i class="fa fa-eye"></i>Ver</a></td>
+                <td class="db_ver_reporte"> <a href="" id="ver_reporte" class="link_ver_reporte"><i
+                            class="fa fa-eye"></i>Ver</a></td>
             </tr>
 
             <tr class="datos_reporte_tabla">
@@ -528,7 +538,8 @@
                         <option>Inactivo</option>
                     </select>
                 </td>
-                <td class="db_ver_reporte"> <a href="" id="ver_reporte" class="link_ver_reporte"><i class="fa fa-eye"></i>Ver</a></td>
+                <td class="db_ver_reporte"> <a href="" id="ver_reporte" class="link_ver_reporte"><i
+                            class="fa fa-eye"></i>Ver</a></td>
             </tr>
         </table>
 
