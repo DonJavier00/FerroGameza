@@ -2980,18 +2980,16 @@
     
     .ventana_edit_clasificacion {
         width: auto;
-        height:auto;
+        height: auto;
         background: rgb(245, 239, 239);
         padding: 50px;
         border-radius: 4px;
         color: #000000;
         box-shadow: 7px 13px 37px #ffb703;
-        margin-top: 18%;
+        margin-top: 15%;
         position: absolute;
-        margin-left: 40%;
-       
+        margin-left: 35%;
     }
-    
     
     .edit_producto_clasificacion:target {
         background: rgba(0, 0, 0, 0.8);
@@ -3010,7 +3008,6 @@
         opacity: 0;
         transition: all 1000ms;
         overflow: scroll;
-
     }
     
     .icon_edit {
@@ -3019,8 +3016,8 @@
         margin-top: -35px;
         font-size: 24px;
         color: #fd0404;
-       
     }
+    
     .icon_edit h4 {
         text-align: center;
     }
@@ -3039,15 +3036,14 @@
         font-size: 19px;
     }
     
- .select_clasificacion_editar {
-      
+    .select_clasificacion_editar {
         padding: 5px;
         border-radius: 10px;
         border-color: #ffb703;
         cursor: pointer;
         margin-top: -42%;
         float: right;
-        margin-left: 10% ;
+        margin-left: 10%;
     }
     
     .ventana_edit_clasificacion input {
@@ -3058,6 +3054,7 @@
         margin-top: 17%;
         margin-left: 66%;
     }
+    
     .btneditar_clasificacion {
         position: absolute;
         top: 80%;
@@ -3067,11 +3064,10 @@
         height: 30px;
         border-radius: 10px;
     }
-  
+    
     .btneditar_clasificacion:hover {
         background: #e70606;
     }
-    
     
     .btneditar_clasificacion a {
         color: rgb(255, 255, 255);
@@ -3079,6 +3075,7 @@
         text-align: center;
         margin-left: 30%;
     }
+    
     .btnregresar_clasificacion {
         position: absolute;
         top: 80%;
@@ -3088,11 +3085,10 @@
         height: 30px;
         border-radius: 10px;
     }
-  
+    
     .btnregresar_clasificacion:hover {
         background: #e70606;
     }
-    
     
     .btnregresar_clasificacion a {
         color: rgb(255, 255, 255);
@@ -3101,18 +3097,19 @@
         margin-left: 14%;
     }
     /*nuevo clacificacion prroducto*/
-  
+    
     .ventana_nueva_clasificacion {
         width: auto;
-        height:auto;
+        height: auto;
         background: rgb(245, 239, 239);
         padding: 50px;
         border-radius: 4px;
-        color: #000000;
+        display: flex;
         box-shadow: 7px 13px 37px #ffb703;
-        margin-top: 18%;
+        margin-top: 15%;
         position: absolute;
-        margin-left: 40%;
+        align-items: center;
+        margin-left: 35%;
     }
     
     .nuevo_producto_clasificacion:target {
@@ -3133,53 +3130,50 @@
         transition: all 1000ms;
         overflow: scroll;
     }
-   .icon_nuevo h3 {
-       color: #ffb703;
-       margin-top: -42%;
-       margin-left: 14px;
-       font-size: 21px;
-
-   }
-   .ventana_nueva_clasificacion input  {
-    border-color: #ffb703;
-       margin-top: 18%;
-       padding: 4px;
-       width: 70%;
-       border-radius: 10px;
-       cursor: pointer;
-       float: right;
-       margin-left: 70% ;
-   }
-     
-   .icon_nuevo {
-    width: 100%;
-    height: auto;
-    margin-top: -35px;
-    font-size: 24px;
-    color: #fd0404;
-   
-   
-}
-.icon_nuevo h4 {
-    text-align: center;
-}
-
-.icon_nuevo img {
-    margin-top: 10px;
-    width: 140px;
-    height: 140px;
-    margin-left: -30px;
-}
-   
-.select_clasificacion_nueva{
-      
-    padding: 0px;
-    border-radius: 10px;
-   visibility: hidden;
-    cursor: pointer;
-    margin-top: -42%;
-    float: right;
-    margin-left: 10% ;
-}
-  
     
+    .icon_nuevo h3 {
+        color: #ffb703;
+        margin-top: -42%;
+        margin-left: 14px;
+        font-size: 21px;
+    }
+    
+    .ventana_nueva_clasificacion input {
+        border-color: #ffb703;
+        margin-top: 18%;
+        padding: 4px;
+        width: 70%;
+        border-radius: 10px;
+        cursor: pointer;
+        float: right;
+        margin-left: 70%;
+    }
+    
+    .icon_nuevo {
+        width: 100%;
+        height: auto;
+        margin-top: -35px;
+        font-size: 24px;
+        color: #fd0404;
+    }
+    
+    .icon_nuevo h4 {
+        text-align: center;
+    }
+    
+    .icon_nuevo img {
+        margin-top: 10px;
+        width: 140px;
+        height: 140px;
+        margin-left: -30px;
+    }
+    
+    .select_clasificacion_nueva {
+        padding: 0px;
+        border-radius: 10px;
+        visibility: hidden;
+        cursor: pointer;
+        margin-top: -42%;
+        float: right;
+        margin-left: 10%;
+    }
