@@ -2,7 +2,7 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
-## [2.0.0] - 2021-MM-DD
+## [2.0.0] - 2022-MM-DD
 
 ### Added
 
@@ -10,6 +10,7 @@ All notable changes are documented in this file using the [Keep a CHANGELOG](htt
 
 ### Removed
 
+* `SebastianBergmann\CodeUnit\CodeUnitCollection::fromArray()` has been removed
 * `SebastianBergmann\CodeUnit\Mapper::stringToCodeUnits()` no longer supports `ClassName<*>`
 * This component is no longer supported on PHP 7.3 and PHP 7.4
 

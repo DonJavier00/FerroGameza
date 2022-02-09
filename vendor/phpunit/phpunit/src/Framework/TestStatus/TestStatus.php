@@ -23,10 +23,10 @@ abstract class TestStatus
             0       => self::success(),
             1       => self::skipped(),
             2       => self::incomplete(),
-            3       => self::failure(),
-            4       => self::error(),
-            5       => self::risky(),
-            6       => self::warning(),
+            3       => self::risky(),
+            4       => self::warning(),
+            5       => self::failure(),
+            6       => self::error(),
             default => self::unknown(),
         };
     }
@@ -151,6 +151,11 @@ abstract class TestStatus
     public function message(): string
     {
         return $this->message;
+    }
+
+    public function isMoreImportantThan(self $other): bool
+    {
+        return $this->asInt() > $other->asInt();
     }
 
     abstract public function asInt(): int;

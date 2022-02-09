@@ -9,6 +9,7 @@
  */
 namespace SebastianBergmann\Exporter;
 
+use const PHP_VERSION;
 use function bin2hex;
 use function count;
 use function get_class;
@@ -28,8 +29,11 @@ use function sprintf;
 use function str_repeat;
 use function str_replace;
 use function var_export;
+use function version_compare;
+use BackedEnum;
 use SebastianBergmann\RecursionContext\Context;
 use SplObjectStorage;
+use UnitEnum;
 
 /**
  * A nifty utility for visualizing PHP variables.
@@ -113,6 +117,23 @@ final class Exporter
             }
 
             return $string;
+        }
+
+        if ($this->isBackedEnum($value)) {
+            return sprintf(
+                '%s Enum (%s, %s)',
+                get_class($value),
+                $value->name,
+                $this->export($value->value)
+            );
+        }
+
+        if ($this->isUnitEnum($value)) {
+            return sprintf(
+                '%s Enum (%s)',
+                get_class($value),
+                $value->name
+            );
         }
 
         if (is_object($value)) {
@@ -217,6 +238,25 @@ final class Exporter
             );
         }
 
+        if ($this->isBackedEnum($value)) {
+            return sprintf(
+                '%s Enum #%d (%s, %s)',
+                get_class($value),
+                spl_object_id($value),
+                $value->name,
+                $this->export($value->value, $indentation)
+            );
+        }
+
+        if ($this->isUnitEnum($value)) {
+            return sprintf(
+                '%s Enum #%d (%s)',
+                get_class($value),
+                spl_object_id($value),
+                $value->name
+            );
+        }
+
         if (is_string($value)) {
             // Match for most non printable chars somewhat taking multibyte chars into account
             if (preg_match('/[^\x09-\x0d\x1b\x20-\xff]/', $value)) {
@@ -295,5 +335,29 @@ final class Exporter
         }
 
         return var_export($value, true);
+    }
+
+    /**
+     * @todo Refactor when PHP >= 8.1 is required
+     */
+    private function isBackedEnum(mixed $value): bool
+    {
+        if (version_compare('8.1.0', PHP_VERSION, '>')) {
+            return false;
+        }
+
+        return $value instanceof BackedEnum;
+    }
+
+    /**
+     * @todo Refactor when PHP >= 8.1 is required
+     */
+    private function isUnitEnum(mixed $value): bool
+    {
+        if (version_compare('8.1.0', PHP_VERSION, '>')) {
+            return false;
+        }
+
+        return $value instanceof UnitEnum;
     }
 }

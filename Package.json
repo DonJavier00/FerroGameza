@@ -1,11 +1,12 @@
 {
     "name": "adsi/ferrogameza",
     "version": "0.0.1",
-    "description": "Ejemplo de uso de un archivo npm.",
+    "description": "Proyecto Ferro Gameza",
     "keywords": [
-        "ejemplo",
+        "inventario",
         "php",
-        "proyecto"
+        "proyecto",
+        "ferreteria"
     ],
     "repository": "https://github.com/DonJavier00/FerroGameza.git",
     "homepage": "https://github.com/DonJavier00/FerroGameza.git",
@@ -43,6 +44,7 @@
 
 
     ],
+
     "dependencies": {
         "jquery": ">=3.6.0",
         "bootstrap": ">=5.1.3"
