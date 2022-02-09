@@ -1,0 +1,51 @@
+{
+    "name": "adsi/ferrogameza",
+    "version": "0.0.1",
+    "description": "Ejemplo de uso de un archivo npm.",
+    "keywords": [
+        "ejemplo",
+        "php",
+        "proyecto"
+    ],
+    "repository": "https://github.com/DonJavier00/FerroGameza.git",
+    "homepage": "https://github.com/DonJavier00/FerroGameza.git",
+    "authors": [
+        {
+            "name": "Mayerly Pirajan",
+            "email": "mpirajan3@misena.edu.co",
+            "role": "developer"
+        },
+        {
+            "name": "Brayan Curtidor",
+            "email": "bscurtidor@misena.edu.co",
+            "role": "developer"
+        },
+        {
+            "name": "Karen Estepa",
+            "email": "ktestepa@misena.edu.co",
+            "role": "developer"
+        },
+        {
+            "name": "Luisa Salamanca",
+            "email": "lfsalamanca5@misena.edu.co",
+            "role": "developer"
+        },
+        {
+            "name": "Javier Sanches",
+            "email": "elyarviss13@misena.edu.co",
+            "role": "developer"
+        },
+        {
+            "name": "Diego Estupinan",
+            "email": "damesa722@misena.edu.co",
+            "role": "developer"
+        }
+
+
+    ],
+    "dependencies": {
+        "jquery": ">=3.6.0",
+        "bootstrap": ">=5.1.3"
+    },
+    "main": "index"
+}
