@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25b5280c-9ef9-4d33-8b7c-9f50113d405b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Models/AbstractDBConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/GeneralFunctions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FerroGameza.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FerroGameza.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Package.json" afterDir="false" />
+=======
+>>>>>>> 91fd7eeabd8b0076c880a0843ea3d44ab924aa60
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +77,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Models" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -81,14 +87,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\FerroGameza\app\Models" />
       <recent name="C:\laragon\www\FerroGameza" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
-      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -102,6 +103,7 @@
       <workItem from="1644345207542" duration="3684000" />
       <workItem from="1644351058727" duration="51000" />
       <workItem from="1644351175198" duration="485000" />
+      <workItem from="1644436022876" duration="431000" />
     </task>
     <servers />
   </component>
