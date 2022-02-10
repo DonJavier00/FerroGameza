@@ -50,6 +50,12 @@ class Persona extends AbstractDBConnection implements \App\Interfaces\Model
         $this->setEstado($persona ['estado'] ?? '');
     }
 
+
+    public function __destruct()
+    {
+        parent::__destruct();
+    }
+
     /**
      * @return int|null
      */
