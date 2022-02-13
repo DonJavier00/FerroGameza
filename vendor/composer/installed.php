@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '1dfa87f710867a9ea5d105640acd25de9565ea94',
+        'reference' => '8e856a98dcd359111754a6d156a8baf8761933a9',
         'name' => 'adsi/ferrogameza',
         'dev' => true,
     ),
     'versions' => array(
         'adsi/ferrogameza' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '1dfa87f710867a9ea5d105640acd25de9565ea94',
+            'reference' => '8e856a98dcd359111754a6d156a8baf8761933a9',
             'dev_requirement' => false,
         ),
         'composer/pcre' => array(
@@ -180,7 +180,7 @@
             'aliases' => array(
                 0 => '10.0.x-dev',
             ),
-            'reference' => '605202be9684280ef6182571bd2ffc54c4f4877f',
+            'reference' => '5c85a2cac5f4d58569be2cd0c9bfbaee4a5aa73c',
             'dev_requirement' => true,
         ),
         'phpunit/php-file-iterator' => array(
@@ -191,7 +191,7 @@
             'aliases' => array(
                 0 => '4.0.x-dev',
             ),
-            'reference' => '4ee40790027db46ad525671e424312e74fc07d57',
+            'reference' => 'a1d097ccef28edc48549714bc38d92420bf9f5f6',
             'dev_requirement' => true,
         ),
         'phpunit/php-invoker' => array(
@@ -213,7 +213,7 @@
             'aliases' => array(
                 0 => '3.0.x-dev',
             ),
-            'reference' => '2680edc214e80fc0350aee57254fcd385b9522c8',
+            'reference' => 'c0569fa8b8fc36423adf14960aff6d740c2570e7',
             'dev_requirement' => true,
         ),
         'phpunit/php-timer' => array(
@@ -235,7 +235,7 @@
             'aliases' => array(
                 0 => '10.0.x-dev',
             ),
-            'reference' => '2717487a68e09027085d6e029b84c17c97d338e2',
+            'reference' => '8e780fa6763d556ee99b6b9409d1d604b4c1e9df',
             'dev_requirement' => true,
         ),
         'psr/cache' => array(
@@ -361,7 +361,7 @@
             'aliases' => array(
                 0 => '6.0.x-dev',
             ),
-            'reference' => '8846278d542b84d1627b0ff3c4e19d9bc58f2aa3',
+            'reference' => '5d6fcf59fbd6fdf370c1972fde93c12f621f847f',
             'dev_requirement' => true,
         ),
         'sebastian/exporter' => array(
@@ -383,7 +383,7 @@
             'aliases' => array(
                 0 => '6.0.x-dev',
             ),
-            'reference' => '6576067b4b04dc059c62b0b33f97d6a0d80e404e',
+            'reference' => 'f8dc27b423e6fd2fc0ba7227100841092f5785dc',
             'dev_requirement' => true,
         ),
         'sebastian/lines-of-code' => array(

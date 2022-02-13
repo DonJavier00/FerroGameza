@@ -2,16 +2,24 @@
 
 namespace App\Models;
 
+use JetBrains\PhpStorm\Internal\TentativeType;
+use PhpParser\Node\Scalar\String_;
 use Carbon\Carbon;
 use Exception;
 use JsonSerializable;
 
-
 class facturaventa extends AbstractDBConnection implements \App\Interfaces\Model
 {
- private ?int $id;
- private Carbon $created_at;
- private string $monto;
+    private ?int $id;
+    private Carbon $fecha;
+    private string $monto;
+    private ?id $Persona_id;
+
+    /* Relaciones */
+
+    Private Persona $PersonaFacturaVenta;
+    Private ?array $DetalleVentaFacturaVenta;
+
 
     protected function save(string $query): ?bool
     {

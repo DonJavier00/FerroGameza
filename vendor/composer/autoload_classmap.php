@@ -987,7 +987,6 @@ return array(
     'SebastianBergmann\\Diff\\Parser' => $vendorDir . '/sebastian/diff/src/Parser.php',
     'SebastianBergmann\\Diff\\TimeEfficientLongestCommonSubsequenceCalculator' => $vendorDir . '/sebastian/diff/src/TimeEfficientLongestCommonSubsequenceCalculator.php',
     'SebastianBergmann\\Environment\\Console' => $vendorDir . '/sebastian/environment/src/Console.php',
-    'SebastianBergmann\\Environment\\OperatingSystem' => $vendorDir . '/sebastian/environment/src/OperatingSystem.php',
     'SebastianBergmann\\Environment\\Runtime' => $vendorDir . '/sebastian/environment/src/Runtime.php',
     'SebastianBergmann\\Exporter\\Exporter' => $vendorDir . '/sebastian/exporter/src/Exporter.php',
     'SebastianBergmann\\FileIterator\\Facade' => $vendorDir . '/phpunit/php-file-iterator/src/Facade.php',

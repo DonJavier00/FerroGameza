@@ -19,6 +19,8 @@ class Persona extends AbstractDBConnection implements \App\Interfaces\Model
     private string $rol;
     private string $estado;
 
+
+
     //Relaciones
     private ?array $FacturaCompraPersona;
     private ?array $FacturaVentaPersona;
