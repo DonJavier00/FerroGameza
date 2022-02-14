@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0a8005e2-f09e-495a-9158-f0fa1013618d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/facturacompra.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/facturacompra.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Persona.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Persona.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

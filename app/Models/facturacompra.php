@@ -179,7 +179,6 @@ class facturacompra extends AbstractDBConnection implements \App\Interfaces\Mode
         $query = "INSERT INTO ferreteria.facturacompra VALUES (:id,:fecha,:monto,:proveedor_id,:estado)";
         return $this->save($query);
     }
-
     function update(): ?bool
     {
         $query = "UPDATE ferreteria.facturacompra SET 
