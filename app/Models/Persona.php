@@ -19,7 +19,9 @@ class Persona extends AbstractDBConnection implements \App\Interfaces\Model
     private string $rol;
     private string $estado;
 
-
+    /* Seguridad de Contraseña */
+    //const HASH = PASSWORD_DEFAULT;
+    //const COST = 10;
 
     //Relaciones
     private ?array $FacturaCompraPersona;
@@ -255,22 +257,48 @@ class Persona extends AbstractDBConnection implements \App\Interfaces\Model
 
     protected function save(string $query): ?bool
     {
-        // TODO: Implement save() method.
+        // $hashPassword = password_hash($this->password, self::HASH, ['cost' => self::COST]);
+
+        $arrData = [
+            ':id' =>    $this->getId(),
+            ':tipodocumento' =>   $this->getTipodocumento(),
+            ':documento' =>   $this->getDocumento(),
+            ':nombre' =>  $this->getNombre(),
+            ':apellido' =>   $this->getApellido(),
+            ':telefono' =>   $this->getTelefono(),
+            ':correo' =>   $this->getCorreo(),
+            ':contrasena' =>   $this->getContrasena(), //$hashPassword,
+            ':rol' =>  $this->getRol(),
+            ':estado' =>   $this->getEstado()
+        ];
+        $this->Connect();
+        $result = $this->insertRow($query, $arrData);
+        $this->Disconnect();
+        return $result;
     }
 
     function insert(): ?bool
     {
-        // TODO: Implement insert() method.
+        $query = "INSERT INTO ferreteria.persona VALUES (
+            :id,:tipodocumento,:documento,:nombre,:apellido,
+            :telefono,:correo,:contrasena,:rol,:estado
+        )";
+        return $this->save($query);
     }
 
     function update(): ?bool
     {
-        // TODO: Implement update() method.
+        $query = "UPDATE ferreteria.persona SET 
+            tipodocumento = :tipodocumento, documento = :documento, nombre = :nombre, 
+            apellido = :apellido, telefono = :telefono, correo = :correo, 
+            rol = :rol, estado = :estado WHERE id = :id";
+        return $this->save($query);
     }
 
     function deleted(): ?bool
     {
-        // TODO: Implement deleted() method.
+        $this->setEstado("Inactivo"); //Cambia el estado del Usuario
+        return $this->update();
     }
 
     static function search($query): ?array
@@ -319,6 +347,59 @@ class Persona extends AbstractDBConnection implements \App\Interfaces\Model
     {
         return Persona::search("SELECT * FROM ferreteria.persona");
     }
+
+    /**
+     * @param $documento
+     * @return bool
+     * @throws Exception
+     */
+    public static function PersonaRegistrada($documento): bool
+    {
+        $result = Persona::search("SELECT * FROM ferreteria.persona where documento = " . $documento);
+        if (!empty($result) && count($result)>0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    /**
+     * @return string
+     */
+    public function __toString(): string
+    {
+        return "Nombres: $this->nombre, 
+                Apellidos: $this->apellido, 
+                Tipo Documento: $this->tipodocumento, 
+                Documento: $this->documento, 
+                Telefono: $this->telefono";
+    }
+
+    public function login($user, $password): persona|String|null
+    {
+
+        try {
+            $resultPersona = persona::search("SELECT * FROM persona WHERE user = '$user'");
+            /* @var $resultPersona persona[] */
+            if (!empty($resultPersona) && count($resultPersona) >= 1) {
+                if (password_verify($password, $resultPersona[0]->getPassword())) {
+                    if ($resultPersona[0]->getEstado() == 'Activo') {
+                        return $resultPersona[0];
+                    } else {
+                        return "Usuario Inactivo";
+                    }
+                } else {
+                    return "Contraseña Incorrecta";
+                }
+            } else {
+                return "Usuario Incorrecto";
+            }
+        } catch (Exception $e) {
+            GeneralFunctions::logFile('Exception', $e);
+            return "Error en Servidor";
+        }
+    }
+
 
     /**
      * @inheritDoc
