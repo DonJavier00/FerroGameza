@@ -9,11 +9,11 @@ use Exception;
 use JsonSerializable;
 class marca extends AbstractDBConnection implements \App\Interfaces\Model
 {
-private  ?int $id;
-private string $nombre;
+    private ?int $id;
+    private string $nombre;
 
-/*Relaciones*/
-private ?array$productomarca;
+    /*Relaciones*/
+    private ?array $productomarca;
 
     /**
      * @param int|null $id
@@ -25,6 +25,7 @@ private ?array$productomarca;
         $this->setId($marca ['id'] ?? null);
         $this->setnombre($marca ['nombre'] ?? '');
     }
+
     public function __destruct()
     {
         parent::__destruct();
@@ -61,7 +62,7 @@ private ?array$productomarca;
     {
         $this->nombre = $nombre;
     }
-     /*relaciones*/
+    /*relaciones*/
 
 
     /**
@@ -69,7 +70,7 @@ private ?array$productomarca;
      */
     public function getProductomarca(): ?array
     {
-        if(!empty($this->productomarca_id)){
+        if (!empty($this->productomarca_id)) {
             $this->productomarca = Persona::searchForId($this->cliente_id) ?? new cliente();
             return $this->productomarca;
         }
@@ -87,21 +88,31 @@ private ?array$productomarca;
     }
 
 
-
     protected function save(string $query): ?bool
     {
 
-        // TODO: Implement save() method.
+        $arrData = [
+            ':id' => $this->getId(),
+            ':nombre' => $this->getNombre()];
+
+        $this->Connect();
+        $result = $this->insertRow($query, $arrData);
+        $this->Disconnect();
+        return $result;
     }
 
     function insert(): ?bool
     {
-        // TODO: Implement insert() method.
+        $query = "INSERT INTO FerroGameza.marca VALUES (:id,:nombre)";
+        return $this->save($query);
     }
 
     function update(): ?bool
     {
-        // TODO: Implement update() method.
+        $query = "UPDATE FerroGamez.marca SET 
+            nombre = :nombre,
+            WHERE id = :id";
+        return $this->save($query);
     }
 
     function deleted(): ?bool
@@ -111,17 +122,46 @@ private ?array$productomarca;
 
     static function search($query): ?array
     {
-        // TODO: Implement search() method.
+        try {
+            $arrmarca = array();
+            $tmp = new marca();
+            $tmp->Connect();
+            $getrows = $tmp->getRows($query);
+            $tmp->Disconnect();
+
+            foreach ($getrows as $valor) {
+                $marca = new marca($valor);
+                array_push($arrmarca, $marca);
+                unset($marca);
+            }
+            return $arrmarca;
+        } catch (Exception $e) {
+            GeneralFunctions::logFile('Exception', $e, 'error');
+        }
+        return null;
     }
 
     static function searchForId(int $id): ?object
     {
-        // TODO: Implement searchForId() method.
+        try {
+            if ($id > 0) {
+                $marca = new marca();
+                $marca->Connect();
+                $getrow = $marca->getRow("SELECT * FROM clasificacion WHERE id =?", array($id));
+                $marca->Disconnect();
+                return ($getrow) ? new clasificacion($getrow) : null;
+            } else {
+                throw new Exception('Id de marca Invalido');
+            }
+        } catch (Exception $e) {
+            GeneralFunctions::logFile('Exception', $e);
+        }
+return null;
     }
 
     static function getAll(): ?array
     {
-        // TODO: Implement getAll() method.
+        return Productos::search("SELECT * FROM FerroGamez.marca");
     }
 
     /**
@@ -129,6 +169,9 @@ private ?array$productomarca;
      */
     public function jsonSerialize()
     {
-        // TODO: Implement jsonSerialize() method.
+        return [
+            'nombre' => $this->getNombre(),
+
+        ];
     }
 }
