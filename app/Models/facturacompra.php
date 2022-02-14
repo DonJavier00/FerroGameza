@@ -14,16 +14,20 @@ class facturacompra extends AbstractDBConnection implements \App\Interfaces\Mode
     private carbon $fecha;
     private string $monto;
     private int $proveedor_id;
+    private string $estado;
 
     //relaciones
     private ?array $DetalleCompraFacturaCompra;
-    Private Persona $Persona;
+    private Persona $proveedor;
+
+
 
     /**
      * @param int|null $id
      * @param Carbon $fecha
      * @param string $monto
      * @param int $proveedor_id
+     * @param string $estado
      */
     public function __construct(array $FacturaCompra=[])
     {
@@ -85,7 +89,17 @@ class facturacompra extends AbstractDBConnection implements \App\Interfaces\Mode
      */
     public function setMonto(string $monto): void
     {
-        $this->monto = $monto;
+        $total = 0;
+        if($this->getId() != null){
+            $arrFacturaCompra = $this->getDetalleCompraFacturaCompra();
+            if(!empty($arrFacturaCompraCompra)){
+                /* @var $arrFacturaCompra facturacompra[] */
+                foreach ($arrFacturaCompra as $DetalleCompra){
+                    $total += $DetalleCompra->getTotalProducto();
+                }
+            }
+        }
+        $this->monto = $total;
     }
 
     /**
@@ -105,80 +119,147 @@ class facturacompra extends AbstractDBConnection implements \App\Interfaces\Mode
     }
 
     /**
+     * @return string
+     */
+    public function getEstado(): string
+    {
+        return $this->estado;
+    }
+
+    /**
+     * @param string $estado
+     */
+    public function setEstado(string $estado): void
+    {
+        $this->estado = $estado;
+    }
+
+    /* Relaciones */
+
+    /**
      * @return array|null
      */
     public function getDetalleCompraFacturaCompra(): ?array
     {
-        return $this->DetalleCompraFacturaCompra;
-    }
 
-    /**
-     * @param array|null $DetalleCompraFacturaCompra
-     */
-    public function setDetalleCompraFacturaCompra(?array $DetalleCompraFacturaCompra): void
-    {
-        $this->DetalleCompraFacturaCompra = $DetalleCompraFacturaCompra;
+        $this->DetalleCompraFacturaCompra = detallecompra::search('SELECT * FROM ferreteria.detallecompra where compra_id = '.$this->id);
+        return $this->detalleCompra;
     }
 
     /**
      * @return Persona
      */
-    public function getPersona(): Persona
+    public function getProveedor(): Persona
     {
-        return $this->Persona;
+        if(!empty($this->proveedor_id)){
+            $this->proveedor = Persona::searchForId($this->proveedor_id) ??new Persona();
+            return $this->proveedor;
+        }
+        return null;//porqué
     }
-
-    /**
-     * @param Persona $Persona
-     */
-    public function setPersona(Persona $Persona): void
-    {
-        $this->Persona = $Persona;
-    }
-
-
 
 
     protected function save(string $query): ?bool
     {
-        // TODO: Implement save() method.
+        $arrData = [
+            ':id' =>    $this->getId(),
+            ':fecha' =>   $this->getFecha() ->ToDateTimeString(),
+            ':monto' =>   $this->getMonto(),
+            ':proveedor_id' =>   $this->getProveedorId(),
+            ':estado' =>  $this->getEstado()
+        ];
+        $this->Connect();
+        $result = $this->insertRow($query, $arrData);
+        $this->Disconnect();
+        return $result;
     }
 
     function insert(): ?bool
     {
-        // TODO: Implement insert() method.
+        $query = "INSERT INTO ferreteria.facturacompra VALUES (:id,:fecha,:monto,:proveedor_id,:estado)";
+        return $this->save($query);
     }
 
     function update(): ?bool
     {
-        // TODO: Implement update() method.
+        $query = "UPDATE ferreteria.facturacompra SET 
+            fecha = :fecha, monto = :monto, 
+            proveedor_id = :proveedor_id,  estado = :estado WHERE id = :id";
+        return $this->save($query);
     }
 
     function deleted(): ?bool
     {
-        // TODO: Implement deleted() method.
+        $this->setEstado("Inactivo"); //Cambia el estado del Usuario
+        return $this->update();
     }
 
     static function search($query): ?array
     {
-        // TODO: Implement search() method.
+        try {
+            $arrFacturaCompra = array();
+            $tmp = new facturacompra();
+            $tmp->Connect();
+            $getrows = $tmp->getRows($query);
+            $tmp->Disconnect();
+
+            foreach ($getrows as $valor) {
+                $Compra = new facturacompra($valor);
+                array_push($arrFacturaCompra, $Compra);
+                unset($Compra);
+            }
+            return $arrFacturaCompra;
+        } catch (Exception $e) {
+            GeneralFunctions::logFile('Exception',$e, 'error');
+        }
+        return NULL;
     }
 
     static function searchForId(int $id): ?object
     {
-        // TODO: Implement searchForId() method.
+        try {
+            if ($id > 0) {
+                $Compra = new facturacompra();
+                $Compra->Connect();
+                $getrow = $Compra->getRow("SELECT * FROM ferreteria.facturacompra WHERE id =?", array($id));
+                $Compra->Disconnect();
+                return ($getrow) ? new facturacompra($getrow) : null;
+            }else{
+                throw new Exception('Id de compra Invalido');
+            }
+        } catch (Exception $e) {
+            GeneralFunctions::logFile('Exception',$e, 'error');
+        }
+        return NULL;
     }
 
     static function getAll(): ?array
     {
-        // TODO: Implement getAll() method.
+        return facturacompra::search("SELECT * FROM ferreteria.facturacompra");
     }
+
+    public function __toString() : string
+    {
+        return "
+        Cliente: ".$this->getProveedor().",
+        Fecha Venta: $this->fecha_compra->toDateTimeString(), 
+        Monto: $this->monto, 
+        Estado: $this->estado";
+    }
+
 
     /**
      * @inheritDoc
      */
     public function jsonSerialize(): mixed
     {
-        // TODO: Implement jsonSerialize() method.
+        return [
+            'fecha' =>  $this->getFecha()->toDateTimeString(),
+            'monto'=> $this ->getMonto(),
+            'proveedor'=> $this->getProveedor()->jsonSerialize(),
+            'estado'=>$this->getEstado()
+        ];
+
+
     }
 }
