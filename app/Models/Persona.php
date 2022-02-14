@@ -40,7 +40,7 @@ class Persona extends AbstractDBConnection implements \App\Interfaces\Model
         parent::__construct();
         $this->setId($persona ['id'] ?? null);
         $this->setTipodocumento($persona ['tipodocumento'] ?? '');
-        $this->setDocumento($persona ['documento'] ?? '');
+        $this->setDocumento($persona ['documento'] ?? 0);
         $this->setCorreo($persona ['correo'] ?? '');
         $this->setNombre($persona ['nombre'] ?? '');
         $this->setApellido($persona ['apellido'] ?? '');
@@ -273,17 +273,49 @@ class Persona extends AbstractDBConnection implements \App\Interfaces\Model
 
     static function search($query): ?array
     {
-        // TODO: Implement search() method.
+        try {
+            $arrPersona = array();
+            $tmp = new Persona();
+            $tmp->Connect();
+            $getrows = $tmp->getRows($query);
+            $tmp->Disconnect();
+
+            if (!empty($getrows)) {
+                foreach ($getrows as $valor) {
+                    $Persona = new Persona ($valor);
+                    array_push($arrPersona, $Persona);
+                    unset($Persona);
+                }
+                return $arrPersona;
+            }
+            return null;
+        } catch (Exception $e) {
+            GeneralFunctions::logFile('Exception', $e);
+        }
+        return null;
     }
 
     static function searchForId(int $id): ?object
     {
-        // TODO: Implement searchForId() method.
+        try {
+            if ($id > 0) {
+                $tmpPersona = new Persona();
+                $tmpPersona->Connect();
+                $getrow = $tmpPersona->getRow("SELECT * FROM ferreteria.persona WHERE id =?", array($id));
+                $tmpPersona->Disconnect();
+                return ($getrow) ? new Persona($getrow) : null;
+            } else {
+                throw new Exception('Id de usuario Invalido');
+            }
+        } catch (Exception $e) {
+            GeneralFunctions::logFile('Exception', $e);
+        }
+        return null;
     }
 
     static function getAll(): ?array
     {
-        // TODO: Implement getAll() method.
+        return Persona::search("SELECT * FROM ferreteria.persona");
     }
 
     /**
@@ -291,6 +323,17 @@ class Persona extends AbstractDBConnection implements \App\Interfaces\Model
      */
     public function jsonSerialize()
     {
-        // TODO: Implement jsonSerialize() method.
+       return [
+           'id' => $this -> getId(),
+           'tipodocumento' => $this -> getTipodocumento(),
+           'documento' => $this -> getDocumento(),
+           'correo' => $this -> getCorreo(),
+           'nombre' => $this -> getNombre(),
+           'apellido' => $this -> getApellido(),
+           'telefono' => $this -> getTelefono(),
+           'contrasena' => $this -> getContrasena(),
+           'rol' => $this -> getRol(),
+           'estado' => $this -> getEstado(),
+       ];
     }
 }
