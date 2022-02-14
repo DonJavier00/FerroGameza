@@ -148,7 +148,6 @@ class facturacompra extends AbstractDBConnection implements \App\Interfaces\Mode
     {
         // TODO: Implement insert() method.
     }
-
     function update(): ?bool
     {
         // TODO: Implement update() method.
