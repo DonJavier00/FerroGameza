@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a8005e2-f09e-495a-9158-f0fa1013618d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/FerroGameza.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FerroGameza.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/Modelo Entidad Relacion.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Modelo Entidad Relacion.mwb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/Modelo Entidad Relacion.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Modelo Entidad Relacion.mwb.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/facturaventa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/facturaventa.php" afterDir="false" />
-    </list>
+    <list default="true" id="0a8005e2-f09e-495a-9158-f0fa1013618d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +115,7 @@
       <updated>1644773353747</updated>
       <workItem from="1644773357225" duration="1168000" />
       <workItem from="1644774619631" duration="700000" />
-      <workItem from="1644775369056" duration="10246000" />
+      <workItem from="1644775369056" duration="10946000" />
     </task>
     <servers />
   </component>
