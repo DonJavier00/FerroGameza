@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="e3caa5c0-baa3-4052-8fa1-95b0d1a2e91f" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/app/Models/marca.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/FerroGameza.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FerroGameza.iml" afterDir="false" />
@@ -15,6 +16,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1316f78e-b3c3-4e96-9282-a300fce21a9d/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1316f78e-b3c3-4e96-9282-a300fce21a9d/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+=======
+    <list default="true" id="0a8005e2-f09e-495a-9158-f0fa1013618d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Models/detalleventa.php" afterDir="false" />
+>>>>>>> 06fb45968b8c02666f18770a9fec7227476c7e0b
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,8 +99,15 @@
       <created>1644798996159</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1644798996159</updated>
       <workItem from="1644799018514" duration="10473000" />
+=======
+      <updated>1644773353747</updated>
+      <workItem from="1644773357225" duration="1168000" />
+      <workItem from="1644774619631" duration="700000" />
+      <workItem from="1644775369056" duration="21925000" />
+>>>>>>> 06fb45968b8c02666f18770a9fec7227476c7e0b
     </task>
     <servers />
   </component>
