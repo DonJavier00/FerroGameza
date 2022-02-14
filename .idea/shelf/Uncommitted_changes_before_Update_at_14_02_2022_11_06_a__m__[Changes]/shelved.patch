@@ -1,0 +1,143 @@
+Index: .idea/php.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"PhpIncludePathManager\">\r\n    <include_path>\r\n      <path value=\"$PROJECT_DIR$/vendor/myclabs/deep-copy\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phpunit/php-code-coverage\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phpunit/phpunit\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phpunit/php-text-template\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/composer\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/instantiator\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phpunit/php-invoker\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phpunit/php-file-iterator\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phpunit/php-timer\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-mbstring\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/deprecation-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/translation\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/translation-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-php80\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/nesbot/carbon\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/type\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/diff\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/lines-of-code\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/object-enumerator\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/comparator\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/code-unit\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/theseer/tokenizer\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/exporter\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/cli-parser\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/version\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phar-io/version\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/complexity\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phar-io/manifest\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/recursion-context\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/global-state\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/environment\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/object-reflector\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/nikic/php-parser\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/tgalopin/html-sanitizer\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/monolog/monolog\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phpoption/phpoption\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/verot/class.upload.php\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/masterminds/html5\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/console\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/process\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/string\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/service-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/options-resolver\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-php72\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-php73\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/annotations\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/filesystem\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/lexer\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/finder\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/event-dispatcher\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-ctype\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/stopwatch\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/league/uri-parser\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/php-cs-fixer/diff\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/psr/cache\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/psr/container\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/psr/event-dispatcher\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/psr/log\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/vlucas/phpdotenv\" />\r\n    </include_path>\r\n  </component>\r\n  <component name=\"PhpProjectSharedConfiguration\" php_language_level=\"8.1\" />\r\n  <component name=\"PhpUnit\">\r\n    <phpunit_settings>\r\n      <PhpUnitSettings custom_loader_path=\"$PROJECT_DIR$/vendor/autoload.php\" />\r\n    </phpunit_settings>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/php.xml b/.idea/php.xml
+--- a/.idea/php.xml	
++++ b/.idea/php.xml	
+@@ -2,21 +2,23 @@
+ <project version="4">
+   <component name="PhpIncludePathManager">
+     <include_path>
++      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
++      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
++      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
++      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
++      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
++      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
++      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
++      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
++      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
++      <path value="$PROJECT_DIR$/vendor/composer" />
+       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+       <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+       <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+-      <path value="$PROJECT_DIR$/vendor/composer" />
+-      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+       <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+       <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+       <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+-      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+-      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+-      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+-      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+       <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+       <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+       <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+@@ -27,48 +29,16 @@
+       <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+       <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+       <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+-      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+       <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+-      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+       <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+       <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+       <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+       <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+       <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+-      <path value="$PROJECT_DIR$/vendor/tgalopin/html-sanitizer" />
+-      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+-      <path value="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer" />
+-      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+-      <path value="$PROJECT_DIR$/vendor/verot/class.upload.php" />
+-      <path value="$PROJECT_DIR$/vendor/masterminds/html5" />
+-      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+-      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+-      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+-      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+-      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+-      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+-      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+-      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+-      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+-      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+-      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+-      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+-      <path value="$PROJECT_DIR$/vendor/league/uri-parser" />
+-      <path value="$PROJECT_DIR$/vendor/php-cs-fixer/diff" />
+-      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+-      <path value="$PROJECT_DIR$/vendor/psr/container" />
+-      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+-      <path value="$PROJECT_DIR$/vendor/psr/log" />
+-      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+     </include_path>
+   </component>
+-  <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
++  <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
+   <component name="PhpUnit">
+     <phpunit_settings>
+       <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" />
+Index: .idea/FerroGameza.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"WEB_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\">\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/Tests\" isTestSource=\"true\" packagePrefix=\"Test\\\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/app\" isTestSource=\"false\" packagePrefix=\"App\\\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/app/Traits\" isTestSource=\"false\" packagePrefix=\"App\\Traits\\\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/spec\" isTestSource=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/tests\" isTestSource=\"true\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/FerroGameza.iml b/.idea/FerroGameza.iml
+--- a/.idea/FerroGameza.iml	
++++ b/.idea/FerroGameza.iml	
+@@ -7,6 +7,40 @@
+       <sourceFolder url="file://$MODULE_DIR$/app/Traits" isTestSource="false" packagePrefix="App\Traits\" />
+       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/nesbot/carbon" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/phar-io/version" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/phar-io/manifest" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/deprecation-contracts" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/translation" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/translation-contracts" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php80" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/myclabs/deep-copy" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-code-coverage" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/phpunit" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-text-template" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-invoker" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-file-iterator" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-timer" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/type" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/diff" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/lines-of-code" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/object-enumerator" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/comparator" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/code-unit" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/theseer/tokenizer" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/exporter" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/cli-parser" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/version" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/complexity" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/recursion-context" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/global-state" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/environment" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/object-reflector" />
++      <excludeFolder url="file://$MODULE_DIR$/vendor/nikic/php-parser" />
+     </content>
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
