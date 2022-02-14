@@ -155,7 +155,7 @@ class facturacompra extends AbstractDBConnection implements \App\Interfaces\Mode
             $this->proveedor = Persona::searchForId($this->proveedor_id) ??new Persona();
             return $this->proveedor;
         }
-        return null;//porqué
+        //return null;//porqué
     }
 
 
