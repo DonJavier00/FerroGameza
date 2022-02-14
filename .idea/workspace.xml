@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0a8005e2-f09e-495a-9158-f0fa1013618d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/MER Ferreteria.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/clasificacion.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/clasificacion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/producto.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/producto.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,12 +109,6 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
-      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -125,6 +120,7 @@
       <workItem from="1644773357225" duration="1168000" />
       <workItem from="1644774619631" duration="700000" />
       <workItem from="1644775369056" duration="10946000" />
+      <workItem from="1644864530703" duration="1916000" />
     </task>
     <servers />
   </component>
