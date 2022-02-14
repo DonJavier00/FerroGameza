@@ -40,6 +40,7 @@ class medida extends AbstractDBConnection implements \App\Interfaces\Model
     public function __destruct()
     {
         parent::__destruct();
+
     }
 
     /**
@@ -153,22 +154,22 @@ class medida extends AbstractDBConnection implements \App\Interfaces\Model
 
     protected function save(string $query): ?bool
     {
-        // TODO: Implement save() method.
+        return null;
     }
 
     function insert(): ?bool
     {
-        // TODO: Implement insert() method.
+        return null;
     }
 
     function update(): ?bool
     {
-        // TODO: Implement update() method.
+        return null;
     }
 
     function deleted(): ?bool
     {
-        // TODO: Implement deleted() method.
+        return null;
     }
 
     static function search($query): ?array
