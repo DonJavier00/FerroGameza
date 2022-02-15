@@ -272,6 +272,7 @@ class producto extends AbstractDBConnection implements \App\Interfaces\Model
             'nombre' => $this->getNombre(),
             'stock' => $this->getStock(),
             'precio' => $this->getPrecio(),
+            'clasificacion' => $this->getClasificacion()->jsonSerialize(),
 
         ];
     }
