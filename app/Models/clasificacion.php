@@ -62,6 +62,7 @@ class clasificacion extends AbstractDBConnection implements \App\Interfaces\Mode
      * @param String $nombre
      * @return clasificacion
      */
+
     public function setNombre(string $nombre): void
     {
         $this->nombre = trim(mb_strtolower($nombre, 'UTF-8'));
