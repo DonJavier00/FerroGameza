@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <list default="true" id="e3caa5c0-baa3-4052-8fa1-95b0d1a2e91f" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/app/Models/marca.php" afterDir="false" />
@@ -24,6 +22,10 @@
 >>>>>>> 06fb45968b8c02666f18770a9fec7227476c7e0b
 >>>>>>> dd4e1e14608b531b08e599a0b3e657d77a9bd5ca
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="5591d4e0-6b7d-4ebe-831c-cc26f1f7d218" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+>>>>>>> 70551c2e9d497c2cfa5a199140e7784f5526d5ce
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/translation" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
-      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
@@ -69,17 +71,16 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
       <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
       <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
       <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
       <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
       <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
       <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
       <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
-      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
     </include_path>
   </component>
-  <component name="ProjectId" id="254v4nGSBfmQgnCiPsDDtMxgWFo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="257BneEnTecmtd9bwrAVwng3nYC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -88,10 +89,6 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -101,10 +98,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e3caa5c0-baa3-4052-8fa1-95b0d1a2e91f" name="Changes" comment="" />
-      <created>1644798996159</created>
+      <changelist id="5591d4e0-6b7d-4ebe-831c-cc26f1f7d218" name="Changes" comment="" />
+      <created>1644868420648</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
 <<<<<<< HEAD
       <updated>1644798996159</updated>
       <workItem from="1644799018514" duration="10473000" />
@@ -119,10 +117,25 @@
       <workItem from="1644775369056" duration="21925000" />
 >>>>>>> 06fb45968b8c02666f18770a9fec7227476c7e0b
 >>>>>>> dd4e1e14608b531b08e599a0b3e657d77a9bd5ca
+=======
+      <updated>1644868420648</updated>
+      <workItem from="1644868424484" duration="3033000" />
+>>>>>>> 70551c2e9d497c2cfa5a199140e7784f5526d5ce
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -7,25 +7,26 @@ use PhpParser\Node\Scalar\String_;
 use Carbon\Carbon;
 use Exception;
 use JsonSerializable;
-class marca extends AbstractDBConnection implements \App\Interfaces\Model
+
+class material extends AbstractDBConnection implements \App\Interfaces\Model
 {
     private ?int $id;
     private string $nombre;
 
     /*Relaciones*/
-    private ?array $productomarca;
+
+    private ?array $productomaterial;
 
     /**
      * @param int|null $id
      * @param string $nombre
      */
-    public function __construct(array $marca = [])
+    public function __construct(array $material = [])
     {
         parent::__contruct();
-        $this->setId($marca ['id'] ?? null);
-        $this->setnombre($marca ['nombre'] ?? '');
+        $this->setId($material ['id'] ?? null);
+        $this->setnombre($material ['nombre'] ?? '');
     }
-
     public function __destruct()
     {
         parent::__destruct();
@@ -62,35 +63,33 @@ class marca extends AbstractDBConnection implements \App\Interfaces\Model
     {
         $this->nombre = $nombre;
     }
-    /*relaciones*/
-
 
     /**
      * @return array|null
      */
-    public function getProductomarca(): ?array
+    public function getProductomaterial(): ?array
     {
-        if (!empty($this->productomarca_id)) {
-            $this->productomarca = Persona::searchForId($this->cliente_id) ?? new cliente();
-            return $this->productomarca;
-        }
-        //return Null;
+        if (!empty($this->productomaterial_id)) {
+            $this->productomaterial = Persona::searchForId($this->cliente_id) ?? new cliente();
+        return $this->productomaterial;
+    }
 
-        return $this->productomarca;
+    //return Null;
+
+         return $this->productomaterial;
     }
 
     /**
-     * @param array|null $productomarca
+     * @param array|null $productomaterial
      */
-    public function setProductomarca(?array $productomarca): void
+    public function setProductomaterial(?array $productomaterial): void
     {
-        $this->productomarca = $productomarca;
+        $this->productomaterial = $productomaterial;
     }
 
 
     protected function save(string $query): ?bool
     {
-
         $arrData = [
             ':id' => $this->getId(),
             ':nombre' => $this->getNombre()];
@@ -101,15 +100,16 @@ class marca extends AbstractDBConnection implements \App\Interfaces\Model
         return $result;
     }
 
+
     function insert(): ?bool
     {
-        $query = "INSERT INTO FerroGameza.marca VALUES (:id,:nombre)";
+        $query = "INSERT INTO FerroGameza.material VALUES (:id,:nombre)";
         return $this->save($query);
     }
 
     function update(): ?bool
     {
-        $query = "UPDATE FerroGameza.marca SET 
+        $query = "UPDATE FerroGameza.material SET 
             nombre = :nombre,
             WHERE id = :id";
         return $this->save($query);
@@ -123,18 +123,18 @@ class marca extends AbstractDBConnection implements \App\Interfaces\Model
     static function search($query): ?array
     {
         try {
-            $arrmarca = array();
-            $tmp = new marca();
+            $arrmaterial = array();
+            $tmp = new material();
             $tmp->Connect();
             $getrows = $tmp->getRows($query);
             $tmp->Disconnect();
 
             foreach ($getrows as $valor) {
-                $marca = new marca($valor);
-                array_push($arrmarca, $marca);
-                unset($marca);
+                $material = new material($valor);
+                array_push($arrmaterial, $material);
+                unset($material);
             }
-            return $arrmarca;
+            return $arrmaterial;
         } catch (Exception $e) {
             GeneralFunctions::logFile('Exception', $e, 'error');
         }
@@ -145,23 +145,23 @@ class marca extends AbstractDBConnection implements \App\Interfaces\Model
     {
         try {
             if ($id > 0) {
-                $marca = new marca();
-                $marca->Connect();
-                $getrow = $marca->getRow("SELECT * FROM clasificacion WHERE id =?", array($id));
+                $material = new marca();
+                $material->Connect();
+                $getrow = $material->getRow("SELECT * FROM clasificacion WHERE id =?", array($id));
                 $marca->Disconnect();
                 return ($getrow) ? new clasificacion($getrow) : null;
             } else {
-                throw new Exception('Id de marca Invalido');
+                throw new Exception('Id de material Invalido');
             }
         } catch (Exception $e) {
             GeneralFunctions::logFile('Exception', $e);
         }
-return null;
+        return null;
     }
 
     static function getAll(): ?array
     {
-        return Productos::search("SELECT * FROM FerroGamez.marca");
+        return Productos::search("SELECT * FROM FerroGamez.material");
     }
 
     /**
