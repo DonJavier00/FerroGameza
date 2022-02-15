@@ -70,14 +70,13 @@ class material extends AbstractDBConnection implements \App\Interfaces\Model
     public function getProductomaterial(): ?array
     {
         if (!empty($this->productomaterial_id)) {
-            $this->productomaterial = Persona::searchForId($this->cliente_id) ?? new cliente();
-        return $this->productomaterial;
+           // $this->productomaterial = Persona::searchForId($this->cliente_id) ?? new cliente();
+        //return $this->productomaterial;
+        }
+        return null;
     }
 
-    //return Null;
 
-         return $this->productomaterial;
-    }
 
     /**
      * @param array|null $productomaterial
@@ -103,13 +102,13 @@ class material extends AbstractDBConnection implements \App\Interfaces\Model
 
     function insert(): ?bool
     {
-        $query = "INSERT INTO FerroGameza.material VALUES (:id,:nombre)";
+        $query = "INSERT INTO ferreteria.material VALUES (:id,:nombre)";
         return $this->save($query);
     }
 
     function update(): ?bool
     {
-        $query = "UPDATE FerroGameza.material SET 
+        $query = "UPDATE ferreteria.material SET 
             nombre = :nombre,
             WHERE id = :id";
         return $this->save($query);
@@ -148,7 +147,7 @@ class material extends AbstractDBConnection implements \App\Interfaces\Model
                 $material = new marca();
                 $material->Connect();
                 $getrow = $material->getRow("SELECT * FROM clasificacion WHERE id =?", array($id));
-                $marca->Disconnect();
+                $material->Disconnect();
                 return ($getrow) ? new clasificacion($getrow) : null;
             } else {
                 throw new Exception('Id de material Invalido');
@@ -161,7 +160,7 @@ class material extends AbstractDBConnection implements \App\Interfaces\Model
 
     static function getAll(): ?array
     {
-        return Productos::search("SELECT * FROM FerroGamez.material");
+        return Productos::search("SELECT * FROM ferreteria.material");
     }
 
     /**

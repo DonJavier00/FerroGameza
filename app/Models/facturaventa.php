@@ -159,7 +159,7 @@ class facturaventa extends AbstractDBConnection implements \App\Interfaces\Model
      */
     public function getDetalleVentaFacturaVenta(): ?array
     {
-        $this->DetalleVentaFacturaVenta = detalleventa::search('SELECT * FROM ferreteria.detalle_venta where facturaventa_id = '.$this->id);
+        $this->DetalleVentaFacturaVenta = detalleventa::search('SELECT * FROM ferreteria.detalleventa where facturaventa_id = '.$this->id);
         return $this->DetalleVentaFacturaVenta;
     }
 
