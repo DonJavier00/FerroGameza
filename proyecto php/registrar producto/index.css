@@ -3177,3 +3177,17 @@
         float: right;
         margin-left: 10%;
     }
+    .pdf a{
+        color: #ffb703;
+       margin-left: 80%;
+
+    }
+    .pdf a:hover{
+        color: #fd0404;
+     
+
+    }
+    .este{
+        margin-top: -3%;
+       
+    }

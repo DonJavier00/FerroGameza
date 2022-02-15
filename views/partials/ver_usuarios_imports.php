@@ -3,6 +3,7 @@
 
     <div class="ventana_ver_administradores">
         <a href="#" class="btn-close_ver_proveedor">X</a>
+        <div class="este">
         <div class="pdf">
          <a href="pdf"><i class="fas fa-file-pdf fa-2x fa-lg"></i></a>
         </div>
@@ -20,6 +21,8 @@
       
         <div class="guardar_aministrador_tabla">
             <a class="guardaradmnistrador" type="submit" value="">Guardar</a>
+        </div>
+       
         </div>
        
 
@@ -122,7 +125,9 @@
     <div class="ventana_ver_Proveedor">
         <a href="#" class="btn-close_ver_proveedor">X</a>
         <h1>Tabla proveedores</h1> <br>
-
+        <div class="pdf">
+         <a href="pdf"><i class="fas fa-file-pdf fa-2x fa-lg"></i></a>
+        </div>
         <div class="btn_agregar_usuario">
             <a href="#gestionar_proveedor"><i class="fas fa-plus"></i></a>
         </div>
@@ -187,7 +192,9 @@
     <div class="ventana_ver_usuarios">
 
         <a href="#" class="btn-close_ver_proveedor">X</a>
-
+        <div class="pdf">
+         <a href="pdf"><i class="fas fa-file-pdf fa-2x fa-lg"></i></a>
+        </div>
         <h1>Tabla Empleados</h1><br>
         <div class="btn_agregar_usuario">
             <a href="#gestionar_empleado"><i class="fas fa-plus"></i></a>
@@ -316,6 +323,9 @@
 
     <div class="ventana_ver_clientes">
         <a href="#" class="btn-close_ver_cliente">X</a>
+        <div class="pdf">
+         <a href="pdf"><i class="fas fa-file-pdf fa-2x fa-lg"></i></a>
+        </div>
         <h1>Tabla clientes</h1> <br>
         <div class="btn_agregar_usuario">
             <a href="#modall"><i class="fas fa-plus"></i></a>
