@@ -158,13 +158,13 @@ class medida extends AbstractDBConnection implements \App\Interfaces\Model
 
     function insert(): ?bool
     {
-        $query = "INSERT INTO FerroGameza.medida VALUES (:id,:nombre,:medida)";
+        $query = "INSERT INTO ferreteria.medida VALUES (:id,:nombre,:medida)";
         return $this->save($query);
     }
 
     function update(): ?bool
     {
-        $query = "UPDATE FerroGameza.medida SET 
+        $query = "UPDATE ferreteria.medida SET 
             nombre = :nombre, medida = :medida, 
             WHERE id = :id";
         return $this->save($query);
@@ -218,7 +218,7 @@ class medida extends AbstractDBConnection implements \App\Interfaces\Model
 
     static function getAll(): ?array
     {
-        return medida::search("SELECT * FROM FerroGameza.medida");
+        return medida::search("SELECT * FROM ferreteria.medida");
     }
 
     /**
