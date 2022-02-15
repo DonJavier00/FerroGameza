@@ -140,9 +140,9 @@ class facturaventa extends AbstractDBConnection implements \App\Interfaces\Model
     {
         if(!empty($this->cliente_id)){
             $this->cliente = Persona::searchForId($this->cliente_id) ?? new cliente();
-            return $this->cliente;
+
         }
-       //return Null;
+        return $this->cliente;
     }
 
     /**
