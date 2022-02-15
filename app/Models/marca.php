@@ -70,13 +70,13 @@ class marca extends AbstractDBConnection implements \App\Interfaces\Model
      */
     public function getProductomarca(): ?array
     {
-        if (!empty($this->productomarca_id)) {
-            $this->productomarca = Persona::searchForId($this->cliente_id) ?? new cliente();
-            return $this->productomarca;
-        }
+        //if (!empty($this->productomarca_id)) {
+           // $this->productomarca = Persona::searchForId($this->cliente_id) ?? new cliente();
+           // return $this->productomarca;
+
         //return Null;
 
-        return $this->productomarca;
+
     }
 
     /**
@@ -103,13 +103,13 @@ class marca extends AbstractDBConnection implements \App\Interfaces\Model
 
     function insert(): ?bool
     {
-        $query = "INSERT INTO FerroGameza.marca VALUES (:id,:nombre)";
+        $query = "INSERT INTO ferreteria.marca VALUES (:id,:nombre)";
         return $this->save($query);
     }
 
     function update(): ?bool
     {
-        $query = "UPDATE FerroGameza.marca SET 
+        $query = "UPDATE ferreteria.marca SET 
             nombre = :nombre,
             WHERE id = :id";
         return $this->save($query);
@@ -161,7 +161,7 @@ return null;
 
     static function getAll(): ?array
     {
-        return Productos::search("SELECT * FROM FerroGamez.marca");
+        return Productos::search("SELECT * FROM ferreteria.marca");
     }
 
     /**

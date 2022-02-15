@@ -139,8 +139,9 @@ class producto extends AbstractDBConnection implements \App\Interfaces\Model
     {
         if (!empty($this->clasificacion_id)) {
             $this->Clasificacion = clasificacion::searchForId($this->clasificacion_id) ?? new clasificacion();
+            return $this->Clasificacion;
         }
-        return $this->Clasificacion;
+      return null;
     }
 
 

@@ -72,8 +72,7 @@ class clasificacion extends AbstractDBConnection implements \App\Interfaces\Mode
      */
     public function getProductoClasificacion(): ?array
     {
-        $this-> ProductoClasificacion = clasificacion::search(
-            "SELECT * FROM FerroGameza.clasificacion WHERE departamento_id = ".$this->id
+        $this-> ProductoClasificacion = producto::search("SELECT * FROM ferreteria.producto WHERE clasificacion_id = ".$this->id
         );
         return $this-> ProductoClasificacion ?? null;
     }
@@ -139,7 +138,7 @@ class clasificacion extends AbstractDBConnection implements \App\Interfaces\Mode
             if ($id > 0) {
                 $Clasificacion = new clasificacion();
                 $Clasificacion->Connect();
-                $getrow = $Clasificacion->getRow("SELECT * FROM FerroGameza.clasificacion WHERE id =?", array($id));
+                $getrow = $Clasificacion->getRow("SELECT * FROM ferreteria.clasificacion WHERE id =?", array($id));
                 $Clasificacion->Disconnect();
                 return ($getrow) ? new clasificacion($getrow) : null;
             }else{
@@ -153,12 +152,14 @@ class clasificacion extends AbstractDBConnection implements \App\Interfaces\Mode
 
     public static function getAll() : ?array
     {
-        return clasificacion::search("SELECT * FROM FerroGameza.clasificacion");
+        return clasificacion::search("SELECT * FROM ferreteria.clasificacion");
     }
 
     public function __toString() : string
     {
-        return "Nombre: $this->nombre, Descripción: $this->descripcion, Estado: $this->estado";
+        return "Nombre: $this->nombre, 
+        Descripción: $this->descripcion, 
+        Estado: $this->estado";
     }
 
     /**
