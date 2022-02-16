@@ -2753,10 +2753,10 @@
     .link_buscar_venta {
         position: absolute;
         color: rgb(165, 19, 19);
-        margin-top: 2%;
-        left: 32%;
+        margin-top: 1%;
+        left: 400px;
     }
-    
+
     #buscar_venta {
         margin-left: 2px;
     }
