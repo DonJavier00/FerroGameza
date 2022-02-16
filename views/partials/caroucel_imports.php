@@ -16,7 +16,7 @@
                   <b>
                     <li class="submenu"><a href="#"> Seleccionar<i class=" fas fa-caret-down"></i> </i></a>
                   </b>
-                </ul>
+
                   <ul>
                     <b>
                       <li><a href="#gestionar_administrador" class="btn-open">Administrador</a></li>
@@ -38,7 +38,7 @@
                   <b>
                     <li class="submenu"><a href="#"> Seleccionar<i class=" fas fa-caret-down"></i> </i></a>
                   </b>
-                </ul>
+
                   <ul>
                     <b>
                       <li><a href="/FerroGameza/proyecto%20php/inventario/" class="btn-open">Ver Inventario</a></li>
@@ -59,7 +59,7 @@
                   <b>
                     <li class="submenu"><a href="#"> Seleccionar<i class=" fas fa-caret-down"></i> </i></a>
                   </b>
-                </ul>
+
                   <ul>
                     <b>
                       <li><a href="#gestionar_reportes" class="btn-open"> Ver Reporte</a></li>
@@ -79,7 +79,7 @@
                   <b>
                     <li class="submenu"><a href="#"> Seleccionar<i class=" fas fa-caret-down"></i> </i></a>
                   </b>
-                </ul>
+
                   <ul>
                     <b>
                       <li><a href="#factura" class="btn-open">Factura </a></li>
@@ -101,7 +101,7 @@
                   <b>
                     <li class="submenu"><a href="#"> Seleccionar<i class=" fas fa-caret-down"></i> </i></a>
                   </b>
-                </ul>
+
                   <ul>
                     <b>
                       <li><a href="#modal" class="btn-open">Nuevo </a></li>
@@ -122,7 +122,7 @@
                   <b>
                     <li class="submenu"><a href="#"> Seleccionar<i class=" fas fa-caret-down"></i> </i></a>
                   </b>
-                </ul>
+
                   <ul>
                     <b>
                     <li><a href="#ver_administradores" class="btn-open">Ver administrador </a></li>
