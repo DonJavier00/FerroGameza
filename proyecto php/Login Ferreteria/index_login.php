@@ -25,8 +25,7 @@
       </div>
       <div class="login">
         <div class="login-data">
-         
-            <form action="#" class="login-form">
+         <form action="#" class="login-form">
               <img class="imagen_login"src="assets/trabajador.png" alt="" />
               <h1>Inicio de Sesión</h1>
             
@@ -37,8 +36,6 @@
               <option value="">Empleado</option>
             </div>
             </select>
-            
-           
 
             <div class="input-group">
               <label class="input-fill">
@@ -64,11 +61,6 @@
               <p>Olvido su contraseña? </p>
               <a class="recuperar_contrasena_btn" href="recuperar.php"><u>Recuperar contraseña</u></a>
              </div>
-
-             
-               
-             
-              
           </form>
         </div>
       </div>
