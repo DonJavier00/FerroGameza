@@ -31,11 +31,12 @@
  
     
   
-<?php include_once("partials/caroucel_imports.php");?>
-<?php include_once("partials/ver_usuarios_imports.php");?>
-<?php include_once("partials/gestionar_factura_imports.php");?>
-<?php include_once("partials/gestionar_usuario_imports.php");?>
-<?php include_once("partials/registrar_producto_imports.php");?>
+<?php include_once("../../views/partials/caroucel_imports.php");?>
+
+<?php include_once("../../views/partials/ver_usuarios_imports.php");?>
+<?php include_once("../../views/partials/gestionar_factura_imports.php");?>
+<?php include_once("../../views/partials/gestionar_usuario_imports.php");?>
+<?php include_once("../../views/partials/registrar_producto_imports.php");?>
 
 
 

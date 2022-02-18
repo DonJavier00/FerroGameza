@@ -2753,10 +2753,10 @@
     .link_buscar_venta {
         position: absolute;
         color: rgb(165, 19, 19);
-        margin-top: 2%;
-        left: 32%;
+        margin-top: 1%;
+        left: 400px;
     }
-    
+
     #buscar_venta {
         margin-left: 2px;
     }
@@ -3176,4 +3176,18 @@
         margin-top: -42%;
         float: right;
         margin-left: 10%;
+    }
+    .pdf a{
+        color: #ffb703;
+       margin-left: 80%;
+
+    }
+    .pdf a:hover{
+        color: #fd0404;
+     
+
+    }
+    .este{
+        margin-top: -3%;
+       
     }

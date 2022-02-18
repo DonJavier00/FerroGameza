@@ -1,0 +1,36 @@
+Index: Package.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Package.json b/package.json
+rename from Package.json
+rename to package.json
+--- a/Package.json	
++++ b/package.json	
+@@ -1,5 +1,5 @@
+ {
+-    "name": "adsi/ferrogameza",
++    "name": "ferrogameza",
+     "version": "0.0.1",
+     "description": "Proyecto Ferro Gameza",
+     "keywords": [
+@@ -9,7 +9,6 @@
+         "ferreteria"
+     ],
+     "repository": "https://github.com/DonJavier00/FerroGameza.git",
+-    "homepage": "https://github.com/DonJavier00/FerroGameza.git",
+     "authors": [
+         {
+             "name": "Mayerly Pirajan",
+@@ -59,9 +58,7 @@
+         "postcss": "^8.2.1",
+         "sass-lint": "*",
+         "uglify-js": "^3.12.2",
+-        "uglifyjs-folder": "^2.0.0"
+-    },
+-    "dependencies": {
++        "uglifyjs-folder": "^2.0.0",
+         "jquery": ">=3.6.0",
+         "bootstrap": ">=5.1.3"
+     },

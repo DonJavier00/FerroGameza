@@ -146,9 +146,9 @@ class detalleventa extends AbstractDBConnection implements \App\Interfaces\Model
     {
         if(!empty($this->facturaventa_id)){
             $this->facturaventa = facturaventa::searchForId($this->facturaventa_id) ?? new facturaventa();
-            return $this->facturaventa;
+
         }
-        //return Null;
+        return $this->facturaventa;
     }
 
 
@@ -165,13 +165,12 @@ class detalleventa extends AbstractDBConnection implements \App\Interfaces\Model
      */
     public function getProductoVenta(): producto
     {
-        if(!empty($this->productoventa_id)){
-            $this->productoventa = productosventa::searchForId($this->productoventa_id) ?? new Productos();
-            return $this->productoventa;
+        if (!empty($this->productoventa_id)) {
+            $this->productoventa = productoventa::searchForId($this->productoventa_id) ?? new Producto();
         }
-        //return NULL;
-
+        return $this->productoventa;
     }
+
 
     /**
      * @param producto $ProductoVenta
@@ -186,7 +185,11 @@ class detalleventa extends AbstractDBConnection implements \App\Interfaces\Model
      */
     public function getMedida(): ?medida
     {
+        if (!empty($this->medida_id)) {
+            $this->medida = medida::searchForId($this->medida_id) ?? new medida();
 
+        }
+        return $this->medida;
     }
 
     /**
@@ -221,40 +224,94 @@ class detalleventa extends AbstractDBConnection implements \App\Interfaces\Model
 
 
     function insert(): ?bool
-    {
-        // TODO: Implement insert() method.
-    }
+        {
+            $query = "INSERT INTO ferreteria.detalleventa VALUES (:id,:cantidad,:valor,:facturaventa_id,:medida_id,:producto_id)";
+            if($this->save($query)){
+                return $this->getProductoVenta()->substractStock($this->getCantidad());
+            }
+            return false;
+        }
+
 
     function update(): ?bool
     {
-        // TODO: Implement update() method.
+        $query = "UPDATE ferreteria.detalleventa SET 
+            FacturaVenta_id = :FacturaVenta, producto_id = :producto_id, cantidad = :cantidad, 
+            precio_venta = :precio_venta, created_at = :created_at WHERE id = :id";
+        return $this->save($query);
     }
 
     function deleted(): ?bool
     {
-        // TODO: Implement deleted() method.
+        $query = "DELETE FROM detalleventa WHERE id = :id";
+        return $this->save($query, 'deleted');
     }
 
     static function search($query): ?array
     {
-        // TODO: Implement search() method.
+        try {
+            $arrDetalleVenta = array();
+            $tmp = new detalleventa();
+            $tmp->Connect();
+            $getrows = $tmp->getRows($query);
+            $tmp->Disconnect();
+
+            foreach ($getrows as $valor) {
+                $DetalleVenta = new detalleventa($valor);
+                array_push($arrDetalleVenta, $DetalleVenta);
+                unset($DetalleVenta);
+            }
+            return $arrDetalleVenta;
+        } catch (Exception $e) {
+            GeneralFunctions::logFile('Exception',$e, 'error');
+        }
+        return NULL;
     }
 
     static function searchForId(int $id): ?object
     {
-        // TODO: Implement searchForId() method.
+        try {
+            if ($id > 0) {
+                $DetalleVenta = new detalleventa();
+                $DetalleVenta->Connect();
+                $getrow = $DetalleVenta->getRow("SELECT * FROM ferreteria.detalleventa WHERE id = ?", array($id));
+                $DetalleVenta->Disconnect();
+                return ($getrow) ? new detalleventa($getrow) : null;
+            }else{
+                throw new Exception('Id de detalle venta Invalido');
+            }
+        } catch (Exception $e) {
+            GeneralFunctions::logFile('Exception',$e, 'error');
+        }
+        return NULL;
     }
 
     static function getAll(): ?array
     {
-        // TODO: Implement getAll() method.
+        return detalleventa::search("SELECT * FROM ferreteria.detalleventa");
     }
 
     /**
      * @inheritDoc
      */
+  //  public static function productoEnFactura($venta_id,$producto_id): bool
+  //  {
+      //  $result = DetalleVentas::search("SELECT id FROM weber.detalle_ventas where venta_id = '" . $venta_id. "' and producto_id = '" . $producto_id. "'");
+      //  if (count($result) > 0) {
+      //      return true;
+       // } else {
+      //      return false;
+      //  }
+   // }
     public function jsonSerialize(): mixed
     {
-        // TODO: Implement jsonSerialize() method.
+        return [
+            'cantidad' => $this->getCantidad(),
+            'valor' => $this->getValor(),
+            'facturaventa_id' => $this->getFacturaventaId()->jsonSerialize(),
+            'medida_id' => $this->getPrecioVenta()->jsonSerialize(),
+            'producto_id' => $this->getCreatedAt()->jsonSerialize(),
+        ];
     }
+
 }

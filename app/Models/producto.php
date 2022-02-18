@@ -139,8 +139,9 @@ class producto extends AbstractDBConnection implements \App\Interfaces\Model
     {
         if (!empty($this->clasificacion_id)) {
             $this->Clasificacion = clasificacion::searchForId($this->clasificacion_id) ?? new clasificacion();
+            return $this->Clasificacion;
         }
-        return $this->Clasificacion;
+      return null;
     }
 
 
@@ -166,13 +167,13 @@ class producto extends AbstractDBConnection implements \App\Interfaces\Model
 
     function insert(): ?bool
     {
-        $query = "INSERT INTO clasificacion VALUES (:id,:nombre,:stock,:precio)";
+        $query = "INSERT INTO FerroGameza.producto VALUES (:id,:nombre,:stock,:precio)";
         return $this->save($query);
     }
 
     function update(): ?bool
     {
-        $query = "UPDATE clasificacion SET 
+        $query = "UPDATE FerroGameza.producto SET 
             nombre = :nombre, stock = :stock,
             precio = :precio,  WHERE id = :id";
         return $this->save($query);
@@ -210,7 +211,7 @@ class producto extends AbstractDBConnection implements \App\Interfaces\Model
             if ($id > 0) {
                 $tmpProducto = new producto;
                 $tmpProducto->Connect();
-                $getrow = $tmpProducto->getRow("SELECT * FROM producto WHERE id =?", array($id));
+                $getrow = $tmpProducto->getRow("SELECT * FROM FerroGameza.producto WHERE id =?", array($id));
                 $tmpProducto->Disconnect();
                 return ($getrow) ? new producto($getrow) : null;
             } else {
@@ -224,13 +225,13 @@ class producto extends AbstractDBConnection implements \App\Interfaces\Model
 
     static function getAll(): ?array
     {
-        return producto::search("SELECT * FROM producto");
+        return producto::search("SELECT * FROM FerroGameza.producto");
 
     }
     public static function ProductoRegistrado($nombre): bool
     {
         $nombre = trim(strtolower($nombre));
-        $result = producto::search("SELECT id FROM productos where nombre = '" . $nombre. "'");
+        $result = producto::search("SELECT id FROM FerroGameza.productos where nombre = '" . $nombre. "'");
         if ( !empty($result) && count ($result) > 0 ) {
             return true;
         } else {
@@ -272,6 +273,7 @@ class producto extends AbstractDBConnection implements \App\Interfaces\Model
             'nombre' => $this->getNombre(),
             'stock' => $this->getStock(),
             'precio' => $this->getPrecio(),
+            'clasificacion' => $this->getClasificacion()->jsonSerialize(),
 
         ];
     }

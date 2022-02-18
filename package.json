@@ -2,6 +2,15 @@
     "name": "ferrogameza",
     "version": "0.0.1",
     "description": "Proyecto Ferro Gameza",
+    "main": "index.js",
+    "scripts": {
+
+        "buildcss": "sass --style=compressed resources/scss/:views/public/css/",
+        "buildjs": "uglifyjs-folder resources/js/ -eo views/public/js/",
+        "buildimg": "copyfiles -u 2 resources/img/*.* views/public/img/",
+        "build": "npm run buildcss & npm run buildjs & npm run buildimg"
+    },
+
     "keywords": [
         "inventario",
         "php",
@@ -47,15 +56,15 @@
     "bugs": {
         "url": "https://github.com/DonJavier00/FerroGameza.git"
     },
-    "homepage": "https://github.com/DonJavier00/FerroGameza.git",
+    "homepage": "https://github.com/DonJavier00/FerroGameza.git#readme",
     "devDependencies": {},
     "dependencies": {
         "bootstrap-imageupload": "^1.1.3",
         "bootstrap-social": "^5.1.1",
         "copyfiles": "^2.4.1",
-        "node-sass": "^4.14.1",
         "popper.js": "^1.16.1",
         "postcss": "^8.2.1",
+        "sass": "^1.49.7",
         "sass-lint": "*",
         "uglify-js": "^3.12.2",
         "uglifyjs-folder": "^2.0.0",

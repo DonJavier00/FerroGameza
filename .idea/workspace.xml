@@ -1,24 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a63f67d9-af43-4600-bcb2-2ae5bacc9434" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proyecto php/Login Ferreteria/index_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto php/Login Ferreteria/index_login.php" afterDir="false" />
+=======
+    <list default="true" id="34dc61c8-b832-4325-88bd-c65031ea83a8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Models/detallecompra.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+    <list default="true" id="5591d4e0-6b7d-4ebe-831c-cc26f1f7d218" name="Changes" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+>>>>>>> 70551c2e9d497c2cfa5a199140e7784f5526d5ce
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> origin/main
+>>>>>>> 163ac782a658946ac0ddacbc0d47e230c903215b
+=======
+>>>>>>> c9b0c5df18232be9def4145dce8b21393d39393e
+>>>>>>> e225b2d1ab59138e476e2e5ef09a00939203d3da
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
+=======
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+>>>>>>> c9b0c5df18232be9def4145dce8b21393d39393e
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -91,7 +123,7 @@
       <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
     </include_path>
   </component>
-  <component name="ProjectId" id="25457h4T8H7UvO8CLNHxUNbVwKv" />
+  <component name="ProjectId" id="25A9m13Gge63EV9XAMqie11fDcS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -100,42 +132,63 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="a63f67d9-af43-4600-bcb2-2ae5bacc9434" name="Changes" comment="" />
       <created>1644773353747</created>
+=======
+      <changelist id="34dc61c8-b832-4325-88bd-c65031ea83a8" name="Changes" comment="" />
+      <created>1644959179327</created>
+>>>>>>> e225b2d1ab59138e476e2e5ef09a00939203d3da
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <updated>1644798996159</updated>
+      <workItem from="1644799018514" duration="10473000" />
+=======
       <updated>1644773353747</updated>
       <workItem from="1644773357225" duration="1168000" />
       <workItem from="1644774619631" duration="700000" />
+<<<<<<< HEAD
       <workItem from="1644775369056" duration="10946000" />
       <workItem from="1644985335099" duration="4653000" />
       <workItem from="1645144712768" duration="519000" />
+=======
+<<<<<<< HEAD
+      <workItem from="1644775369056" duration="22462000" />
+      <workItem from="1644813108769" duration="488000" />
+=======
+      <workItem from="1644775369056" duration="21925000" />
+>>>>>>> 06fb45968b8c02666f18770a9fec7227476c7e0b
+>>>>>>> dd4e1e14608b531b08e599a0b3e657d77a9bd5ca
+=======
+      <updated>1644868420648</updated>
+      <workItem from="1644868424484" duration="3033000" />
+<<<<<<< HEAD
+      <workItem from="1644948566226" duration="1726000" />
+=======
+>>>>>>> 70551c2e9d497c2cfa5a199140e7784f5526d5ce
+>>>>>>> 163ac782a658946ac0ddacbc0d47e230c903215b
+=======
+      <updated>1644959179327</updated>
+      <workItem from="1644959180979" duration="484000" />
+      <workItem from="1644959680641" duration="448000" />
+      <workItem from="1644960142767" duration="859000" />
+      <workItem from="1644961120387" duration="539000" />
+      <workItem from="1644961672902" duration="178000" />
+>>>>>>> c9b0c5df18232be9def4145dce8b21393d39393e
+>>>>>>> e225b2d1ab59138e476e2e5ef09a00939203d3da
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

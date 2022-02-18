@@ -40,6 +40,7 @@ class medida extends AbstractDBConnection implements \App\Interfaces\Model
     public function __destruct()
     {
         parent::__destruct();
+
     }
 
     /**
@@ -109,18 +110,14 @@ class medida extends AbstractDBConnection implements \App\Interfaces\Model
     /* Relaciones */
 
 
-
     /**
      * @return array|null
      */
     public function getProductoMedida(): ?array
     {
-        if(!empty($this->producto_id)){
-            $this->ProductoMedida = Persona::searchForId($this->cliente_id) ?? new cliente();
-            return $this->cliente;
-        }
-        //return Null;
+        return null;
     }
+
     /**
      * @param array|null $ProductoMedida
      */
@@ -146,44 +143,82 @@ class medida extends AbstractDBConnection implements \App\Interfaces\Model
     }
 
 
-
-
-
-
-
     protected function save(string $query): ?bool
     {
-        // TODO: Implement save() method.
+        $arrData = [
+            ':id' => $this->getId(),
+            ':nombre' => $this->getNombre(),
+            ':medida' => $this->getMedida()];
+
+        $this->Connect();
+        $result = $this->insertRow($query, $arrData);
+        $this->Disconnect();
+        return $result;
     }
 
     function insert(): ?bool
     {
-        // TODO: Implement insert() method.
+        $query = "INSERT INTO ferreteria.medida VALUES (:id,:nombre,:medida)";
+        return $this->save($query);
     }
 
     function update(): ?bool
     {
-        // TODO: Implement update() method.
+        $query = "UPDATE ferreteria.medida SET 
+            nombre = :nombre, medida = :medida, 
+            WHERE id = :id";
+        return $this->save($query);
     }
 
     function deleted(): ?bool
     {
-        // TODO: Implement deleted() method.
+        return null;
     }
 
     static function search($query): ?array
     {
-        // TODO: Implement search() method.
+        try {
+            $arrmedida = array();
+            $tmp = new medida();
+            $tmp->Connect();
+            $getrows = $tmp->getRows($query);
+            $tmp->Disconnect();
+
+            foreach ($getrows as $valor) {
+                $medida = new medida($valor);
+                array_push($arrmedida, $medida);
+                unset($medida);
+            }
+            return $arrmedida;
+        } catch (Exception $e) {
+            GeneralFunctions::logFile('Exception', $e, 'error');
+        }
+        return null;
     }
 
     static function searchForId(int $id): ?object
     {
-        // TODO: Implement searchForId() method.
-    }
+        try {
+            if ($id > 0) {
+                $Medida = new medida();
+                $Medida->Connect();
+                $getrow = $Medida->getRow("SELECT * FROM medida WHERE id =?", array($id));
+                $Medida->Disconnect();
+                return ($getrow) ? new medida($getrow) : null;
+            } else {
+                throw new Exception('Id de medida Invalido');
+            }
+        } catch (Exception $e) {
+            GeneralFunctions::logFile('Exception', $e);
+        }
+        return null;
+        }
+
+
 
     static function getAll(): ?array
     {
-        // TODO: Implement getAll() method.
+        return medida::search("SELECT * FROM ferreteria.medida");
     }
 
     /**
@@ -191,6 +226,9 @@ class medida extends AbstractDBConnection implements \App\Interfaces\Model
      */
     public function jsonSerialize()
     {
-        // TODO: Implement jsonSerialize() method.
+        return [
+            'nombre' => $this->getNombre(),
+            'medida' => $this->getMedida(),
+        ];
     }
 }
